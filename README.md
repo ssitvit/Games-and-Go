@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+<p align="center">
+    <img src="https://technologyandsociety.org/wp-content/uploads/Logo-Color-1.jpg" />
+    <h2 align="center">Games and Go</h2>
+    <h4 align="center">INFO</h4>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+	<h1 align="center"> WHAT IS HACKTOBERFEST 2022</h1>
+	<h2 align="center">Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:</h2>
+	<ul>
+	<li>Prepare and share your project for collaboration</li>
+	<li>Contribute to the betterment of a project via pull requests</li>
+	<li>Organize an event
+</li>
+	<li>Mentor others
+</li>
+	<li>Donate directly to open source projects</li>
 
-## Available Scripts
+### Contributors
 
-In the project directory, you can run:
+- [ Shreya Rajpal ](https://github.com/Shreyaar12)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```javascript
+if (youLiked) {
+	starThisRepository();
+}
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Read for successful merge
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![Go to hacktoberfest](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)](https://hacktoberfest.digitalocean.com) <br/>
+# Hello People!!  <br/>
+#### If you want to get free **T-shirt,Swags** like **devlope**r then follow these steps.  <br/>
+# To make a pull request follow these steps: <br/>
+## Step 1. [Go to hacktoberfest](https://hacktoberfest.digitalocean.com) <br/>
+---
+#### click on **Start Hacking**  <br/>
+>   Login in using your GitHub account <br/> 
+>   If you don't have then create one <br/>
+## Step 2. Make **4 Pull Request** <br/>
+___
+# ⚡⚡ Steps for Creating First Pull request ⚡⚡ <br/>
+---
+* [Go to this Repo](https://github.com/DPrinceKumar/HacktoberFest2020.git) <br/>
+* Click on Fork in top Right Corner <br/>
+![Go to hacktoberfest](https://github-images.s3.amazonaws.com/help/bootcamp/Bootcamp-Fork.png) <br/>
+* Now that Repository will be added in **your GitGub Repository** <br/>
+* Make **some changes** in one file by Opening File <br/>
+* After opening file Click on **pen icon**  <br/>
+![](https://docs.github.com/assets/images/help/repository/edit-file-edit-button.png) <br/>
+* After editing done click on **Commit changes** **"Provide a sutable name.."** <br/>
+* Click on pull request **below your name**  <br/>
+![Screenshot (1713)](https://user-images.githubusercontent.com/91542376/193469378-dbe58d81-66da-4b6c-8fab-a0453453f7cf.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Now click on **New pull request**   <br/>
+<img src="https://i.ibb.co/YTYXSnk/new-Pull-requests-in-github.png" alt="new Pull requests in github" border="0"></a>  <br/>
+* Next click **create new pull requestion**  <br/>
+<img src="https://i.ibb.co/DVjgKQG/Screenshot-2020-10-01-at-11-06-03-AM.png" alt="Screenshot-2020-10-01-at-11-06-03-AM" border="0"></a>  <br/>
+  <br/>
+## Repeat Same step 4 time and check your hacktober profile  <br/>
