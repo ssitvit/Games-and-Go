@@ -1,0 +1,90 @@
+/* * {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+h2,
+h3,
+h4,
+h5,
+a {
+  color: #4ba4eb;
+  text-decoration: none;
+}
+
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.boardWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  width: 306px;
+  height: 306px;
+}
+
+.boardSquare {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  color: #4ba4eb;
+}
+
+.boardSquare:hover {
+  color: white;
+  background-color: lightgrey;
+}
+
+.boardSquare:active {
+  color: #4ba4eb;
+  background-color: white;
+}
+
+.gameOverBoardSquare {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+  background: grey;
+}
+
+.boardSquare:hover {
+  filter: brightness(85%);
+}
+
+.resetButton {
+  background-color: #4ba4eb;
+  color: white;
+  font-size: 1.2em;
+  padding: 4px;
+  margin-top: 12px;
+  border-radius: 4px;
+}
+
+.gameOver {
+  display: flex;
+  justify-content: center;
+  background-color: #4ba4eb;
+  color: white;
+  padding: 20px 0px;
+  width: 306px;
+  margin-top: 12px;
+}
