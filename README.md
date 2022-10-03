@@ -35,7 +35,7 @@ if (youLiked) {
 
 # Read for successful merge
 
-[![Go to hacktoberfest](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)](https://hacktoberfest.digitalocean.com) <br/>
+[![Go to hacktoberfest](https://blog.tooljet.com/content/images/2022/09/Screenshot-2022-09-27-at-08.03.21.png) <br/>
 # Hello People!!  <br/>
 #### If you want to get free **T-shirt,Swags** like **developers** then follow these steps.  <br/>
 # To make a pull request follow these steps: <br/>
