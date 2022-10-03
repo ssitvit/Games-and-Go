@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
 /* * {
   font-family: Arial, Helvetica, sans-serif;
 } */
-
+/* 
 
 h2,
 h3,
@@ -84,6 +86,111 @@ a {
   justify-content: center;
   background-color: #4ba4eb;
   color: white;
+  padding: 20px 0px;
+  width: 306px;
+  margin-top: 12px;
+} */
+/*  zbj*/
+/* * {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  color: #4ba4eb;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+}
+.text_color{
+  color:white;
+  font-family: 'Peralta', cursive;
+}
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-image: "https://cdn.pixabay.com/photo/2015/06/27/16/34/wall-823611_960_720.jpg";
+}
+
+.boardWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  width: 306px;
+  height: 306px;
+
+  background: rgb(255,255,255);
+  background: linear-gradient(145deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.1) 100%);
+  border-radius: 0px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 2px outset rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2); 
+}
+
+.boardSquare {
+  width: 100px;
+  height: 100px;
+  border: 1px solid ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  color: #4ba4eb;
+}
+
+.boardSquare:hover {
+  color: white;
+  background-color: lightgrey;
+}
+
+.boardSquare:active {
+  color: #4ba4eb;
+  background-color: white;
+}
+
+.gameOverBoardSquare {
+  width: 100px;
+  height: 100px;
+  border: 1px solid ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  color: white;
+  background: grey;
+}
+
+.boardSquare:hover {
+  filter: brightness(85%);
+}
+
+.resetButton {
+  background-color: #4ba4eb;
+  color: white;
+  font-size: 1.2em;
+  padding: 20px;
+  margin-top: 12px;
+  border-radius: 4px;
+  font-family: 'Peralta', cursive;
+}
+
+.gameOver {
+  display: flex;
+  justify-content: center;
+  background-color: #4ba4eb;
+  color: white;
+  font-family: 'Peralta', cursive;
   padding: 20px 0px;
   width: 306px;
   margin-top: 12px;

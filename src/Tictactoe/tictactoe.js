@@ -110,18 +110,21 @@ function reducer(state, action) {
 function Tictactoe() {
   const [state, dispatch] = React.useReducer(reducer, initialState);
   return (
+    
     <div className="pageWrapper">
-      <h1>Tic-tac-toe</h1>
-      <h5>Rules:</h5>
-      <div>Player X always goes first</div>
-      <div>Click any square to start game</div>
-      <div>3 in a row in any direction wins</div>
-      <div>
-        <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">
-          Full list of rules on Wikipedia
-        </a>
-      </div>
-      <h4>Current player: {state.playerX ? "X" : "O"}</h4>
+      <h1 className="h1">Let's play Tic-tac-toe</h1>
+      <h2 className="h2">Rules:</h2> 
+      <div className="text_color">
+        <ul>
+          <li> Player X always goes first
+            </li>
+            <li>
+            Click any square to start game
+            </li>
+   <li>  3 in a row in any direction wins</li> </ul>
+    </div>
+     
+      <h4 className="h4">Current player: {state.playerX ? "X" : "O"}</h4>
       <div className="boardWrapper">
         {Object.keys(state.boardSquares).map(key => (
           <div
