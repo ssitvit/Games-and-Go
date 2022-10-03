@@ -27,9 +27,9 @@ function Homepage() {
                 <h3>TIC-TAC-TOE</h3>
                 <p>A fun and interesting tic tac toe game to take us back to the good old childhood days!
                 </p>
-                <a>
-                <Link to="/Tic"/>Play now
-                </a>
+                
+                <Link to="/Tic">Play now</Link>
+                
              
             </div>
         </div>
