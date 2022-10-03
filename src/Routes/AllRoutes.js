@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Homepage from "../Homepage/Homepage/Homepage";
-import Tictactoe from "../Tictactoe/tictactoe";
+import Tictactoe from "../Games/Tictactoe/tictactoe";
 function AllRoutes(){
     return (
         <Routes>
