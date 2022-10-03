@@ -1,3 +1,4 @@
+/* Importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .body_navbar {
@@ -8,6 +9,8 @@
   display: flex;
   justify-content: space-around;
 }
+/* CSS FOR A AND B BUTTON in NAVBAR */
+
 .video-game-button {
 	text-shadow: 1px 1px pink, -1px -1px maroon;
   font-family: 'Press Start 2P', cursive;
@@ -34,6 +37,7 @@
 	cursor: pointer;
   padding-left: 5px;
 }
+/* Css for Home button in Navbar */
 .start-btn{
     text-align: center;
 	display: inline-block;

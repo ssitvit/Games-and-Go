@@ -19,7 +19,7 @@ function Homepage() {
       <div className="header_homepage">
         <h1> Game on!!</h1>
       </div>
-      {/* The content in the cards came from mapping data1, if you want to contribute a game kindly add here */}
+      {/* The content in the cards came from mapping data1, if you want to contribute a game kindly add it to data1 in the Data folder first*/}
       <div className="body_card">
         <div className="container_card">
           {data1.map((row) => (
@@ -28,7 +28,7 @@ function Homepage() {
                 <h2>{row.serial_number}</h2>
                 <h3>{row.main_heading}</h3>
                 <p>{row.about} </p>
-
+                {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
                 <Link to={row.link_game}>Play now</Link>
               </div>
             </div>

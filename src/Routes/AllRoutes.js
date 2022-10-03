@@ -4,6 +4,7 @@ import Tictactoe from "../Tictactoe/tictactoe";
 function AllRoutes(){
     return (
         <Routes>
+          {/* Add all the routes with the right path here after importing them  */}
         <Route path="/" element={<Homepage />} />
         <Route path="/Tic" element={<Tictactoe />} />
       </Routes>

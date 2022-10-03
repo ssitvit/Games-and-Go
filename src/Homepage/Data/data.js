@@ -1,4 +1,5 @@
 import React from "react";
+//Add the following data in the card for the game you have added. For any instructions refer to contributing.md
 export const data1=[
     {
       serial_number:"01",

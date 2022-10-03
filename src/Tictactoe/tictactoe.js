@@ -1,7 +1,7 @@
 import React from "react";
 import "./tictactoe.css";
 
-
+// Initial State where all boxes are NULL in the tictactoe board
 const initialState = {
   boardSquares: {
     "1": null,
@@ -19,7 +19,7 @@ const initialState = {
   winner: null,
   hoverPreviewSquare: null
 };
-
+// To check with all the winning combinations and decide the winner
 function determineWinner(player, boardSquares) {
   if (
     (boardSquares["1"] === player &&
@@ -113,6 +113,7 @@ function Tictactoe() {
     
     <div className="pageWrapper">
       <h1 className="h1">Let's play Tic-tac-toe</h1>
+      {/* Rules of the game  */}
       <h2 className="h2">Rules:</h2> 
       <div className="text_color">
         <ul>
@@ -135,6 +136,7 @@ function Tictactoe() {
                 dispatch({ type: "playerMove", squareNumber: key });
               }
             }}
+            //For hover effect actions are dispatched
             onMouseEnter={() => {
               dispatch({
                 type: "onMouseEnter",
@@ -162,6 +164,7 @@ function Tictactoe() {
       >
         Reset
       </button>
+      {/* Conditional Rendering to see there is only one winner */}
       {state.winner && state.winner !== "Draw" && (
         <h2 className="gameOver">The winner is: {state.winner}</h2>
       )}
