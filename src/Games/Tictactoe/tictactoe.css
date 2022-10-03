@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
 
 /* Classes for all the headings used  */
 .h1,
@@ -9,11 +9,11 @@
 .h5 {
   color: #4ba4eb;
   text-decoration: none;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
-.text_color{
-  color:white;
-  font-family: 'Peralta', cursive;
+.text_color {
+  color: white;
+  font-family: "Peralta", cursive;
 }
 /* CSS that covers the main div where the entire game is wrapped */
 .pageWrapper {
@@ -35,19 +35,23 @@
   width: 306px;
   height: 306px;
 
-  background: rgb(255,255,255);
-  background: linear-gradient(145deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
   border-radius: 0px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 2px outset rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2);
 }
 
 .boardSquare {
   width: 100px;
   height: 100px;
-  border: 1px solid ;
+  border: 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +61,7 @@
 }
 
 .boardSquare:hover {
-  color: white;
+  color: black;
   background-color: lightgrey;
 }
 
@@ -69,7 +73,7 @@
 .gameOverBoardSquare {
   width: 100px;
   height: 100px;
-  border: 1px solid ;
+  border: 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,7 +94,7 @@
   padding: 20px;
   margin-top: 12px;
   border-radius: 4px;
-  font-family: 'Peralta', cursive;
+  font-family: "Peralta", cursive;
 }
 
 .gameOver {
@@ -98,7 +102,7 @@
   justify-content: center;
   background-color: #4ba4eb;
   color: white;
-  font-family: 'Peralta', cursive;
+  font-family: "Peralta", cursive;
   padding: 20px 0px;
   width: 306px;
   margin-top: 12px;
