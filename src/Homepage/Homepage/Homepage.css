@@ -9,18 +9,24 @@
 *::after {
   content: "";
   position: absolute;
+  box-sizing: border-box;
 }
 body {
-  width: 95%;
+  width: 100%;
+  max-width: 1200px;
+  margin:auto;
+  padding:2rem auto;
   height: 100vh;
   /* display: grid;
   place-items: center; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-color: #161623;
 }
 /* Pacman landing page container */
 .container_landing {
-  width: 90%;
+  width: 100%;
+  box-sizing: border-box;
+  padding:2rem auto;
   margin: 1rem auto;
   height: 600px;
   background: black;
