@@ -11,15 +11,17 @@
   position: absolute;
 }
 body {
-  width: 100vw;
+  width: 95%;
   height: 100vh;
-  display: grid;
-  place-items: center;
+  /* display: grid;
+  place-items: center; */
+  overflow-x: hidden;
   background-color: #161623;
 }
 /* Pacman landing page container */
 .container_landing {
-  width: 1300px;
+  width: 90%;
+  margin: 1rem auto;
   height: 600px;
   background: black;
   display: grid;
@@ -124,13 +126,14 @@ body {
 /* text */
 .text {
   position: relative;
+  text-align: center;
 }
 .text::before {
   content: "IEEE-SSIT";
   position: relative;
   color: transparent;
   font-family: "Monofett", cursive;
-  font-size: 50px;
+  font-size: 3.5rem;
   background: gold;
   background-clip: text;
   -webkit-background-clip: text;
@@ -264,6 +267,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 50vh;
+  width: 95%;
   background: #161623;
 }
 
@@ -355,13 +359,18 @@ body {
 
 .header_homepage {
   margin: auto;
-  width: 60%;
+  width: 80%;
   border: 5px;
-  padding: 20px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   top: 30px;
   color: white;
   font-family: "Silkscreen", cursive;
-  font-size: 50px;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.header_homepage h1{
+  font-size: 3.5rem;
+  width: 100%;
 }
