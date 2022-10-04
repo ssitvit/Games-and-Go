@@ -29,7 +29,7 @@ function Homepage() {
                 <h3>{row.main_heading}</h3>
                 <p>{row.about} </p>
                 {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
-                <Link to={row.link_game}>Play now</Link>
+                <Link to={row.link_game}>Play now !!!</Link>
               </div>
             </div>
           ))}
