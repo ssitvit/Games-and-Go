@@ -1,11 +1,18 @@
-/* Importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+.link{
+	text-decoration: none;
+	color: brown;
+}
+.link:hover{
+	color: lightcyan;
+}
 .body_navbar {
-
+  width: 100%;
   font-size: 30pt;
-  font-family: 'Press Start 2p';
+  border-radius: 25px;
+  border: 15px groove lightblue;
+  color: brown;
   align-items: center;
+  background-color: black;
   display: flex;
   justify-content: space-around;
 }
@@ -42,16 +49,8 @@
     text-align: center;
 	display: inline-block;
 	margin:5px;
-    font-weight: bold;
-    padding: 10px 0 10px 10px ;
-    background-color: lightgray;
-    text-shadow: -1px -1px black, 1px 1px white;
-    color: gray;
-    -webkit-border-radius: 7px;
-	-moz-border-radius: 7px;
-	-o-border-radius: 7px;
-	border-radius: 7px;
-    box-shadow: 0 .2em gray; 
+    color: brown;
+    border-radius: 20px;
     cursor: pointer;
 
 }

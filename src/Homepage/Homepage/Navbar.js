@@ -6,11 +6,9 @@ function Navbargo() {
   return (
     <React.Fragment>
       <div class="body_navbar center">
-        <div class="video-game-button">A</div>
         <div class="start-btn">
-          <Link to="/">HOME</Link>
+          <h2><Link to="/" className="link">HOME</Link></h2>
         </div>
-        <div class="video-game-button">B</div>
       </div>
 
       <br />
