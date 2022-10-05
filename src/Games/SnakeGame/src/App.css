@@ -1,0 +1,15 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.body
+{
+  width: 100hh;
+  height: 100vh;
+  background: url('./6.png');
+}
+a
+{
+  color: black;
+}

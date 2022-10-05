@@ -9,9 +9,9 @@ export const data1=[
     },
     {
       serial_number:"02",
-      main_heading:"Let's Play ",
-      about:"A fun and interesting game ",
-      link_game:"/"
+      main_heading:"Let's Play Snake Game",
+      about:"A fun and interesting Snake game to revive the good old memories",
+      link_game:"/Snake"
     },
     {
       serial_number:"03",

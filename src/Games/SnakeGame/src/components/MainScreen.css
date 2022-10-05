@@ -1,0 +1,96 @@
+.mainscreen
+{
+    margin: 40px auto;
+    height: 550px;
+    width: 97%;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.level
+{
+    height: 550px;
+    width: 550px;
+    display: inline-block;
+    border: 2px solid black;
+}
+.scorecard
+{
+    height: 550px;
+    width: 550px;
+    display: inline-block;
+    border: 2px solid black;
+}
+p
+{
+    font-size: 30px;
+    padding: 20px;
+}
+h2
+{
+    font-size: 40px;
+    padding: 20px;
+}
+h3
+{
+    font-size: 20px;
+    padding: 15px;
+}
+.instruction
+{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.hscore-div
+{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.levelinfo
+{
+    width:280px;
+    display: inline-block;
+}
+.resetbtn
+{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    background-color: rgb(208, 26, 26);
+    color: white;
+    font-size: 15px;
+    border-style: none;
+}
+.resetbtn:hover
+{
+    background-color: rgb(183, 96, 96);
+    cursor: pointer;
+}
+.resetall
+{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resetallbtn
+{
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(227, 0, 0);
+    border-style: none;
+}
+.resetallbtn:hover
+{
+    background-color: rgb(185, 75, 75);
+    cursor: pointer;
+}

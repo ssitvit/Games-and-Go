@@ -1,0 +1,59 @@
+
+.gameboard
+{
+    margin: 40px auto;
+    height: 550px;
+    width: 97%;
+    justify-content: space-around;
+    display: flex;
+}
+.game-area
+{
+    height: 550px;
+    width: 550px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+}
+.score-area
+{
+    height: 550px;
+    width: 550px;
+    display: inline-block;
+    border: 2px solid black;
+}
+h2
+{
+    font-size: 50px;
+    padding: 40px;
+}
+.container
+{
+    height: 300px;
+    width: 550px;
+    margin: auto;
+}
+.btn-container
+{
+    margin: auto;
+    position: relative;
+    top:180px;
+    display: flex;
+    justify-content: space-between;
+}
+.button
+{
+    position: relative;
+    margin: 20px;
+    height: 60px;
+    width: 140px;
+    font-size: 20px;
+    display: inline-block;
+    border-style: none;
+    background-color: greenyellow;
+}
+.button:hover
+{
+    background-color: rgb(175, 242, 75);
+    cursor: pointer;
+}
