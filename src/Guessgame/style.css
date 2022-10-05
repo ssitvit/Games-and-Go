@@ -1,0 +1,29 @@
+body {
+    background-color: indigo;
+}
+#container {
+ background-image: linear-gradient(#FEAC5E,#C779D0, #4BC0C8);
+ border: 5px solid #ffffff;
+ height: 275px;
+ width: 750px;
+ margin: auto;
+ text-align: center;
+}
+p {
+ color: black;
+ font-weight: 700;
+ font-size: 30px;
+ 
+}
+
+#input {
+    width: 100px;
+    margin: 25px, auto;
+}
+#btn {
+    margin: 25px auto auto 5px;
+}
+#btn:hover{
+    background-color: black;
+    color: #ffffff;
+}
