@@ -37,7 +37,7 @@ if (youLiked) {
 
 [![Go to hacktoberfest](https://blog.tooljet.com/content/images/2022/09/Screenshot-2022-09-27-at-08.03.21.png) <br/>
 # Hello People!!  <br/>
-#### If you want to get free **T-shirt,Swags** like **developers** then follow these steps.  <br/>
+#### If you want to get free **T-shirt,Swags** like **developers** then contribute and grow this repository with us, make sure to check out Contributing.md for contribution guidelines and add your name in the Readme.md and Contributors.md.  <br/>
 # To make a pull request follow these steps: <br/>
 ## Step 1. [Go to hacktoberfest](https://hacktoberfest.digitalocean.com) <br/>
 ---
