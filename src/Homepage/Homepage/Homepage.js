@@ -35,6 +35,11 @@ function Homepage() {
           ))}
         </div>
       </div>
+      <div className="aboutsec">
+      <h1 className="about">About</h1>
+      <p className="aboutcon">At games and go we tried to bring back to you the games that most of us played during our childhood and that too with a UI that makes you feel that time has reversed back and you could relive those moments again.
+      </p>
+      </div>
     </React.Fragment>
   );
 }

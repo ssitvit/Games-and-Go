@@ -1,5 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
 
 /* Classes for all the headings used  */
 .h1,
@@ -19,6 +19,7 @@
 .pageWrapper {
   display: flex;
   justify-content: center;
+  font-family: "Peralta", cursive;
   flex-direction: column;
   align-items: center;
   padding: 40px 20px;
