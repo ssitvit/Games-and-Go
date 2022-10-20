@@ -15,9 +15,9 @@ export const data1=[
     },
     {
       serial_number:"03",
-      main_heading:"Let's Play",
-      about:"A fun and interesting game !",
-      link_game:"/"
+      main_heading:"Memory",
+      about:"Can you remember ?",
+      link_game:"/memory"
     }
   ]
   ;
