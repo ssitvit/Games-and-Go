@@ -11,7 +11,7 @@ export const data1=[
       serial_number:"02",
       main_heading:"Ninety - Nine",
       about:"A game you can never win.",
-      link_game:"/"
+      link_game:"/99"
     },
     {
       serial_number:"03",
