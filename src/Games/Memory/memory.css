@@ -1,0 +1,33 @@
+.h {
+    color: #4ba4eb;
+    text-decoration: none;
+    font-family: "Press Start 2P", cursive;
+}
+.fancy {
+    color: white;
+    font-family: "Peralta", cursive;
+    text-align: center;
+}
+
+.board {
+    width: 100%;
+    max-width: 720px;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    aspect-ratio: 1;
+}
+
+.box {
+    margin: 0.5em;
+    background-color: white;
+    border-radius: 1em;
+}
+
+.active {
+    background-color: #4ba4eb;
+}
+
+.start-btn {
+    width: 160px;
+}
