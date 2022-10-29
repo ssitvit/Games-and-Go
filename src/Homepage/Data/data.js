@@ -18,6 +18,12 @@ export const data1=[
       main_heading:"Let's Play",
       about:"A fun and interesting game !",
       link_game:"/"
+    },
+    {
+      serial_number:"04",
+      main_heading:"2048",
+      about:"The infamous game",
+      link_game:"/2048
     }
   ]
   ;
