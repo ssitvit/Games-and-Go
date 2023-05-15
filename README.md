@@ -88,12 +88,12 @@ ___
 1. Fork <a href="https://github.com/IEEE-SSIT-VIT/Games-and-Go" title="this">this</a> repository.
 2. Clone the forked repository.
 ```css
-git clone https://github.com/<your-github-username>/UI-Components
+git clone https://github.com/<your-github-username>/Games-and-Go
 ```
   
 3. Navigate to the project directory.
 ```py
-cd UI-Components
+cd Games-and-Go
 ```
 4. Create a new branch.
 ```css
