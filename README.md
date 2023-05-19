@@ -50,13 +50,32 @@
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="React" src="https://img.shields.io/badge/react%20-%23323330.svg?&style=for-the-badge&logo=react&logoColor=%#61DBFB"/> <img alt="Bootstrap**" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/> 
 
 
-### Contributors
+### Our Team
 
+## Project Admin
 - [ Shreya Rajpal ](https://github.com/Shreyaar12)
+
+## Mentors
+
+
+
+
+---
+
+<h2 align=center> Project Admin ❤️ </h1>
+
+  <p align="center">
+  <a href="https://github.com/Shreyaar12"><img src="https://avatars.githubusercontent.com/u/60662775?v=4" width="10%" /></a>
+
+  <p align="center">
+  <a target="_blank"href="https://www.linkedin.com/in/shreya-rajpal-817066221/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+</p>
+
+## Project Maintainers 😃
 - [Anukanksha Priya](https://github.com/cleveranu)
 
-
-
+## Contributors ✨
 ---
 
 ```javascript
