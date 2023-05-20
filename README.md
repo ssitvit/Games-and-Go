@@ -73,7 +73,7 @@
 
    <p align="center">
   <a href="https://github.com/cleveranu"><img src="https://avatars.githubusercontent.com/u/102377700?v=4" width="10%" /></a></p>
-  <a href="https://github.com/cleveranu"> Anukanksha Priya</a>
+<p align="center">  <a href="https://github.com/cleveranu"> Anukanksha Priya</a></p>
 
 <!-- - [Anukanksha Priya](https://github.com/cleveranu) -->
 
