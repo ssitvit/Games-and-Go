@@ -9,7 +9,7 @@ export default function Ninetynine() {
     const resetScore = () => {
         setTimeout(()=>{
             setSum(0);
-        },900)
+        },800)
     }
 
     const choose = (num) => {
@@ -26,7 +26,7 @@ export default function Ninetynine() {
             setChoice(11 - num);
             setSum(total + 11 - num);
             setTurn(true);
-        } ,1000);
+        } ,900);
     }
 
   return (
