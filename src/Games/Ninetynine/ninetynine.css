@@ -38,3 +38,20 @@
     background-color: #4196dc;
     box-shadow: none;
 }
+
+.rePlay{
+  position: fixed;
+  right: 3%;
+  bottom: 2%;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Press Start 2P", cursive;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

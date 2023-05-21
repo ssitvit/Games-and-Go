@@ -6,9 +6,15 @@ export default function Ninetynine() {
     const [turn, setTurn] = useState(true);
     const [choice, setChoice] = useState(0);
 
+    const resetScore = () => {
+        setTimeout(()=>{
+            setSum(0);
+        },900)
+    }
+
     const choose = (num) => {
         if(!turn) return;
-        if(sum == 99) {
+        if(sum === 99) {
             setSum(0);
             return;
         }
@@ -20,14 +26,14 @@ export default function Ninetynine() {
             setChoice(11 - num);
             setSum(total + 11 - num);
             setTurn(true);
-        } ,1200);
+        } ,1000);
     }
 
   return (
     <div className='fancy'>
         <div>
             <h1 className='h'>Ninety - Nine</h1>
-            {sum == 99 ? "You Lose !!!" : <p>Who makes the sum 99 wins!</p>}
+            {sum === 99 ? "You Lose !!!" : <p>Who makes the sum 99 wins!</p>}
         </div>
         <div>
             <h1 className='h'>{sum}</h1>
@@ -51,6 +57,8 @@ export default function Ninetynine() {
                 </div>
                 <div><span></span><div onClick={() => choose(10)}>10</div></div>
             </div>
+
+            <button className="rePlay" onClick={resetScore}>Re-Play</button>
         </div>
     </div>
   )
