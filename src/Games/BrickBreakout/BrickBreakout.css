@@ -1,0 +1,8 @@
+.BBContainer {
+    text-align: center;
+    margin: 25px 0;
+}
+#canvas {
+    background-color: #134959;
+    border-radius: 20px;
+}
