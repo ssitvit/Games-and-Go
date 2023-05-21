@@ -20,7 +20,13 @@ body {
   /* display: grid;
   place-items: center; */
   /* overflow-x: hidden; */
-  background-color: #161623;
+  background: rgb(0, 0, 6);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 6, 1) 0%,
+    rgba(17, 18, 26, 0.9877291981245623) 50%,
+    rgba(59, 63, 88, 1) 100%
+  );
 }
 /* Pacman landing page container */
 .container_landing {
