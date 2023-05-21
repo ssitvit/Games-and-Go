@@ -18,6 +18,12 @@ export const data1=[
       main_heading:"Memory",
       about:"Can you remember ?",
       link_game:"/memory"
+    },
+    {
+      serial_number:"04",
+      main_heading:"Trivia",
+      about:"Can you guess it right ?",
+      link_game:"/trivia"
     }
   ]
   ;
