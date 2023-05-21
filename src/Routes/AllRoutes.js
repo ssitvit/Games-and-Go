@@ -3,6 +3,7 @@ import Homepage from "../Homepage/Homepage/Homepage";
 import Tictactoe from "../Games/Tictactoe/tictactoe";
 import Ninetynine from "../Games/Ninetynine/ninetynine";
 import Memory from "../Games/Memory/memory";
+import TriviaGame from "../Games/Trivia/quiz";
 function AllRoutes(){
     return (
         <Routes>
@@ -11,6 +12,7 @@ function AllRoutes(){
         <Route path="/Tic" element={<Tictactoe />} />
         <Route path="/99" element={<Ninetynine />} />
         <Route path="/memory" element={<Memory />} />
+        <Route path="/trivia" element={<TriviaGame />} />
       </Routes>
     )
 }
