@@ -1,0 +1,86 @@
+.fifpuzzle-number {
+  position: absolute;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: var(--tile);
+  font-size: 50px;
+  color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: left 0.4s ease-in-out, top 0.4s ease-in-out;
+}
+.fifpuzzle-number.correct {
+  background: var(--correct);
+}
+
+.fifpuzzle-number.slot--0 {
+  left: 0px;
+  top: 0;
+}
+.fifpuzzle-number.slot--1 {
+  left: calc(var(--size));
+  top: 0;
+}
+.fifpuzzle-number.slot--2 {
+  left: calc(2 * var(--size));
+  top: 0;
+}
+.fifpuzzle-number.slot--3 {
+  left: calc(3 * var(--size));
+  top: 0;
+}
+.fifpuzzle-number.slot--4 {
+  left: 0;
+  top: calc(var(--size));
+}
+.fifpuzzle-number.slot--5 {
+  left: calc(var(--size));
+  top: calc(var(--size));
+}
+.fifpuzzle-number.slot--6 {
+  left: calc(2 * var(--size));
+  top: calc(var(--size));
+}
+.fifpuzzle-number.slot--7 {
+  left: calc(3 * var(--size));
+  top: calc(var(--size));
+}
+.fifpuzzle-number.slot--8 {
+  left: 0;
+  top: calc(2 * var(--size));
+}
+.fifpuzzle-number.slot--9 {
+  left: calc(var(--size));
+  top: calc(2 * var(--size));
+}
+.fifpuzzle-number.slot--10 {
+  left: calc(2 * var(--size));
+  top: calc(2 * var(--size));
+}
+.fifpuzzle-number.slot--11 {
+  left: calc(3 * var(--size));
+  top: calc(2 * var(--size));
+}
+.fifpuzzle-number.slot--12 {
+  left: 0;
+  top: calc(3 * var(--size));
+}
+.fifpuzzle-number.slot--13 {
+  left: calc(var(--size));
+  top: calc(3 * var(--size));
+}
+.fifpuzzle-number.slot--14 {
+  left: calc(2 * var(--size));
+  top: calc(3 * var(--size));
+}
+.fifpuzzle-number.slot--15 {
+  left: calc(3 * var(--size));
+  top: calc(3 * var(--size));
+}
+.fifpuzzle-number.disabled {
+  pointer-events: none;
+  background-color: transparent;
+}
