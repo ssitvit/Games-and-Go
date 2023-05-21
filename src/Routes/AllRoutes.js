@@ -4,6 +4,7 @@ import Tictactoe from "../Games/Tictactoe/tictactoe";
 import Ninetynine from "../Games/Ninetynine/ninetynine";
 import Memory from "../Games/Memory/memory";
 import TriviaGame from "../Games/Trivia/quiz";
+import Maze_Game from "C:\Users\parma\Games-and-Go\src\Games\Maze_Game";
 function AllRoutes(){
     return (
         <Routes>
