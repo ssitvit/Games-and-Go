@@ -15,7 +15,7 @@ function Homepage() {
   return (
     <React.Fragment>
       {/* Pacman Landing Container */}
-      <audio ref={audioref}>
+      <audio ref={audioref} loop>
         <source src={music1} type="audio/mp3" />
       </audio>
       <div className="container_landing">
