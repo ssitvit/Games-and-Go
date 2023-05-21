@@ -8,6 +8,7 @@
   color: white;
   font-family: "Peralta", cursive;
   text-align: center;
+  padding: 2%;
 }
 
 .keypad {
@@ -41,7 +42,7 @@
 
 .rePlay{
   position: fixed;
-  right: 3%;
+  right: 8%;
   bottom: 2%;
     display: inline-block;
     padding: 8px 20px;
