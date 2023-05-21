@@ -1,0 +1,138 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.App {
+  text-align: center;
+}
+
+.question-card {
+  /* Center the div */
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+
+  /* Visual */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+  /* Animation */
+  animation: animate__fadeInUp 0.5s;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 8px;
+  background-color: darkgray;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: lightgray;
+}
+
+.question-text {
+  color: darkblue;
+  font-size: 24px;
+
+  /* Animation */
+  animation: move 2s infinite, fadeOutAndIn 3s infinite;
+}
+
+.final-results {
+  /* Center the div */
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual */
+  background-color: gray;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+  /* Animation */
+  animation: animate__slideInUp 0.5s;
+}
+
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(100px) scale(1.2);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes fadeOutAndIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title,
+.score {
+  font-size: large;
+  color: white;
+
+  /* Animation */
+  animation: move 2s infinite, fadeOutAndIn 3s infinite;
+}
+
+.title {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  
+    /* Animation */
+    animation: move 2s infinite, fadeOutAndIn 3s infinite;
+  }
+  
+  .score {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-bottom: 20px;
+  
+    /* Animation */
+    animation: move 2s infinite, fadeOutAndIn 3s infinite;
+  }
