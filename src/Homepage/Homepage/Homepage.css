@@ -14,8 +14,8 @@
 body {
   width: 100%;
   max-width: 1200px;
-  margin:auto;
-  padding:2rem auto;
+  margin: auto;
+  padding: 2rem auto;
   height: 100vh;
   /* display: grid;
   place-items: center; */
@@ -26,7 +26,7 @@ body {
 .container_landing {
   width: 100%;
   box-sizing: border-box;
-  padding:2rem auto;
+  padding: 2rem auto;
   margin: 1rem auto;
   height: 600px;
   background: black;
@@ -376,7 +376,15 @@ body {
   font-size: 3.5rem;
   text-align: center;
 }
-.header_homepage h1{
+.header_homepage h1 {
   font-size: 3.5rem;
   width: 100%;
+}
+.music-btn {
+  text-align: center;
+  font-size: 1.1em;
+  color: #551a88;
+  margin-top: 2rem;
+
+  font-family: "Press Start 2P", cursive;
 }
