@@ -24,6 +24,12 @@ export const data1=[
       main_heading:"Trivia",
       about:"Can you guess it right ?",
       link_game:"/trivia"
+    },
+    {
+      serial_number:"05",
+      main_heading:"Simon says",
+      about:" Think fast, act faster!",
+      link_game:"/simon"
     }
   ]
   ;
