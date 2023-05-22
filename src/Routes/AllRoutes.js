@@ -9,6 +9,7 @@ import Fifteenpuzzle from "../Games/15Puzzle/Fifteenpuzzle";
 import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import MazeGame from "C:\Users\parma\Games-and-Go\src\Games\MazeGame/mazegame";
+
 function AllRoutes() {
   return (
     <Routes>
