@@ -15,6 +15,7 @@ function AllRoutes() {
       <Route path="/memory" element={<Memory />} />
       <Route path="/trivia" element={<TriviaGame />} />
       <Route path="15puzzle" element={<Fifteenpuzzle />} />
+      <Route path="/simon" element={<simonGame />} />
     </Routes>
   );
 }
