@@ -1,20 +1,18 @@
 import React from 'react'
 
 export default function Brick(level, bricks, canvas, brick) {
-    brick.width = canvas.width / 5 - 1;
-
+    brick.width = canvas.width / 7 - 1;
     let newbricks = [];
     if (!bricks) {
         return [];
     }
-    if (bricks.length >=  5 * level) {
+    // If all the levels are filled
+    if (bricks.length >= 7 * level) {
         return;
-    } // if all the rows are filled
+    }
 
-    console.log(bricks.y);
-
-    // brick wall formation here 
-    for (let i = 0; i < 5 * level; i++) {
+    // Brick Formation here
+    for (let i = 0; i < 7 * level; i++) {
         let newBrick = new SingleBrick(
             brick.x + brick.width,
             brick.y,
@@ -30,7 +28,6 @@ export default function Brick(level, bricks, canvas, brick) {
             brick.y += brick.height + 1;
         }
     }
-    // console.log(newbricks);
     return newbricks;
 }
 
@@ -42,19 +39,18 @@ class SingleBrick {
         this.height = h;
         this.colors = c;
         this.broke = false;
-    } // brick geometry
-    draw(context) {
-        context.beginPath();
-        context.rect(this.x, this.y, this.width, this.height);
-        // context.fllStyle = this.broke ? "#134959" : this.colors[1];
-        context.fllStyle = this.broke ? "rgba(19, 73, 89, 0)" : this.colors[1];
-        context.lineWidth = 5;
-        // context.strokeStyle = this.broke ? "#134959" : "#134959";
-        context.strokeStyle = this.broke ? "rgba(19, 73, 89, 0)" : "transparent";
-        // context.fllStyle = this.broke ? "#134959" : this.colors[1];
-        // context.shadowBlur = 0;
-        // context.shadowColor = "#33f";
-        context.fill();
-        context.strokeRect(this.x, this.y, this.width, this.height);
-    } // brick functioning
+    }
+    draw(ctx) {
+        ctx.beginPath();
+        ctx.rect(this.x, this.y, this.width, this.height);
+        ctx.fillStyle = this.broke ? "rgba(19, 73, 89, 0)" : this.colors[1];
+    
+        ctx.lineWidth = 5;
+        ctx.strokeStyle = this.broke ? "rgba(19, 73, 89, 0)" : "transparent";
+        // ctx.globalCompositeOperation = "destination-atop";
+        // ctx.shadowBlur = 0;
+        // ctx.shadowColor = "blue";
+        ctx.fill();
+        ctx.strokeRect(this.x, this.y, this.width, this.height);
+    }
 }

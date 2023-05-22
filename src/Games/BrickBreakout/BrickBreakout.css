@@ -1,3 +1,6 @@
+*{
+    font-family: "Peralta", cursive;
+}
 .BBContainer {
     text-align: center;
     margin: 25px 0;
@@ -5,4 +8,13 @@
 #canvas {
     background-color: #134959;
     border-radius: 20px;
+}
+.note {
+    color: #ffe;
+    font-size: 20px;
+}
+.gameHeader {
+    font-family: "Sedgwick Ave", cursive;
+    color: white;
+    font-size: 40px;
 }

@@ -7,7 +7,7 @@ export default {
         dx: 5, // increment in ball x position
         dy: 5, // increment in ball y position
         rad: 12, // raius of the ball
-        speed: 10, // speed of the ball
+        speed: 6, // speed of the ball
     }, // properties of the ball
     brickObj: {
         x: 0.5, // brick x position

@@ -1,21 +1,22 @@
 import React from 'react'
 
-export default function PlayerStats(context, player, canvas) {
+export default function PlayerStats(ctx, player, canvas) {
     // level
-    context.font = "20px Arial";
-    context.fillStyle = "#fff";
-    context.fillText(`Level: ${player.level}`, 20, 30);
+    ctx.font = "20px Arial";
+    ctx.fillStyle = "white";
+    ctx.fillText(`Level: ${player.level}`, 20, 30);
 
-    // lives
-    context.font = "20px Arial";
-    context.fillStyle = "#f42";
+    // Lives
+    ctx.font = "20px Arial";
+    ctx.fillStyle = "red";
     let gap = 0;
     for (let i = 0; i < player.lives; i++) {
-        context.fillText("❤️", canvas.width / 2 + gap - 90, 30);
+        ctx.fillText("❤️", canvas.width / 2 + gap, 30);
         gap += 30;
     }
-    // score
-    context.font = "20px Arial";
-    context.fillStyle = "#fff";
-    context.fillText(`Score: ${player.score}`, canvas.width - 140, 30);
+
+    // Score
+    ctx.font = "20px Arial";
+    ctx.fillStyle = "white";
+    ctx.fillText(`Score: ${player.score}`, canvas.width - 140, 30);
 }
