@@ -13,8 +13,9 @@ export default (context, canvas, paddleProps) => {
             context.beginPath();
             context.rect(this.x, this.y, this.width, this.height);
             context.fillStyle = this.broke ? "#fff" : this.colors[1];
-            context.strokeStyle = this.broke ? "#000" : this.colors[0];
+            context.strokeStyle = this.broke ? "#fff" : this.colors[0];
             context.lineWidth = 1;
+            context.fillStyle = this.broke ? "#fff" : this.colors[1];
             context.shadowBlur = 0;
             context.shadowColor = "#33f";
             context.strokeRect(this.x, this.y, this.width, this.height);

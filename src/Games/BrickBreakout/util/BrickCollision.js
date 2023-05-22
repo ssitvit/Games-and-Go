@@ -34,7 +34,7 @@ export default function BrickCollision(circle, rect) {
 
     // also test for corner collision
     let dx = distX - rect.width / 2;
-    let dy = distY - rect.hieght / 2;
+    let dy = distY - rect.height / 2;
     // return dx * dx + dy <= circle.rad * circle.rad;
     return {
         hit: dx * dx + dy <= circle.rad * circle.rad,

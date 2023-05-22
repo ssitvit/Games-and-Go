@@ -17,7 +17,7 @@ export function BallMovement(context, ballObj) {
             context.fillStyle = "#f42";
             context.arc(this.x, this.y, this.rad, 0, 2 * Math.PI);
             context.strokeStyle = "#010";
-            context.strokeWidth = 4;
+            context.strokeWidth = 2;
             context.fill();
             context.stroke();
         } // properties due to which the ball gets its functioning 

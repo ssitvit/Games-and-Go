@@ -12,7 +12,7 @@ export default {
     brickObj: {
         x: 0.5, // brick x position
         y: 50, // brick y position
-        width: 800 /10 - 1, // width of the brick
+        // width: 800 /10 - 1, // width of the brick
         height: 20, // height of the brick
         density: 2, // density of the brick
         colors: ["#33f", "#aff"] // colors of the brick
@@ -29,4 +29,4 @@ export default {
         x: 100, // x position of the paddle
         color: "#f90", // color of the paddle
     },
-}
+};

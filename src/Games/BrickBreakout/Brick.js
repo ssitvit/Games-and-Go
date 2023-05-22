@@ -46,13 +46,15 @@ class SingleBrick {
     draw(context) {
         context.beginPath();
         context.rect(this.x, this.y, this.width, this.height);
-        context.fllStyle = this.broke ? "#134959" : this.colors[1];
-        context.strokeStyle = this.broke ? "#134959" : "#134959";
+        // context.fllStyle = this.broke ? "#134959" : this.colors[1];
+        context.fllStyle = this.broke ? "rgba(19, 73, 89, 0)" : this.colors[1];
         context.lineWidth = 5;
-        context.fllStyle = this.broke ? "#134959" : this.colors[1];
-        context.shadowBlur = 0;
-        context.shadowColor = "#33f";
-        context.strokeRect(this.x, this.y, this.width, this.height);
+        // context.strokeStyle = this.broke ? "#134959" : "#134959";
+        context.strokeStyle = this.broke ? "rgba(19, 73, 89, 0)" : "transparent";
+        // context.fllStyle = this.broke ? "#134959" : this.colors[1];
+        // context.shadowBlur = 0;
+        // context.shadowColor = "#33f";
         context.fill();
+        context.strokeRect(this.x, this.y, this.width, this.height);
     } // brick functioning
 }
