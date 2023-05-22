@@ -43,6 +43,12 @@ export const data1 = [
     main_heading: "Rock Paper and Scissors",
     about: "Can you win against the computer?",
     link_game: "/rock-paper-scissors"
+  },
+  {
+    serial_number: "08",
+    main_heading: "Brick Breakout",
+    about: "Let's break out the brick wall with the ball",
+    link_game: "/brick-breakout"
   }
 ];
 
