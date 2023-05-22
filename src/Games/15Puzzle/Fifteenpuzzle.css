@@ -1,0 +1,18 @@
+:root {
+  --size: 100px;
+  --tile: #342956;
+  --correct: #6e50b4;
+}
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+html,
+body {
+}
+.fifpuzzle-App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.fifpuzzle-App * {
+  font-family: "Pacifico", cursive;
+}

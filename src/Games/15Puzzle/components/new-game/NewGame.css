@@ -1,0 +1,18 @@
+.fifpuzzle-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px !important;
+  align-items: center;
+}
+.fifpuzzle-button {
+  border: 0 transparent;
+  background-color: var(--correct);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fifpuzzle-button:hover {
+  background-color: var(--tile);
+}
