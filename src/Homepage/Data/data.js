@@ -1,40 +1,5 @@
 import React from "react";
 //Add the following data in the card for the game you have added. For any instructions refer to contributing.md
-<<<<<<< HEAD
-export const data1=[
-    {
-      serial_number:"01",
-      main_heading:"Let's Play Tic-Tac-Toe",
-      about:"A fun and interesting tic tac toe game to take us back to the good old childhood days!",
-      link_game:"/Tic"
-    },
-    {
-      serial_number:"02",
-      main_heading:"Ninety - Nine",
-      about:"A game you can never win.",
-      link_game:"/99"
-    },
-    {
-      serial_number:"03",
-      main_heading:"Memory",
-      about:"Can you remember ?",
-      link_game:"/memory"
-    },
-    {
-      serial_number:"04",
-      main_heading:"Trivia",
-      about:"Can you guess it right ?",
-      link_game:"/trivia"
-    },
-    {
-      serial_number:"04",
-      main_heading:"Brick BreakOut",
-      about:"Let's break out the brick wall with the ball",
-      link_game:"/brick-breakout"
-    }
-  ]
-  ;
-=======
 export const data1 = [
   {
     serial_number: "01",
@@ -72,6 +37,11 @@ export const data1 = [
     main_heading:"Simon says",
     about:" Think fast, act faster!",
     link_game:"/simon"
+  },
+  {
+    serial_number:"07",
+    main_heading:"Brick BreakOut",
+    about:"Let's break out the brick wall with the ball",
+    link_game:"/brick-breakout"
   }
 ];
->>>>>>> 7b14512e830d41e63a96659148b1df8e10c0d3b6
