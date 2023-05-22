@@ -4,6 +4,7 @@ import Tictactoe from "../Games/Tictactoe/tictactoe";
 import Ninetynine from "../Games/Ninetynine/ninetynine";
 import Memory from "../Games/Memory/memory";
 import TriviaGame from "../Games/Trivia/quiz";
+
 import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 function AllRoutes(){
     return (
@@ -18,5 +19,23 @@ function AllRoutes(){
         
       </Routes>
     )
+
+import Simonsays from "../Games/Simonsays/simon";
+import Fifteenpuzzle from "../Games/15Puzzle/Fifteenpuzzle";
+
+function AllRoutes() {
+  return (
+    <Routes>
+      {/* Add all the routes with the right path here after importing them  */}
+      <Route path="/" element={<Homepage />} />
+      <Route path="/Tic" element={<Tictactoe />} />
+      <Route path="/99" element={<Ninetynine />} />
+      <Route path="/memory" element={<Memory />} />
+      <Route path="/trivia" element={<TriviaGame />} />
+      <Route path="15puzzle" element={<Fifteenpuzzle />} />
+      <Route path="/simon" element={<Simonsays />} />
+    </Routes>
+  );
+
 }
 export default AllRoutes;
