@@ -4,6 +4,7 @@ import Tictactoe from "../Games/Tictactoe/tictactoe";
 import Ninetynine from "../Games/Ninetynine/ninetynine";
 import Memory from "../Games/Memory/memory";
 import TriviaGame from "../Games/Trivia/quiz";
+import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 function AllRoutes(){
     return (
         <Routes>
@@ -13,6 +14,8 @@ function AllRoutes(){
         <Route path="/99" element={<Ninetynine />} />
         <Route path="/memory" element={<Memory />} />
         <Route path="/trivia" element={<TriviaGame />} />
+        <Route path="/rock-paper-scissors" element={<RockPaperScissors/>}/>
+        
       </Routes>
     )
 }
