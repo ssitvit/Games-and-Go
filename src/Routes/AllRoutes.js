@@ -7,6 +7,7 @@ import TriviaGame from "../Games/Trivia/quiz";
 import Simonsays from "../Games/Simonsays/simon";
 import Fifteenpuzzle from "../Games/15Puzzle/Fifteenpuzzle";
 
+import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 function AllRoutes() {
   return (
     <Routes>
@@ -18,7 +19,11 @@ function AllRoutes() {
       <Route path="/trivia" element={<TriviaGame />} />
       <Route path="15puzzle" element={<Fifteenpuzzle />} />
       <Route path="/simon" element={<Simonsays />} />
+      <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
     </Routes>
-  );
+  )
+
 }
+
+
 export default AllRoutes;
