@@ -49,6 +49,12 @@ export const data1 = [
     main_heading: "Brick Breakout",
     about: "Let's break out the brick wall with the ball",
     link_game: "/brick-breakout"
+  },
+  {
+    serial_number: "09",
+    main_heading: "Minesweeper",
+    about: "Uncover the hidden mines",
+    link_game: "/Minesweeper"
   }
 ];
 
