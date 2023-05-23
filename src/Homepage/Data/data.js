@@ -58,4 +58,10 @@ export const data1 = [
       "Accept Challenge if you think your typing speed is more than Usain Bolt's sprint ",
     link_game: "/typo",
   },
+  {
+    serial_number:"10",
+    main_heading:"Ball Shooting",
+    about:"Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
+    link_game:"/BallShooting",
+  }
 ];

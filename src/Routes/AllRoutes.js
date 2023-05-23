@@ -9,6 +9,7 @@ import Fifteenpuzzle from "../Games/15Puzzle/Fifteenpuzzle";
 import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import Typo from "../Games/Typo/Typo";
+import BallShooting from "../Games/BallShooting/BallShooting";
 
 function AllRoutes() {
   return (
@@ -24,6 +25,7 @@ function AllRoutes() {
       <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
       <Route path="/brick-breakout" element={<BrickBreakout />} />
       <Route path="/typo" element={<Typo />} />
+      <Route path="/BallShooting" element={<BallShooting/>} />
     </Routes>
   );
 }
