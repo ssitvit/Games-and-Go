@@ -39,7 +39,7 @@ function Homepage() {
         <h1> Game on!!</h1>
       </div>
       {/* The content in the cards came from mapping data1, if you want to contribute a game kindly add it to data1 in the Data folder first*/}
-      <div className="body_card">
+      {/* <div className="body_card"> */}
         <div className="container_card">
           {data1.map((row) => (
             <div className="card">
@@ -53,7 +53,7 @@ function Homepage() {
             </div>
           ))}
         </div>
-      </div>
+      {/* </div> */}
     </React.Fragment>
   );
 }
