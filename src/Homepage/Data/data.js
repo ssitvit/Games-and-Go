@@ -64,4 +64,10 @@ export const data1 = [
     about:"Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
     link_game:"/BallShooting",
   }
+  {
+    serial_number:"11",
+    main_heading:"Snake Game",
+    about:"Eat and increase length of the snake",
+    link_game:"/Snake",
+  }
 ];
