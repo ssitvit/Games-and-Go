@@ -32,4 +32,11 @@ export const data1 = [
     about: "Can you solve it?",
     link_game: "/15puzzle",
   },
+  {
+    serial_number: "06",
+    main_heading: "Clumsy Bird",
+    about: "Lets help bird to pass through hurdles",
+    link_game: "/clumsybird",
+  },
+
 ];
