@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { data1 } from "../Data/data";
 import music1 from "../Homepage/music1.mp3";
 import { useRef } from "react";
+import GoToTop from "./GoToTop";
+
 function Homepage() {
   const audioref = useRef();
   const runMusic = () => {
@@ -14,6 +16,8 @@ function Homepage() {
   };
   return (
     <React.Fragment>
+      <GoToTop />
+
       {/* Pacman Landing Container */}
       <audio ref={audioref} loop>
         <source src={music1} type="audio/mp3" />
