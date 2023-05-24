@@ -15,15 +15,19 @@ function App() {
   return (
     <div>
       {loading ? (
-        <PacmanLoader
-          color={"#f1e702"}
-          loading={loading}
-          size={30}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-          className="loader"
-        />
+        <div>
+          <PacmanLoader
+            color={"#f1e702"}
+            loading={loading}
+            size={45}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+            className="loader"
+          />
+          <p className="loader1">Games and go!!!</p>
+        </div>
       ) : (
+        // (<p>Games-and-Go</p>)
         <div>
           <Navbar />
           <AllRoutes />
