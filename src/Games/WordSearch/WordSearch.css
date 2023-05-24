@@ -1,0 +1,75 @@
+.word-search-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 2fr);
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  h1{
+    margin-left: 510px;
+    margin-top: 50px;
+  }
+
+  .word-search-column {
+    display: inline-block;
+    vertical-align: top;
+
+  }
+
+  .word-search-cell {
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+
+
+    height: 40px;
+    background-color: rgb(179, 194, 255);
+    border: 1px solid rgb(153, 41, 159);
+  }
+
+  .word-list {
+    margin-top: 16px;
+  }
+
+  .word-list h3 {
+    margin-top: 38px;
+    margin-left: 440px;
+  }
+
+  .word-list ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+
+  .word-list li {
+    margin-left: 450px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color:rgb(57, 0, 50) ;
+    margin-bottom:5px;
+  }
+
+.found-words h3{
+  margin-left: 780px;
+  margin-top: -170px;
+
+}
+.textarea{
+  margin-left: 770px;
+  border:2px solid rgb(205, 91, 115);
+}
+.reset{
+  width:80px;
+  height: 30px;
+  border: 20px;
+  color: rgb(3, 25, 140);
+  cursor: pointer;
+  margin-left: 795px;
+  margin-top: 30px;
+  font-weight: bolder;
+  background-color: rgb(213, 135, 229);
+
+}
+.reset:hover{
+  color: rgb(0, 98, 55);
+}
