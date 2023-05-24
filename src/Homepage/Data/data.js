@@ -63,5 +63,11 @@ export const data1 = [
     main_heading:"Ball Shooting",
     about:"Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
     link_game:"/BallShooting",
+  }, 
+  {
+    serial_number:"11",
+    main_heading:"Whack-a-Mole",
+    about:"Hit pop-ups and earn points",
+    link_game:"/Whackmole",
   }
 ];

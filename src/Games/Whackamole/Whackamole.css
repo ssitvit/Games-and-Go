@@ -1,0 +1,60 @@
+.h {
+    color: #4ba4eb;
+    text-decoration: none;
+    font-family: "Press Start 2P", cursive;
+  }
+  
+  .fancy {
+    color: white;
+    font-family: "Peralta", cursive;
+    text-align: center;
+  }
+
+  
+  .grid {
+    width: 506px;
+    height: 506px;
+    display: flex;
+    flex-wrap: wrap;
+    transform : translate(65%, -2%)
+  }
+ 
+  .square {
+    height:100px;
+    width: 140px;
+    border: solid white 2px;
+  }
+
+ .mole {
+  background-image: url('./Helpers/mole(1).png');
+  height: 100px;
+  width: 140px;
+  background-repeat: no-repeat;
+ }
+
+ #points {
+  position: absolute;
+  left: 0;
+  margin-top: 100px;
+ 
+  transform: translate(30%);
+  font-size: 50px;
+}
+
+#time-left {
+
+  position: absolute;
+  right: 0;
+  margin-top:100px ;
+  transform: translate(-5%);
+  font-size: 50px;
+}
+
+#stop-btn {
+position: absolute;
+right: 10px;
+margin-top: 200px;
+transform: translate(-80%)
+
+
+}
