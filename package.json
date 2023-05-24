@@ -16,6 +16,7 @@
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.4",
+    "styled-components": "^6.0.0-rc.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
