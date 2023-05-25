@@ -155,11 +155,13 @@ class SnakeGame extends Component {
     );
     return (
       <div className="a">
-        <h1 className="heading"> 90s SnakeGame</h1>
-        <ul>
-          <h6>Press "Space" to pause the game.</h6>
-          <h6>Press "Arrow keys" to change direction/ unpause.</h6>
-        </ul>
+        <div className="text">
+          <h1 className="heading"> 90s SnakeGame</h1>
+          <ul>
+            <h6>Press "Space" to pause the game.</h6>
+            <h6>Press "arrow keys" to change direction/ unpause.</h6>
+          </ul>
+        </div>
         <div className="snake-container">
           <div className="grid">{displayRows}</div>
         </div>

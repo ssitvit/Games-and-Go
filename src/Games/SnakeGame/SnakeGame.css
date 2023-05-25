@@ -3,10 +3,13 @@
     height: 100vh;
     display: flex;
     flex: 1;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-   
   
+  }
+  .text{
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 0;
   }
   .heading {
     font-family: 'Arial', sans-serif;
@@ -18,14 +21,14 @@
     letter-spacing: 2px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0;
   }
-  
   .snake-container {
- 
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
   }
   .grid {
     width: 500px;
