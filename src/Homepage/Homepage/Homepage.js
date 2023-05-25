@@ -13,7 +13,7 @@ function Homepage() {
     audioref.current.pause();
   };
   return (
-    <React.Fragment>
+    <>
       {/* Pacman Landing Container */}
       <audio ref={audioref} loop>
         <source src={music1} type="audio/mp3" />
@@ -54,7 +54,7 @@ function Homepage() {
           ))}
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 }
 

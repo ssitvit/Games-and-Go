@@ -1,0 +1,52 @@
+.button{
+	height: 75px;
+	border-style: none;
+	color: white;
+	font-size: 45px;
+    border-radius: none;
+}
+.button:hover{
+    color: white;
+}
+.violet{
+	background: #9400D3;
+}
+.violet:hover{
+	background: #6d019b;
+}
+.indigo{
+	background: #4B0082;
+}
+.indigo:hover{
+	background: #3f016b;
+}
+.blue{
+	background: #0000FF;
+}
+.blue:hover{
+	background: #0202c1;
+}
+.green{
+	background: #00FF00;
+}
+.green:hover{
+	background: #01be01;
+}
+.yellow{
+	background: #FFFF00;
+}
+.yellow:hover{
+	background: #ffff00d0;
+}
+.orange{
+	background: #FF7F00;
+}
+.orange:hover{
+	background: #ff8000c7;
+}
+.red{
+	background: #FF0000;
+}
+.red:hover{
+	background: #ff0000d2;
+}
