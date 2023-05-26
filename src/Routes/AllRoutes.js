@@ -8,7 +8,7 @@ import Simonsays from "../Games/Simonsays/simon";
 import Fifteenpuzzle from "../Games/15Puzzle/Fifteenpuzzle";
 import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
-import MazeGame from "C:\Users\parma\Games-and-Go\src\Games\MazeGame/mazegame";
+import MazeGame from "../Games/MazeGame/mazegame";
 
 function AllRoutes() {
   return (
@@ -25,7 +25,7 @@ function AllRoutes() {
       <Route path="/brick-breakout" element={<BrickBreakout />} />
       <Route path="/MazeGame" element={<MazeGame />} />
     </Routes>
-  )
+  );
 
 }
 
