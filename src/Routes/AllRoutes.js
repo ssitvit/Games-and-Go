@@ -21,7 +21,7 @@ function AllRoutes() {
       <Route path="/99" element={<Ninetynine />} />
       <Route path="/memory" element={<Memory />} />
       <Route path="/trivia" element={<TriviaGame />} />
-      <Route path="15puzzle" element={<Fifteenpuzzle />} />
+      <Route path="/15puzzle" element={<Fifteenpuzzle />} />
       <Route path="/simon" element={<Simonsays />} />
       <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
       <Route path="/brick-breakout" element={<BrickBreakout />} />
