@@ -6,7 +6,7 @@ import Memory from "../Games/Memory/memory";
 import TriviaGame from "../Games/Trivia/quiz";
 import Simonsays from "../Games/Simonsays/simon";
 import Fifteenpuzzle from "../Games/15Puzzle/Fifteenpuzzle";
-import ClumsyBird from "../Games/ClumsyBird/clumsybird";
+import clumsybird from "../Games/clumsybird";
 import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import Typo from "../Games/Typo/Typo";
@@ -29,6 +29,7 @@ function AllRoutes() {
       <Route path="/brick-breakout" element={<BrickBreakout />} />
       <Route path="/typo" element={<Typo />} />
       <Route path="/BallShooting" element={<BallShooting/>} />
+      <Route path="/clumsybird" element={<clumsybird />} />
     </Routes>
   );
 }
