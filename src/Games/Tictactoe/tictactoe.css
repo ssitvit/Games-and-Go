@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
 
+/*New stuff*/
+.custom-summary::after {
+   /* Replace with the path to your custom arrow image */
+  /* Additional styling properties if needed */
+}
+
+
+
 /* Classes for all the headings used  */
 .h1,
 .h2,
@@ -32,10 +40,10 @@
   justify-content: center;
   align-items: center;
   align-content: space-around;
-  width: 306px;
-  height: 306px;
+  width: 400px;
+  height: 300px;
   position: relative;
-
+  padding: 10px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     145deg,
