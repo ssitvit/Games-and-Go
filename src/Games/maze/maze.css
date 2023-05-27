@@ -1,0 +1,92 @@
+/* maze.css */
+/* *{
+    background-color: #737475;
+} */
+.maze-puzzle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .maze-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .maze-row {
+    display: flex;
+  }
+  
+  .maze-cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .wall {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .player {
+    background-color: #ffcc00;
+    color: #000000;
+  }
+  
+  /* .moves {
+    font-size: 18px;
+    margin-bottom: 10px;
+  } */
+  .moves {
+    font-size: 18px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    background-color: #776c6c;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+  
+  .arrow-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .arrow-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .instructions {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .generate-button {
+    margin-bottom: 300px;
+    margin-left: 170px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #911818;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
