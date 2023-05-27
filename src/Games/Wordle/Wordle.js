@@ -7,7 +7,6 @@ import "./Wordle.css"
 import "./words.js"
 import randomWords from './words.js';
 
-
 // Main export function
 export default function Wordle () {
 
