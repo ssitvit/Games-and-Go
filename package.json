@@ -17,7 +17,6 @@
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.8",
-    "react-tooltip": "^5.13.1",
     "reactstrap": "^9.1.4",
     "styled-components": "^6.0.0-rc.2",
     "web-vitals": "^2.1.4"
