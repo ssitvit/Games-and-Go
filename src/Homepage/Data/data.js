@@ -63,5 +63,12 @@ export const data1 = [
     main_heading:"Ball Shooting",
     about:"Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
     link_game:"/BallShooting",
+  },
+  {
+    serial_number:"11",
+    main_heading:"Tilting Maze",
+    about:"Tilt the Maze using the Joystick or arrow keys and try to put all three balls inside the circle.",
+    link_game:"/Tilting_Maze",
   }
+
 ];
