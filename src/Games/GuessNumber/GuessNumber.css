@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
+
+/* Classes for all the headings used  */
+.h1{
+  color: #4ba4eb;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+}
+.text_color {
+  color: white;
+  font-family: "Peralta", cursive;
+}
+/* CSS that covers the main div where the entire game is wrapped */
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-image: "https://cdn.pixabay.com/photo/2015/06/27/16/34/wall-823611_960_720.jpg";
+}
+
+.for-input{
+    margin: 10px;
+    padding: 18px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+button{
+    display: grid;
+    margin: auto;
+    width: 200px;
+}
+
+.message{
+    color: aliceblue;
+    font-size: 20px;
+}
