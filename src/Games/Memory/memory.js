@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import "./memory.css";
+import Game from "../pause_resume"
 
 export default function Memory() {
     const [turn, setTurn] = useState(null);
@@ -91,6 +92,7 @@ export default function Memory() {
         </div>
         {turn == "computer" ? <div>Ready ???</div>: <div>Your turn!!!</div>}
         {status != "playing" && <div className='modal'>{status}</div>}
+        <Game/>
     </div>
   )
 }

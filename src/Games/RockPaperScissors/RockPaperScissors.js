@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./RockPaperScissors.css"
+import Game from "../pause_resume"
 
 const RockPaperScissors = () => {
     const [userChoice, setUserChoice] = useState('rock');
@@ -93,7 +94,7 @@ const RockPaperScissors = () => {
                     <button className="button restart" onClick={() => reset()}>Restart Game ? </button>
                 }
             </div>
-
+                <Game/>
         </div>
     )
 }

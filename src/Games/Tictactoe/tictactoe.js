@@ -1,5 +1,6 @@
 import React from "react";
 import "./tictactoe.css";
+import Game from "../pause_resume"
 
 // Initial State where all boxes are NULL in the tictactoe board
 const initialState = {
@@ -233,6 +234,7 @@ function Tictactoe() {
       {state.winner && state.winner === "Draw" && (
         <h2 className="gameOver">Game over: Draw</h2>
       )}
+      <Game/>
     </div>
   );
 }

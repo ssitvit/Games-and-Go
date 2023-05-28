@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./quiz.css";
+import Game from "../pause_resume"
 
  const Quiz =()=>  {
 
@@ -122,6 +123,7 @@ import "./quiz.css";
           </ul>
         </div>
       )}
+      <Game />
     </div>
   );
 }

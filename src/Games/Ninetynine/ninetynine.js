@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './ninetynine.css';
+import Game from "../pause_resume"
 
 export default function Ninetynine() {
     const [sum, setSum] = useState(0);
@@ -52,6 +53,7 @@ export default function Ninetynine() {
                 <div><span></span><div onClick={() => choose(10)}>10</div></div>
             </div>
         </div>
+        <Game/>
     </div>
   )
 }

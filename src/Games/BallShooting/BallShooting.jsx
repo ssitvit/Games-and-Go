@@ -1,5 +1,6 @@
 import React from "react";
 import CanvasComponent from "./CanvasComponent";
+import Game from "../pause_resume"
 
 function BallShooting() {
   return (
@@ -24,6 +25,7 @@ function BallShooting() {
         </div>
       </div>
       <CanvasComponent />
+      <Game/>
     </>
   );
 }

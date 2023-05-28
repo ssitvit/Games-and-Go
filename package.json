@@ -18,8 +18,11 @@
     "reactstrap": "^9.1.4",
     "styled-components": "^6.0.0-rc.2",
     "web-vitals": "^2.1.4"
+    
+
   },
   "scripts": {
+   
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
