@@ -10,7 +10,7 @@ import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import Typo from "../Games/Typo/Typo";
 import BallShooting from "../Games/BallShooting/BallShooting";
-
+import DinoRunner from "../Games/DinoRunner/DinoRunner";
 function AllRoutes() {
   return (
     <Routes>
@@ -26,6 +26,7 @@ function AllRoutes() {
       <Route path="/brick-breakout" element={<BrickBreakout />} />
       <Route path="/typo" element={<Typo />} />
       <Route path="/BallShooting" element={<BallShooting/>} />
+      <Route path="/DinoRunner" element={<DinoRunner/>} />
     </Routes>
   );
 }
