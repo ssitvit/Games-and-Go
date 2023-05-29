@@ -10,7 +10,7 @@ import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import Typo from "../Games/Typo/Typo";
 import BallShooting from "../Games/BallShooting/BallShooting";
-import DinoRunner from "../Games/DinoRunner/DinoRunner";
+import DinoRunner from "../Games/DinoRunner/index";
 function AllRoutes() {
   return (
     <Routes>
