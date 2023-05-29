@@ -169,7 +169,6 @@ const CanvasComponent = () => {
         enemy.update();
         const dist = Math.hypot(player.x - enemy.x, player.y - enemy.y);
         if (dist - enemy.radius - player.radius < 1) {
-          // console.log('remove from screen');
           // end game
           setTimeout(() => {
             cancelAnimationFrame(animateId);
@@ -183,7 +182,6 @@ const CanvasComponent = () => {
             projectile.y - enemy.y
           );
           if (dist - enemy.radius - projectile.radius < 1) {
-            // console.log('remove from screen');
             // collision detection and shrinking the larger enemies
             // particle explosion
             for (let i = 0; i < enemy.radius * 2; i++) {
