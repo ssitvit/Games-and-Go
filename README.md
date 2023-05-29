@@ -7,21 +7,22 @@
     <br>
 </p>
 
-## Table of Contents
-- [Why Contribute with Us?](#why-contribute-with-us)
-- [Tech Used](#tech-used)
-- [Our Team](#our-team)
+<h2 align="center"> Table of Contents <h2/>
+	
+- [Why Contribute with Us ❓](#why-contribute-with-us-)
+- [Tech Used 🦾](#tech-used-)
+- [Our Team 👑](#our-team-)
   - [Project Admin ♥️](#project-admin-️)
   - [Project Maintainers 😄](#project-maintainers-)
   - [Contributors ✨](#contributors-)
-- [Contributing](#contributing)
-- [Code of Conduct](#code-of-conduct)
+- [Contributing 🤝](#contributing-)
+- [Code of Conduct 💚](#code-of-conduct-)
 
 
 <p align="center">
     <!-- 	<h1 align="center"> WHAT IS HACKTOBERFEST 2022</h1> -->
     <!-- 	<h2 align="center">Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:</h2> -->
-<h2 align="center">Why Contribute with Us?</h2>
+<h2 align="center">Why Contribute with Us ❓</h2>
 <ul>
     <li>Prepare and share your project for collaboration</li>
     <li>Contribute to the betterment of a project via pull requests</li>
@@ -49,13 +50,13 @@
 </div>
 
 
-### Tech Used
+### Tech Used 🦾
 ---
 
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="React" src="https://img.shields.io/badge/react%20-%23323330.svg?&style=for-the-badge&logo=react&logoColor=%#61DBFB"/> <img alt="Bootstrap**" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/> 
 
 
-### Our Team
+### Our Team 👑
 ---
 
 <h2 align=center>Project Admin ♥️</h1>
@@ -90,7 +91,7 @@ if (youLiked) {
 ```
 <br>
 
-## Contributing⚡
+## Contributing 🤝
 
 We welcome contributions from anyone who is interested in improving this project. If you'd like to contribute, here are some ways you can get started:
 
@@ -135,7 +136,7 @@ If you're interested in working on any of the issues, please let us know by subm
 
 <p>
 <br>
-<h2 align="center">Code of Conduct</h2>
+<h2 align="center">Code of Conduct 💚</h2>
 
 Contributors are expected to adhere to the following Code of Conduct to ensure a positive and inclusive environment for collaboration
 	
@@ -187,6 +188,9 @@ git push -u origin <your_branch_name>
 
 <br>
 <h2 align="center">Open Source Programs we have been associated with:</h2>
+	<div align="center">
     <a href="https://hacktoberfest.digitalocean.com/"><img src="https://hacktoberfest.appwrite.io/hacktoberfest.svg" width="25%"/></a>
-
+		&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://gssoc.girlscript.tech/"><img src="https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83" width="10%"/></a>
+</div>
 <h2 align="center">Happy Contributing!🎉</h2>
