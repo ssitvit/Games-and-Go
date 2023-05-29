@@ -376,6 +376,18 @@ body {
   font-size: 3.5rem;
   text-align: center;
 }
+.search-input {
+  margin: auto;
+  width: 40%;
+  border: 5px;
+  padding: 5px;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  top: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 .header_homepage h1 {
   font-size: 3.5rem;
   width: 100%;
