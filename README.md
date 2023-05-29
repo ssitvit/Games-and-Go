@@ -6,10 +6,22 @@
     <h2 align="center" >Checkout our Work at  <a href="https://games.ieeessitvit.tech/">SSIT LIVE </a></h2>
     <br>
 </p>
+
+## Table of Contents
+- [Why Contribute with Us?](#why-contribute-with-us)
+- [Tech Used](#tech-used)
+- [Our Team](#our-team)
+  - [Project Admin ♥️](#project-admin-️)
+  - [Project Maintainers 😄](#project-maintainers-)
+  - [Contributors ✨](#contributors-)
+- [Contributing](#contributing)
+- [Code of Conduct](#code-of-conduct)
+
+
 <p align="center">
     <!-- 	<h1 align="center"> WHAT IS HACKTOBERFEST 2022</h1> -->
     <!-- 	<h2 align="center">Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:</h2> -->
-<h2 align="center"> WHY CONTRIBUTE WITH US?</h2>
+<h2 align="center">Why Contribute with Us?</h2>
 <ul>
     <li>Prepare and share your project for collaboration</li>
     <li>Contribute to the betterment of a project via pull requests</li>
@@ -46,7 +58,7 @@
 ### Our Team
 ---
 
-<h2 align=center> Project Admin ❤️ </h1>
+<h2 align=center>Project Admin ♥️</h1>
   <p align="center">
   <a href="https://github.com/Shreyaar12"><img src="https://avatars.githubusercontent.com/u/91542376?v=4" width="10%" /></a> 
 	<br>
@@ -55,7 +67,7 @@
   <a target="_blank"href="https://www.linkedin.com/in/shreya-rajpal-817066221/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<h2 align=center>Project Maintainers 😃</h1>
+<h2 align=center>Project Maintainers 😄</h1>
 
    <p align="center">
   <a href="https://github.com/cleveranu"><img src="https://avatars.githubusercontent.com/u/102377700?v=4" width="10%" /></a></p>
