@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@100;700&family=Oxygen&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./assets/Website_icon.png">
+    <title>Connect 4</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="playerTurn">Ready!!</div>
+        <div class="container"></div>
+        <div id="information">
+        <div class="player-wrappers">
+            Player 1
+            <div class="player1"></div>
+        </div>
+        <div class="player-wrappers">
+            Player 2
+            <div class="player2"></div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Button -->
+    <div class="startScreen">
+        <img src="./assets/Connect_4_Logo.png" id="connect4-logo" class="connect4-logo" alt="Connect 4 Logo">
+        <div id="message">
+
+            <!--Instruction Popup-->
+            <div class="Game" id="About">
+                <div class="popup" id="popup-1">
+                <div class="overlay">
+                    <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <h1>Instructions</h1>
+                    <ul id="list">
+                        <li id="first">Two players take turns, 
+                                        with one using red discs and the other using yellow discs.</li> <br>
+
+                        <li id="second">The goal is to be the first player to connect four of their own discs in a row, either horizontally, vertically, or diagonally on the game grid.</li> <br>
+
+                        <li id="third">Players take turns dropping one of their discs into any column of the grid.</li> <br>
+
+                        <li id="fourth">After each move, players need to strategically place their discs to build a line of four of their own color. The line can be vertical, horizontal, or diagonal. If a player achieves this, they win the game.</li> <br>
+
+                        <li id="fifth">If the entire grid is filled without any player achieving a four-in-a-row connection, the game is considered a draw. In this case, you can restart the game and play again.</li> <br>
+                    </ul>
+                    </div>
+                </div>
+                </div>
+                <button id="btn" onclick="togglePopup()">🤌</button>
+        </div>
+
+        </div>   
+        <button id="start" style="font-size: 20px; top: 70px;">Play !!</button>
+    </div>
+
+    <!-- Game Background Screen-->
+    <div class="wrapper-bg">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+    <!--Javascript-->
+    <script src="script.js"></script>
+
+</body>
+</html>
