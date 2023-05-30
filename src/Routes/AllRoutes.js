@@ -3,6 +3,7 @@ import Homepage from "../Homepage/Homepage/Homepage";
 import Tictactoe from "../Games/Tictactoe/tictactoe";
 import Ninetynine from "../Games/Ninetynine/ninetynine";
 import Memory from "../Games/Memory/memory";
+
 function AllRoutes(){
     return (
         <Routes>
