@@ -81,5 +81,11 @@ export const data1 = [
     main_heading:"Smash game",
     about:"The Smashing Cube Game is an exciting and addictive game where the objective is to smash and destroy as many cubes as possible within a given time limit. It provides a thrilling gameplay experience with vibrant graphics and engaging mechanics.",
     link_game:"/smash_cube",
+  },
+  {
+    serial_number:"14",
+    main_heading:"Rubic Cube game",
+    about:"The rubik cube game is a digital application of the classic RUBIK game puzzle and try to solve it by manipulating itss sides.",
+    link_game:"/Rubic_game",
   }
 ];
