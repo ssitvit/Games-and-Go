@@ -75,5 +75,11 @@ export const data1 = [
     main_heading:"Maze game",
     about:"In this game, you will control a snake as it navigates through a maze. Your objective is to guide the snake to eat all the food in the maze .",
     link_game:"/Maze_Game",
+  },
+  {
+    serial_number:"13",
+    main_heading:"Smash game",
+    about:"The Smashing Cube Game is an exciting and addictive game where the objective is to smash and destroy as many cubes as possible within a given time limit. It provides a thrilling gameplay experience with vibrant graphics and engaging mechanics.",
+    link_game:"/smash_cube",
   }
 ];

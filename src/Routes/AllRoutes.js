@@ -29,6 +29,7 @@ function AllRoutes() {
       <Route path="/BallShooting" element={<BallShooting/>} />
       <Route path="/MagicMatch" element={<MagicMatch/>}/>
       <Route path="/Maze_Game" element={<Maze_Game/>}/>
+      <Route path="/smash_cube" element={<smash_cube/>}/>
     </Routes>
   );
 }
