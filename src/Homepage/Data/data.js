@@ -69,5 +69,11 @@ export const data1 = [
     main_heading:"Magic Matching",
     about:"Flip the cards till you match the cards ",
     link_game:"/MagicMatch",
+  },
+  {
+    serial_number:"12",
+    main_heading:"Maze game",
+    about:"In this game, you will control a snake as it navigates through a maze. Your objective is to guide the snake to eat all the food in the maze .",
+    link_game:"/Maze_Game",
   }
 ];
