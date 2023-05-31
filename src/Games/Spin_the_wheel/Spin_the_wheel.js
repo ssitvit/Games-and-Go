@@ -1,4 +1,6 @@
+import { Chart as ChartJS, ArcElement, Tooltip, Legend, LinearScale } from 'chart.js'
 
+ChartJS.register(ArcElement, Tooltip, Legend, LinearScale);
 const wheel = document.getElementById("wheel");
 const spinBtn = document.getElementById("spin-btn");
 const finalValue = document.getElementById("final-value");
