@@ -69,7 +69,7 @@ export const data1 = [
     main_heading:"Magic Matching",
     about:"Flip the cards till you match the cards ",
     link_game:"/MagicMatch",
-  }
+  },
   {
     serial_number:"12",
     main_heading:"Spin The Wheel",
