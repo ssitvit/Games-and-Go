@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Line } from 'react-chartjs-2';
+import { Chart } from 'chart.js';
 import {Chart, LineController, LineElement, Tooltip, BarController, BarElement, CategoryScale, PointElement, LinearScale, Title, ScatterController} from './chart.js'
 Chart.register(LineController, ScatterController, BarController, BarElement, CategoryScale, Tooltip, LineElement, PointElement, LinearScale, Title);
 window['Chart'] = Chart;
