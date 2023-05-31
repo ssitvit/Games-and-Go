@@ -74,7 +74,7 @@ function reducer(state, action) {
         winner,
         numberOfMoves
       };
-    case "reset":
+      case "reset":
       return {
         boardSquares: {
           "1": null,
@@ -109,6 +109,65 @@ function reducer(state, action) {
 
 function Tictactoe() {
   const [state, dispatch] = React.useReducer(reducer, initialState);
+  const w=React.useRef();
+  // for winning line 
+  React.useEffect(()=>{
+    if(state.winner!=null){
+      w.current.style.display="block";
+      if(state.boardSquares["1"] === state.winner &&
+                state.boardSquares["2"] === state.winner &&
+                state.boardSquares["3"] === state.winner){
+                  w.current.style.display="block";
+                  w.current.style.transform="translateY(-102px)";
+                }
+                else if
+                (state.boardSquares["4"] === state.winner &&
+                state.boardSquares["5"] === state.winner &&
+                state.boardSquares["6"] === state.winner) {
+                  w.current.style.transform="translateY(0px)";
+                }
+                else if
+                (state.boardSquares["7"] === state.winner &&
+                state.boardSquares["8"] === state.winner &&
+                state.boardSquares["9"] === state.winner){
+                  w.current.style.transform="translateY(+102px)";
+                }
+                else if
+                (state.boardSquares["1"] === state.winner &&
+                state.boardSquares["4"] === state.winner &&
+                state.boardSquares["7"] === state.winner) {
+                  w.current.style.transform="translateX(-102px) rotate(90deg)";              
+                }
+                else if
+                (state.boardSquares["2"] === state.winner &&
+                state.boardSquares["5"] === state.winner &&
+                state.boardSquares["8"] === state.winner){
+                  w.current.style.transform="rotate(90deg)";              
+                  
+                }
+                else if
+                (state.boardSquares["3"] === state.winner &&
+                state.boardSquares["6"] === state.winner &&
+                state.boardSquares["9"] === state.winner){
+                  w.current.style.transform="translateX(102px) rotate(90deg)";              
+                  
+                }
+                else if
+                (state.boardSquares["1"] === state.winner &&
+                state.boardSquares["5"] === state.winner &&
+                state.boardSquares["9"] === state.winner) {
+                  w.current.style.transform=" rotate(45deg)";              
+                  
+                }
+                else if
+                (state.boardSquares["3"] === state.winner &&
+                state.boardSquares["5"] === state.winner &&
+                state.boardSquares["7"] === state.winner){
+                  w.current.style.transform=" rotate(-45deg)";              
+                  
+                }
+    }
+  },[state])
   return (
     
     <div className="pageWrapper">
@@ -127,6 +186,9 @@ function Tictactoe() {
      
       <h4 className="h4">Current player: {state.playerX ? "X" : "O"}</h4>
       <div className="boardWrapper">
+      {state.winner && state.winner !== "Draw" && (     
+         <div className="winningLine" ref={w}></div>
+      )}
         {Object.keys(state.boardSquares).map(key => (
           <div
             className={state.winner ? "gameOverBoardSquare" : "boardSquare"}

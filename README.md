@@ -65,6 +65,12 @@
 
 ## Contributors ✨
 
+<p align="center">
+  <a href="https://github.com/Aditi323"><img src="https://avatars.githubusercontent.com/u/114893448?v=4" width="10%" /></a></p>
+<p align="center">  <a href="https://github.com/Aditi323">Aditi Bisoi</a></p>
+
+<!-- - [Aditi Bisoi](https://github.com/Aditi323) -->
+
 ```javascript
 if (youLiked) {
 	starThisRepository();
