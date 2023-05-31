@@ -1,7 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend, LinearScale } from 'chart.js'
-
-ChartJS.register(ArcElement, Tooltip, Legend, LinearScale);
 import Homepage from "../Homepage/Homepage/Homepage";
 import Tictactoe from "../Games/Tictactoe/tictactoe";
 import Ninetynine from "../Games/Ninetynine/ninetynine";
