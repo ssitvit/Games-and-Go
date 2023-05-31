@@ -11,7 +11,7 @@ import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import Typo from "../Games/Typo/Typo";
 import BallShooting from "../Games/BallShooting/BallShooting";
 import MagicMatch from "../Games/Magic-match/magic_match";
-import Spin_the_wheel from "../Games/Spin_the_wheel/style";
+import Spin_the_wheel from "../Games/Spin_the_wheel/Spin_the_wheel";
 
 function AllRoutes() {
   return (
