@@ -1,4 +1,4 @@
-import Chart from 'chart.js/auto';
+import Chart from 'Chart.js/auto';
 window.Chart = Chart
 const wheel = document.getElementById("wheel");
 const spinBtn = document.getElementById("spin-btn");
