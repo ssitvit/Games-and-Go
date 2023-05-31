@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
+import "./BallShooting.css";
 
 const CanvasComponent = () => {
   const canvasRef = useRef(null);
@@ -250,7 +251,7 @@ const CanvasComponent = () => {
     });
   }, []);
 
-  return <canvas ref={canvasRef} />;
+  return <canvas ref={canvasRef} className="BallShootingCanvas" />;
 };
 
 export default CanvasComponent;
