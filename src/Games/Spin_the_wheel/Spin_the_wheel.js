@@ -1,5 +1,4 @@
-src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"
-   src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.js"
+
 const wheel = document.getElementById("wheel");
 const spinBtn = document.getElementById("spin-btn");
 const finalValue = document.getElementById("final-value");
