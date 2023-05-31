@@ -104,3 +104,5 @@ spinBtn.addEventListener("click", () => {
     }
   }, 10);
 });
+
+export default Spin_the_wheel;
