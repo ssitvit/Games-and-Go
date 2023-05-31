@@ -1,4 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {Chart, LineController, LineElement, Tooltip, BarController, BarElement, CategoryScale, PointElement, LinearScale, Title, ScatterController} from 'chart.js'
+Chart.register(LineController, ScatterController, BarController, BarElement, CategoryScale, Tooltip, LineElement, PointElement, LinearScale, Title);
+window['Chart'] = Chart;
 import Homepage from "../Homepage/Homepage/Homepage";
 import Tictactoe from "../Games/Tictactoe/tictactoe";
 import Ninetynine from "../Games/Ninetynine/ninetynine";
