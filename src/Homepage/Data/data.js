@@ -70,4 +70,10 @@ export const data1 = [
     about:"Flip the cards till you match the cards ",
     link_game:"/MagicMatch",
   }
+  {
+    serial_number:"12",
+    main_heading:"Spin The Wheel",
+    about:"Click to see if you land on the lucky number you chose!!! ",
+    link_game:"/Spin_the_wheel",
+  }
 ];

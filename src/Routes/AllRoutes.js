@@ -28,6 +28,7 @@ function AllRoutes() {
       <Route path="/typo" element={<Typo />} />
       <Route path="/BallShooting" element={<BallShooting/>} />
       <Route path="/MagicMatch" element={<MagicMatch/>}/>
+      <Route path="/Spin_the_wheel" element={<Spin_the_wheel/>}/>
     </Routes>
   );
 }
