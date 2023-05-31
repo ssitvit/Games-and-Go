@@ -1,0 +1,226 @@
+/* html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#container {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    border: 1px solid rgb(93, 89, 89);
+    overflow: hidden;
+    background-color: #151514;
+}
+
+#score_help {
+    text-align: center;
+    font-size: 25px;
+    background-color: #eaeaea;
+}
+
+.egg {
+    position: absolute;
+    top: 10%;
+    height: 10%;
+    width: 5%;
+    background: url('bottle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+#egg1 {
+    left: calc(20% + 8%/2 - 2%/2);
+}
+
+#egg2 {
+    left: calc(40% + 8%/2 - 2%/2);
+}
+
+#egg3 {
+    left: calc(60% + 8%/2 - 2%/2);
+}
+
+.bullseye {
+    display: none;
+    position: absolute;
+    bottom: 2px;
+    height: 6%;
+    width: 5%;
+    background: url('broken1.png?v=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 20;
+}
+
+#bullseye1 {
+    left: calc(20% + 8%/2 - 7%/2);
+}
+
+#bullseye2 {
+    left: calc(40% + 8%/2 - 7%/2);
+}
+
+#bullseye3 {
+    left: calc(60% + 8%/2 - 7%/2);
+}
+
+#floor {
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    background-color: #292929;
+    bottom: 0;
+    z-index: 10;
+}
+
+#basket {
+    height: 100px;
+    width: 95px;
+    position: absolute;
+    bottom: 5px;
+    background: url('box1.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 11;
+}
+
+#score_1 {
+    position: absolute;
+    color: #424242;
+    font-size: 30px;
+    top: 45%;
+    left: 30%;
+}
+
+#restart {
+    border: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(135, 128, 128);
+    color: white;
+    top: 40%;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+} */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#container {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    border: 1px solid rgb(93, 89, 89);
+    overflow: hidden;
+    background-color: #151514;
+}
+
+#score_help {
+    text-align: center;
+    font-size: 25px;
+    background-color: #eaeaea;
+}
+
+.bottle {
+    position: absolute;
+    top: 10%;
+    height: 10%;
+    width: 5%;
+    background: url('bottle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+
+#bottle1 {
+    left: calc(20% + 8%/2 - 2%/2);
+}
+
+#bottle2 {
+    left: calc(40% + 8%/2 - 2%/2);
+}
+
+#bottle3 {
+    left: calc(60% + 8%/2 - 2%/2);
+}
+
+.broken {
+    display: none;
+    position: absolute;
+    bottom: 2px;
+    height: 6%;
+    width: 5%;
+    background: url('broken1.png?v=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 20;
+}
+
+#broken1 {
+    left: calc(20% + 8%/2 - 7%/2);
+}
+
+#broken2 {
+    left: calc(40% + 8%/2 - 7%/2);
+}
+
+#broken3 {
+    left: calc(60% + 8%/2 - 7%/2);
+}
+
+#ground {
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    background-color: #292929;
+    bottom: 0;
+    z-index: 10;
+}
+
+#box {
+    height: 100px;
+    width: 95px;
+    position: absolute;
+    bottom: 5px;
+    background: url('box1.png');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 11;
+}
+
+#score_1{
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    top: 45%;
+    left: 30%;
+}
+
+#restart {
+    border: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(135, 128, 128);
+    color: white;
+    top: 40%;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+}
