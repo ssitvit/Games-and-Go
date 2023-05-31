@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 function Navbargo() {
   return (
-    <>
+    <React.Fragment>
       <div class="body_navbar center">
         <div class="video-game-button">A</div>
         <div class="start-btn">
@@ -14,7 +14,7 @@ function Navbargo() {
       </div>
 
       <br />
-    </>
+    </React.Fragment>
   );
 }
 
