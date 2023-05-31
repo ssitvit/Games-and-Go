@@ -76,5 +76,10 @@ export const data1 = [
   about:"Roll the dice and achieve a target ",
   link_game:"/DiceThrow",
   }
-
+  {
+    serial_number:"13",
+    main_heading:"Drag_and_Drop",
+    about:"Drag the middle card and drop to similar one ",
+    link_game:"/Drag&Drop",
+  },
 ];
