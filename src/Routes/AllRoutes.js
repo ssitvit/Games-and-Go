@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import { Chart } from "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js";
+import Chart from "src/Routes";
 window['Chart'] = Chart;
 import Homepage from "../Homepage/Homepage/Homepage";
 import Tictactoe from "../Games/Tictactoe/tictactoe";
