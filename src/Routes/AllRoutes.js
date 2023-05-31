@@ -11,7 +11,7 @@ import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import Typo from "../Games/Typo/Typo";
 import BallShooting from "../Games/BallShooting/BallShooting";
 import MagicMatch from "../Games/Magic-match/magic_match";
-
+import Spin_the_wheel from "../Games/Spin_the_wheel/Spin_the_wheel";
 function AllRoutes() {
   return (
     <Routes>
@@ -28,7 +28,7 @@ function AllRoutes() {
       <Route path="/typo" element={<Typo />} />
       <Route path="/BallShooting" element={<BallShooting/>} />
       <Route path="/MagicMatch" element={<MagicMatch/>}/>
-      <Route path="/Spin_the_wheel" element={<Spin_the_wheel />}/>
+      <Route path="/Spin_the_wheel" element={<Spin_the_wheel/>}/>
     </Routes>
   );
 }
