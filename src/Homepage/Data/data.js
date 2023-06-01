@@ -76,5 +76,4 @@ export const data1 = [
     about:"Guess the word",
     link_game:"/Wordle",
   }
-
 ];

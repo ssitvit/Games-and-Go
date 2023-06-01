@@ -155,7 +155,6 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     //Creating all the square tiles
     function createSquares(){
-        console.log("ok");
         const gameBoard = document.getElementById("board");
 
         for(let index = 0; index < 30; index++){
