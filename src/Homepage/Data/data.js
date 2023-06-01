@@ -75,5 +75,10 @@ export const data1 = [
     main_heading:"Wordle",
     about:"Guess the word",
     link_game:"/Wordle",
+  },{
+    serial_number:"13",
+  main_heading:"Dice Throw",
+  about:"Roll the dice and achieve a target ",
+  link_game:"/DiceThrow",
   }
 ];
