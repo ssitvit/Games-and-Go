@@ -10,6 +10,8 @@ import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import Typo from "../Games/Typo/Typo";
 import BallShooting from "../Games/BallShooting/BallShooting";
+import MagicMatch from "../Games/Magic-match/magic_match";
+import DiceThrow from "../Games/DiceThrow/main";
 import Tilting_Maze from "../Games/Tilting_Maze/tilting";
 
 function AllRoutes() {
@@ -27,6 +29,8 @@ function AllRoutes() {
       <Route path="/brick-breakout" element={<BrickBreakout />} />
       <Route path="/typo" element={<Typo />} />
       <Route path="/BallShooting" element={<BallShooting/>} />
+      <Route path="/MagicMatch" element={<MagicMatch/>}/>
+      <Route path="/DiceThrow" element={<DiceThrow/>}/>
       <Route path="/Tilting_Maze" element={<Tilting_Maze/>} />
     </Routes>
   );

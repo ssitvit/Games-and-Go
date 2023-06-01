@@ -65,10 +65,22 @@ export const data1 = [
     link_game:"/BallShooting",
   },
   {
+    serial_number:"11",
+    main_heading:"Magic Matching",
+    about:"Flip the cards till you match the cards ",
+    link_game:"/MagicMatch",
+  },
+  {
+    serial_number:"12",
+    main_heading:"Dice Throw",
+    about:"Roll the dice and achieve a target ",
+    link_game:"/DiceThrow",    
+  },
+  {
     serial_number:"13",
     main_heading:"Tilting Maze",
     about:"Tilt the Maze using the Joystick or arrow keys and try to put all three balls inside the circle.",
     link_game:"/Tilting_Maze",
-  }
+  },
 
 ];

@@ -27,7 +27,7 @@ export default function Ninetynine() {
     <div className='fancy'>
         <div>
             <h1 className='h'>Ninety - Nine</h1>
-            {sum == 99 ? "You Lose !!!" : <p>Who makes the sum 99 wins!</p>}
+            {sum == 99 ? <p className='for-winning-loosing'>"You Lose !!!"</p> : <p className="for-winning-loosing">Who makes the sum 99 wins!</p>}
         </div>
         <div>
             <h1 className='h'>{sum}</h1>
