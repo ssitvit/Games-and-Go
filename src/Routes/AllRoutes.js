@@ -10,7 +10,12 @@ import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
 import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
 import Typo from "../Games/Typo/Typo";
 import BallShooting from "../Games/BallShooting/BallShooting";
+<<<<<<< HEAD
 import Wordle from "../Games/Wordle/Wordle";
+=======
+import MagicMatch from "../Games/Magic-match/magic_match";
+import DiceThrow from "../Games/DiceThrow/main"
+>>>>>>> f3727c0083b87a84bb17dbb06228820028100d1e
 
 function AllRoutes() {
   return (
@@ -27,8 +32,9 @@ function AllRoutes() {
       <Route path="/brick-breakout" element={<BrickBreakout />} />
       <Route path="/typo" element={<Typo />} />
       <Route path="/BallShooting" element={<BallShooting/>} />
+      <Route path="/MagicMatch" element={<MagicMatch/>}/>
+      <Route path="/DiceThrow" element={<DiceThrow/>}/>
       <Route path="/Wordle" element={<Wordle/>} />
-      
     </Routes>
   );
 }
