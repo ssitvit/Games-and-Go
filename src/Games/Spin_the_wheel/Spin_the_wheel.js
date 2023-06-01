@@ -1,3 +1,6 @@
+import { Chart } from 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js';
+import { ChartDataLabels } from 'https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.js';
+
 const wheel = document.getElementById("wheel");
 const spinBtn = document.getElementById("spin-btn");
 const finalValue = document.getElementById("final-value");
@@ -105,4 +108,3 @@ spinBtn.addEventListener("click", () => {
   }, 10);
 });
 
-export default Spin_the_wheel
