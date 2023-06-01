@@ -1,16 +1,3 @@
-/*Modifications in styling winnig or loosing*/
-.for-winning-loosing{
-  background-color: aliceblue;
-  color: #4ba4eb;
-  text-align: center;
-  font-family: "Press Start 2P", cursive;
-  padding: 30px;
-  width: 500px;
-  margin: auto;
-  font-size: medium;
-  border-radius: 10px;
-}
-
 /* Classes for all the headings used  */
 .h {
   color: #4ba4eb;

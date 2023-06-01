@@ -19,14 +19,8 @@ function Homepage() {
       <GoToTop />
 
       {/* Pacman Landing Container */}
-      <audio
-        ref={audioref}
-        loop
-      >
-        <source
-          src={music1}
-          type="audio/mp3"
-        />
+      <audio ref={audioref} loop>
+        <source src={music1} type="audio/mp3" />
       </audio>
       <div className="container_landing">
         <div className="pacman"></div>
@@ -37,18 +31,10 @@ function Homepage() {
         <div className="text"></div>
       </div>
       <div class="music-btn">
-        <div
-          class="start-btn"
-          id="on"
-          onClick={runMusic}
-        >
+        <div class="start-btn" id="on" onClick={runMusic}>
           music on
         </div>
-        <div
-          class="start-btn"
-          id="off"
-          onClick={pauseMusic}
-        >
+        <div class="start-btn" id="off" onClick={pauseMusic}>
           music off
         </div>
       </div>
@@ -60,10 +46,7 @@ function Homepage() {
       <div className="body_card">
         <div className="container_card">
           {data1.map((row) => (
-            <div
-              className="card"
-              key={row.serial_number}
-            >
+            <div className="card">
               <div className="content">
                 <h2>{row.serial_number}</h2>
                 <h3>{row.main_heading}</h3>

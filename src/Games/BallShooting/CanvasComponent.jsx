@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
-import "./BallShooting.css";
 
 const CanvasComponent = () => {
   const canvasRef = useRef(null);
@@ -170,6 +169,7 @@ const CanvasComponent = () => {
         enemy.update();
         const dist = Math.hypot(player.x - enemy.x, player.y - enemy.y);
         if (dist - enemy.radius - player.radius < 1) {
+          // console.log('remove from screen');
           // end game
           setTimeout(() => {
             cancelAnimationFrame(animateId);
@@ -183,6 +183,7 @@ const CanvasComponent = () => {
             projectile.y - enemy.y
           );
           if (dist - enemy.radius - projectile.radius < 1) {
+            // console.log('remove from screen');
             // collision detection and shrinking the larger enemies
             // particle explosion
             for (let i = 0; i < enemy.radius * 2; i++) {
@@ -249,7 +250,7 @@ const CanvasComponent = () => {
     });
   }, []);
 
-  return <canvas ref={canvasRef} className="BallShootingCanvas" />;
+  return <canvas ref={canvasRef} />;
 };
 
 export default CanvasComponent;
