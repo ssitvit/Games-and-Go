@@ -32,10 +32,10 @@
   justify-content: center;
   align-items: center;
   align-content: space-around;
-  width: 400px;
-  height: 300px;
+  width: 306px;
+  height: 306px;
   position: relative;
-  padding: 10px;
+
   background: rgb(255, 255, 255);
   background: linear-gradient(
     145deg,
