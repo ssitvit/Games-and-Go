@@ -65,7 +65,7 @@ export const data1 = [
     link_game:"/BallShooting",
   },
   {
-    serial_number:"11",
+    serial_number:"13",
     main_heading:"Tilting Maze",
     about:"Tilt the Maze using the Joystick or arrow keys and try to put all three balls inside the circle.",
     link_game:"/Tilting_Maze",
