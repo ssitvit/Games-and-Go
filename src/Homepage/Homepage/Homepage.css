@@ -307,14 +307,14 @@ body {
 .container_card .card .content {
   padding: 20px;
   text-align: center;
-  transform: translateY(100px);
-  opacity: 0;
+  transform: translateY(0px);
+  opacity: 1;
   transition: 0.5s;
 }
 
 .container_card .card:hover .content {
   opacity: 1;
-  transform: translateY(0px);
+  transform: translateY(20px);
 }
 
 .container_card .card .content h2 {
@@ -352,9 +352,15 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-family: "Press Start 2P", cursive;
-
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
 }
+
+.container_card .card .content a:hover {
+  background-color: gold;
+  color: #000;
+}
+
 @font-face {
   font-family: retrogamer;
   src: url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.woff2")

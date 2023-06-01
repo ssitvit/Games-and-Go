@@ -59,16 +59,35 @@ export const data1 = [
     link_game: "/typo",
   },
   {
+
     serial_number: "10",
     main_heading: "Ball Shooting",
     about:
       "Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
     link_game: "/BallShooting",
   },
-  {
-    serial_number: "11",
-    main_heading: "SnakeGame",
-    about: "Control the Snake, Rule the Game!",
-    link_game: "/SnakeGame",
+
+    serial_number:"10",
+    main_heading:"Ball Shooting",
+    about:"Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
+    link_game:"/BallShooting",
   },
+  {
+    serial_number:"11",
+    main_heading:"Magic Matching",
+    about:"Flip the cards till you match the cards ",
+    link_game:"/MagicMatch",
+  },
+  {
+    serial_number:"12",
+  main_heading:"Dice Throw",
+  about:"Roll the dice and achieve a target ",
+  link_game:"/DiceThrow",
+  }
+  {
+      serial_number: "11",
+      main_heading: "SnakeGame",
+      about: "Control the Snake, Rule the Game!",
+      link_game: "/SnakeGame",
+    },
 ];
