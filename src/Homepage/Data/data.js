@@ -81,4 +81,5 @@ export const data1 = [
   about:"Roll the dice and achieve a target ",
   link_game:"/DiceThrow",
   }
+
 ];
