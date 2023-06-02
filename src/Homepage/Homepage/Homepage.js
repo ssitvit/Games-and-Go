@@ -53,16 +53,16 @@ function Homepage() {
         <div className="text"></div>
       </div>
 
-      <div class="music-btn">
+      <div className="music-btn">
         <div
-          class="start-btn"
+          className="start-btn"
           id="on"
           onClick={runMusic}
         >
           music on
         </div>
         <div
-          class="start-btn"
+          className="start-btn"
           id="off"
           onClick={pauseMusic}
         >
@@ -85,7 +85,6 @@ function Homepage() {
         <div className="container_card">
           {filteredData.map((row) => (
             <div className="card" key={row.serial_number}>
-
               <div className="content">
                 <h2>{row.serial_number}</h2>
                 <h3>{row.main_heading}</h3>
