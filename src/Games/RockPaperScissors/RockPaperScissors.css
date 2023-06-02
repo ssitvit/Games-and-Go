@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
 
+
+/* Modified UI of score */
+
+.for-score{
+    background-color: aliceblue;
+    color: #4ba4eb;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
 .rock-paper-scissors{
     font-family: "Press Start 2P", cursive;
     text-align: center;
