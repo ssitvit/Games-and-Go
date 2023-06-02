@@ -72,8 +72,14 @@ export const data1 = [
   },
   {
     serial_number:"12",
+
     main_heading:"Connect 4",
     about:"Connect Four is a competitive game where players strategies and try to out manoeuver their opponent by strategically placing their coloured discs in a grid. ",
     link_game:"/Connect-4",
+=======
+  main_heading:"Dice Throw",
+  about:"Roll the dice and achieve a target ",
+  link_game:"/DiceThrow",
   }
+
 ];
