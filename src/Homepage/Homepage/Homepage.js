@@ -35,8 +35,14 @@ function Homepage() {
       <GoToTop />
 
       {/* Pacman Landing Container */}
-      <audio ref={audioref} loop>
-        <source src={music1} type="audio/mp3" />
+      <audio
+        ref={audioref}
+        loop
+      >
+        <source
+          src={music1}
+          type="audio/mp3"
+        />
       </audio>
       <div className="container_landing">
         <div className="pacman"></div>
@@ -46,11 +52,20 @@ function Homepage() {
         <div className="ghost"></div>
         <div className="text"></div>
       </div>
+
       <div className="music-btn">
-        <div className="start-btn" id="on" onClick={runMusic}>
+        <div
+          className="start-btn"
+          id="on"
+          onClick={runMusic}
+        >
           music on
         </div>
-        <div className="start-btn" id="off" onClick={pauseMusic}>
+        <div
+          className="start-btn"
+          id="off"
+          onClick={pauseMusic}
+        >
           music off
         </div>
       </div>
