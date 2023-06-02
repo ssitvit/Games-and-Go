@@ -53,7 +53,7 @@ export const data1 = [
     link_game: "/typo",
   },
   {
-    serial_number:"9",
+    serial_number:"09",
     main_heading:"Ball Shooting",
     about:"Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
     link_game:"/BallShooting",
