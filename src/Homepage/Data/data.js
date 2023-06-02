@@ -35,43 +35,37 @@ export const data1 = [
   },
   {
     serial_number: "06",
-    main_heading: "Simon says",
-    about: " Think fast, act faster!",
-    link_game: "/simon",
-  },
-  {
-    serial_number: "07",
     main_heading: "Rock Paper and Scissors",
     about: "Can you win against the computer?",
     link_game: "/rock-paper-scissors",
   },
   {
-    serial_number: "08",
+    serial_number: "07",
     main_heading: "Brick Breakout",
     about: "Let's break out the brick wall with the ball",
     link_game: "/brick-breakout",
   },
   {
-    serial_number: "09",
+    serial_number: "08",
     main_heading: "Typo - Typing Tester",
     about:
       "Accept Challenge if you think your typing speed is more than Usain Bolt's sprint ",
     link_game: "/typo",
   },
   {
-    serial_number:"10",
+    serial_number:"9",
     main_heading:"Ball Shooting",
     about:"Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
     link_game:"/BallShooting",
   },
   {
-    serial_number:"11",
+    serial_number:"10",
     main_heading:"Magic Matching",
     about:"Flip the cards till you match the cards ",
     link_game:"/MagicMatch",
   },
   {
-    serial_number:"12",
+    serial_number:"11",
   main_heading:"Dice Throw",
   about:"Roll the dice and achieve a target ",
   link_game:"/DiceThrow",
