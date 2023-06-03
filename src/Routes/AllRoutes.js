@@ -13,6 +13,7 @@ import BallShooting from "../Games/BallShooting/BallShooting";
 import MagicMatch from "../Games/Magic-match/magic_match";
 import DiceThrow from "../Games/DiceThrow/main";
 import Wordle from "../Games/Wordle/Wordle";
+import WordAssociation from "../Games/Wordle/Word_Association";
 
 function AllRoutes() {
   return (
