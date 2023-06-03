@@ -32,6 +32,7 @@ function AllRoutes() {
       <Route path="/MagicMatch" element={<MagicMatch/>}/>
       <Route path="/DiceThrow" element={<DiceThrow/>}/>
       <Route path="/Wordle" element={<Wordle/>} />
+      <Route path="/Word_Association_Game" element={<Word_Association_Game/>} />
     </Routes>
   );
 }
