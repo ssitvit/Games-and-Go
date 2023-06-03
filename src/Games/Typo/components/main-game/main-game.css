@@ -25,11 +25,12 @@ textarea:disabled {
   text-transform: uppercase;
 }
 
-.main-h1 {
+.s h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  font-size: 30px;
 }
 
 .btn-change {

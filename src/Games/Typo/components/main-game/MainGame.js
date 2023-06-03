@@ -16,7 +16,7 @@ const MainGame = () => {
     timeRemaning,
   } = useTypo();
   return (
-    <section>
+    <section className="typo">
       <textarea
         ref={inputRef}
         onChange={textChangeHandler}

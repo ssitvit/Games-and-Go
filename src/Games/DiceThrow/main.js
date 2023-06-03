@@ -5,10 +5,9 @@ import dice3 from "./assets/dice3.png";
 import dice4 from "./assets/dice4.png";
 import dice5 from "./assets/dice5.png";
 import dice6 from "./assets/dice6.png";
-import "./styles.css"
+import "./styles.css";
 
 const Game = (props) => {
-
   let [init, funct] = useState(0);
   let [turn, setTurn] = useState(2);
   let [score1, setScore1] = useState(0);
@@ -99,19 +98,19 @@ const Game = (props) => {
     setTarget(e.target.value);
   }
   return (
-    <div className="container">
+    <div className="container dice-throw">
       <h2> Set target: </h2>
       <input value={target} onChange={inputHandler} style={{ width: "30%" }} />
       <h2> Turn: Player {turn}</h2>
       <h1>{score1}</h1>
       <span>&ensp; &ensp; &ensp; &ensp;</span>
       <h1>{score2}</h1>
-      <img  src={imageSource} />
+      <img src={imageSource} />
       <button onClick={play} style={{ width: "200px" }}>
         {res}
       </button>
     </div>
-  )
+  );
 };
 
 export default Game;

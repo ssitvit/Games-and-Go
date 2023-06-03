@@ -6,7 +6,7 @@ import { FaHandRock } from "react-icons/fa";
 function Typo() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="typoContainer">
         <h1 className="heading">
           TYPO <FaHandRock />
         </h1>
