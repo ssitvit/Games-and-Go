@@ -82,6 +82,12 @@ export const data1 = [
     main_heading:"Wordle",
     about:"Put your vocabulary to test",
     link_game:"/Wordle",
+  },
+  {
+    serial_number:"14",
+    main_heading:"Word Association",
+    about:"Put your vocabulary to test",
+    link_game:"/Word_Association",
   }
 
 ];
