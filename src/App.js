@@ -23,10 +23,9 @@ function App() {
             data-testid="loader"
             className="loader"
           />
-          <p className="loader1">Games and go!!!</p>
+          <p className="loader1">Welcome To Games and go!!!</p>
         </div>
       ) : (
-        // (<p>Games-and-Go</p>)
         <div>
           <Navbar />
           <AllRoutes />
