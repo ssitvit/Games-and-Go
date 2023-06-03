@@ -43,7 +43,7 @@ body {
   border-radius: 50%;
   position: absolute;
   z-index: 2;
-  animation: move var(--move), move2 var(--move) 6s;
+  animation: move1 var(--move), move2 var(--move) 6s;
 }
 .pacman::before {
   width: 100%;
@@ -89,7 +89,7 @@ body {
     0 100%
   );
   box-shadow: inset 5px -5px 50px 0 rgba(0, 0, 0, 0.5);
-  animation: move var(--move), move2 var(--move) 6s,
+  animation: move1 var(--move), move2 var(--move) 6s,
     scared 0.125s linear forwards 6s;
   left: 200px;
 }
@@ -249,7 +249,7 @@ body {
     width: 0;
   }
 }
-@keyframes move {
+@keyframes move1 {
   from {
     transform: rotatey(0) translatex(-1000px);
   }

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import AllRoutes from "./Routes/AllRoutes";
 import Navbar from "./Homepage/Homepage/Navbar";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import "./App.css";
 function App() {
