@@ -394,3 +394,24 @@ body {
 
   font-family: "Press Start 2P", cursive;
 }
+/* Custom Scrollbar*/
+
+/* width */
+::-webkit-scrollbar{
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track{
+    background: #585756;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb{
+    background: #ffffff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover{
+    background: #adabab;
+}
