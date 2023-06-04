@@ -1,53 +1,41 @@
-body {
-  text-align: center;
-  background-color: #011F3F;
-}
-
-#level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
-}
-
 .container {
-  display: block;
-  width: 50%;
+  width: 70%;
   margin: auto;
-
+  text-align: center;
 }
 
-.btn {
-  margin: 25px;
+.dice {
+  text-align: center;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
+body {
+  background-color: #393E46;
 }
 
-.red {
-  background-color: red;
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
 }
 
-.green {
-  background-color: green;
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
 }
 
-.blue {
-  background-color: blue;
+img {
+  width: 80%;
 }
 
-.yellow {
-  background-color: yellow;
-}
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 
-.pressed {
-  box-shadow: 0 0 20px white;
-  background-color: grey;
 }
