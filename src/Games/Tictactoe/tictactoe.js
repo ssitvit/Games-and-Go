@@ -173,18 +173,23 @@ function Tictactoe() {
     <div className="pageWrapper">
       <h1 className="h1">Let's play Tic-tac-toe</h1>
       {/* Rules of the game  */}
-      <h2 className="h2">Rules:</h2> 
-      <div className="text_color">
+      <details open="false">
+        <summary >
+          <h2 className="h2">Rules:</h2> 
+        </summary>
+        <p>
         <ul>
-          <li> Player X always goes first
-            </li>
-            <li>
-            Click any square to start game
-            </li>
-   <li>  3 in a row in any direction wins</li> </ul>
-    </div>
+          <li>Player X always goes first</li>
+          <li>Click any square to start game</li>
+          <li>3 in a row in any direction wins</li>
+        </ul>
+        </p>
+      </details>
+      
      
       <h4 className="h4">Current player: {state.playerX ? "X" : "O"}</h4>
+      
+      
       <div className="boardWrapper">
       {state.winner && state.winner !== "Draw" && (     
          <div className="winningLine" ref={w}></div>
