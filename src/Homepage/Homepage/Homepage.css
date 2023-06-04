@@ -43,7 +43,7 @@ body {
   border-radius: 50%;
   position: absolute;
   z-index: 2;
-  animation: move var(--move), move2 var(--move) 6s;
+  animation: move1 var(--move), move2 var(--move) 6s;
 }
 .pacman::before {
   width: 100%;
@@ -89,7 +89,7 @@ body {
     0 100%
   );
   box-shadow: inset 5px -5px 50px 0 rgba(0, 0, 0, 0.5);
-  animation: move var(--move), move2 var(--move) 6s,
+  animation: move1 var(--move), move2 var(--move) 6s,
     scared 0.125s linear forwards 6s;
   left: 200px;
 }
@@ -249,7 +249,7 @@ body {
     width: 0;
   }
 }
-@keyframes move {
+@keyframes move1 {
   from {
     transform: rotatey(0) translatex(-1000px);
   }
@@ -307,14 +307,14 @@ body {
 .container_card .card .content {
   padding: 20px;
   text-align: center;
-  transform: translateY(100px);
-  opacity: 0;
+  transform: translateY(0px);
+  opacity: 1;
   transition: 0.5s;
 }
 
 .container_card .card:hover .content {
   opacity: 1;
-  transform: translateY(0px);
+  transform: translateY(20px);
 }
 
 .container_card .card .content h2 {
@@ -352,9 +352,15 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-family: "Press Start 2P", cursive;
-
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
 }
+
+.container_card .card .content a:hover {
+  background-color: gold;
+  color: #000;
+}
+
 @font-face {
   font-family: retrogamer;
   src: url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.woff2")
@@ -387,4 +393,25 @@ body {
   margin-top: 2rem;
 
   font-family: "Press Start 2P", cursive;
+}
+/* Custom Scrollbar*/
+
+/* width */
+::-webkit-scrollbar{
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track{
+    background: #585756;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb{
+    background: #ffffff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover{
+    background: #adabab;
 }
