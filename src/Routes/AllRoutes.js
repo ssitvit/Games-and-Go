@@ -30,7 +30,7 @@ function AllRoutes() {
       <Route path="/MagicMatch" element={<MagicMatch/>}/>
       <Route path="/Maze_Game" element={<Maze_Game/>}/>
       <Route path="/smash_cube" element={<smash_cube/>}/>
-      <Route path="/Rubik_game" element={<Rubik_game/>}/>
+      {/* <Route path="/Rubik_game" element={<Rubik_game/>}/> */}
     </Routes>
   );
 }
