@@ -75,6 +75,9 @@ function Homepage() {
           ))}
         </div>
       </div>
+      <div className="copyright">
+        <h3>&copy;Copyright IEEE-SSIT {new Date().getFullYear()}</h3>
+      </div>
     </React.Fragment>
   );
 }

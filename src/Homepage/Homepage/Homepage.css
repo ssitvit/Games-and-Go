@@ -415,3 +415,21 @@ body {
   ::-webkit-scrollbar-thumb:hover{
     background: #adabab;
 }
+
+/* Copyright in Footer */
+.copyright{
+  margin: auto;
+  width: 80%;
+  border: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  top: 30px;
+  color: white;
+  font-family: "Silkscreen", cursive;
+  text-align: center;
+}
+
+.copyright h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
