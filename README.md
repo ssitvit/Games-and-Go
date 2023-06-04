@@ -72,10 +72,15 @@
 <!-- - [Aditi Bisoi](https://github.com/Aditi323) -->
 
 <p align="center">
+  <a href="https://github.com/ePSA-eJya"><img src="https://github.com/ePSA-eJya.png" width="10%" /></a></p>
+<p align="center">  <a href="https://github.com/ePSA-eJya">Epsa</a></p>
+<!-- - [Epsa](https://github.com/ePSA-eJya) -->
+
   <a href="https://github.com/Yashshukla11"><img src="https://avatars.githubusercontent.com/u/112846526?v=4" width="10%" /></a></p>
 <p align="center">  <a href="https://github.com/Yashshukla11">Yash Shukla</a></p>
 
 <!-- - [Yash Shukla](https://github.com/Yashshukla11) -->
+
 
 ```javascript
 if (youLiked) {
