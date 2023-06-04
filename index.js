@@ -1,6 +1,6 @@
 var randomNumber1= Math.floor(Math.random()*6)+1;
 
-var imageChange1= "images/dice"+randomNumber1+".png";
+var imageChange1= "dice"+randomNumber1+".png";
 
 document.querySelectorAll("img")[0].setAttribute("src", imageChange1);
 
