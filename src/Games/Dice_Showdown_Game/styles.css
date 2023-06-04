@@ -1,0 +1,109 @@
+
+
+.container {
+  width: 70%;
+  margin: auto;   
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #d7d9da;
+  font-size: 5rem;
+  color: #e42323;
+  font-family: 'Creepster', cursive;
+  letter-spacing: 4px;
+  margin: 50px 10px 70px 10px;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #00ff5e;
+}
+
+img {
+  width: 80%;
+  box-shadow:0 0 12px #ffffff;
+  border-radius: 24px;
+  border: 4px solid #ffffff;
+  height: 120px;
+  width: 120px;
+  padding: -1px -1px;
+  margin: 10px 80px;
+}
+
+
+h2{
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+}
+.instr{
+  position:absolute;
+  top: 220px;
+  left: 70px;
+  opacity: 30%;
+}
+
+.instr:hover{
+  opacity: 100%;
+  cursor: crosshair;
+}
+
+li{
+  color: #fff;
+  width: 280px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Roboto Mono', monospace;
+  margin-top:10px ;
+}
+
+
+.btn {
+  background-image: -webkit-linear-gradient(top, #4ECCA3, #4ECCA3);
+  background-image: -moz-linear-gradient(top, #4ECCA3, #4ECCA3);
+  background-image: -ms-linear-gradient(top, #4ECCA3, #4ECCA3);
+  background-image: -o-linear-gradient(top, #4ECCA3, #4ECCA3);
+  background-image: linear-gradient(to bottom, #4ECCA3, #4ECCA3);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border:2px solid #ffffff;
+  color: #ff0000;
+  background: transparent;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 10%;
+  width: 200px;
+  box-shadow: inset 0 0 12px rgb(255, 0, 0),
+  0 0 12px rgb(244, 0, 0);
+  letter-spacing: 8px;
+}
+
+.btn:hover {
+  background: white;
+  color: #000000;
+  background-image: -webkit-linear-gradient(top, transparent, transparent);
+  background-image: -moz-linear-gradient(top, transparent, transparent);
+  background-image: -ms-linear-gradient(top, transparent, transparent);
+  background-image: -o-linear-gradient(top, transparent, transparent);
+  background-image: linear-gradient(to bottom, transparent, transparent);
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 0 18px rgb(255, 0, 0),
+  0 0 18px rgb(255, 0, 0);
+  letter-spacing: 4px;
+  cursor: pointer;
+}
