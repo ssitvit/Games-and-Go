@@ -28,7 +28,7 @@ function AllRoutes() {
       <Route path="/typo" element={<Typo />} />
       <Route path="/BallShooting" element={<BallShooting/>} />
       <Route path="/MagicMatch" element={<MagicMatch/>}/>
-      <Route path="/Maze_Game" element={<Maze_Game/>}/>
+      {/* <Route path="/Maze_Game" element={<Maze_Game/>}/> */}
     </Routes>
   );
 }
