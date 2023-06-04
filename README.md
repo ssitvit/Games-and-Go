@@ -52,7 +52,7 @@
 	<br>
 	<a href="https://github.com/Shreyaar12"> Shreya Rajpal</a>
   <p align="center">
-  <a target="_blank"href="https://www.linkedin.com/in/shreya-rajpal-817066221/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a target="_blank"href="https://www.linkedin.com/in/shreya-rajpal-817066221/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
 
 <h2 align=center>Project Maintainers 😃</h1>
@@ -70,6 +70,17 @@
 <p align="center">  <a href="https://github.com/Aditi323">Aditi Bisoi</a></p>
 
 <!-- - [Aditi Bisoi](https://github.com/Aditi323) -->
+
+<p align="center">
+  <a href="https://github.com/ePSA-eJya"><img src="https://github.com/ePSA-eJya.png" width="10%" /></a></p>
+<p align="center">  <a href="https://github.com/ePSA-eJya">Epsa</a></p>
+<!-- - [Epsa](https://github.com/ePSA-eJya) -->
+
+  <a href="https://github.com/Yashshukla11"><img src="https://avatars.githubusercontent.com/u/112846526?v=4" width="10%" /></a></p>
+<p align="center">  <a href="https://github.com/Yashshukla11">Yash Shukla</a></p>
+
+<!-- - [Yash Shukla](https://github.com/Yashshukla11) -->
+
 
 ```javascript
 if (youLiked) {
