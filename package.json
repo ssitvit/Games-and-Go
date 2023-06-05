@@ -20,7 +20,7 @@
     "react-spinners": "^0.13.8",
     "react-tooltip": "^5.13.1",
     "reactstrap": "^9.1.4",
-    "styled-components": "^6.0.0-rc.2",
+    "styled-components": "^6.0.0-rc.3",
     "web-vitals": "^3.3.2"
   },
   "scripts": {
