@@ -16,7 +16,7 @@ import MagicMatch from "../Games/Magic-match/magic_match";
 
 import DiceThrow from "../Games/DiceThrow/main";
 import Wordle from "../Games/Wordle/Wordle";
-
+import SnakeGame from "../Games/SnakeGame/SnakeGame";
 
 function AllRoutes() {
   return (
@@ -31,14 +31,14 @@ function AllRoutes() {
       <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
       <Route path="/brick-breakout" element={<BrickBreakout />} />
       <Route path="/typo" element={<Typo />} />
-      <Route path="/BallShooting" element={<BallShooting/>} />
-      <Route path="/MagicMatch" element={<MagicMatch/>}/>
+      <Route path="/BallShooting" element={<BallShooting />} />
+      <Route path="/MagicMatch" element={<MagicMatch />} />
 
       {/* <Route path="/Spin_the_wheel" element={<Spin_the_wheel/>}/> */}
 
-      <Route path="/DiceThrow" element={<DiceThrow/>}/>
-      <Route path="/Wordle" element={<Wordle/>} />
-
+      <Route path="/DiceThrow" element={<DiceThrow />} />
+      <Route path="/Wordle" element={<Wordle />} />
+      <Route path="/SnakeGame" element={<SnakeGame />} />
     </Routes>
   );
 }
