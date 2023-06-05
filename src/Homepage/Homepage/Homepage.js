@@ -30,11 +30,11 @@ function Homepage() {
       {/* Pacman Landing Container */}
       <div className="container_landing">
         <div className="pacman"></div>
-        <div className="ghost"></div>
-        <div className="ghost"></div>
-        <div className="ghost"></div>
-        <div className="ghost"></div>
-        <div className="text"></div>
+          <div className="ghost"></div>
+          <div className="ghost"></div>
+          <div className="ghost"></div>
+          <div className="ghost"></div>
+          <div className="text"></div>
       </div>
       {/* Heading of Cards */}
       <div className="header_homepage">
