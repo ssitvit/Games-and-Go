@@ -228,6 +228,20 @@ body {
     letter-spacing: 3px;
   }
 }
+/* Search input  */
+.search-input {
+  margin: auto;
+  width: 40%;
+  border: 5px;
+  padding: 5px;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  top: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 @keyframes hue {
   to {
     filter: hue-rotate(360deg);
