@@ -27,7 +27,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding: 2rem auto;
-  margin: 1rem auto;
+  margin: 0px auto;
   height: 600px;
   background: black;
   display: grid;
@@ -391,7 +391,6 @@ body {
   font-size: 1.1em;
   color: #551a88;
   margin-top: 2rem;
-
   font-family: "Press Start 2P", cursive;
 }
 /* Custom Scrollbar*/
