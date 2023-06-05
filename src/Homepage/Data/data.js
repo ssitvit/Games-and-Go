@@ -81,6 +81,6 @@ export const data1 = [
     serial_number: "13",
     main_heading: "SnakeGame",
     about: "Slither and Conquer!",
-    link_game: "/Wordle",
+    link_game: "/SnakeGame",
   },
 ];
