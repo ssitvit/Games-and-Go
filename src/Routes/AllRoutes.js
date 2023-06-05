@@ -17,6 +17,7 @@ import MagicMatch from "../Games/Magic-match/magic_match";
 import DiceThrow from "../Games/DiceThrow/main";
 import Wordle from "../Games/Wordle/Wordle";
 import SnakeGame from "../Games/SnakeGame/SnakeGame";
+import App from "../Games/MAZE1/App_m";
 
 function AllRoutes() {
   return (
@@ -39,6 +40,7 @@ function AllRoutes() {
       <Route path="/DiceThrow" element={<DiceThrow />} />
       <Route path="/Wordle" element={<Wordle />} />
       <Route path="/SnakeGame" element={<SnakeGame />} />
+      <Route path="/maze" element={<App/>} />
     </Routes>
   );
 }

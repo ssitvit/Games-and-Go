@@ -16,7 +16,7 @@
     "react-icons": "^4.9.0",
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.4.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-spinners": "^0.13.8",
     "react-tooltip": "^5.13.1",
     "reactstrap": "^9.1.4",
@@ -46,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
   }
 }
