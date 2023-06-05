@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .loader {
   margin-top: 25%;
   margin-left: 45%;
