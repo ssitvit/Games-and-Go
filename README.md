@@ -69,15 +69,20 @@
 </p>
 
 <h2 align=center>Project Maintainers 😄</h1>
-
-   <p align="center">
-	<a href="https://github.com/cleveranu"><img src="https://avatars.githubusercontent.com/u/102377700?v=4" width="10%" /></a>
-   </p>
-   <p align="center">  
-	<a href="https://github.com/cleveranu"> Anukanksha Priya</a>
-   </p>
-
-<!-- - [Anukanksha Priya](https://github.com/cleveranu) -->
+   <div align="center">
+	<table>
+	  <tr>
+	    <td align="center">
+	      <a href="https://github.com/cleveranu"><img src="https://avatars.githubusercontent.com/u/102377700?v=4" width="18%" /></a><br />
+	      <a href="https://github.com/cleveranu">Anukanksha Priya</a>
+	    </td>
+	    <td align="center">
+	      <a href="https://github.com/raj03kumar"><img src="https://avatars.githubusercontent.com/u/92293392?v=4" width="18%" /></a><br />
+	      <a href="https://github.com/raj03kumar">Raj Kumar</a>
+	    </td>
+	  </tr>
+	</table>
+   </div>
 
 ## Contributors ✨
 <div align="center">
