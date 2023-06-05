@@ -30,11 +30,11 @@ function Homepage() {
       </audio>
       <div className="container_landing">
         <div className="pacman"></div>
-        <div className="ghost"></div>
-        <div className="ghost"></div>
-        <div className="ghost"></div>
-        <div className="ghost"></div>
-        <div className="text"></div>
+          <div className="ghost"></div>
+          <div className="ghost"></div>
+          <div className="ghost"></div>
+          <div className="ghost"></div>
+          <div className="text"></div>
       </div>
       <div class="music-btn">
         <div
