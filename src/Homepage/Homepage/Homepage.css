@@ -27,7 +27,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding: 2rem auto;
-  margin: 1rem auto;
+  margin: 4px auto;
   height: 600px;
   background: black;
   display: grid;
