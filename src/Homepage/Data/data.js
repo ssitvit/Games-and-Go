@@ -89,4 +89,10 @@ export const data1 = [
     about: "Put the blocks at right place",
     link_game: "/tetris",
   },
+  {
+    serial_number: "15",
+    main_heading: "Battle Ships",
+    about: "search and Destroy Enemies ships", 
+    link_game: "/Battle",
+  }
 ];
