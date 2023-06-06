@@ -83,4 +83,10 @@ export const data1 = [
     about: "Slither and Conquer!",
     link_game: "/SnakeGame",
   },
+  {
+    serial_number: "14",
+    main_heading: "Tetris",
+    about: "Put the blocks at right place",
+    link_game: "/tetris",
+  },
 ];
