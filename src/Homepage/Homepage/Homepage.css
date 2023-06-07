@@ -290,13 +290,43 @@ body {
 /* This will make animation responsive in smaller devices*/
 @media screen and (max-width: 576px ) {
   .pacman {
-    height: 85px;
-    width: 85px;
+    height: 120px;
+    width: 120px;
   }
 
   .ghost {
-    height: 85px;
-    width: 85px;
+    height: 120px;
+    width: 120px;
+    left: -50px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(2) {
+    margin: 0 -100px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(3) {
+    margin: 0 -225px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(4) {
+    margin: 0 -350px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(5) {
+    margin: 0 -475px;
+  }
+}
+
+/* Add media query for devices with width greater than or equal to 576px */
+@media screen and (min-width: 576px) {
+  .pacman {
+    height: 120px;
+    width: 120px;
+  }
+
+  .ghost {
+    height: 120px;
+    width: 120px;
     left: 50px;
   }
 
@@ -305,75 +335,29 @@ body {
   }
 
   .container_landing > div.ghost:nth-of-type(3) {
-    margin: 0 -190px;
+    margin: 0 -225px;
   }
 
   .container_landing > div.ghost:nth-of-type(4) {
-    margin: 0 -280px;
+    margin: 0 -350px;
   }
 
   .container_landing > div.ghost:nth-of-type(5) {
-    margin: 0 -370px;
-  }
-}
-
-/* Add media query for devices with width greater than or equal to 576px */
-@media screen and (min-width: 576px) {
-  .pacman {
-    height: 95px;
-    width: 95px;
-  }
-
-  .ghost {
-    height: 95px;
-    width: 95px;
-    left: 150px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(2) {
-    margin: 0 -100px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(3) {
-    margin: 0 -200px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(4) {
-    margin: 0 -300px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(5) {
-    margin: 0 -400px;
+    margin: 0 -475px;
   }
 }
 
 /* Add media query for devices with width greater than or equal to 768px */
 @media screen and (min-width: 768px) {
   .pacman {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
   }
 
   .ghost {
-    height: 100px;
-    width: 100px;
-    left: 150px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(2) {
-    margin: 0 -105px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(3) {
-    margin: 0 -210px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(4) {
-    margin: 0 -315px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(5) {
-    margin: 0 -418px;
+    height: 120px;
+    width: 120px;
+    left: 50px;
   }
 }
 
@@ -381,30 +365,14 @@ body {
 /* Add media query for devices with width greater than or equal to 992px */
 @media screen and (min-width: 992px) {
   .pacman {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
   }
 
   .ghost {
-    height: 100px;
-    width: 100px;
-    left: 150px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(2) {
-    margin: 0 -110px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(3) {
-    margin: 0 -215px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(4) {
-    margin: 0 -320px;
-  }
-
-  .container_landing > div.ghost:nth-of-type(5) {
-    margin: 0 -425px;
+    height: 120px;
+    width: 120px;
+    left: 250px;
   }
 }
 
