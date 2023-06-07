@@ -9,7 +9,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 1000);
   }, []);
   return (
     <div>
