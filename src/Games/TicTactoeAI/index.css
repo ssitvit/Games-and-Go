@@ -7,6 +7,7 @@
   body {
     background: #222;
     font-family: consolas;
+    background-image: url(images/pic.jpg);
   }
   
   .tic-tac-toe {
@@ -22,9 +23,9 @@
   .tic-tac-toe button {
     padding: 8px 12px;
     margin: 25px;
-    background: transparent;
-    border: 2px solid #eee;
-    color: #eee;
+    background: solid;
+    border: 2px solid black;
+    color: black;
     width: 170px;
     border-radius: 5px;
     transition: 0.2s;
@@ -88,12 +89,12 @@
   }
   
   .turn.left span.o {
-    border-color: #eee;
+    border-color: black;
   }
   
   .turn.right span.x::before,
   .turn.right span.x::after {
-    background: #eee;
+    background: black;
   }
   
   .turn.right::after {
