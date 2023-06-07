@@ -16,6 +16,7 @@ import Wordle from "../Games/Wordle/Wordle";
 import SnakeGame from "../Games/SnakeGame/SnakeGame";
 import Tetris from "../Games/tetris/src/components/Tetris";
 import Battle from "../Games/BattleShip/App"
+import App from "../Games/DragAndDrop/App"
 
 function AllRoutes() {
   return (
@@ -37,6 +38,7 @@ function AllRoutes() {
       <Route path="/SnakeGame" element={<SnakeGame />} />
       <Route path="/tetris" element={<Tetris />} />
       <Route path="/Battle" element={<Battle />} />
+      <Route path="/DragAndDrop" element={<App />} />
     </Routes>
   );
 }
