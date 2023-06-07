@@ -236,7 +236,7 @@ body {
 }
 /* Search input  */
 .search-input {
-  margin: auto;
+  margin: -5px auto;
   width: 40%;
   border: 5px;
   padding: 5px;
@@ -479,7 +479,6 @@ body {
 /* Heading in Homepage Game on!! */
 
 .header_homepage {
-  margin: auto;
   width: 80%;
   border: 5px;
   padding: 5px;
@@ -490,6 +489,9 @@ body {
   font-family: "Silkscreen", cursive;
   font-size: 3.5rem;
   text-align: center;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 35px;
 }
 .header_homepage h1 {
   font-size: 3.5rem;
