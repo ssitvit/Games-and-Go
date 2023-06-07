@@ -15,6 +15,8 @@ import DiceThrow from "../Games/DiceThrow/main";
 import Wordle from "../Games/Wordle/Wordle";
 import SnakeGame from "../Games/SnakeGame/SnakeGame";
 import Tetris from "../Games/tetris/src/components/Tetris";
+import TicTacToeAI from "../Games/TicTactoeAI/app";
+
 
 function AllRoutes() {
   return (
@@ -35,6 +37,7 @@ function AllRoutes() {
       <Route path="/Wordle" element={<Wordle />} />
       <Route path="/SnakeGame" element={<SnakeGame />} />
       <Route path="/tetris" element={<Tetris />} />
+      <Route path="/Tictac" element={<TicTacToeAI />} />
     </Routes>
   );
 }

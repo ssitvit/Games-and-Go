@@ -89,4 +89,11 @@ export const data1 = [
     about: "Put the blocks at right place",
     link_game: "/tetris",
   },
+  {
+    serial_number: "15",
+    main_heading: "Let's Play Tic-Tac-Toe with AI",
+    about:
+      "A fun and interesting tic tac toe game to take us back to the good old childhood days! and now with AI also!!!",
+    link_game: "/Tictac",
+  },
 ];
