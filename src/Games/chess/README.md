@@ -19,4 +19,4 @@ The chess game incorporates the concept of "check" and "checkmate." When a playe
 The objective is to create a situation where the opponent's king is in checkmate, meaning it is under attack and cannot escape capture.
 The game notifies players when a check or checkmate occurs.
 
- 
+ ![Screenshot](https://github.com/Yashoda2003/Games-and-Go/assets/116747256/10fac2bd-dd0c-409a-b04a-d7f54f3f997f)
