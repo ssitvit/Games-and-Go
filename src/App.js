@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       {loading ? (
-        <div>
+        <div className="loading-animation">
           <PacmanLoader
             color={"#f1e702"}
             loading={loading}
