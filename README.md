@@ -96,6 +96,10 @@
       <a href="https://github.com/Atharva-3000"><img src="https://avatars.githubusercontent.com/u/72994819?v=4" width="18%" /></a><br />
       <a href="https://github.com/Atharva-3000">Atharva Deshmukh</a>
     </td>
+    <td align="center">
+      <a href="https://github.com/tripathishalini"><img src="https://avatars.githubusercontent.com/u/89288660?s=400&u=bc2931bbbaff8b314aa78016ab3f856218d20e51&v=4" width="18%" /></a><br />
+      <a href="https://github.com/tripathishalini">Shalini Tripathi</a>
+    </td>
   </tr>
 </table>
 </div>
