@@ -94,5 +94,11 @@ export const data1 = [
     main_heading: "Battle Ships",
     about: "search and Destroy Enemies ships", 
     link_game: "/Battle",
+  },
+  {
+    serial_number: "16",
+    main_heading: "Drag and Drop",
+    about: "Drag the cards from the middle section and drop them into the similar one.", 
+    link_game: "/DragAndDrop",
   }
 ];
