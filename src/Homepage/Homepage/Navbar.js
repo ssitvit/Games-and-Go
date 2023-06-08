@@ -5,12 +5,12 @@ import "./Navbar.css";
 function Navbargo() {
   return (
     <React.Fragment>
-      <div class="body_navbar center">
-        <div class="video-game-button">A</div>
-        <div class="start-btn">
+      <div className="body_navbar center">
+        <div className="video-game-button">A</div>
+        <div className="start-btn">
           <Link to="/">HOME</Link>
         </div>
-        <div class="video-game-button">B</div>
+        <div className="video-game-button">B</div>
       </div>
 
       <br />
