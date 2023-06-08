@@ -240,6 +240,7 @@ body {
   width: 40%;
   border: 5px;
   padding: 5px;
+  margin-bottom: 50px;
   font-size: 26px;
   display: flex;
   justify-content: center;
@@ -384,6 +385,7 @@ body {
   min-height: 50vh;
   width: 100%;
   background: #161623;
+  border-radius: 50px;
 }
 
 .container_card {
@@ -542,4 +544,6 @@ body {
 .copyright h3{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
