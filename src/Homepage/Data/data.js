@@ -91,9 +91,21 @@ export const data1 = [
   },
   {
     serial_number: "15",
-    main_heading: "Let's Play Tic-Tac-Toe with AI",
+    main_heading: "Battle Ships",
+    about: "search and Destroy Enemies ships", 
+    link_game: "/Battle",
+  },
+  {
+    serial_number: "16",
+    main_heading: "Drag and Drop",
+    about: "Drag the cards from the middle section and drop them into the similar one.", 
+    link_game: "/DragAndDrop",
+  },
+  {
+    serial_number: "17",
+    main_heading: "Let's Play Tic-Tac-Toe with AI!",
     about:
-      "A fun and interesting tic tac toe game to take us back to the good old childhood days! and now with AI also!!!",
+      "A fun and interesting tic tac toe game to take us back to the good old childhood days! and now available against AI!!",
     link_game: "/Tictac",
   },
 ];

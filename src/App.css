@@ -2,16 +2,51 @@
   scroll-behavior: smooth;
 }
 
-.loader {
-  margin-top: 25%;
-  margin-left: 45%;
-  z-index: 1000;
-  box-shadow: white 8px;
+.loading-animation {
+  height: 400px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .loader1 {
-  margin-top: 2%;
-  margin-left: 28%;
-  z-index: 1000;
   color: rgb(245, 241, 7);
   font-size: 34px;
+  margin-top: 15px;
 }
+
+@media screen and (max-width: 576px) {
+  .loading-animation {
+    max-width: 95%;
+    margin: 100px auto;
+  }
+
+  .loader1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .loading-animation {
+    max-width: 95%;
+    margin: 110px auto;
+  }
+
+  .loader1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .loading-animation {
+    max-width: 95%;
+    margin: 125px auto;
+  }
+
+  .loader1 {
+    font-size: 34px;
+  }
+}
+

@@ -1,0 +1,32 @@
+.App {
+  width: 1100px;
+  height: 1200px;;
+  border: 40px solid rgb(101, 99, 99);
+  
+  
+  padding-left: 100px;
+  background-color:slategray;
+  text-align: center;
+  ;
+}
+
+.table{
+  padding: 50px;
+  border: 20px solid rgb(136, 142, 144);
+
+  text-align: center;
+
+}
+
+.instruction{
+  text-align: center;
+  font-size: larger;
+}
+
+
+.vtab{
+  height: 60px;
+}
+.htab{
+  width: 60px;
+}

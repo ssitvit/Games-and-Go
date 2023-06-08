@@ -58,6 +58,17 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    
+    &:hover::before {
+      content: "Top";
+      position: absolute;
+      top: -3rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.6rem;
+      color: #fff;
+    }
+  
 
     &--icon {
       animation: gototop 1.2s linear infinite alternate-reverse;

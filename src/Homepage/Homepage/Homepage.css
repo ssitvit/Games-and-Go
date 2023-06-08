@@ -236,7 +236,7 @@ body {
 }
 /* Search input  */
 .search-input {
-  margin: auto;
+  margin: -5px auto;
   width: 40%;
   border: 5px;
   padding: 5px;
@@ -288,15 +288,45 @@ body {
 
 /* Add media query for devices with width less than or equal to 576px */
 /* This will make animation responsive in smaller devices*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px ) {
   .pacman {
-    height: 85px;
-    width: 85px;
+    height: 120px;
+    width: 120px;
   }
 
   .ghost {
-    height: 85px;
-    width: 85px;
+    height: 120px;
+    width: 120px;
+    left: -50px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(2) {
+    margin: 0 -100px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(3) {
+    margin: 0 -225px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(4) {
+    margin: 0 -350px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(5) {
+    margin: 0 -475px;
+  }
+}
+
+/* Add media query for devices with width greater than or equal to 576px */
+@media screen and (min-width: 576px) {
+  .pacman {
+    height: 120px;
+    width: 120px;
+  }
+
+  .ghost {
+    height: 120px;
+    width: 120px;
     left: 50px;
   }
 
@@ -305,15 +335,44 @@ body {
   }
 
   .container_landing > div.ghost:nth-of-type(3) {
-    margin: 0 -190px;
+    margin: 0 -225px;
   }
 
   .container_landing > div.ghost:nth-of-type(4) {
-    margin: 0 -280px;
+    margin: 0 -350px;
   }
 
   .container_landing > div.ghost:nth-of-type(5) {
-    margin: 0 -370px;
+    margin: 0 -475px;
+  }
+}
+
+/* Add media query for devices with width greater than or equal to 768px */
+@media screen and (min-width: 768px) {
+  .pacman {
+    height: 120px;
+    width: 120px;
+  }
+
+  .ghost {
+    height: 120px;
+    width: 120px;
+    left: 50px;
+  }
+}
+
+
+/* Add media query for devices with width greater than or equal to 992px */
+@media screen and (min-width: 992px) {
+  .pacman {
+    height: 120px;
+    width: 120px;
+  }
+
+  .ghost {
+    height: 120px;
+    width: 120px;
+    left: 250px;
   }
 }
 
@@ -420,7 +479,6 @@ body {
 /* Heading in Homepage Game on!! */
 
 .header_homepage {
-  margin: auto;
   width: 80%;
   border: 5px;
   padding: 5px;
@@ -431,6 +489,9 @@ body {
   font-family: "Silkscreen", cursive;
   font-size: 3.5rem;
   text-align: center;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 35px;
 }
 .header_homepage h1 {
   font-size: 3.5rem;
