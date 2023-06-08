@@ -51,6 +51,6 @@
   "devDependencies": {
     "html-loader": "^4.2.0",
     "resolve-url-loader": "^5.0.0",
-    "sass": "^1.62.1"
+    "sass": "^1.63.2"
   }
 }
