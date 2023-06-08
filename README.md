@@ -163,7 +163,7 @@ If you want to get free **T-shirt,Swags** like **developers** then contribute an
 <h2 align="center">Our Contributors 🌱</h2>
 <p align="center">
   <a href="https://github.com/ssitvit/Games-and-Go/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AKD-01/blogweet&&max=817"/>
+  <img src="https://contrib.rocks/image?repo=ssitvit/Games-and-Go"/>
 </a></p>
 
 <!-- # To make a pull request follow these steps: <br/>
