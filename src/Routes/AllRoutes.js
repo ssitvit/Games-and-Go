@@ -4,7 +4,7 @@ import Tictactoe from "../Games/Tictactoe/tictactoe";
 import Ninetynine from "../Games/Ninetynine/ninetynine";
 import Memory from "../Games/Memory/memory";
 import TriviaGame from "../Games/Trivia/quiz";
-import Dice_Game from "C:\Dice_Game\Games-and-Go\src\Games\Dice_Game";
+
 function AllRoutes(){
     return (
         <Routes>
@@ -14,8 +14,7 @@ function AllRoutes(){
         <Route path="/99" element={<Ninetynine />} />
         <Route path="/memory" element={<Memory />} />
         <Route path="/trivia" element={<TriviaGame />} />
-        <Route path="/Dice_Game" element={<Dice_Game/>}
-
+        
       </Routes>
     )
 }
