@@ -25,7 +25,7 @@ const MainGame = () => {
       />
       <div className="main-box">
         <h1 className="main-h1">
-          Timer <AiFillClockCircle /> : {timeRemaning} s
+          Timer <AiFillClockCircle /> <span>:</span> {timeRemaning}s {"\n"}
         </h1>
         <button
           className="btn-change"
@@ -34,13 +34,13 @@ const MainGame = () => {
         >
           Start Game
         </button>
-        <h1 className="main-h1">
+        <h1 className="main-h1 main-h1-2">
           Word Count <RiNumbersFill /> : {wordCount} w/m
         </h1>
       </div>
 
       {isOver && (
-        <p className="result"> Your Speed is {wordCount} Words/Minute </p>
+        <p className="result"> Your Speed is<span>{wordCount}</span> Words/Minute </p>
       )}
       {isOver && <Confetti></Confetti>}
     </section>

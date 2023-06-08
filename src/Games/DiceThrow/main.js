@@ -103,10 +103,9 @@ const Game = (props) => {
       <h2> Set target: </h2>
       <input value={target} onChange={inputHandler} style={{ width: "30%" }} />
       <h2> Turn: Player {turn}</h2>
-      <h1>{score1}</h1>
-      <span>&ensp; &ensp; &ensp; &ensp;</span>
-      <h1>{score2}</h1>
-      <img  src={imageSource} />
+      <h1>{score1}&nbsp;:</h1>
+      <h1>&nbsp;{score2}</h1>
+      <img  src={imageSource} alt="" />
       <button onClick={play} style={{ width: "200px" }}>
         {res}
       </button>

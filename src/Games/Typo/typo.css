@@ -6,8 +6,12 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.7rem;
-  justify-content: center;
+  font-size: 1.8rem;
+  justify-content: flex-start;
+  width: 50vw;
+  position: relative;
+  left:20%;
+  
 }
 
 .container {
