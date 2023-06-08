@@ -478,8 +478,22 @@ body {
     format("woff2");
 }
 
-/* Heading in Homepage Game on!! */
+.card-title {
+  font-size: 50px;
+  padding: 10px;
+  line-height: 40px;
+  margin-bottom: -10px;
+}
 
+.card-about {
+  margin: 15px;
+  margin-bottom: 5px;
+  padding: 10px;
+  line-height: 25px;
+  text-align: left;
+}
+
+/* Heading in Homepage Game on!! */
 .header_homepage {
   width: 80%;
   border: 5px;

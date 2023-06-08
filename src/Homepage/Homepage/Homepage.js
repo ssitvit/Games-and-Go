@@ -54,8 +54,8 @@ function Homepage() {
             <div className="card" key={row.serial_number}>
               <div className="content">
                 <h2>{row.serial_number}</h2>
-                <h3>{row.main_heading}</h3>
-                <p>{row.about} </p>
+                <h3 className="card-title">{row.main_heading}</h3>
+                <p className="card-about">{row.about} </p>
                 {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
                 <Link to={row.link_game}>Play now !!!</Link>
               </div>
