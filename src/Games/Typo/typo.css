@@ -1,6 +1,7 @@
 .heading {
   margin-top: 1em;
-  margin-bottom: 0;
+  margin-bottom: 20px !important;
+  margin-left: 50px;
   color: white;
   text-align: center;
   display: flex;
@@ -8,10 +9,7 @@
   gap: 10px;
   font-size: 1.8rem;
   justify-content: flex-start;
-  width: 50vw;
-  position: relative;
-  left:20%;
-  
+  width: 50vw;  
 }
 
 .container {

@@ -1,5 +1,5 @@
 textarea {
-  width: 43vw;
+  width: 684px;
   height: 196px;
   outline: none;
   resize: none;
@@ -9,7 +9,7 @@ textarea {
   font-size: 1.3rem;
   font-weight: 600;
   position: relative;
-  right:83%;
+  right:65%;
 }
 
 textarea:disabled {
@@ -32,9 +32,8 @@ textarea:disabled {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:0 10px;
   margin-right: 100px;
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .main-h1-2{
@@ -43,8 +42,8 @@ textarea:disabled {
 
 .btn-change {
   border-radius: 10px;
-  margin:0;
-  margin-right: 100px;
+  margin:0 150px 0 100px;
+  padding:0 20px;
 }
 
 button:disabled {
@@ -56,18 +55,20 @@ button:disabled {
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: white;
   display:inline;
-  position: relative;
-  right:12%;
+
 }
 
 .result span{
+  text-align: center;
+  padding-right:50px;
   margin:40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 3rem;
 }
 
 @media (max-width: 768px) {
