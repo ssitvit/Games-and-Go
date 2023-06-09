@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4ba4eb;
+  font-family: "Press Start 2P", cursive;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Peralta", cursive;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Press Start 2P", cursive;
+}
