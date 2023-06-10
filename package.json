@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-loader-spinner": "^5.3.4",
-    "react-router-dom": "^6.12.0",
+    "react-router-dom": "^6.12.1",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.8",
     "react-tooltip": "^5.13.1",
