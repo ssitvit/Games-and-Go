@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*############################################################################*/
+.Arkanoid-Board {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 600px;
+}
+.Paddle {
+  position: absolute;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  width: 100px;
+  height: 15px;
+  background-color: white;
+}
+.Ball {
+  position: absolute;
+  border-radius: 50%;
+}
+.Plate {
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+}
