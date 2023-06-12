@@ -35,7 +35,11 @@
     .rock-paper-scissors h1{
         font-size: 1.4rem;
     }
-    
+    .user-choice-btns{
+        display: flex;
+        flex-direction: column;
+        /* gap: 10px; */
+    }
     .user, .computer{
         margin-top: 20px;
     }

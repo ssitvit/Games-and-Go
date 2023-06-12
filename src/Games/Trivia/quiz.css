@@ -45,13 +45,13 @@ li:hover {
   font-size: 24px;
 
   /* Animation */
-  animation: move 2s infinite, fadeOutAndIn 3s infinite;
+  animation: 2s infinite, fadeOutAndIn 3s infinite;
 }
 
 .final-results {
   /* Center the div */
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
   height: auto;
   margin-top: 64px;
 
@@ -116,7 +116,7 @@ button:hover {
   color: white;
 
   /* Animation */
-  animation: move 2s infinite, fadeOutAndIn 3s infinite;
+  /* animation: 2s infinite, fadeOutAndIn 3s infinite; */
 }
 
 .title {
@@ -125,7 +125,7 @@ button:hover {
     margin-bottom: 20px;
   
     /* Animation */
-    animation: move 2s infinite, fadeOutAndIn 3s infinite;
+    /* animation: 2s infinite, fadeOutAndIn 3s infinite; */
   }
   
   .score {
@@ -134,5 +134,5 @@ button:hover {
     margin-bottom: 20px;
   
     /* Animation */
-    animation: move 2s infinite, fadeOutAndIn 3s infinite;
+    /* animation: 2s infinite, fadeOutAndIn 3s infinite; */
   }
