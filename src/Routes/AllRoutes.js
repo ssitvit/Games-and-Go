@@ -18,6 +18,7 @@ import Tetris from "../Games/tetris/src/components/Tetris";
 import Battle from "../Games/BattleShip/App"
 import App from "../Games/DragAndDrop/App"
 import TicTacToeAI from "../Games/TicTactoeAI/app";
+import Arkanoid from "../Games/Arkanoid/App";
 
 function AllRoutes() {
   return (
@@ -41,6 +42,7 @@ function AllRoutes() {
       <Route path="/Battle" element={<Battle />} />
       <Route path="/DragAndDrop" element={<App />} />
       <Route path="/Tictac" element={<TicTacToeAI />} />
+      <Route path="/Arkanoid" element={<Arkanoid />} />
     </Routes>
   );
 }
