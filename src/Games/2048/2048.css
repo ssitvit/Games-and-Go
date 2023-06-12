@@ -1,0 +1,94 @@
+
+body{
+  font-family: 'Peralta', cursive;  
+  text-align:center;
+
+}
+
+hr{
+    width:500px;
+}
+
+#board{
+   width: 400px;
+   height:400px;
+   background-color:#e3d9cf ;
+   border:6px solid #0a0601;
+   margin:0 auto;
+   display:flex;
+   flex-wrap:wrap;
+}
+.tile{
+    width:90px;
+    height:90px;
+    border:5px solid #cec0b2;
+
+    font-size:40px;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+.col2{
+  background-color:red;
+  color:gray;
+
+}
+.col4{
+  background-color:blue;
+  color:gray
+}
+.col8{
+    background-color:aqua;
+    color:gray
+}
+.col16{
+  background-color:rgb(15, 245, 15);
+  color:gray;
+}
+.col32{
+  background-color:rgb(206, 200, 34);
+  color:gray;
+}
+.col64{
+  background-color:rgb(204, 24, 150);
+  color:gray;
+}
+.col128{
+  background-color:rgb(165, 26, 203);
+  color:gray;
+}
+.col256{
+  background-color:rgb(5, 13, 96);
+  color:gray;
+}
+.col512{
+  background-color:rgb(131, 64, 5);
+  color:gray;
+}
+.col1024{
+  background-color:rgb(40, 198, 43);
+  color:gray;
+}
+.col2048{
+  background-color:rgb(21, 8, 56);
+  color:gray;
+}
+.col4096{
+  background-color:rgb(67, 135, 67);
+  color:gray;
+}
+.col8192{
+  background-color:rgb(235, 54, 166);
+  color:gray;
+}
+
+
+
+
+
+
+
+
