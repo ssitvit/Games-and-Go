@@ -53,9 +53,11 @@ function Homepage() {
           {filteredData.map((row) => (
             <div className="card" key={row.serial_number}>
               <div className="content">
-                <h2>{row.serial_number}</h2>
-                <h3>{row.main_heading}</h3>
-                <p>{row.about} </p>
+                <div>
+                  <h2>{row.serial_number}</h2>
+                  <h3>{row.main_heading}</h3>
+                  <p>{row.about} </p>
+                </div>
                 {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
                 <Link to={row.link_game}>Play now !!!</Link>
               </div>
