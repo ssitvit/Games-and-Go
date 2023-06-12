@@ -407,43 +407,40 @@ body {
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
+  transition: 250ms;
+}
+
+.container_card .card:hover {
+  transform: scale(1.025);
 }
 
 .container_card .card .content {
-  padding: 20px;
-  text-align: center;
-  transform: translateY(0px);
-  opacity: 1;
-  transition: 0.5s;
+  padding: 2rem 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.container_card .card:hover .content {
-  opacity: 1;
-  transform: translateY(20px);
-}
 
 .container_card .card .content h2 {
-  position: absolute;
-  top: -80px;
-  right: 30px;
-  font-size: 8em;
-  color: rgba(255, 255, 255, 0.05);
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.4);
   pointer-events: none;
   font-family: "Press Start 2P", cursive;
+  margin-bottom: 2rem;
 }
 
 .container_card .card .content h3 {
   font-family: "Press Start 2P", cursive;
-
-  font-size: 1.8em;
+  font-size: 1.4em;
   color: #fff;
   z-index: 1;
+  margin-bottom: 1rem;
+  line-height: 2rem;
 }
 
 .container_card .card .content p {
@@ -455,7 +452,7 @@ body {
 .container_card .card .content a {
   position: relative;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 0.75rem 1rem;
   margin-top: 15px;
   background: #fff;
   color: #000;
