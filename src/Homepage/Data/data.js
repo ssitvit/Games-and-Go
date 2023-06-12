@@ -108,4 +108,10 @@ export const data1 = [
       "Can you compete with AI...",
     link_game: "/Tictac",
   },
+    {
+    serial_number: "18",
+    main_heading: "Arkanoid",
+    about: "Complete all bricks", 
+    link_game: "/Arkanoid",
+  }
 ];
