@@ -96,6 +96,10 @@
       <a href="https://github.com/Atharva-3000"><img src="https://avatars.githubusercontent.com/u/72994819?v=4" width="18%" /></a><br />
       <a href="https://github.com/Atharva-3000">Atharva Deshmukh</a>
     </td>
+    <td align="center">
+      <a href="https://github.com/Anjali2312-Thombare"><img src="https://avatars.githubusercontent.com/u/115575113?v=4" width="18%" /></a><br />
+      <a href="https://github.com/Anjali2312-Thombare">Anjali2312-Thombare</a>
+    </td>
   </tr>
 </table>
 </div>
