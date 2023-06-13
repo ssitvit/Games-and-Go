@@ -2,7 +2,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
 
 /* Classes for all the headings used  */
-.h1,
+
+.h1{
+  color: #f1f5f9;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
 .h2,
 .h3,
 .h4,
@@ -10,6 +18,9 @@
   color: #4ba4eb;
   text-decoration: none;
   font-family: "Press Start 2P", cursive;
+  padding: 12px;
+  margin: 10px;
+  text-align: center;
 }
 .text_color {
   color: white;

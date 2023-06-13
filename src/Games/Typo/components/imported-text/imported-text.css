@@ -1,6 +1,13 @@
 .imported-text {
-  font-size: 1.1rem;
+  font-size: medium;
   font-weight: 500;
   color: white;
-  text-align: left;
+  text-align: center;
+  padding-bottom: 20px;
+  padding: 20px;
+  line-height: normal;
+  position: relative;
 }
+
+
+

@@ -1,4 +1,3 @@
-import React from "react";
 //Add the following data in the card for the game you have added. For any instructions refer to contributing.md
 
 export const data1 = [
@@ -108,8 +107,14 @@ export const data1 = [
       "Can you compete with AI...",
     link_game: "/Tictac",
   },
-  {
+    {
     serial_number: "18",
+    main_heading: "Arkanoid",
+    about: "Complete all bricks", 
+    link_game: "/Arkanoid",
+  },
+  {
+    serial_number: "19",
     main_heading: "Let's Play Chess with AI",
     about:
       "Can you compete with AI...",
