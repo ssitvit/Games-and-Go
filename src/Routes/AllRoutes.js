@@ -43,6 +43,7 @@ function AllRoutes() {
       <Route path="/DragAndDrop" element={<App />} />
       <Route path="/Tictac" element={<TicTacToeAI />} />
       <Route path="/Arkanoid" element={<Arkanoid />} />
+      <Route path="/Arkanoid" element={<Menja />} />
     </Routes>
   );
 }

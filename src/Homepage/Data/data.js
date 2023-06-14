@@ -112,5 +112,11 @@ export const data1 = [
     main_heading: "Arkanoid",
     about: "Complete all bricks", 
     link_game: "/Arkanoid",
+  },
+  {
+    serial_number: "19",
+    main_heading: "Menja",
+    about: "Slice all the cubes!!", 
+    link_game: "/Menja", 
   }
 ];
