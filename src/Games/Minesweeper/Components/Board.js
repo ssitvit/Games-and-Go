@@ -2,8 +2,7 @@ import React,{useState,useEffect} from 'react';
 import CreateBoard from '../Utils/CreateBoard';
 import { revealed } from "../Utils/Reveal";
 import Cell from './Cell';
-import { toast,ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 
 
@@ -44,7 +43,7 @@ const newfresh=()=>{
 const revealcell=(x,y)=>{
     let newGrid=JSON.parse(JSON.stringify(grid));
     if(newGrid[x][y].value==="X"){
-   alert(' Clicked on Mine ,Try Again', { position: "top-center", autoClose: 1000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true, progress: undefined, });
+   alert(' Clicked on Mine ,Try Again');
         for(let i=0;i<mineLocation.length;i++){
             newGrid[mineLocation[i][0]][mineLocation[i][1]].revealed=true;
         }
@@ -54,7 +53,7 @@ const revealcell=(x,y)=>{
     }
     if(nonMinecount===0){
       // eslint-disable-next-line
-     alert('Wohoo!!,You won',{ position: "top-center", autoClose: 1000, hideProgressBar: false, closeOnClick: true, pauseOnHover: true, draggable: true, progress: undefined, });
+     alert('Wohoo!!,You won');
         setTimeout(newfresh,500);
     }
     else{
