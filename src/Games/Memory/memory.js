@@ -8,11 +8,12 @@ export default function Memory() {
   const [pos, setPos] = useState(0);
   const [sequence, setSequence] = useState([]);
   const [status, setStatus] = useState("playing");
+  const [startbtn,setStartButton] = useState(false);
 
   const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
   useEffect(() => {
-    startGame();
+    if(startbtn)startGame();
   }, [level]);
 
   const handleClick = async (x) => {
@@ -57,7 +58,10 @@ export default function Memory() {
         <h1 className="h">Memory Game</h1>
         <button
           className="start-btn"
-          onClick={startGame}
+          onClick={()=>{
+            startGame();
+            setStartButton(true);
+          }}
         >
           Start
         </button>
