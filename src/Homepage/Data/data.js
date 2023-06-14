@@ -1,4 +1,4 @@
-import React from "react";
+
 //Add the following data in the card for the game you have added. For any instructions refer to contributing.md
 
 export const data1 = [
@@ -89,4 +89,10 @@ export const data1 = [
     about: "Put the blocks at right place",
     link_game: "/tetris",
   },
+  {
+    serial_number: "15",
+    main_heading: "Mine sweeper",
+    about: "Be aware of mines !!",
+    link_game: "/Minesweeper",
+  }
 ];
