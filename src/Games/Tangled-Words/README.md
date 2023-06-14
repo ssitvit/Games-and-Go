@@ -1,8 +1,5 @@
 # **Tangled Words** 
 
-
-<br>
-
 ## **Description 🚩**
 The objective of this game is to challenge and entertain players while testing their language skills and ability to decipher words from scrambled letters. It encourages critical thinking, vocabulary expansion, and linguistic creativity.
 
