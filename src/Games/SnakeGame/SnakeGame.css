@@ -15,13 +15,16 @@
     font-family: 'Arial', sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #333333;
+    color: #fffefe;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 0;
+  }
+  .heading:hover{
+     color: #FF0000;
   }
   .snake-container {
     margin: 0;
@@ -72,7 +75,7 @@
     cursor: pointer;
   }
   
-
+  
   
   h6:hover {
     color: #FF0000;
