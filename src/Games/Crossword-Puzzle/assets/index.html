@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CrosswordGame</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<script src="jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<style>
+			@font-face{
+				font-family: 'Roboto';
+				src: url('Roboto-Regular.ttf');
+			}
+			
+			body{
+				font-family: Roboto;
+				padding-top: 50px;
+				padding-bottom: 70px;
+				user-select: none;
+			}
+			
+			/* SCROLLBAR STYLING */
+			/* width */
+			::-webkit-scrollbar {
+				width: 2px;
+				height: 2px;
+			}
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: white; 
+			}
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: black; 
+			}
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: #555; 
+			}
+			
+			#appbar{
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				background-color: #2a797a;
+				color: white; 
+				z-index: 313;
+				-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+			}
+			.abitem{
+				padding: 20px;
+				display: inline-block;
+				
+			}
+			.noad{
+				text-align: center;
+			}
+			.noad button{
+				border: none; 
+				background-color: blue;
+				color: white;
+				padding: 10px;
+				border-radius: 5px;
+				margin: 5px;
+			}
+			#drawer{
+				background-color: #e6e6e6;
+				width: 512px;
+				max-width: 85%;
+				position: fixed;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				padding-top: 70px;
+				display: none;
+				overflow: auto;
+				-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+				box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+			}
+			
+			#crossword {
+				text-align:left;
+			}
+
+			.crossword {
+				border-collapse:collapse;
+				font-family:"Courier New", Courier, monospace;
+				margin-top:10px;
+				margin-bottom:10px;
+			}
+
+			.crossword td {
+				border:1px solid black;
+				padding:0;
+				margin:0;
+				vertical-align:middle;
+				padding:0;
+				text-align:center;
+				width:30px;
+				height:30px;
+			}
+			
+			.no-border{
+				background-color: black;
+			}
+
+			.crossword .no-border {
+				border:none;
+			}
+
+			#clues {
+				font-size: 12px;
+				margin: 0 auto;
+			}
+
+			#clues td {
+				vertical-align:top;
+				margin: 0 auto;
+				text-align: left;
+			}
+			
+			.canswer{
+				display: none;
+			}
+			button{
+				box-sizing: border-box;
+				width: 100%;
+				padding: 20px;
+				border: none;
+				outline: none;
+				background-color: #2a797a;
+				color: white;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			#vkeyboard{
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: rgba(256,256,256,.85);
+				text-align: center;
+				display: none;
+				padding: 10px;
+				z-index: 13;
+			}
+			.kbtn{
+				padding: 10px;
+				border: 1px solid black;
+				margin: 5px; 
+				display: inline-block;
+				width: 30px;
+				
+			}
+			th{
+				text-align: left;
+				font-weight: bold;
+			}
+			ul,li { list-style-type: none;
+			list-style-position:inside;
+			margin:0;
+			margin-right: 5px;
+			padding:0; }
+			
+			#game{
+				margin-bottom: 10px;
+				padding: 10px;
+				display: none;
+			}
+			
+			.ditem{
+				padding: 10px;
+				border-bottom: 1px solid black;
+				margin-bottom: 3px;
+			}
+		</style>
+		<script src="crossword.js"></script>
+		<script src="ttss.js"></script>
+		<script>
+		
+			var appdata = {
+				maincolor : "2a797a",
+				qcount : 5,
+			}
+			
+			if(localStorage.getItem("ttsasyik") === null){
+				saveData()
+			}else{
+				appdata = JSON.parse(localStorage.getItem("ttsasyik"));
+			}
+			
+			function saveData(){
+				localStorage.setItem("ttsasyik", JSON.stringify(appdata))
+			}	
+			
+			function startttsgame(){
+		
+				// words[i] correlates to clues[i]
+				var words = [];
+				var clues = [];
+				
+				for(var i = 0; i < appdata.qcount; i++){
+					var rn = genrandom(ttss.length-1)
+					var q = ttss[rn]
+					words.push(q.word)
+					clues.push(q.clue)
+					ttss.splice(rn,1)
+				}
+				
+				function genrandom(maxnum){
+					return Math.floor(Math.random() * maxnum)
+				}
+
+				// Create crossword object with the words and clues
+				var cw = new Crossword(words, clues);
+
+				// create the crossword grid (try to make it have a 1:1 width to height ratio in 10 tries)
+				var tries = 10; 
+				var grid = cw.getSquareGrid(tries);
+
+				// report a problem with the words in the crossword
+				if(grid == null){
+					var bad_words = cw.getBadWords();
+					var str = [];
+					for(var i = 0; i < bad_words.length; i++){
+						str.push(bad_words[i].word);
+					}
+					//alert("Shoot! A grid could not be created with these words:\n" + str.join("\n"));
+					location.reload()
+					return;
+				}
+
+				// turn the crossword grid into HTML
+				var show_answers = true;
+				document.getElementById("crossword").innerHTML = CrosswordUtils.toHtml(grid, show_answers);
+
+				// make a nice legend for the clues
+				var legend = cw.getLegend(grid);
+				addLegendToPage(legend);
+
+				function addLegendToPage(groups){
+					for(var k in groups){
+						var html = [];
+						for(var i = 0; i < groups[k].length; i++){
+							html.push("<li><strong>" + groups[k][i]['position'] + ".</strong> " + groups[k][i]['clue'] + "</li>");
+						}
+						document.getElementById(k).innerHTML = html.join("\n");
+					}
+				}
+			}
+		</script>
+	</head>
+	<body>
+		
+		
+		<div class="screen" id="game">
+			<div id="ttscontainer" style="overflow: auto; text-align: left;">
+				<div id="crossword"></div>
+			</div>
+			<table id="clues">
+				<thead>
+					<tr>
+						<th>Across</th>
+						<th>Down</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><ul id="across"></ul></td>
+						<td><ul id="down"></ul></td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<button onclick="toggleAnswer()"><i class="fa fa-eye"></i> Toggle Answer</button>
+			<button onclick="location.reload()"><i class="fa fa-refresh"></i> Randomize</button>
+			
+			<div id="vkeyboard">
+				<h3>Enter the correct letter</h3>
+				<div id="kbtnlist"></div>
+				<button onclick="$('#vkeyboard').hide()"><i class="fa fa-times"></i> Close</button>
+			</div>
+		</div>
+		
+		
+		<div id="appbar">
+			<span class="abitem" onclick="toggledrawer()"><i class="fa fa-bars"></i></span>
+			<span class="abitem">CrosswordGame</span>
+			<span class="abitem" style="float: right" onclick="toggleAnswer()"><i class="fa fa-eye"></i></span>
+		</div>
+		<div id="drawer">
+			<div class="ditem" onclick="setqcount(3)"><i class="fa fa-edit"></i> 3 Words</div>
+			<div class="ditem" onclick="setqcount(5)"><i class="fa fa-edit"></i> 5 Words</div>
+			<div class="ditem" onclick="resetsettings()"><i class="fa fa-refresh"></i> Reset</div>
+			
+		</div>
+		
+		<script>
+			
+			function setqcount(n){
+				appdata.qcount = n
+				saveData()
+				location.reload()
+			}
+			
+			function resetsettings(){
+				localStorage.clear()
+				location.reload()
+			}
+			
+			function tsep(x){
+				return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+			}
+			
+			function vtext(text){
+				var letters = /^[A-Za-z0-9]+$/;
+				if(text.match(letters)) return true;
+				else return false;
+			}
+			function toggledrawer(){
+				$("#drawer").toggle()
+			}
+			
+		</script>
+		
+		<script>
+			var canswershown = false;
+			function toggleAnswer(){
+				if(canswershown){
+					$(".canswer").hide()
+					$(".uanswer").show()
+					canswershown = false
+				}else{
+					$(".canswer").show()
+					$(".uanswer").hide()
+					canswershown = true
+				}
+
+			}
+			function activatetts(){
+				$("td").click(function(){
+					if($(this).find(".canswer").html() != "&nbsp;" && $(this).find(".canswer").html() != undefined){
+						console.log("Clicked: " + $(this).find(".canswer").html())
+						console.log($(this).find(".uanswer").attr('id'))
+						selectedua = $(this).find(".uanswer").attr('id')
+						$("#vkeyboard").show()
+					}
+				})
+			}
+				
+			var selectedua = -1
+			function typechar(c){
+				$("#"+selectedua).html(c)
+				$("#vkeyboard").hide()
+			}
+			
+			function initvkeyboard(){
+				var chars = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",]
+				for(var i = 0; i < chars.length; i++){
+					$("#kbtnlist").append("<div class='kbtn' onclick=typechar('"+chars[i]+"')>"+chars[i]+"</div>")
+				}
+			}
+			
+			
+			setTimeout(function(){
+				startttsgame()
+				activatetts()
+				initvkeyboard()
+				$("#crossword").css({ "width" : ($("tbody:eq(0)").find("tr:eq(0)").find("td").length * 32) + "px" })
+				$("#game").show()
+			},500)
+			
+		</script>
+		
+	</body>
+</html>
