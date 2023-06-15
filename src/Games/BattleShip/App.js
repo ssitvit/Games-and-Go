@@ -6,6 +6,7 @@ import './App.css';
 
 const BoardsContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;

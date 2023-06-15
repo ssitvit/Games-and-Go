@@ -12,7 +12,7 @@ function BallShooting() {
       <div id="modalEl">
         <div className="BallShootingStats">
           <h1 id="bigScoreEl">0</h1>
-          <p class="text-sm text-gray-700 mb-4">Points</p>
+          <p className="text-sm text-gray-700 mb-4">Points</p>
           <div>
             <button id="startGamebtn">Start Game</button>
           </div>

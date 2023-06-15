@@ -1,4 +1,3 @@
-import React from "react";
 //Add the following data in the card for the game you have added. For any instructions refer to contributing.md
 
 export const data1 = [
@@ -6,7 +5,7 @@ export const data1 = [
     serial_number: "01",
     main_heading: "Let's Play Tic-Tac-Toe",
     about:
-      "A fun and interesting tic tac toe game to take us back to the good old childhood days!",
+      "Interesting tic tac toe game to bring us back to the childhood days!",
     link_game: "/Tic",
   },
   {
@@ -100,5 +99,18 @@ export const data1 = [
     main_heading: "Drag and Drop",
     about: "Drag the cards from the middle section and drop them into the similar one.", 
     link_game: "/DragAndDrop",
+  },
+  {
+    serial_number: "17",
+    main_heading: "Let's Play Tic-Tac-Toe with AI",
+    about:
+      "Can you compete with AI...",
+    link_game: "/Tictac",
+  },
+    {
+    serial_number: "18",
+    main_heading: "Arkanoid",
+    about: "Complete all bricks", 
+    link_game: "/Arkanoid",
   }
 ];

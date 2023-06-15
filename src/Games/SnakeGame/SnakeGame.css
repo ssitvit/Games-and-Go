@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -51,3 +52,93 @@
   border: 0.25vmin solid black;
   border-radius: 8px;
 }
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+  .text{
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 0;
+  }
+  .heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fffefe;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0;
+  }
+  .heading:hover{
+     color: #FF0000;
+  }
+  .snake-container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  .grid {
+    width: 500px;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .grid-item {
+    outline: 1px solid grey;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .snake {
+    outline: 1px solid blue;
+    background-color: blue;
+  
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+  .food {
+    outline: 1px solid yellow;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    
+  }
+  h6 {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    color: #555555;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  
+  
+  h6:hover {
+    color: #FF0000;
+  }
+  
+  h6:hover:before {
+    color: #FF0000;
+  }
+  
+  
+  
+
