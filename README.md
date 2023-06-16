@@ -84,21 +84,6 @@
 	</table>
    </div>
 
-## Contributors ✨
-<div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Aditi323"><img src="https://avatars.githubusercontent.com/u/114893448?v=4" width="18%" /></a><br />
-      <a href="https://github.com/Aditi323">Aditi Bisoi</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Atharva-3000"><img src="https://avatars.githubusercontent.com/u/72994819?v=4" width="18%" /></a><br />
-      <a href="https://github.com/Atharva-3000">Atharva Deshmukh</a>
-    </td>
-  </tr>
-</table>
-</div>
 
 ```javascript
 if (youLiked) {
