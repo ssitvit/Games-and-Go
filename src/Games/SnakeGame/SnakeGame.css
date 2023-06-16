@@ -1,3 +1,57 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(bg.jpg);
+  background-size: 100vw 100vh;
+  
+}
+
+#board {
+  background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+  width: 90vmin;
+  height: 92vmin;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+}
+
+#scoreBox {
+  top: 190px;
+  position: absolute;
+  right: 200px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.head {
+  background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+  border: 2px solid rgb(34, 4, 34);
+  transform: scale(1.02);
+  border-radius: 9px;
+}
+
+.snake {
+  background-color: purple;
+  border: 0.25vmin solid white;
+  border-radius: 12px;
+}
+
+.food {
+  background: linear-gradient(red, purple);
+  border: 0.25vmin solid black;
+  border-radius: 8px;
+}
 .main {
     width: 100vw;
     height: 100vh;
@@ -15,13 +69,16 @@
     font-family: 'Arial', sans-serif;
     font-size: 36px;
     font-weight: bold;
-    color: #333333;
+    color: #fffefe;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 0;
+  }
+  .heading:hover{
+     color: #FF0000;
   }
   .snake-container {
     margin: 0;
@@ -72,7 +129,7 @@
     cursor: pointer;
   }
   
-
+  
   
   h6:hover {
     color: #FF0000;
@@ -84,9 +141,4 @@
   
   
   
-  
-  
-  
-  
-  
-  
+
