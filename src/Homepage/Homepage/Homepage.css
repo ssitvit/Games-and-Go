@@ -543,3 +543,70 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+/* Default Theme */
+/* .container_landing {
+  background-color: #f2f2f2;
+}
+ */
+
+/* White Theme */
+.container_landing.white {
+  background-color: #fff;
+}
+
+/* Black Theme */
+.container_landing.black {
+  background-color: #333;
+}
+
+/* Red Theme */
+.container_landing.red {
+  background-color: #ff6666;
+}
+
+/* Green Theme */
+.container_landing.green {
+  background-color: #66cc66;
+}
+
+
+/* Additional theme styles can be added similarly */
+
+.floating-button-container {
+  position: fixed;
+  bottom: 200px;
+  right: 20px;
+  z-index: 999;
+}
+
+.floating-button {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.floating-button.default {
+  background-color: #000;
+}
+
+.floating-button.white {
+  background-color: #fff;
+  color: #000;
+}
+
+.floating-button.black {
+  background-color: #000;
+}
+
+.floating-button.red {
+  background-color: #ff0000;
+}
+
+.floating-button.green {
+  background-color: #00ff00;
+}
