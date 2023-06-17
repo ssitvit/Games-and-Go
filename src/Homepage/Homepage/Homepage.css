@@ -28,7 +28,7 @@ body {
   box-sizing: border-box;
   padding: 2rem auto;
   margin: 4px auto;
-  height: 300px;
+  height: 600px;
   background: black;
   display: grid;
   place-items: center;
