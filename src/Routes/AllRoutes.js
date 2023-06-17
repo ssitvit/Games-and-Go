@@ -15,10 +15,11 @@ import DiceThrow from "../Games/DiceThrow/main";
 import Wordle from "../Games/Wordle/Wordle";
 import SnakeGame from "../Games/SnakeGame/SnakeGame";
 import Tetris from "../Games/tetris/src/components/Tetris";
-import Battle from "../Games/BattleShip/App"
-import App from "../Games/DragAndDrop/App"
+import Battle from "../Games/BattleShip/App";
+import App from "../Games/DragAndDrop/App";
 import TicTacToeAI from "../Games/TicTactoeAI/app";
 import Arkanoid from "../Games/Arkanoid/App";
+import Tenzies from "../Games/Tenzies/src/App";
 
 function AllRoutes() {
   return (
@@ -43,6 +44,7 @@ function AllRoutes() {
       <Route path="/DragAndDrop" element={<App />} />
       <Route path="/Tictac" element={<TicTacToeAI />} />
       <Route path="/Arkanoid" element={<Arkanoid />} />
+      <Route path="/Tenzies" element={<Tenzies />} />
     </Routes>
   );
 }
