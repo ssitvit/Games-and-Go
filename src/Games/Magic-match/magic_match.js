@@ -76,7 +76,7 @@ function MagicMatch() {
   }, [])
 
   return (
-    <div className="App">
+    <div className="Magic">
       <h1>Magic Match</h1>
       <button onClick={shuffleCards}>New Game</button>
 
