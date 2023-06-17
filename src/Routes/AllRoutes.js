@@ -19,7 +19,7 @@ import Battle from "../Games/BattleShip/App";
 import App from "../Games/DragAndDrop/App";
 import TicTacToeAI from "../Games/TicTactoeAI/app";
 import Arkanoid from "../Games/Arkanoid/App";
-import Tenzies from "../Games/Tenzies/src/App";
+import Tenzies from "../Games/Tenzies/App.jsx";
 
 function AllRoutes() {
   return (
