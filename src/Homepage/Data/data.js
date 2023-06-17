@@ -119,4 +119,11 @@ export const data1 = [
     about: "Dies Game When All Number Become same You Won The Game",
     link_game: "/Tenzies",
   },
+  {
+    serial_number: "20",
+    main_heading: "Let's Play Chess with AI",
+    about:
+      "Can you compete with AI...",
+    link_game: "/Chess",
+  },
 ];

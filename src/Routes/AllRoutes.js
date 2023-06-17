@@ -20,6 +20,7 @@ import App from "../Games/DragAndDrop/App";
 import TicTacToeAI from "../Games/TicTactoeAI/app";
 import Arkanoid from "../Games/Arkanoid/App";
 import Tenzies from "../Games/Tenzies/App.js";
+import ChessAI from '../Games/ChessAI/appiz';
 
 function AllRoutes() {
   return (
@@ -45,6 +46,7 @@ function AllRoutes() {
       <Route path="/Tictac" element={<TicTacToeAI />} />
       <Route path="/Arkanoid" element={<Arkanoid />} />
       <Route path="/Tenzies" element={<Tenzies />} />
+      <Route path="/Chess" element={<ChessAI />} />
     </Routes>
   );
 }
