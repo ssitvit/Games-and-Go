@@ -1,8 +1,12 @@
-.h {
+
+  .h {
     color: #4ba4eb;
     text-decoration: none;
-    font-family: "Press Start 2P", cursive;
-}
+    font-size: 30px;
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+  }
 .fancy {
     color: white;
     font-family: "Peralta", cursive;

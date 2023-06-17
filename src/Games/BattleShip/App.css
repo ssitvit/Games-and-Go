@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: bisque;
+}
+.stat{
+  color: rgb(154, 85, 0);
+}
+.App {
+  font-size: 18px;
+}
+.btn-primary{
+  margin-top: 10px;
+
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 0;
+  color: rgb(210, 120, 10);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sunk {
+  text-decoration: line-through;
+}

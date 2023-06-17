@@ -1,0 +1,102 @@
+.card{
+    border-radius: 25px;
+    background: #2d330f;
+
+    width: 150px;
+    height: 100px; 
+    margin: 10px;
+    
+    
+}
+
+.sc{
+    font-family:cursive;
+    
+    text-align: center;
+    color: #f2eded;
+    padding-top: 10px;
+    font-size:40px;
+    text-shadow: 0 0 5px rgb(121, 59, 101),
+                 0 0 10px rgb(121, 59, 101), 
+                 0 0 20px rgb(121, 59, 101), 
+                 0 0 30px rgb(121, 59, 101), 
+                 0 0 40px rgb(35, 26, 32), 
+                 0 0 55px rgb(35, 26, 32), 
+                 0 0 70px rgb(35, 26, 32);
+}
+.head{
+    font-family:cursive;
+    
+    text-align: center;
+    color: #f2eded;
+    padding-top: 40px;
+    font-size:70px;
+    text-shadow: 0 0 5px rgb(35, 26, 32),
+                 0 0 10px rgb(35, 26, 32), 
+                 0 0 20px rgb(35, 26, 32), 
+                 0 0 30px rgb(35, 26, 32), 
+                 0 0 40px rgb(35, 26, 32), 
+                 0 0 55px rgb(35, 26, 32), 
+                 0 0 70px rgb(35, 26, 32);
+
+}
+
+
+
+
+
+.red{
+    border-radius: 25px;
+    background: #bb3638;
+
+    width: 150px;
+    height: 100px; 
+    margin: 10px;
+}
+
+.blue{
+    border-radius: 25px;
+    background: #2012a2;
+
+    width: 150px;
+    height: 100px; 
+    margin: 10px;
+}
+
+.green{
+    border-radius: 25px;
+    background: #28ac31;
+
+    width: 150px;
+    height: 100px; 
+    margin: 10px;
+}
+
+.yellow{
+    border-radius: 25px;
+    background: yellow;
+
+    width: 150px;
+    height: 100px; 
+    margin: 10px;
+}
+
+.orange{
+    border-radius: 25px;
+    background: orange;
+
+    width: 150px;
+    height: 100px; 
+    margin: 10px;
+
+}
+
+.purple{
+    border-radius: 25px;
+    background: purple;
+
+    width: 150px;
+    height: 100px; 
+    margin: 10px;
+
+}

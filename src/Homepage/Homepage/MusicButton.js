@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import styled from "styled-components";
 import { MdMusicOff, MdMusicNote } from "react-icons/md";
 import music1 from "../Homepage/music1.mp3";
@@ -7,22 +7,22 @@ export default function MusicButton() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const audioref = useRef();
-  const playMusic = () => {
-    audioref.current.play();
-  };
-  const pauseMusic = () => {
-    audioref.current.pause();
-  };
+
+  useEffect(() => {
+    if (isPlaying) {
+      audioref.current.play();
+    } else {
+      audioref.current.pause();
+    }
+  }, [isPlaying]);
 
   const toggleMusic = () => {
-    if (isPlaying) pauseMusic();
-    else playMusic();
-
     setIsPlaying(!isPlaying);
   };
+
   return (
     <>
-      <audio ref={audioref} loop autoPlay>
+      <audio ref={audioref} loop>
         <source src={music1} type="audio/mp3" />
       </audio>
       <Wrapper2>
@@ -33,6 +33,8 @@ export default function MusicButton() {
     </>
   );
 }
+
+
 
 const Wrapper2 = styled.section`
   display: flex;
@@ -57,6 +59,16 @@ const Wrapper2 = styled.section`
     align-items: center;
     cursor: pointer;
     color: white;
+
+    &:hover::before {
+      content: "Play Music";
+      position: absolute;
+      top: -5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.6rem;
+      color: #fff;
+    }
   }
 
   @media (max-width: 768px) {
@@ -65,4 +77,4 @@ const Wrapper2 = styled.section`
       left: 2rem;
     }
   }
-`;
+  `;

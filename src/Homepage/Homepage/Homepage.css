@@ -236,10 +236,11 @@ body {
 }
 /* Search input  */
 .search-input {
-  margin: auto;
+  margin: -5px auto;
   width: 40%;
   border: 5px;
   padding: 5px;
+  margin-bottom: 50px;
   font-size: 26px;
   display: flex;
   justify-content: center;
@@ -288,15 +289,45 @@ body {
 
 /* Add media query for devices with width less than or equal to 576px */
 /* This will make animation responsive in smaller devices*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px ) {
   .pacman {
-    height: 85px;
-    width: 85px;
+    height: 120px;
+    width: 120px;
   }
 
   .ghost {
-    height: 85px;
-    width: 85px;
+    height: 120px;
+    width: 120px;
+    left: -50px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(2) {
+    margin: 0 -100px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(3) {
+    margin: 0 -225px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(4) {
+    margin: 0 -350px;
+  }
+
+  .container_landing > div.ghost:nth-of-type(5) {
+    margin: 0 -475px;
+  }
+}
+
+/* Add media query for devices with width greater than or equal to 576px */
+@media screen and (min-width: 576px) {
+  .pacman {
+    height: 120px;
+    width: 120px;
+  }
+
+  .ghost {
+    height: 120px;
+    width: 120px;
     left: 50px;
   }
 
@@ -305,15 +336,44 @@ body {
   }
 
   .container_landing > div.ghost:nth-of-type(3) {
-    margin: 0 -190px;
+    margin: 0 -225px;
   }
 
   .container_landing > div.ghost:nth-of-type(4) {
-    margin: 0 -280px;
+    margin: 0 -350px;
   }
 
   .container_landing > div.ghost:nth-of-type(5) {
-    margin: 0 -370px;
+    margin: 0 -475px;
+  }
+}
+
+/* Add media query for devices with width greater than or equal to 768px */
+@media screen and (min-width: 768px) {
+  .pacman {
+    height: 120px;
+    width: 120px;
+  }
+
+  .ghost {
+    height: 120px;
+    width: 120px;
+    left: 50px;
+  }
+}
+
+
+/* Add media query for devices with width greater than or equal to 992px */
+@media screen and (min-width: 992px) {
+  .pacman {
+    height: 120px;
+    width: 120px;
+  }
+
+  .ghost {
+    height: 120px;
+    width: 120px;
+    left: 250px;
   }
 }
 
@@ -325,6 +385,7 @@ body {
   min-height: 50vh;
   width: 100%;
   background: #161623;
+  border-radius: 50px;
 }
 
 .container_card {
@@ -346,43 +407,39 @@ body {
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
+  transition: 250ms;
+}
+
+.container_card .card:hover {
+  transform: scale(1.025);
 }
 
 .container_card .card .content {
-  padding: 20px;
-  text-align: center;
-  transform: translateY(0px);
-  opacity: 1;
-  transition: 0.5s;
+  padding: 2rem 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.container_card .card:hover .content {
-  opacity: 1;
-  transform: translateY(20px);
-}
 
 .container_card .card .content h2 {
-  position: absolute;
-  top: -80px;
-  right: 30px;
-  font-size: 8em;
-  color: rgba(255, 255, 255, 0.05);
+  font-size: 3em;
+  color: rgba(255, 255, 255, 0.4);
   pointer-events: none;
   font-family: "Press Start 2P", cursive;
+  margin-bottom: 2rem;
 }
 
 .container_card .card .content h3 {
   font-family: "Press Start 2P", cursive;
-
-  font-size: 1.8em;
+  font-size: 1.4em;
   color: #fff;
   z-index: 1;
+  margin-bottom: 1rem;
+  line-height: 2rem;
 }
 
 .container_card .card .content p {
@@ -394,7 +451,7 @@ body {
 .container_card .card .content a {
   position: relative;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 0.75rem 1rem;
   margin-top: 15px;
   background: #fff;
   color: #000;
@@ -420,7 +477,6 @@ body {
 /* Heading in Homepage Game on!! */
 
 .header_homepage {
-  margin: auto;
   width: 80%;
   border: 5px;
   padding: 5px;
@@ -431,6 +487,9 @@ body {
   font-family: "Silkscreen", cursive;
   font-size: 3.5rem;
   text-align: center;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 35px;
 }
 .header_homepage h1 {
   font-size: 3.5rem;
@@ -475,11 +534,12 @@ body {
   display: flex;
   justify-content: center;
   top: 30px;
-  color: white;
-  font-family: "Silkscreen", cursive;
   text-align: center;
 }
 
 .copyright h3{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
