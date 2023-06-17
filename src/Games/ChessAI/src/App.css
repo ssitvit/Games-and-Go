@@ -1,31 +1,7 @@
-.app {
-  text-align: center;
-}
-
-.app_board {
-  width: 800px;
-  display: grid;
-  grid-template-rows: repeat(8, 100px);
-  border: 1px solid black;
-}
-
-.row {
+.flex-center {
   display: flex;
-  flex-direction: row;
-}
-
-.box {
-  display: "flex";
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  box-sizing: border-box;
-  background-color: rgb(254, 206, 161);
-}
-
-.row:nth-child(2n + 1) .box:nth-child(2n) {
-  background-color: rgb(208, 139, 76);
-}
-.row:nth-child(2n) .box:nth-child(2n + 1) {
-  background-color: rgb(208, 139, 76);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }

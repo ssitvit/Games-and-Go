@@ -19,7 +19,8 @@ import Battle from "../Games/BattleShip/App"
 import App from "../Games/DragAndDrop/App"
 import TicTacToeAI from "../Games/TicTactoeAI/app";
 import Arkanoid from "../Games/Arkanoid/App";
-import ChessAI from "../Games/ChessAI/src/App";
+import ChessAI from '../Games/ChessAI/appiz';
+
 
 function AllRoutes() {
   return (
