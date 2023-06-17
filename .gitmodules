@@ -1,0 +1,6 @@
+[submodule "src/Games/Tenzies"]
+	path = src/Games/Tenzies
+	url = https://github.com/Nishitbaria/Games-and-Go
+[submodule "Games-and-Go"]
+	path = Games-and-Go
+	url = https://github.com/Nishitbaria/Games-and-Go
