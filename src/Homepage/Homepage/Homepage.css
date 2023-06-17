@@ -122,7 +122,9 @@ body {
 .about-section {
   border-radius: 30px;
   margin-top: 100px;
-  background-color: #753131;
+  background-color: #000000;
+  border: 10px groove lightblue;
+  outline: 15px groove purple;
   padding: 20px;
   margin-bottom: 20px;
 }
