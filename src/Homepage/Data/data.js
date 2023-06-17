@@ -91,30 +91,36 @@ export const data1 = [
   {
     serial_number: "15",
     main_heading: "Battle Ships",
-    about: "search and Destroy Enemies ships", 
+    about: "search and Destroy Enemies ships",
     link_game: "/Battle",
   },
   {
     serial_number: "16",
     main_heading: "Drag and Drop",
-    about: "Drag the cards from the middle section and drop them into the similar one.", 
+    about:
+      "Drag the cards from the middle section and drop them into the similar one.",
     link_game: "/DragAndDrop",
   },
   {
     serial_number: "17",
     main_heading: "Let's Play Tic-Tac-Toe with AI",
-    about:
-      "Can you compete with AI...",
+    about: "Can you compete with AI...",
     link_game: "/Tictac",
   },
-    {
+  {
     serial_number: "18",
     main_heading: "Arkanoid",
-    about: "Complete all bricks", 
+    about: "Complete all bricks",
     link_game: "/Arkanoid",
   },
   {
     serial_number: "19",
+    main_heading: "Tenzies",
+    about: "Dies Game When All Number Become same You Won The Game",
+    link_game: "/Tenzies",
+  },
+  {
+    serial_number: "20",
     main_heading: "Let's Play Chess with AI",
     about:
       "Can you compete with AI...",
