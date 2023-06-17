@@ -18,8 +18,8 @@ function Homepage() {
       inputValue === ''
         ? data1 // Show all values if search query is empty
         : data1.filter((item) =>
-            item.main_heading.toLowerCase().includes(inputValue.toLowerCase())
-          );
+          item.main_heading.toLowerCase().includes(inputValue.toLowerCase())
+        );
     setFilteredData(filtered);
   };
   return (
@@ -30,11 +30,15 @@ function Homepage() {
       {/* Pacman Landing Container */}
       <div className="container_landing">
         <div className="pacman"></div>
-          <div className="ghost"></div>
-          <div className="ghost"></div>
-          <div className="ghost"></div>
-          <div className="ghost"></div>
-          <div className="text"></div>
+        <div className="ghost"></div>
+        <div className="ghost"></div>
+        <div className="ghost"></div>
+        <div className="ghost"></div>
+        <div className="text"></div>
+      </div>
+      <div className="about-section">
+        <h2>About</h2>
+        <p>Games-And-Go is a website that offers a diverse collection of online games to entertain and engage users of all ages. With a user-friendly interface, the website provides easy access to a wide range of games, including puzzles, arcade classics, strategy games, and more. Users can explore different game categories, choose their favorites, and start playing instantly without the need for downloads or installations. The website aims to provide a fun and immersive gaming experience, allowing players to relax, challenge themselves, and enjoy their leisure time. Whether you're a casual gamer or a dedicated gaming enthusiast, Games-And-Go has something to offer for everyone.</p>
       </div>
       {/* Heading of Cards */}
       <div className="header_homepage">
