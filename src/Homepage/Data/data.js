@@ -1,3 +1,4 @@
+
 //Add the following data in the card for the game you have added. For any instructions refer to contributing.md
 
 export const data1 = [
@@ -126,4 +127,11 @@ export const data1 = [
       "Can you compete with AI...",
     link_game: "/Chess",
   },
+  {
+    serial_number: "19",
+    main_heading: "Mine sweeper",
+    about: "Be aware of mines !!",
+    link_game: "/Minesweeper",
+  }
+
 ];
