@@ -1,171 +1,123 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import "./SnakeGame.css";
 
-const HEIGHT = 10;
-const WIDTH = 10;
+const Game = () => {
+  const [score, setScore] = useState(0);
+  const [snakeArr, setSnakeArr] = useState([{ x: 13, y: 15 }]);
+  const [food, setFood] = useState({ x: 6, y: 7 });
+  const [dir, setDir] = useState({ x: 0, y: 0 });
+  const [gameOver, setGameOver] = useState(false);
 
-// Mapping keycode for changing direction
-const LEFT = 37;
-const UP = 38;
-const RIGHT = 39;
-const DOWN = 40;
-const STOP = 32; /* [space] used for pause */
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (!gameOver) {
+        switch (e.key) {
+          case "ArrowUp":
+            setDir({ x: 0, y: -1 });
+            break;
+  
+          case "ArrowDown":
+            setDir({ x: 0, y: 1 });
+            break;
+  
+          case "ArrowLeft":
+            setDir({ x: -1, y: 0 });
+            break;
+  
+          case "ArrowRight":
+            setDir({ x: 1, y: 0 });
+            break;
+  
+          default:
+            break;
+        }
+      }
+    };
 
-const getRandom = () => {
-  return {
-    x: Math.floor(Math.random() * WIDTH),
-    y: Math.floor(Math.random() * HEIGHT),
-  };
-};
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [gameOver]);
 
-const emptyRows = () =>
-  [...Array(WIDTH)].map((_) => [...Array(HEIGHT)].map((_) => "grid-item"));
+  useEffect(() => {
+    const gameEngine = () => {
+      if (!gameOver) {
+        const newSnakePart = { x: snakeArr[0].x + dir.x, y: snakeArr[0].y + dir.y };
+        const newSnakeArr = [newSnakePart, ...snakeArr];
 
-const increaseSpeed = (speed) => speed - 10 * (speed > 10);
+        if (newSnakePart.x === food.x && newSnakePart.y === food.y) {
+          setScore((prevScore) => prevScore + 1);
+          generateFood();
+        } else {
+          newSnakeArr.pop();
+        }
 
-const initialState = {
-  rows: emptyRows(),
-  snake: [getRandom()],
-  food: getRandom(),
-  direction: STOP,
-  speed: 200,
-};
+        if (
+          newSnakePart.x >= 19 ||
+          newSnakePart.x <= 0 ||
+          newSnakePart.y >= 19 ||
+          newSnakePart.y <= 0 ||
+          isCollide(newSnakePart)
+        ) {
+          setGameOver(true);
+        }
 
-class SnakeGame extends Component {
-  constructor() {
-    super();
-    this.state = initialState;
-  }
+        setSnakeArr(newSnakeArr);
+      }
+    };
 
-  componentDidMount() {
-    setInterval(this.moveSnake, this.state.speed); // Start moving the snake at regular intervals
-    document.onkeydown = this.changeDirection; // Listen for keydown events to change direction
-  }
+    const interval = setInterval(gameEngine, 100);
 
-  componentDidUpdate() {
-    this.isCollapsed();
-    this.isEaten();
-  }
-  // Movement of the Snake
-  moveSnake = () => {
-    let snakeCopy = [...this.state.snake];
-    let head = { ...snakeCopy[snakeCopy.length - 1] };
-    switch (this.state.direction) {
-      case LEFT:
-        head.y += -1;
-        break;
-      case UP:
-        head.x += -1;
-        break;
-      case RIGHT:
-        head.y += 1;
-        break;
-      case DOWN:
-        head.x += 1;
-        break;
-      default:
-        return;
+    return () => clearInterval(interval);
+  }, [dir, snakeArr, food, gameOver]);
+
+  useEffect(() => {
+    if (gameOver) {
+      alert(`Game Over! Your score: ${score}`);
+      setScore(0);
+      setSnakeArr([{ x: 13, y: 15 }]);
+      setDir({ x: 0, y: 0 });
+      generateFood();
+      setGameOver(false);
     }
-    /* keep the value within range of 0 to HEIGHT */
-    head.x += HEIGHT * ((head.x < 0) - (head.x >= HEIGHT));
-    head.y += WIDTH * ((head.y < 0) - (head.y >= WIDTH));
+  }, [gameOver, score]);
 
-    snakeCopy.push(head);
-    snakeCopy.shift();
-    this.setState({
-      snake: snakeCopy,
-      head: head,
-    });
-    this.update();
-  };
-  // Function to check eaten
-  isEaten() {
-    let snakeCopy = [...this.state.snake];
-    let head = { ...snakeCopy[snakeCopy.length - 1] };
-    let food = this.state.food;
-    if (head.x === food.x && head.y === food.y) {
-      snakeCopy.push(head);
-      this.setState({
-        snake: snakeCopy,
-        food: getRandom(),
-        speed: increaseSpeed(this.state.speed),
-      });
-    }
-  }
-
-  update() {
-    let newRows = emptyRows();
-    this.state.snake.forEach(
-      (element) => (newRows[element.x][element.y] = "snake")
-    );
-    newRows[this.state.food.x][this.state.food.y] = "food";
-    this.setState({ rows: newRows });
-  }
-
-  isCollapsed = () => {
-    let snake = this.state.snake;
-    let head = { ...snake[snake.length - 1] };
-
-    // Check if the snake touches the boundary
-    if (head.x < 0 || head.x >= HEIGHT || head.y < 0 || head.y >= WIDTH) {
-      this.setState(initialState);
-      alert(`Game over: ${snake.length * 10}`);
-    }
-
-    // Check if the snake collides with itself
-    for (let i = 0; i < snake.length - 3; i++) {
-      if (head.x === snake[i].x && head.y === snake[i].y) {
-        this.setState(initialState);
-        alert(`Game over: ${snake.length * 10}`);
+  const isCollide = (newSnakePart) => {
+    for (let i = 1; i < snakeArr.length; i++) {
+      if (newSnakePart.x === snakeArr[i].x && newSnakePart.y === snakeArr[i].y) {
+        return true;
       }
     }
+    return false;
   };
 
-  changeDirection = ({ keyCode }) => {
-    let direction = this.state.direction;
-    switch (keyCode) {
-      case LEFT:
-        direction = direction === RIGHT ? RIGHT : LEFT;
-        break;
-      case RIGHT:
-        direction = direction === LEFT ? LEFT : RIGHT;
-        break;
-      case UP:
-        direction = direction === DOWN ? DOWN : UP;
-        break;
-      case DOWN:
-        direction = direction === UP ? UP : DOWN;
-        break;
-      case STOP:
-        direction = STOP;
-        break;
-      default:
-        break;
-    }
-    this.setState({
-      direction: direction,
-    });
+  const generateFood = () => {
+    const newFood = {
+      x: Math.floor(Math.random() * 18) + 1,
+      y: Math.floor(Math.random() * 18) + 1,
+    };
+    setFood(newFood);
   };
 
-  render() {
-    const displayRows = this.state.rows.map((row, i) =>
-      row.map((value, j) => <div name={`${i}=${j}`} className={value} />)
-    );
-    return (
-      <div className="a">
-        <div className="text">
-          <h1 className="heading">90s Snake Game</h1>
-          <ul>
-            <h6>Press "Space" to pause the game.</h6>
-            <h6>Press "arrow keys" to change direction/unpause.</h6>
-          </ul>
-        </div>
-        <div className="snake-container">
-          <div className="grid">{displayRows}</div>
-        </div>
+  return (
+    <div className="body">
+      <div id="scoreBox">Score: {score}</div>
+      <div id="board">
+        {snakeArr.map((snakePart, index) => (
+          <div
+            className={index === 0 ? "head" : "snake"}
+            key={index}
+            style={{ gridRow: snakePart.y, gridColumn: snakePart.x }}
+          ></div>
+        ))}
+        <div
+          className="food"
+          style={{ gridRow: food.y, gridColumn: food.x }}
+        ></div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
-export default SnakeGame;
+export default Game;

@@ -6,6 +6,15 @@
     <h2 align="center" >Checkout our Work at  <a href="https://games.ieeessitvit.tech/">SSIT LIVE </a></h2>
     <br>
 </p>
+ ---
+ 
+ ### OPEN SOURCE CONTRIBUTIONS!!  
+---
+<p align="center">
+    <img src="https://miro.medium.com/max/1400/1*fqJaH_oISOR96gLgpJBwWQ.png" />
+</p>
+
+---
 
 <h2 align="center"> Table of Contents <h2/>
 	
@@ -22,6 +31,8 @@
 <p align="center">
     <!-- 	<h1 align="center"> WHAT IS HACKTOBERFEST 2022</h1> -->
     <!-- 	<h2 align="center">Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:</h2> -->
+
+ 
 <h2 align="center">Why Contribute with Us ❓</h2>
 <ul>
     <li>Prepare and share your project for collaboration</li>
@@ -84,21 +95,6 @@
 	</table>
    </div>
 
-## Contributors ✨
-<div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Aditi323"><img src="https://avatars.githubusercontent.com/u/114893448?v=4" width="18%" /></a><br />
-      <a href="https://github.com/Aditi323">Aditi Bisoi</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Atharva-3000"><img src="https://avatars.githubusercontent.com/u/72994819?v=4" width="18%" /></a><br />
-      <a href="https://github.com/Atharva-3000">Atharva Deshmukh</a>
-    </td>
-  </tr>
-</table>
-</div>
 
 ```javascript
 if (youLiked) {
