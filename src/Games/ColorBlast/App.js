@@ -1,9 +1,13 @@
 import "./App.css";
 
 
-function App ()  (
-  
+function App ()  {
 
+    return(
+
+        
+        
+        
         
         
         
@@ -20,8 +24,10 @@ function App ()  (
     </div>
     </div>
 
-
 )
+}
+
+
 
 
 export default App;
