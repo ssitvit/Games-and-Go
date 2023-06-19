@@ -112,5 +112,12 @@ export const data1 = [
     main_heading: "Arkanoid",
     about: "Complete all bricks", 
     link_game: "/Arkanoid",
+  },
+
+  {
+    serial_number: "19",
+    main_heading: "Drum-Kit",
+    about: "Play the drums",
+    link_game: "/Drum-Kit",
   }
 ];
