@@ -122,7 +122,7 @@ export const data1 = [
     link_game: "/Chess",
   },
   {
-    serial_number: "19",
+    serial_number: "20",
     main_heading: "Mine sweeper",
     about: "Be aware of mines !!",
     link_game: "/Minesweeper",
