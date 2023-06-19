@@ -5,12 +5,6 @@ function App ()  {
 
     return(
 
-        
-        
-        
-        
-        
-        
         <div class="container">
     <div class="game-wrap">
         <canvas width="960px" height="540" id="game"></canvas>
