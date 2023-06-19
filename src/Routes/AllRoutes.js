@@ -22,6 +22,7 @@ import Arkanoid from "../Games/Arkanoid/App";
 import Tenzies from "../Games/Tenzies/App.js";
 import ChessAI from '../Games/ChessAI/appiz';
 import Minesweeper from "../Games/Minesweeper/App";
+import ColorBlast from "../Games/ColorBlast/App"
 
 function AllRoutes() {
   return (
@@ -49,6 +50,7 @@ function AllRoutes() {
       <Route path="/Tenzies" element={<Tenzies />} />
       <Route path="/Chess" element={<ChessAI />} />
       <Route path="/Minesweeper" element={<Minesweeper/>}/>
+      <Route path="/ColorBlast" element={<ColorBlast/>}/>
     </Routes>
   );
 }
