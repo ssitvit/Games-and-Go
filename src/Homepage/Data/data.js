@@ -116,13 +116,18 @@ export const data1 = [
   },
   {
     serial_number: "19",
+    main_heading: "Drum-Kit",
+    about: "Play the drums",
+    link_game: "/Drum-Kit",
+  {
+    serial_number: "20",
     main_heading: "Let's Play Chess with AI",
     about:
       "Can you compete with AI...",
     link_game: "/Chess",
   },
   {
-    serial_number: "20",
+    serial_number: "21",
     main_heading: "Mine sweeper",
     about: "Be aware of mines !!",
     link_game: "/Minesweeper",
@@ -133,5 +138,4 @@ export const data1 = [
     about: "KILl The Birds",
     link_game: "/KillTheBirdGame",
   }
-
 ];

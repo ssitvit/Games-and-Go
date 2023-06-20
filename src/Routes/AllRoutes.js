@@ -19,10 +19,13 @@ import Battle from "../Games/BattleShip/App"
 import App from "../Games/DragAndDrop/App"
 import TicTacToeAI from "../Games/TicTactoeAI/app";
 import Arkanoid from "../Games/Arkanoid/App";
-import ChessAI from "../Games/ChessAI/appiz";
+
+
+import DrumKit from "../Games/Drum-Kit/DrumKit";
+import ChessAI from '../Games/ChessAI/appiz';
+
 import Minesweeper from "../Games/Minesweeper/App";
 import KILLTHeBird from "../Games/KillTheBirdGame/App";
-
 
 function AllRoutes() {
   return (
@@ -47,6 +50,7 @@ function AllRoutes() {
       <Route path="/DragAndDrop" element={<App />} />
       <Route path="/Tictac" element={<TicTacToeAI />} />
       <Route path="/Arkanoid" element={<Arkanoid />} />
+      <Route path="/Drum-Kit" element={<DrumKit/>} />
       <Route path="/Chess" element={<ChessAI />} />
       <Route path="/Minesweeper" element={<Minesweeper/>}/>
       <Route path="/KillTheBirdGame" element={<KILLTHeBird/>}/>
