@@ -5,6 +5,7 @@ import { data1 } from "../Data/data";
 import GoToTop from "./GoToTop";
 import MusicButton from "./MusicButton";
 import { useState } from "react";
+import clickSound from "./click-sound.mp3";
 
 function Homepage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -13,6 +14,13 @@ function Homepage() {
   const handleSearch = (e) => {
     const inputValue = e.target.value;
     setSearchQuery(inputValue);
+
+    //for click sound effect
+    const volumeLevel = 0.03;
+    const audio = new Audio(clickSound);
+    audio.volume = volumeLevel;
+  audio.play();
+    //end of click sound effect querry
 
     const filtered =
       inputValue === ''
