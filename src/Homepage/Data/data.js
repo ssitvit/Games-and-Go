@@ -1,3 +1,4 @@
+
 //Add the following data in the card for the game you have added. For any instructions refer to contributing.md
 
 export const data1 = [
@@ -113,11 +114,22 @@ export const data1 = [
     about: "Complete all bricks", 
     link_game: "/Arkanoid",
   },
-
   {
     serial_number: "19",
     main_heading: "Drum-Kit",
     about: "Play the drums",
     link_game: "/Drum-Kit",
+  {
+    serial_number: "20",
+    main_heading: "Let's Play Chess with AI",
+    about:
+      "Can you compete with AI...",
+    link_game: "/Chess",
+  },
+  {
+    serial_number: "21",
+    main_heading: "Mine sweeper",
+    about: "Be aware of mines !!",
+    link_game: "/Minesweeper",
   }
 ];
