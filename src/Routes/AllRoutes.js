@@ -21,7 +21,7 @@ import TicTacToeAI from "../Games/TicTactoeAI/app";
 import Arkanoid from "../Games/Arkanoid/App";
 import ChessAI from '../Games/ChessAI/appiz';
 import Minesweeper from "../Games/Minesweeper/App";
-import KILLTHeBird from "../Games/KillTheBirdGame";
+import KILLTHeBird from "../Games/KillTheBirdGame/App";
 
 
 function AllRoutes() {
