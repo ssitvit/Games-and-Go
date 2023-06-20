@@ -49,7 +49,7 @@ function AllRoutes() {
       <Route path="/Arkanoid" element={<Arkanoid />} />
       <Route path="/Chess" element={<ChessAI />} />
       <Route path="/Minesweeper" element={<Minesweeper/>}/>
-     <Route path="/DotClicker" element={<DotClicker/>}/>
+      <Route path="/DotClicker" element={<DotClicker/>}/>
     </Routes>
   );
 }
