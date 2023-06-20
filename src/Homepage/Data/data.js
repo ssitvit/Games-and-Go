@@ -127,10 +127,9 @@ export const data1 = [
     about: "Be aware of mines !!",
     link_game: "/Minesweeper",
   },
-  {
-    serial_number: "21",
+  {serial_number: "21",
     main_heading: "Dot Clicker",
-    about: "Can You Touch Me!",
+    about: "Can you touch me !!",
     link_game: "/DotClicker",
   }
 
