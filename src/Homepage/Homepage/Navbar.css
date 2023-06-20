@@ -39,13 +39,19 @@
     padding-left: 5px;
 }
 
+.video-game-button:hover{
+	background-color: #c92121;
+	scale: 1.1;
+	transition: all 200ms;
+}
+
 /* Css for Home button in Navbar */
 .start-btn{
     text-align: center;
 	display: inline-block;
 	margin:5px;
     font-weight: bold;
-    padding: 10px 0 10px 10px ;
+    padding: 8px;
     background-color: lightgray;
     text-shadow: -1px -1px black, 1px 1px white;
     color: gray;
@@ -53,9 +59,14 @@
 	-moz-border-radius: 7px;
 	-o-border-radius: 7px;
 	border-radius: 7px;
-    box-shadow: 0 .2em gray; 
+    box-shadow: 0.05em .2em gray; 
     cursor: pointer;
+}
 
+.start-btn:hover{
+	background-color: darkgray;
+	scale: 0.9;
+	transition: all 200ms;
 }
 
 .video-game-button:active, .start-btn:active {
