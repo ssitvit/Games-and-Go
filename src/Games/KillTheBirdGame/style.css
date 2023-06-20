@@ -26,7 +26,7 @@ body{
     counter-increment:birds;
   }
   
-  .sum{position:fixed; left:45%; top:60px; font-size:24px; fonot-weight:bold;}
+  .sum{position:fixed; left:45%; top:60px; font-size:24px; font-weight:bold;}
   
   /*print to screen dead birds*/
   .sum:after{
@@ -108,7 +108,7 @@ body{
   20%{left:20%;top:50%; }
   40%{top:30%; left:60%;}
   60%{top:80%;left:80%;}
-  80%{top:10%; left:20%:}
+  80%{top:10%; left:20%;}
   100%{top:30%; left:20%; }
   }
   

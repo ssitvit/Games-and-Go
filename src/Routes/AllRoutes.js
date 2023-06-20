@@ -19,7 +19,7 @@ import Battle from "../Games/BattleShip/App"
 import App from "../Games/DragAndDrop/App"
 import TicTacToeAI from "../Games/TicTactoeAI/app";
 import Arkanoid from "../Games/Arkanoid/App";
-import ChessAI from '../Games/ChessAI/appiz';
+import ChessAI from "../Games/ChessAI/appiz";
 import Minesweeper from "../Games/Minesweeper/App";
 import KILLTHeBird from "../Games/KillTheBirdGame/App";
 
