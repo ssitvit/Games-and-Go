@@ -127,5 +127,11 @@ export const data1 = [
     about: "Be aware of mines !!",
     link_game: "/Minesweeper",
   }
+  {
+    serial_number: "21",
+    main_heading: "Kill The Bird GAme",
+    about: "KILl The Birds",
+    link_game: "/KillTheBird",
+  }
 
 ];

@@ -21,6 +21,7 @@ import TicTacToeAI from "../Games/TicTactoeAI/app";
 import Arkanoid from "../Games/Arkanoid/App";
 import ChessAI from '../Games/ChessAI/appiz';
 import Minesweeper from "../Games/Minesweeper/App";
+import KILLTHeBird from "../Games/KillTheBirdGame";
 
 
 function AllRoutes() {
@@ -48,6 +49,8 @@ function AllRoutes() {
       <Route path="/Arkanoid" element={<Arkanoid />} />
       <Route path="/Chess" element={<ChessAI />} />
       <Route path="/Minesweeper" element={<Minesweeper/>}/>
+      <Route path="/KillTheBird" element={<KILLTHeBird/>}/>
+      
     </Routes>
   );
 }
