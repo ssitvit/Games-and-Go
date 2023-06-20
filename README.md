@@ -6,10 +6,10 @@
     <h2 align="center" >Checkout our Work at  <a href="https://games.ieeessitvit.tech/">SSIT LIVE </a></h2>
     <br>
 </p>
+
  ---
  
  ### OPEN SOURCE CONTRIBUTIONS!!  
----
 <p align="center">
     <img src="https://miro.medium.com/max/1400/1*fqJaH_oISOR96gLgpJBwWQ.png" />
 </p>
