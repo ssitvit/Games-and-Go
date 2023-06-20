@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import {header_homepage} from "./Homepage.js"
 import "./Navbar.css";
 import buttonSound1 from "./button-sound-A.mp3"; // Path to your sound file
 import buttonSound2 from "./button-sound-B.mp3"
@@ -33,7 +33,7 @@ function Navbargo() {
           A
         </div>
         <div className="start-btn">
-          <Link to="/">HOME</Link>
+          <Link to="/" className="header_homepage" >HOME</Link>
         </div>
         <div className="video-game-button" onClick={handleBButtonClick}>
           B
