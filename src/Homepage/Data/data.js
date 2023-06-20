@@ -131,7 +131,7 @@ export const data1 = [
     serial_number: "21",
     main_heading: "Kill The Bird GAme",
     about: "KILl The Birds",
-    link_game: "/KillTheBird",
+    link_game: "/KillTheBirdGame",
   }
 
 ];
