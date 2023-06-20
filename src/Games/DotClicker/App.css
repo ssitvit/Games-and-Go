@@ -1,0 +1,60 @@
+.app {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  width: 80%;
+  height: 80%;
+  margin: 10% auto;
+  border: 2px solid #000;
+  background-color: #000;
+  position: relative;
+  overflow: hidden; /* Ensure the dot stays within the box */
+}
+
+.dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 90%;
+    height: 90%;
+  }
+
+  .dot {
+    width: 20px;
+    height: 20px;
+  }
+}
