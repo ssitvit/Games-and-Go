@@ -11,4 +11,4 @@ Players need to analyze and identify the letters in the jumble, rearranging them
 
 ## **Screenshot ✨**
 
-<img width="893" alt="tangledwords" src="https://github.com/AnkitaBarbora/Games-and-Go/assets/101138526/c54ec093-76c7-4a4b-aa9b-d456273a99e9">
+<img width="922" alt="image" src="https://github.com/AnkitaBarbora/Games-and-Go/assets/101138526/5aecb2e3-613c-400a-9032-cfe6e972de83">
