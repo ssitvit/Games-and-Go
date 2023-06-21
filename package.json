@@ -61,6 +61,6 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "html-loader": "^4.2.0",
     "resolve-url-loader": "^5.0.0",
-    "sass": "^1.63.4"
+    "sass": "^1.63.5"
   }
 }
