@@ -1,13 +1,12 @@
 .App {
-  width: 1100px;
   height: 1200px;;
   border: 40px solid rgb(101, 99, 99);
   
   
-  padding-left: 100px;
+  padding-left: 45px;
   background-color:slategray;
   text-align: center;
-  ;
+  max-width: 1200px;
 }
 
 .table{
