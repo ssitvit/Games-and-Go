@@ -1,7 +1,5 @@
 # English Class Minigame
 
-<img src="https://i.imgur.com/DFfFLra.png" title="English Class Minigame Preview Image"/>
-
 ## How to play: 
 The player is given six jumbled letters, and must arrange the letters in the jumble to form as many words of three or more letters as they can. 
 
