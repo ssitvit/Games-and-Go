@@ -12,3 +12,4 @@ Players need to analyze and identify the letters in the jumble, rearranging them
 ## **Screenshot ✨**
 
 <img width="922" alt="image" src="https://github.com/AnkitaBarbora/Games-and-Go/assets/101138526/5aecb2e3-613c-400a-9032-cfe6e972de83">
+
