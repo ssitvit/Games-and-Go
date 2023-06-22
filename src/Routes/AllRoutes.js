@@ -22,7 +22,7 @@ import Arkanoid from "../Games/Arkanoid/App";
 import DrumKit from "../Games/Drum-Kit/DrumKit";
 import ChessAI from '../Games/ChessAI/appiz';
 import Minesweeper from "../Games/Minesweeper/App";
-import TangledWords from "../Games/TangledWords/App"
+import TangledWords from "../Games/TangledWords/src/App"
 
 function AllRoutes() {
   return (
