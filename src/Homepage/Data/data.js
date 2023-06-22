@@ -119,6 +119,7 @@ export const data1 = [
     main_heading: "Drum-Kit",
     about: "Play the drums",
     link_game: "/Drum-Kit",
+  },
   {
     serial_number: "20",
     main_heading: "Let's Play Chess with AI",
