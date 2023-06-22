@@ -22,6 +22,7 @@ import Arkanoid from "../Games/Arkanoid/App";
 import DrumKit from "../Games/Drum-Kit/DrumKit";
 import ChessAI from '../Games/ChessAI/appiz';
 import Minesweeper from "../Games/Minesweeper/App";
+import TangledWords from "../Games/TangledWords/App"
 
 function AllRoutes() {
   return (
@@ -49,6 +50,7 @@ function AllRoutes() {
       <Route path="/Drum-Kit" element={<DrumKit/>} />
       <Route path="/Chess" element={<ChessAI />} />
       <Route path="/Minesweeper" element={<Minesweeper/>}/>
+      <Route path="/TangledWords" element={<TangledWords />}/>
     </Routes>
   );
 }
