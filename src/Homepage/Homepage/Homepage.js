@@ -56,16 +56,32 @@ function Homepage() {
         <div className="container_card">
           {filteredData.map((row) => (
             <div className="card" key={row.serial_number}>
-              <div className="content">
-                <div>
-                  <h2>{row.serial_number}</h2>
-                  <h3>{row.main_heading}</h3>
-                  <p>{row.about} </p>
+            <div className="content">
+              {/* Addition of Flip card feature */}
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <div>
+                      <h2>{row.serial_number}</h2>
+                      <h3>{row.main_heading}</h3>
+                      
+                    </div>
+                    
+                  </div>
+                  <div class="flip-card-back">
+                    <div class="rule_heading">{row.rule_heading}</div>
+                    <div class="step">{row.step1}</div>
+                    <div class="step">{row.step2}</div>
+                    <div class="step">{row.step3}</div>
+                  </div>
                 </div>
-                {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
-                <Link to={row.link_game}>Play now !!!</Link>
               </div>
+              {/* Flip card feature ends here. */}
+              <p>{row.about} </p>
+              {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
+              <Link to={row.link_game}>Play now !!!</Link>
             </div>
+          </div>
           ))}
         </div>
       </div>
