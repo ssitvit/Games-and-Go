@@ -42,6 +42,10 @@ Game consists of following functionalities :
 
 ## **Working Video 📹**
 
+
+https://github.com/manasi-jain/Games-and-Go/assets/83013408/4470d28d-d30d-43e6-8cbc-5a7a02a22aa8
+
+
 <!-- <video controls>
 <source src="assets\Word_Scramble.mp4" type="video/mp4">
 </video> -->
