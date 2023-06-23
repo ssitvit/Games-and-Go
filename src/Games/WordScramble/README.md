@@ -24,22 +24,6 @@ Game consists of following functionalities :
 - After selecting the difficulty level, you would be getting the time interval to guess the word using the alphabets.
 - At end of the game, you would be getting the score after finishing all the 10 questions accurately.
 
-## **Screenshots 📸**
-
-<br>
-<h1>Landing Page</h1>
-<img src = "assets\1.png"></img>
-<h1>Rules</h1>
-<img src = "assets\2.png"></img>
-<h1>Game</h1>
-<img src = "assets\3.png"></img>
-<h1>Game</h1>
-<img src = "assets\4.png"></img>
-<h1>Game</h1>
-<img src = "assets\5.png"></img>
-<h1>ScoreCard</h1>
-<img src = "assets\6.png"></img>
-
 ## **Working Video 📹**
 
 
