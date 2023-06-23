@@ -23,7 +23,7 @@ import DrumKit from "../Games/Drum-Kit/DrumKit";
 import ChessAI from '../Games/ChessAI/appiz';
 import Minesweeper from "../Games/Minesweeper/App";
 import TangledWords from "../Games/TangledWords/src/App"
-import BlackJack from "../Games/BlackJack/src/components/App"
+import BlackJack from "../Games/BlackJack/src/index"
 
 function AllRoutes() {
   return (
