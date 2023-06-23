@@ -248,5 +248,16 @@ export const data1 = [
     step1: "1. Guess the word ",
     step2: "2. Stuck!! Look at Hint",
     step3: "3. Enjoy the game",
-  }
+  },
+  {
+     serial_number: "23",
+     main_heading: "BlackJack",
+     about: "Card Game",
+     link_game: "/BlackJack",
+     // Flip-card-back contents
+     rule_heading: "Rules to play",
+     step1: "1. Place your bet ",
+     step2: "2. Choose to hit or stand",
+     step3: "3. Aim to beat the dealer without exceeding 21",
+   }
 ];
