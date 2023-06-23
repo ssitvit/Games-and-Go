@@ -237,5 +237,16 @@ export const data1 = [
     step1: "1. Memorize shown mines",
     step2: "2. click on other box except mines",
     step3: "3. Score maximum to win",
+  },
+ {
+    serial_number: "22",
+    main_heading: "Tangled Words",
+    about: "Solve the tangled~",
+    link_game: "/TangledWords",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. ",
+    step2: "2. ",
+    step3: "3. ",
   }
 ];
