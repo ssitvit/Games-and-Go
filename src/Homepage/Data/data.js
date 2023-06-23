@@ -245,8 +245,8 @@ export const data1 = [
     link_game: "/TangledWords",
     // Flip-card-back contents
     rule_heading: "Rules to play",
-    step1: "1. ",
-    step2: "2. ",
-    step3: "3. ",
+    step1: "1. Guess the word ",
+    step2: "2. Stuck!! Look at Hint",
+    step3: "3. Enjoy the game",
   }
 ];
