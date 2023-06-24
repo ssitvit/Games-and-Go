@@ -63,3 +63,12 @@
 	position: relative;
 	top: .2em;
 }
+/* Addition of hover effect */
+.start-btn:hover{
+	
+	box-shadow: 0 0 10px 5px #48abe0,
+              0 0 20px 7px #ebecca,
+              0 0 10px 20px #a34df3,
+              0 0 10px 15px #ed4da2;
+   }
+   
