@@ -248,5 +248,16 @@ export const data1 = [
     step1: "1. Guess the word ",
     step2: "2. Stuck!! Look at Hint",
     step3: "3. Enjoy the game",
+  },
+  {
+    serial_number: "23",
+    main_heading: "Dice Game",
+    about: "One can win",
+    link_game: "/DiceGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Click on Refresh button",
+    step2: "2. Select one player",
+    step3: "3. Enjoy the game",
   }
 ];

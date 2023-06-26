@@ -25,6 +25,7 @@ const DrumKit = lazy(() => import("../Games/Drum-Kit/DrumKit"));
 const ChessAI = lazy(() => import("../Games/ChessAI/appiz"));
 const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
 const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
+const DiceGame = lazy(() => import("../Games/DiceGame/main"))
 
 function AllRoutes() {
   return (
@@ -66,6 +67,7 @@ function AllRoutes() {
         <Route path="/Chess" element={<ChessAI />} />
         <Route path="/Minesweeper" element={<Minesweeper />} />
         <Route path="/TangledWords" element={<TangledWords />} />
+        <Route path="/DiceGame" element={<DiceGame/>}/>
       </Routes>
     </Suspense>
   );
