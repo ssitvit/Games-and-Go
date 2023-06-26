@@ -1,0 +1,10 @@
+.piece {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: inherit;
+}

@@ -1,0 +1,27 @@
+.barWrapper {
+  height: 250px;
+  width: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 100%;
+}
+
+.barWrapper:hover .polygon {
+  fill: #7579ba;
+}
+
+.barWrapper:focus,
+.barWrapper:focus-visible .polygon {
+  outline: 4px auto -webkit-focus-ring-color;
+}

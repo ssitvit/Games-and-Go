@@ -1,0 +1,12 @@
+.board {
+  width: 700px;
+  height: 615px;
+  background: black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 17px;
+  border: 10px solid black;
+  align-items: center;
+  align-content: space-between;
+  /* margin: 10px; */
+}
