@@ -436,8 +436,12 @@ body {
   transform: scale(1.025);
 }
 
-.container_card .card .content {
-  padding: 2rem 1.5rem;
+.container_card .card .content .card-button {
+  position: relative;
+  display: inline-block;
+  padding: 0.50rem 0.5rem;
+  padding: 1rem 1rem;
+  margin-top: 15px;
   height: 100%;
   display: flex;
   flex-direction: column;
