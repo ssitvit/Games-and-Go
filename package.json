@@ -62,5 +62,9 @@
     "html-loader": "^4.2.0",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.63.4"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/DavidRaigozaJ/Games-and-Go",
+  "author": "DavidRaigozaJ <email>",
+  "license": "MIT"
 }

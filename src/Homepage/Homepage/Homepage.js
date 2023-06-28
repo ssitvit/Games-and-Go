@@ -79,7 +79,7 @@ function Homepage() {
               {/* Flip card feature ends here. */}
               <p>{row.about} </p>
               {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
-              <Link to={row.link_game}>Play now !!!</Link>
+              <Link className="card-button" to={row.link_game}>Play now !!!</Link>
             </div>
           </div>
           ))}
