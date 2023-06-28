@@ -248,6 +248,7 @@ export const data1 = [
     step3: "3. Enjoy the game",
   },
 
+
   {
     serial_number: "23",
     main_heading: "Typing Master",
@@ -257,4 +258,16 @@ export const data1 = [
     step1: "1. Type the paragraph displayed on the screen.",
     step2: "2. Enjoy the game !",
   },
+
+  {
+    serial_number: "23",
+    main_heading: "Guess the Color",
+    about: "Solve the puzzle~",
+    link_game: "/GuessTheColor",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Guess the Color ",
+    step2: "2. Know the RGB value",
+    step3: "3. Enjoy the game",
+  }
 ];
