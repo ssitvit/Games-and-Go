@@ -248,5 +248,16 @@ export const data1 = [
     step1: "1. Guess the word ",
     step2: "2. Stuck!! Look at Hint",
     step3: "3. Enjoy the game",
+  },
+  {
+    serial_number: "23",
+    main_heading: "Guess the Color",
+    about: "Solve the puzzle~",
+    link_game: "/GuessTheColor",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Guess the Color ",
+    step2: "2. Know the RGB value",
+    step3: "3. Enjoy the game",
   }
 ];
