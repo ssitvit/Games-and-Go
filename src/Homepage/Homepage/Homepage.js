@@ -85,6 +85,30 @@ function Homepage() {
           ))}
         </div>
       </div>
+      {/* Footer Section */}
+      <footer>
+
+        <div className="footer-content footer">
+
+          <h7>Developed with 💗 by Pratigya</h7>
+
+          <p>Make sure you checkout my socials and also ⭐ GameZone on github</p>
+
+          <ul className="socials">
+
+            <li><a href="https://github.com/panwar8279"><i className="fa fa-github"></i></a></li>
+
+            <li><a href="https://twitter.com/pratigyapanwar"><i className="fa fa-twitter"></i></a></li>
+
+            <li><a href="https://in.linkedin.com/in/pratigya-panwar-37768b199"><i className="fa fa-linkedin-square"></i></a></li>
+
+          </ul>
+
+        </div>
+
+      </footer>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
       <div className="copyright">
         <h3>&copy;Copyright IEEE-SSIT {new Date().getFullYear()}</h3>
       </div>
