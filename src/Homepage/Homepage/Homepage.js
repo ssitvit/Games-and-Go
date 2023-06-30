@@ -92,7 +92,7 @@ function Homepage() {
 
           <h7>Developed with 💗 by Pratigya</h7>
 
-          <p>Make sure you checkout my socials and also ⭐ GameZone on github</p>
+          <p>Make sure you checkout my socials and also ⭐ Game-and-Go on github</p>
 
           <ul className="socials">
 
