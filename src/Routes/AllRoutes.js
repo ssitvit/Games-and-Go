@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import TypingMaster from "../Games/typingMaster/typing";
+import Escape_Room from "../Games/Escape_Room/Escape_Room";
 
 const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
 const Tictactoe = lazy(() => import("../Games/Tictactoe/tictactoe"));
@@ -32,6 +33,7 @@ const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
 const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
+const Escape_Room = lazy(() => import("../Games/Escape_Room/Escape_Room"));
 
 function AllRoutes() {
   return (
@@ -75,6 +77,7 @@ function AllRoutes() {
         <Route path="/TangledWords" element={<TangledWords />} />
         <Route path="/TypingMaster" element={<TypingMaster />} />
         <Route path="/GuessTheColor" element={<GuessTheColor />} />
+        <Route path="/Escape_Room" element={<Escape_Room />} />
       </Routes>
     </Suspense>
   );

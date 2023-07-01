@@ -269,5 +269,16 @@ export const data1 = [
     step1: "1. Guess the Color ",
     step2: "2. Know the RGB value",
     step3: "3. Enjoy the game",
+  },
+  {
+    serial_number: "24",
+    main_heading: "Escape Room",
+    about: "Solve a series of puzzles in order to escape the room",
+    link_game: "/Escape_Room",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Solve the Puzzles ",
+    step2: "2. Try to have a bit of knowledge of the HTML & CSS",
+    step3: "3. Enjoy the game",
   }
 ];
