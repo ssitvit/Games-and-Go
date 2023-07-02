@@ -269,5 +269,17 @@ export const data1 = [
     step1: "1. Guess the Color ",
     step2: "2. Know the RGB value",
     step3: "3. Enjoy the game",
+  },
+
+  {
+    serial_number: "25",
+    main_heading: "Space Invaders",
+    about: "Defeat the Aliens!",
+    link_game: "/SpaceInvaders",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use psacebar to shoot at the aliens.",
+    step2: "2. Move left and right to avoid bullets.",
+    step3: "3. Enjoy the game!",
   }
 ];
