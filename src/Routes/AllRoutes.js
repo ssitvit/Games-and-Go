@@ -26,6 +26,7 @@ const ChessAI = lazy(() => import("../Games/ChessAI/appiz"));
 const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
 const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
+const ChromeDino = lazy(() => import("../Games/ChromeDinoGame/App"));
 
 function AllRoutes() {
   return (
@@ -68,6 +69,7 @@ function AllRoutes() {
         <Route path="/Minesweeper" element={<Minesweeper />} />
         <Route path="/TangledWords" element={<TangledWords />} />
         <Route path="/GuessTheColor" element={<GuessTheColor />} />
+        <Route path="/ChromeDino" element={<ChromeDino />} />
       </Routes>
     </Suspense>
   );

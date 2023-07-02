@@ -259,5 +259,16 @@ export const data1 = [
     step1: "1. Guess the Color ",
     step2: "2. Know the RGB value",
     step3: "3. Enjoy the game",
+  },
+  {
+    serial_number: "24",
+    main_heading: "Chrome Dino Game",
+    about: "Be aware of the cactus",
+    link_game: "/ChromeDino",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Watch out for the cactus ",
+    step2: "2. Avoid them by jumping",
+    step3: "3. Score the highest",
   }
 ];
