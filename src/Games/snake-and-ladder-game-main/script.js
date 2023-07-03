@@ -23,7 +23,7 @@ var p1,p2,p3,p4;
 //functionality of ludo
 var game_type;
 function choose_player(){
-      game_type=prompt('choose Game TYPE');
+      game_type=prompt('Choose game player ');
       if(game_type==2){
           document.getElementById('image_slide').style.visibility='hidden';
           document.getElementById("player1").style.visibility='visible';
@@ -55,7 +55,7 @@ function choose_player(){
       }
 
       else{
-          alert('please choose valid no. of player. choose the no. 2,3 or 4 !!');
+          alert('Please choose valid no. of player  choose the no. 2,3 or 4 !!');
           game_type=undefined;
       }
 
@@ -70,7 +70,7 @@ function start(){
     else{
         if(game_type==2){
             if(document.getElementById('select1').value==document.getElementById('select2').value){
-                alert("please select two different color !!");
+                alert("Please select two different color !!");
             }
             else{
            document.getElementById("play").innerHTML='PLAY';
@@ -94,7 +94,7 @@ function start(){
 
         else if(game_type==3){
             if(document.getElementById('select1').value==document.getElementById('select2').value || document.getElementById('select1').value==document.getElementById('select3').value || document.getElementById('select2').value==document.getElementById("select3").value){
-                alert("please select  different color !!");
+                alert("Please select  different color !!");
             }
             else{
            document.getElementById("play").innerHTML='PLAY';
@@ -212,7 +212,7 @@ function play(){
           document.getElementById((previousFirst+random_no+1).toString()).style.color=p1;
           if((previousFirst+random_no+1)==100){
               setTimeout(() => {
-                  alert("player1 is winner !!");
+                  alert("Player1 is winner !!");
                   window.location.reload();
               }, 800);
               
@@ -237,7 +237,7 @@ function play(){
             document.getElementById((previousSec+random_no+1).toString()).style.color=p2;
             if((previousSec+random_no+1)==100){
                 setTimeout(() => {
-                    alert("player2 is winner !!");
+                    alert("Player2 is winner !!");
                     window.location.reload();
                 }, 800);
                 
@@ -261,7 +261,7 @@ function play(){
             document.getElementById((previousThird+random_no+1).toString()).style.color=p3;
             if((previousThird+random_no+1)==100){
                 setTimeout(() => {
-                    alert("player3 is winner !!");
+                    alert("Player3 is winner !!");
                     window.location.reload();
                 }, 800);
                 
@@ -291,7 +291,7 @@ function play(){
           document.getElementById((previousFirst+random_no+1).toString()).style.color=p1;
           if((previousFirst+random_no+1)==100){
               setTimeout(() => {
-                  alert("player1 is winner !!");
+                  alert("Player1 is winner !!");
                   window.location.reload();
               }, 800);
               
@@ -316,7 +316,7 @@ function play(){
             document.getElementById((previousSec+random_no+1).toString()).style.color=p2;
             if((previousSec+random_no+1)==100){
                 setTimeout(() => {
-                    alert("player2 is winner !!");
+                    alert("Player2 is winner !!");
                     window.location.reload();
                 }, 800);
                 
@@ -340,7 +340,7 @@ function play(){
             document.getElementById((previousThird+random_no+1).toString()).style.color=p3;
             if((previousThird+random_no+1)==100){
                 setTimeout(() => {
-                    alert("player3 is winner !!");
+                    alert("Player3 is winner !!");
                     window.location.reload();
                 }, 800);
                 
@@ -365,7 +365,7 @@ function play(){
             document.getElementById((previousFourth+random_no+1).toString()).style.color=p4;
             if((previousFourth+random_no+1)==100){
                 setTimeout(() => {
-                    alert("player4 is winner !!");
+                    alert("Player4 is winner !!");
                     window.location.reload();
                 }, 800);
                 

@@ -75,6 +75,12 @@ export const data1 = [
   main_heading:"Dice Throw",
   about:"Roll the dice and achieve a target ",
   link_game:"/DiceThrow",
+  },
+  {
+    serial_number:"13",
+  main_heading:"Snake and Ladder",
+  about:"Roll the dice to play  ",
+  link_game:"/snake-and-ladder-game-main",
   }
 
 ];

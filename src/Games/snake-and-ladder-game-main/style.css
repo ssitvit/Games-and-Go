@@ -1,3 +1,6 @@
+
+
+
 td{
     height: 51.8px;
     width: 70px;
@@ -6,7 +9,7 @@ td{
 }
 body{
     margin-top: 0%;
-    background-color: #4559d3;
+    background-color: #ef6d98;
 }
 #playBox{
     margin-left: 40%;
@@ -57,7 +60,7 @@ body{
     width: 161px;
     position: absolute;
     top: 42%;
-    left: 84%;
+    left: 82%;
 }
 #l5{
     height: 171px;
@@ -65,7 +68,7 @@ body{
     position: absolute;
     transform: rotate(32deg);
     top: 1%;
-    left: 87%;
+    left: 80%;
 }
 
 #player{
@@ -79,13 +82,13 @@ body{
     text-align: center;
 }
 #choose_player{
-    height: 60px;
+    height: 70px;
     width: 275px;
     text-align: center;
     border: solid floralwhite 4px;
     font-size: xx-large;
     font-weight: bold;
-    background-color: deeppink;
+    background-color: rgb(34, 119, 176);
     color: floralwhite;
     border-radius: 22px;
     margin-top: 14px;
