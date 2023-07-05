@@ -122,22 +122,26 @@ git clone https://github.com/<your-github-username>/Games-and-Go
 ```py
 cd Games-and-Go
 ```
-4. Create a new branch.
+4. Install necessary dependencies
+```py
+npm i --legacy-peer-deps
+```
+5. Create a new branch.
 ```css
 git checkout -b <your_branch_name>
 ```
-5. Make changes.
-6. Stage your changes and commit
+6. Make changes.
+7. Stage your changes and commit
 ```css
 git add -A
 git commit -m "<your_commit_message>"
 ```
-7. Push your local commits to the remote repo.
+8. Push your local commits to the remote repo.
 ```css
 git push -u origin <your_branch_name>
 ```
-6. Create a pull request from your branch to the original repository.
-7. Congratulations! 🎉 you've made your contribution.
+9. Create a pull request from your branch to the original repository.
+10. Congratulations! 🎉 you've made your contribution.
 <br>
 At last after successfully submitting a pull request you can view your work live at <a href="https://games.ieeessitvit.tech/">SSIT LIVE </a>
 
