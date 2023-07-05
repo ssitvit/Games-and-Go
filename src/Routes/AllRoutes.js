@@ -15,19 +15,20 @@ import DiceThrow from "../Games/DiceThrow/main";
 import Wordle from "../Games/Wordle/Wordle";
 import SnakeGame from "../Games/SnakeGame/SnakeGame";
 import Tetris from "../Games/tetris/src/components/Tetris";
-import Battle from "../Games/BattleShip/App"
+import Battle from "../Games/BattleShip/App";
 import Arkanoid from "../Games/Arkanoid/App";
+import LoginPage from "../Auth/LoginPage/LoginPage";
 
 function AllRoutes() {
   return (
     <Routes>
-      {/* Add all the routes with the right path here after importing them  */}
-      <Route path="/" element={<Homepage />} />
+      <Route path="/" element={<LoginPage />} /> // Set LoginPage as the default route
+      <Route path="/homepage" element={<Homepage />} />
       <Route path="/Tic" element={<Tictactoe />} />
       <Route path="/99" element={<Ninetynine />} />
       <Route path="/memory" element={<Memory />} />
       <Route path="/trivia" element={<TriviaGame />} />
-      <Route path="15puzzle" element={<Fifteenpuzzle />} />
+      <Route path="/15puzzle" element={<Fifteenpuzzle />} />
       <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
       <Route path="/brick-breakout" element={<BrickBreakout />} />
       <Route path="/typo" element={<Typo />} />
