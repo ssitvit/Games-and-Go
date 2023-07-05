@@ -8,21 +8,20 @@ class Alphabet extends React.Component {
 		audio.play();
 	};
 
-	componentDidMount() {
-		document.addEventListener('keydown', (event) => {
-			this.playSound(event.key);
-		});
+	handleKeyPress = (event) => {
+		this.playSound(event.key);
+	};
 
-		document.querySelectorAll('.btn').forEach(btn, () => {
-			this.playSound(btn.innerHTML);
-		});
-		const buttons = document.querySelectorAll('.btn');
-		buttons.forEach((button) => {
-			button.addEventListener('click', (event) => {
-				const buttonInnerHTML = event.target.id;
-				this.playSound(buttonInnerHTML);
-			});
-		});
+	handleClick = (buttonInnerHTML) => {
+		this.playSound(buttonInnerHTML);
+	};
+
+	componentDidMount() {
+		document.addEventListener('keydown', this.handleKeyPress);
+	}
+
+	componentWillUnmount() {
+		document.removeEventListener('keydown', this.handleKeyPress);
 	}
 
 	render() {
