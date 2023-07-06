@@ -80,7 +80,7 @@ import "./quiz.css";
   };
 
   return (
-    <div className="App">
+    <div className="Quiz">
       {/* 1. Header  */}
       <h1 className='title'>USA Quiz 🇺🇸</h1>
 

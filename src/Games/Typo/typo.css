@@ -1,15 +1,13 @@
 .heading {
   margin-top: 1em;
-  margin-bottom: 20px !important;
-  margin-left: 50px;
+  margin-bottom: 0;
   color: white;
   text-align: center;
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.8rem;
-  justify-content: flex-start;
-  width: 50vw;  
+  font-size: 1.7rem;
+  justify-content: center;
 }
 
 .container {

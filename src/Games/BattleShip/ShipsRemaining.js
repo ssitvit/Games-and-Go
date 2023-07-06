@@ -6,8 +6,8 @@ const ShipsList = styled.ul`
   border: 1px solid black;
   text-align: center;
   padding: 5px;
-  /* display: flex; */
-  /* flex-direction: column; */
+  //  display: flex;
+  // flex-direction: column; 
 `;
 
 const ShipLi = styled.li`
