@@ -260,7 +260,7 @@ export const data1 = [
   },
 
   {
-    serial_number: "23",
+    serial_number: "24",
     main_heading: "Guess the Color",
     about: "Solve the puzzle~",
     link_game: "/GuessTheColor",

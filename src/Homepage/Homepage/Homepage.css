@@ -450,7 +450,7 @@ body {
   color: rgba(255, 255, 255, 0.4);
   pointer-events: none;
   font-family: "Press Start 2P", cursive;
-  margin-bottom: 2rem;
+  margin: 1rem;
 }
 
 .container_card .card .content h3 {
@@ -463,7 +463,7 @@ body {
 }
 
 .container_card .card .content p {
-  font-size: 4em;
+  font-size: 20px;
   font-weight: 900;
   color: #fff;
 }
@@ -471,7 +471,7 @@ body {
 .container_card .card .content a {
   position: relative;
   display: inline-block;
-  padding: 0.75rem 1rem;
+  padding: 2.2rem 1rem;
   margin-top: 15px;
   background: #fff;
   color: #000;
@@ -602,9 +602,9 @@ body {
 /* Style the front side  */
 .flip-card-front {
   background-color:  rgba(255, 255, 255, 0.1);
-  width:241px;
+  width:240px;
   color: black;
-  padding:13px;
+  padding:0px;
 }
 
 /* Style the back side */

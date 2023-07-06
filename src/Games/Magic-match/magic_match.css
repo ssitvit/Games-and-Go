@@ -5,8 +5,8 @@
 .Magic{
   background-color: #708090;
     border: 40px solid #656363;
-    height: 1200px;
-    max-width: 1200px;
+    height: 100%;
+    max-width: 100%;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -20,13 +20,18 @@
   display: inline-block;
     background-color: #f8d210;
     border: 0;
-    width: auto;
-    border-radius: 10%;
+   
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    
+    border-radius: 20px;
     text-align: center;
     color: #3d550c;
     font-weight: bold;
     font-size: 30px;
-    margin-top: -10%;
+    margin-top: 10px;
 }
 .Magic > button:hover {
   background: #38c254;
@@ -40,5 +45,8 @@
   width: 95%;
   height: auto;
   padding: 10px;
+}
+.Magic h1{
+  margin-top:62px;
 }
 

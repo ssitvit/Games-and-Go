@@ -67,3 +67,11 @@ button:hover{
 	color:white;
 	background:steelblue;
 }
+
+.App{
+	justify-content: center;
+	margin-left:50px;
+	margin-right:40px;
+	padding:90px;
+	
+}

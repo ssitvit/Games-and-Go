@@ -10,6 +10,9 @@
   text-decoration: none;
   text-align: center;
 }
+.pageWrapper p{
+  font-size: 2rem;
+}
 
 .h2,
 .h3,

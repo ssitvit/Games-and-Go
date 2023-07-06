@@ -11,6 +11,7 @@ h1{
 }
 .App {
   font-size: 18px;
+  height: 100rem;
 }
 .btn-primary{
   margin-top: 10px;
