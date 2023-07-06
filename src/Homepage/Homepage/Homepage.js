@@ -4,11 +4,15 @@ import { Link } from "react-router-dom";
 import { data1 } from "../Data/data";
 import GoToTop from "./GoToTop";
 import MusicButton from "./MusicButton";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import LoginPage from '../../Auth/LoginPage';
+import '../../Auth/LoginPage.css';
 
 function Homepage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredData, setFilteredData] = useState(data1);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [selectedGame, setSelectedGame] = useState(null);
 
   const handleSearch = (e) => {
     const inputValue = e.target.value;
@@ -22,6 +26,31 @@ function Homepage() {
           );
     setFilteredData(filtered);
   };
+  const handleLogin = () => {
+    setIsLoggedIn(true);
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+    setSelectedGame(null); // Reset the selected game after logout
+  };
+  const handleGameSelection = (gameRoute) => {
+    setSelectedGame(gameRoute);
+  };
+
+  useEffect(() => {
+    const storedGameRoute = localStorage.getItem("selectedGame");
+    if (storedGameRoute) {
+      setSelectedGame(storedGameRoute);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (selectedGame) {
+      localStorage.setItem("selectedGame", selectedGame);
+    }
+  }, [selectedGame]);
+
   return (
     <React.Fragment>
       <GoToTop />
@@ -56,13 +85,24 @@ function Homepage() {
                 <h2>{row.serial_number}</h2>
                 <h3>{row.main_heading}</h3>
                 <p>{row.about} </p>
-                {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
-                <Link to={row.link_game}>Play now !!!</Link>
+                 {/* Conditionally render based on login status */}
+                 {isLoggedIn ? (
+                <Link to={row.link_game} onClick={() => handleGameSelection(row.link_game)}>Play now !!!</Link> ):(
+                  <button onClick={handleLogin}>Login to Play</button>
+                )}
               </div>
             </div>
           ))}
         </div>
       </div>
+      
+      {/* Conditional rendering of LoginPage.js */}
+      {!isLoggedIn && <LoginPage handleLogin={handleLogin} />}
+
+      {/* Logout button */}
+      {isLoggedIn && <button onClick={handleLogout}>Logout</button>}
+
+
       <div className="copyright">
         <h3>&copy;Copyright IEEE-SSIT {new Date().getFullYear()}</h3>
       </div>
