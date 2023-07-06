@@ -17,12 +17,14 @@ import SnakeGame from "../Games/SnakeGame/SnakeGame";
 import Tetris from "../Games/tetris/src/components/Tetris";
 import Battle from "../Games/BattleShip/App"
 import Arkanoid from "../Games/Arkanoid/App";
+import LoginPage from "../Auth/LoginPage";
 
 function AllRoutes() {
   return (
     <Routes>
       {/* Add all the routes with the right path here after importing them  */}
       <Route path="/" element={<Homepage />} />
+      <Route path="/login" element={<LoginPage />} />
       <Route path="/Tic" element={<Tictactoe />} />
       <Route path="/99" element={<Ninetynine />} />
       <Route path="/memory" element={<Memory />} />
