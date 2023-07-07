@@ -470,16 +470,18 @@ body {
 
 .container_card .card .content a {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0.75rem 1rem;
-  margin-top: 15px;
-  background: #fff;
+  margin-bottom: 3rem;
+  background: #cfcfcf;
   color: #000;
   border-radius: 20px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Press Start 2P", cursive;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgb(95 89 89 / 94%);
   transition: background-color 0.3s ease;
 }
 
