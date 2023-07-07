@@ -1,4 +1,3 @@
-
 //Add the following data in the card for the game you have added. For any instructions refer to contributing.md
 
 export const data1 = [
@@ -19,11 +18,11 @@ export const data1 = [
     main_heading: "Ninety - Nine",
     about: "A game you can never win.",
     link_game: "/99",
-     // Flip-card-back contents
-     rule_heading: "Rules to play",
-     step1: "1. You & Computer choose a number alternately",
-     step2: "2. Numbers add on",
-     step3: "3. Make 99 first to win",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. You & Computer choose a number alternately",
+    step2: "2. Numbers add on",
+    step3: "3. Make 99 first to win",
   },
   {
     serial_number: "03",
@@ -31,7 +30,7 @@ export const data1 = [
     about: "Can you remember ?",
     link_game: "/memory",
     // Flip-card-back contents
-    rule_heading: "Rules to play", 
+    rule_heading: "Rules to play",
     step1: "1. Memories box where blue colour appears",
     step2: "2. Click on box which you remember",
     step3: "3. Each time level increases",
@@ -52,11 +51,11 @@ export const data1 = [
     main_heading: "15 Puzzle",
     about: "Can you solve it?",
     link_game: "/15puzzle",
-     // Flip-card-back contents
-     rule_heading: "Rules to play",
-     step1: "1. Place tiles as 1 at 1, 2 at 2 ...",
-     step2: "2. Correct positioned (Light blue)",
-     step3: "3. Place all correctly to win",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Place tiles as 1 at 1, 2 at 2 ...",
+    step2: "2. Correct positioned (Light blue)",
+    step3: "3. Place all correctly to win",
   },
   {
     serial_number: "06",
@@ -142,61 +141,61 @@ export const data1 = [
     main_heading: "SnakeGame",
     about: "Slither and Conquer!",
     link_game: "/SnakeGame",
-     // Flip-card-back contents
-     rule_heading: "Rules to play",
-     step1: "1. Use arrow keys to move snake",
-     step2: "2. Eat yellow box ",
-     step3: "3. Eat more to win",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use arrow keys to move snake",
+    step2: "2. Eat yellow box ",
+    step3: "3. Eat more to win",
   },
   {
     serial_number: "14",
     main_heading: "Tetris",
     about: "Put the blocks at right place",
     link_game: "/tetris",
-     // Flip-card-back contents
-     rule_heading: "Rules to play",
-     step1: "1. Fill pieces using arrow Keys",
-     step2: "2. Fill all blank space of a line",
-     step3: "3. Game over if pieces reach top screen",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Fill pieces using arrow Keys",
+    step2: "2. Fill all blank space of a line",
+    step3: "3. Game over if pieces reach top screen",
   },
   {
     serial_number: "15",
     main_heading: "Battle Ships",
-    about: "search and Destroy Enemies ships", 
+    about: "search and Destroy Enemies ships",
     link_game: "/Battle",
-     // Flip-card-back contents
-     rule_heading: "Rules to play",
-     step1: "1. Place ship horizontally or vaetically",
-     step2: "2. Ships cannot touch each other",
-     step3: "3. Destroy enemies ship",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Place ship horizontally or vaetically",
+    step2: "2. Ships cannot touch each other",
+    step3: "3. Destroy enemies ship",
   },
   {
     serial_number: "16",
     main_heading: "Drag and Drop",
-    about: "Drag the cards from the middle section and drop them into the similar one.", 
+    about:
+      "Drag the cards from the middle section and drop them into the similar one.",
     link_game: "/DragAndDrop",
-     // Flip-card-back contents
-     rule_heading: "Rules to play",
-     step1: "1. Drag middle box",
-     step2: "2. Drag to matching color box",
-     step3: "3. Score max to win",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Drag middle box",
+    step2: "2. Drag to matching color box",
+    step3: "3. Score max to win",
   },
   {
     serial_number: "17",
     main_heading: "Play Tic-Tac-Toe with AI",
-    about:
-      "Can you compete with AI...",
+    about: "Can you compete with AI...",
     link_game: "/Tictac",
-     // Flip-card-back contents
-     rule_heading: "Rules to play",
-     step1: "1. Put mark in empty boxes",
-     step2: "2. Get 3 same mark in any directions",
-     step3: "3. Directions are ( up, down, diagonal)",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Put mark in empty boxes",
+    step2: "2. Get 3 same mark in any directions",
+    step3: "3. Directions are ( up, down, diagonal)",
   },
-    {
+  {
     serial_number: "18",
     main_heading: "Arkanoid",
-    about: "Complete all bricks", 
+    about: "Complete all bricks",
     link_game: "/Arkanoid",
     // Flip-card-back contents
     rule_heading: "Rules to play",
@@ -218,8 +217,7 @@ export const data1 = [
   {
     serial_number: "20",
     main_heading: "Play Chess with AI",
-    about:
-      "Can you compete with AI...",
+    about: "Can you compete with AI...",
     link_game: "/Chess",
     // Flip-card-back contents
     rule_heading: "Rules to play",
@@ -238,7 +236,7 @@ export const data1 = [
     step2: "2. click on other box except mines",
     step3: "3. Score maximum to win",
   },
- {
+  {
     serial_number: "22",
     main_heading: "Tangled Words",
     about: "Solve the tangled~",
@@ -249,6 +247,18 @@ export const data1 = [
     step2: "2. Stuck!! Look at Hint",
     step3: "3. Enjoy the game",
   },
+
+
+  {
+    serial_number: "23",
+    main_heading: "Typing Master",
+    about: "Test your typing speed and accuracy with Tangled Words!",
+    link_game: "/TypingMaster",
+    rule_heading: "Rules to Play",
+    step1: "1. Type the paragraph displayed on the screen.",
+    step2: "2. Enjoy the game !",
+  },
+
   {
     serial_number: "23",
     main_heading: "Guess the Color",

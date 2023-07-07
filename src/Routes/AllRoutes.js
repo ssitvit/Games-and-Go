@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PacmanLoader from "react-spinners/PacmanLoader";
+import TypingMaster from "../Games/typingMaster/typing";
 
 const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
 const Tictactoe = lazy(() => import("../Games/Tictactoe/tictactoe"));
@@ -8,8 +9,12 @@ const Ninetynine = lazy(() => import("../Games/Ninetynine/ninetynine"));
 const Memory = lazy(() => import("../Games/Memory/memory"));
 const TriviaGame = lazy(() => import("../Games/Trivia/quiz"));
 const Fifteenpuzzle = lazy(() => import("../Games/15Puzzle/Fifteenpuzzle"));
-const RockPaperScissors = lazy(() => import("../Games/RockPaperScissors/RockPaperScissors"));
-const BrickBreakout = lazy(() => import("../Games/BrickBreakout/BrickBreakout"));
+const RockPaperScissors = lazy(() =>
+  import("../Games/RockPaperScissors/RockPaperScissors")
+);
+const BrickBreakout = lazy(() =>
+  import("../Games/BrickBreakout/BrickBreakout")
+);
 const Typo = lazy(() => import("../Games/Typo/Typo"));
 const BallShooting = lazy(() => import("../Games/BallShooting/BallShooting"));
 const MagicMatch = lazy(() => import("../Games/Magic-match/magic_match"));
@@ -25,6 +30,7 @@ const DrumKit = lazy(() => import("../Games/Drum-Kit/DrumKit"));
 const ChessAI = lazy(() => import("../Games/ChessAI/appiz"));
 const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
 const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
+const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
 const QuizGame = lazy(() => import("../Games/QuizGame/QuizGame"));
 
@@ -68,6 +74,7 @@ function AllRoutes() {
         <Route path="/Chess" element={<ChessAI />} />
         <Route path="/Minesweeper" element={<Minesweeper />} />
         <Route path="/TangledWords" element={<TangledWords />} />
+        <Route path="/TypingMaster" element={<TypingMaster />} />
         <Route path="/GuessTheColor" element={<GuessTheColor />} />
         <Route path="/QuizGame" element={<QuizGame />} />
       </Routes>
