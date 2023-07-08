@@ -278,5 +278,14 @@ export const data1 = [
     rule_heading: "Rules to play",
     step1: "1. move as up as possible ",
     step2: "2. climb on the stairs",
+  },
+  {
+    serial_number: "25",
+    main_heading: "bird-shooter-game",
+    about: "shoot the bird",
+    link_game: "/bird-shooter-game",
+    rule_heading: "Rules to play",
+    step1: "1. shoot the bird ",
+    step2: "2. shoot the bird till th timer .",
   }
 ];
