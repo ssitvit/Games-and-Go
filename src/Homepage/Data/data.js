@@ -269,5 +269,14 @@ export const data1 = [
     step1: "1. Guess the Color ",
     step2: "2. Know the RGB value",
     step3: "3. Enjoy the game",
+  },
+  {
+    serial_number: "24",
+    main_heading: "doodle jump game",
+    about: "Solve the puzzle~",
+    link_game: "/doodle-jump",
+    rule_heading: "Rules to play",
+    step1: "1. move as up as possible ",
+    step2: "2. climb on the stairs",
   }
 ];
