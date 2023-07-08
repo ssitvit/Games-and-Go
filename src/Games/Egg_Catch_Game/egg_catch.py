@@ -2,6 +2,7 @@ from itertools import cycle
 from random import randrange
 from tkinter import Canvas, Tk, messagebox, font
 
+
 canvas_width = 1000
 canvas_height = 500
 
