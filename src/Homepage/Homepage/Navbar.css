@@ -63,3 +63,16 @@
 	position: relative;
 	top: .2em;
 }
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 4px;
+  }
+  
+  .button:hover {
+	background-color: #45a049;
+  }

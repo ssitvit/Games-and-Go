@@ -35,6 +35,9 @@ function Navbargo() {
         <div className="start-btn">
           <Link to="/">HOME</Link>
         </div>
+        <div>
+        <a href="#header_homepage" class="button">Go to Games</a>
+        </div>
         <div className="video-game-button" onClick={handleBButtonClick}>
           B
         </div>
