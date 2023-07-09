@@ -72,9 +72,15 @@ export const data1 = [
   },
   {
     serial_number:"12",
-  main_heading:"Dice Throw",
-  about:"Roll the dice and achieve a target ",
-  link_game:"/DiceThrow",
+    main_heading:"Dice Throw",
+    about:"Roll the dice and achieve a target ",
+    link_game:"/DiceThrow",
+  },
+  {
+    serial_number:"13",
+    main_heading:"Snake Game",
+    about:"Roll the dice and achieve a target ",
+    link_game:"/SnakeGame",
   }
 
 ];

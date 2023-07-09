@@ -12,6 +12,7 @@ import Typo from "../Games/Typo/Typo";
 import BallShooting from "../Games/BallShooting/BallShooting";
 import MagicMatch from "../Games/Magic-match/magic_match";
 import DiceThrow from "../Games/DiceThrow/main"
+import Snake from "../Games/SnakeGame/Snake";
 
 function AllRoutes() {
   return (
@@ -30,6 +31,7 @@ function AllRoutes() {
       <Route path="/BallShooting" element={<BallShooting/>} />
       <Route path="/MagicMatch" element={<MagicMatch/>}/>
       <Route path="/DiceThrow" element={<DiceThrow/>}/>
+      <Route path="/SnakeGame" element={<Snake/>}/>
     </Routes>
   );
 }
