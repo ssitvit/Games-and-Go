@@ -463,7 +463,7 @@ body {
 }
 
 .container_card .card .content p {
-  font-size: 4em;
+  font-size: 1.5em;
   font-weight: 900;
   color: #fff;
 }
@@ -604,9 +604,10 @@ body {
 /* Style the front side  */
 .flip-card-front {
   background-color:  rgba(255, 255, 255, 0.1);
-  width:241px;
+  width: 216px;
   color: black;
   padding:13px;
+  height: 172px;
 }
 
 /* Style the back side */

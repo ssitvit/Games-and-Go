@@ -95,7 +95,7 @@ export const data1 = [
     serial_number: "09",
     main_heading: "Ball Shooting",
     about:
-      "Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
+      "Shoot the projectiles in the direction of the mouse clicked.",
     link_game: "/BallShooting",
     // Flip-card-back contents
     rule_heading: "Rules to play",
@@ -173,7 +173,7 @@ export const data1 = [
     serial_number: "16",
     main_heading: "Drag and Drop",
     about:
-      "Drag the cards from the middle section and drop them into the similar one.",
+    "Do u know how to drag?",
     link_game: "/DragAndDrop",
     // Flip-card-back contents
     rule_heading: "Rules to play",
