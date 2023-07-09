@@ -5,6 +5,7 @@ import { data1 } from "../Data/data";
 import GoToTop from "./GoToTop";
 import MusicButton from "./MusicButton";
 import { useState } from "react";
+import DarkMode from "./DarkModeToggle";
 
 function Homepage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -26,7 +27,7 @@ function Homepage() {
     <React.Fragment>
       <GoToTop />
       <MusicButton />
-
+       <DarkMode/>
       {/* Pacman Landing Container */}
       <div className="container_landing">
         <div className="pacman"></div>

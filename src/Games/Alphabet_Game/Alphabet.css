@@ -1,0 +1,169 @@
+/* Default settings */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+
+body {
+	background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+	background-size: contain;
+	height: 100%;
+}
+
+/* Styling the header line of the game */
+h1 {
+	margin-top: 1rem;
+	font-family: Serif;
+	font-size: 4rem;
+	color: #FEE6ED;
+	text-align: center;
+}
+
+/* Styling the buttons container */
+.btns {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	margin: 3.2rem 0;
+}
+
+/* Styling the buttons */
+.btn {
+	display: inline-block;
+	outline: none;
+	border: 10px solid #FEE6ED;
+	font-size: 5rem;
+	font-family: Serif;
+	line-height: 2;
+	font-weight: 900;
+	color: #FEE6ED;
+	border-radius: 15px;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin: 10px;
+	background-color: #0C0B0C;
+}
+
+/* Adding images on each letters */
+.a {
+	background-image: url("./images/apple.png");
+}
+
+.b {
+	background-image: url("./images/ball.png");
+}
+
+.c {
+	background-image: url("./images/cat.png");
+}
+
+.d {
+	background-image: url("./images/dog.png");
+}
+
+.e {
+	background-image: url("./images/elephant.png");
+}
+
+.f {
+	background-image: url("./images/fish.png");
+}
+
+.g {
+	background-image: url("./images/grass.png");
+}
+
+.h {
+	background-image: url("./images/hat.png");
+}
+
+.i {
+	background-image: url("./images/insect.png");
+}
+
+.j {
+	background-image: url("./images/jar.png");
+}
+
+.k {
+	background-image: url("./images/kite.png");
+}
+
+.l {
+	background-image: url("./images/lamp.png");
+}
+
+.m {
+	background-image: url("./images/monkey.png");
+}
+
+.n {
+	background-image: url("./images/nose.png");
+}
+
+.o {
+	background-image: url("./images/ocean.png");
+}
+
+.p {
+	background-image: url("./images/parrot.png");
+}
+
+.q {
+	background-image: url("./images/queen.png");
+}
+
+.r {
+	background-image: url("./images/rat.png");
+}
+
+.s {
+	background-image: url("./images/sun.png");
+}
+
+.t {
+	background-image: url("./images/tap.png");
+}
+
+.u {
+	background-image: url("./images/umbrella.png");
+}
+
+.v {
+	background-image: url("./images/violin.png");
+}
+
+.w {
+	background-image: url("./images/water.png");
+}
+
+.x {
+	background-image: url("./images/fox.png");
+}
+
+.y {
+	background-image: url("./images/yellow.png");
+}
+
+.z {
+	background-image: url("./images/zebra.png");
+}
+
+/* Styling the footer section */
+footer {
+	text-align: center;
+	font-size: 1.2rem;
+	color: white;
+	margin: 0 0 1rem 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
