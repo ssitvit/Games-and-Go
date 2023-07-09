@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-env": "^7.22.7",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
     "@babel/standalone": "^7.22.5",
@@ -25,12 +25,12 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-loader-spinner": "^5.3.4",
-    "react-router-dom": "^6.13.0",
+    "react-router-dom": "^6.14.1",
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.13.8",
     "react-tooltip": "^5.18.0",
     "reactstrap": "^9.2.0",
-    "styled-components": "^6.0.0-rc.5",
+    "styled-components": "^6.0.2",
     "web-vitals": "^3.3.2",
     "webfontloader": "^1.6.28"
   },

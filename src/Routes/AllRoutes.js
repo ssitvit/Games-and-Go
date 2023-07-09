@@ -32,8 +32,12 @@ const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
 const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
+
 const doodlejump = lazy(() => import("../Games/doodle-jump/doodlejump"));
 const birdshooter = lazy(() => import("../Games/bird-shooter-game"));
+
+const Alphabet = lazy(() => import("../Games/Alphabet_Game/Alphabet"));
+
 
 function AllRoutes() {
   return (
@@ -77,8 +81,12 @@ function AllRoutes() {
         <Route path="/TangledWords" element={<TangledWords />} />
         <Route path="/TypingMaster" element={<TypingMaster />} />
         <Route path="/GuessTheColor" element={<GuessTheColor />} />
+
         <Route path="/doodle-jump" element={<doodle-jump />} />
         <Route path="/bird-shooter-game" element={<bird-shooter-game />} />
+
+        <Route path="/Alphabet_Game" element={<Alphabet />} />
+
       </Routes>
     </Suspense>
   );
