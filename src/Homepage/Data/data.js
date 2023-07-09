@@ -260,7 +260,7 @@ export const data1 = [
   },
 
   {
-    serial_number: "23",
+    serial_number: "24",
     main_heading: "Guess the Color",
     about: "Solve the puzzle~",
     link_game: "/GuessTheColor",
@@ -270,6 +270,7 @@ export const data1 = [
     step2: "2. Know the RGB value",
     step3: "3. Enjoy the game",
   },
+
   {
     serial_number: "24",
     main_heading: "doodle jump game",
@@ -278,5 +279,18 @@ export const data1 = [
     rule_heading: "Rules to play",
     step1: "1. move as up as possible ",
     step2: "2. climb on the stairs",
+
+
+  {
+    serial_number: "25",
+    main_heading: "Alphabet Game",
+    about: "Learn the English alphabet with playable sounds.",
+    link_game: "/Alphabet_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Press on the words to start the sound.",
+    step2: "2. Or click from the keyboard to start the sound",
+    step3: "3. Enjoy the game",
+
   }
 ];
