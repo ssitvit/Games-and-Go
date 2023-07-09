@@ -1,0 +1,36 @@
+.for-heading{
+    color: white;
+}
+
+.for-game{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.for-inputfield{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 20%;
+    margin-bottom:5% ;
+    margin-top: 5%;
+}
+
+.button{
+    width: 40%;
+    display: flex;
+    margin-left: 30%;
+    justify-content: center;
+}
+
+.for-display{
+    color: white;
+}
+
+.for-answer{
+    margin-top: 5%;
+    color: white;
+}
