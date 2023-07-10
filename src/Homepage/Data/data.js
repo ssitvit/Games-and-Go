@@ -281,5 +281,16 @@ export const data1 = [
     step1: "1. Press on the words to start the sound.",
     step2: "2. Or click from the keyboard to start the sound",
     step3: "3. Enjoy the game",
+  },
+  {
+    serial_number: "26",
+    main_heading: "FlappyBird Game",
+    about: "This game is just for fun.",
+    link_game: "/FlappyBird",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Press the Enter key",
+    step2: "2. Start clicking arrowup key to handle bird action.",
+    step3: "3. Enjoy the game",
   }
 ];
