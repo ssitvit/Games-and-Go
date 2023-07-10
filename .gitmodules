@@ -1,0 +1,3 @@
+[submodule "src/Games/FlappyBird"]
+	path = src/Games/FlappyBird
+	url = ./FlappyBird
