@@ -33,6 +33,7 @@ const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
 const Alphabet = lazy(() => import("../Games/Alphabet_Game/Alphabet"));
+const FlappyBird = lazy(() => import("../Games/FlappyBird/script"));
 
 function AllRoutes() {
   return (
