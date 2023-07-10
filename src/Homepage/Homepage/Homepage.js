@@ -6,6 +6,7 @@ import GoToTop from "./GoToTop";
 import MusicButton from "./MusicButton";
 import { useState } from "react";
 import DarkMode from "./DarkModeToggle";
+import { FaSearch } from "react-icons/fa";
 
 function Homepage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -46,13 +47,20 @@ function Homepage() {
         <h1> Game on!!</h1>
       </div>
       {/* The content in the cards came from mapping data1, if you want to contribute a game kindly add it to data1 in the Data folder first*/}
-      <input
+      <div className="search-section">
+          <input
         type="text"
         className="search-input"
         value={searchQuery}
         onChange={handleSearch}
         placeholder="Search..."
+       
       />
+          <label className="search-icon">
+              <FaSearch/>
+            </label>
+      </div>
+     
       <div className="body_card">
         <div className="container_card">
           {filteredData.map((row) => (
