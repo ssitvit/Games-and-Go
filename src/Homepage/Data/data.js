@@ -281,5 +281,17 @@ export const data1 = [
     step1: "1. Press on the words to start the sound.",
     step2: "2. Or click from the keyboard to start the sound",
     step3: "3. Enjoy the game",
+  },
+
+  {
+    serial_number: "26",
+    main_heading: "Insect Catch Game",
+    about: "Catch your favorite insect",
+    link_game: "/Insect_Catch_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Choose your favorite insect.",
+    step2: "2. Catch insect by press on insect.",
+    step3: "3. Enjoy the game",
   }
 ];
