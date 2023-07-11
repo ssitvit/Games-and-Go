@@ -293,5 +293,17 @@ export const data1 = [
     step1: "1. Use forward and backward arrow to run the dino.",
     step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
     step3: "3. If dino comes in contact with dragon then game over.",
+  },
+
+  {
+    serial_number: "27",
+    main_heading: "Memory Card Game",
+    about: "Watch, Learn and Conquer the game.",
+    link_game: "/Memory_Card_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Memories box where pictures appears",
+    step2: "2. Click on box which you remember",
+    step3: "3. Enjoy the game",
   }
 ];
