@@ -4,6 +4,7 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 import TypingMaster from "../Games/typingMaster/typing";
 
 const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
+const ErrorPage = lazy(() => import("../ErrorPage/ErrorPage"));
 const Tictactoe = lazy(() => import("../Games/Tictactoe/tictactoe"));
 const Ninetynine = lazy(() => import("../Games/Ninetynine/ninetynine"));
 const Memory = lazy(() => import("../Games/Memory/memory"));
@@ -53,6 +54,7 @@ function AllRoutes() {
       <Routes>
         {/* Add all the routes with the right path here after importing them  */}
         <Route path="/" element={<Homepage />} />
+        <Route path="*" element={<ErrorPage />} />
         <Route path="/Tic" element={<Tictactoe />} />
         <Route path="/99" element={<Ninetynine />} />
         <Route path="/memory" element={<Memory />} />
