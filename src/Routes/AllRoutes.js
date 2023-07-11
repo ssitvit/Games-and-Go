@@ -5,6 +5,7 @@ import TypingMaster from "../Games/typingMaster/typing";
 import Escape_Room from "../Games/Escape_Room/Escape_Room";
 
 const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
+const ErrorPage = lazy(() => import("../ErrorPage/ErrorPage"));
 const Tictactoe = lazy(() => import("../Games/Tictactoe/tictactoe"));
 const Ninetynine = lazy(() => import("../Games/Ninetynine/ninetynine"));
 const Memory = lazy(() => import("../Games/Memory/memory"));
@@ -33,6 +34,8 @@ const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
 const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
+const Alphabet = lazy(() => import("../Games/Alphabet_Game/Alphabet"));
+const DragonDinoGame = lazy(() => import("../Games/DragonDinoGame/Game"));
 const Escape_Room = lazy(() => import("../Games/Escape_Room/Escape_Room"));
 
 function AllRoutes() {
@@ -53,6 +56,7 @@ function AllRoutes() {
       <Routes>
         {/* Add all the routes with the right path here after importing them  */}
         <Route path="/" element={<Homepage />} />
+        <Route path="*" element={<ErrorPage />} />
         <Route path="/Tic" element={<Tictactoe />} />
         <Route path="/99" element={<Ninetynine />} />
         <Route path="/memory" element={<Memory />} />
@@ -77,6 +81,8 @@ function AllRoutes() {
         <Route path="/TangledWords" element={<TangledWords />} />
         <Route path="/TypingMaster" element={<TypingMaster />} />
         <Route path="/GuessTheColor" element={<GuessTheColor />} />
+        <Route path="/Alphabet_Game" element={<Alphabet />} />
+        <Route path="/DragonDinoGame" element={<DragonDinoGame />} />
         <Route path="/Escape_Room" element={<Escape_Room />} />
       </Routes>
     </Suspense>

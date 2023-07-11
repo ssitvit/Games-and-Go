@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
-import dice1 from "./assets/dice1.png";
-import dice2 from "./assets/dice2.png";
-import dice3 from "./assets/dice3.png";
-import dice4 from "./assets/dice4.png";
-import dice5 from "./assets/dice5.png";
-import dice6 from "./assets/dice6.png";
-import "./styles.css"
+import dice1 from "./assets/dice1.webp";
+import dice2 from "./assets/dice2.webp";
+import dice3 from "./assets/dice3.webp";
+import dice4 from "./assets/dice4.webp";
+import dice5 from "./assets/dice5.webp";
+import dice6 from "./assets/dice6.webp";
+import "./styles.css";
 
 const Game = (props) => {
-
   let [init, funct] = useState(0);
   let [turn, setTurn] = useState(2);
   let [score1, setScore1] = useState(0);
@@ -101,17 +100,24 @@ const Game = (props) => {
   return (
     <div className="container">
       <h2> Set target: </h2>
-      <input value={target} onChange={inputHandler} style={{ width: "30%" }} />
+      <input
+        value={target}
+        onChange={inputHandler}
+        style={{ width: "30%" }}
+      />
       <h2> Turn: Player {turn}</h2>
       <h1>{score1}</h1>
       <span>&ensp; &ensp; &ensp; &ensp;</span>
       <h1>{score2}</h1>
-      <img  src={imageSource} />
-      <button onClick={play} style={{ width: "200px" }}>
+      <img src={imageSource} />
+      <button
+        onClick={play}
+        style={{ width: "200px" }}
+      >
         {res}
       </button>
     </div>
-  )
+  );
 };
 
 export default Game;

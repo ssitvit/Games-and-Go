@@ -5,6 +5,7 @@ import { data1 } from "../Data/data";
 import GoToTop from "./GoToTop";
 import MusicButton from "./MusicButton";
 import { useState } from "react";
+import DarkMode from "./DarkModeToggle";
 
 function Homepage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -26,7 +27,7 @@ function Homepage() {
     <React.Fragment>
       <GoToTop />
       <MusicButton />
-
+       <DarkMode/>
       {/* Pacman Landing Container */}
       <div className="container_landing">
         <div className="pacman"></div>
@@ -50,7 +51,7 @@ function Homepage() {
         className="search-input"
         value={searchQuery}
         onChange={handleSearch}
-        placeholder="Search..."
+        placeholder="Search for your favourite game..."
       />
       <div className="body_card">
         <div className="container_card">
