@@ -33,6 +33,7 @@ const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
 const Alphabet = lazy(() => import("../Games/Alphabet_Game/Alphabet"));
+const DragonDinoGame = lazy(() => import("../Games/DragonDinoGame/Game"));
 
 function AllRoutes() {
   return (
@@ -77,6 +78,7 @@ function AllRoutes() {
         <Route path="/TypingMaster" element={<TypingMaster />} />
         <Route path="/GuessTheColor" element={<GuessTheColor />} />
         <Route path="/Alphabet_Game" element={<Alphabet />} />
+        <Route path="/DragonDinoGame" element={<DragonDinoGame />} />
       </Routes>
     </Suspense>
   );
