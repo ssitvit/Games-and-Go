@@ -293,5 +293,17 @@ export const data1 = [
     step1: "1. Use forward and backward arrow to run the dino.",
     step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
     step3: "3. If dino comes in contact with dragon then game over.",
+  },
+
+  {
+    serial_number: "27",
+    main_heading: "Fifteen Puzzle Game",
+    about: "A simple puzzle game just move several blocks and make the picture clear.",
+    link_game: "/Fifteen_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use arrow keys or press the position around the blank block.",
+    step2: "2. Move items and arrange the blocks to make a clear and concise game.",
+    step3: "3. If picture will be completed, game will be over.",
   }
 ];
