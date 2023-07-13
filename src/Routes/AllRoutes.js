@@ -35,7 +35,7 @@ const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
 const Alphabet = lazy(() => import("../Games/Alphabet_Game/Alphabet"));
 
-const FlappyBird = lazy(() => import("../Games/FlappyBird_Game/script"));
+const FlappyBird = lazy(() => import("../Games/Flappy_Bird_Game/script"));
 
 const DragonDinoGame = lazy(() => import("../Games/DragonDinoGame/Game"));
 
