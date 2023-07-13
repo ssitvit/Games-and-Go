@@ -1,7 +1,7 @@
 import React from 'react';
 import './fifteenGame.css';
 
-class fifteenGame extends React.Component {
+class Fifteen extends React.Component {
   componentDidMount() {
     const setup = {
       puzzle_fifteen: {
@@ -442,4 +442,4 @@ class fifteenGame extends React.Component {
   }
 }
 
-export default fifteenGame;
+export default Fifteen;
