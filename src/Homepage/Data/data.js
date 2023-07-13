@@ -3,7 +3,7 @@
 export const data1 = [
   {
     serial_number: "01",
-    main_heading: "Let's Play Tic-Tac-Toe",
+    main_heading: "Tic-Tac-Toe",
     about:
       "Interesting tic tac toe game to bring us back to the childhood days!",
     link_game: "/Tic",
