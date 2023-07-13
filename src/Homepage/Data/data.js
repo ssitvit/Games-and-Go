@@ -3,7 +3,7 @@
 export const data1 = [
   {
     serial_number: "01",
-    main_heading: "Let's Play Tic-Tac-Toe",
+    main_heading: "Tic-Tac-Toe",
     about:
       "Interesting tic tac toe game to bring us back to the childhood days!",
     link_game: "/Tic",
@@ -291,6 +291,21 @@ export const data1 = [
     step1: "1. Press on the words to start the sound.",
     step2: "2. Or click from the keyboard to start the sound",
     step3: "3. Enjoy the game",
+
+
+
+  },
+
+  {
+    serial_number: "26",
+    main_heading: "Dragon Dino Game",
+    about: "A simple dragon dino game with scoreboard and background music.",
+    link_game: "/DragonDinoGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use forward and backward arrow to run the dino.",
+    step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
+    step3: "3. If dino comes in contact with dragon then game over.",
 
   }
 ];
