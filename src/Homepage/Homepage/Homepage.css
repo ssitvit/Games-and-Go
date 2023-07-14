@@ -555,6 +555,7 @@ input.search-input:hover {
 
 /* Copyright in Footer */
 .copyright{
+  flex-direction: column;
   margin: auto;
   width: 80%;
   border: 5px;
@@ -563,6 +564,12 @@ input.search-input:hover {
   justify-content: center;
   top: 30px;
   text-align: center;
+}
+.social-icons{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .copyright h3{
