@@ -60,7 +60,7 @@ function Homepage() {
         className="search-input"
         value={searchQuery}
         onChange={handleSearch}
-        placeholder="Search for your favourite game..."
+        placeholder="🔍 Search for your favourite game..."
       />
       <div className="body_card">
         
