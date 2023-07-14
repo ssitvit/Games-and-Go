@@ -18,8 +18,13 @@ export default function ThemeSwitcher() {
     }
 
     .copyright h3 {
-      color: #222;
+      color: ${isDarkMode ? "white" : "#222"};
     }
+
+    .header_homepage{
+       color: ${isDarkMode ? "white" : "#222"};
+    }
+
   `;
 
   return (
