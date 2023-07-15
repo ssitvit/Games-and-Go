@@ -282,6 +282,16 @@ export const data1 = [
     step2: "2. Or click from the keyboard to start the sound",
     step3: "3. Enjoy the game",
   },
+  {
+    serial_number: "26",
+    main_heading: "FlappyBird Game",
+    about: "Just for Fun.",
+    link_game: "/FlappyBird",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Press Enter key.",
+    step2: "2. Press arrowup key to handle bird action.",
+    step3: "3. Enjoy the game"
 
   {
     serial_number: "26",
@@ -292,6 +302,8 @@ export const data1 = [
     rule_heading: "Rules to play",
     step1: "1. Use forward and backward arrow to run the dino.",
     step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
+    step3: "3. If dino comes in contact with dragon then game over."
+  }
     step3: "3. If dino comes in contact with dragon then game over.",
   },
   {
