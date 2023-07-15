@@ -154,7 +154,7 @@ If you're interested in working on any of the issues, please let us know by subm
 <br>
 <h2 align="center">Code of Conduct 💚</h2>
 
-Contributors are expected to adhere to the following Code of Conduct to ensure a positive and inclusive environment for collaboration
+Contributors are expected to adhere to the following [Code of Conduct](https://github.com/ssitvit/Games-and-Go/blob/main/CODE_OF_CONDUCT.md) to ensure a positive and inclusive environment for collaboration
 	
 If you want to get free **T-shirt,Swags** like **developers** then contribute and grow this repository with us, make sure to check out Contributing.md for contribution guidelines and add your name in the Readme.md and Contributors.md.  <br/>
 </p>

@@ -1,0 +1,173 @@
+/* Default settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(156, 252, 248, 1) 11.2%,
+    rgba(110, 123, 251, 1) 91.1%
+  );
+  background-size: contain;
+  height: 100%;
+}
+
+/* Styling the header line of the game */
+h1 {
+  margin-top: 1rem;
+  font-family: Serif;
+  font-size: 4rem;
+  color: #fee6ed;
+  text-align: center;
+}
+
+/* Styling the buttons container */
+.btns {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  margin: 3.2rem 0;
+}
+
+/* Styling the buttons */
+.btn {
+  display: inline-block;
+  outline: none;
+  border: 10px solid #fee6ed;
+  font-size: 5rem;
+  font-family: Serif;
+  line-height: 2;
+  font-weight: 900;
+  color: #fee6ed;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #0c0b0c;
+}
+
+/* Adding images on each letters */
+.a {
+  background-image: url("./images/apple.webp");
+}
+
+.b {
+  background-image: url("./images/ball.webp");
+}
+
+.c {
+  background-image: url("./images/cat.webp");
+}
+
+.d {
+  background-image: url("./images/dog.webp");
+}
+
+.e {
+  background-image: url("./images/elephant.webp");
+}
+
+.f {
+  background-image: url("./images/fish.webp");
+}
+
+.g {
+  background-image: url("./images/grass.webp");
+}
+
+.h {
+  background-image: url("./images/hat.webp");
+}
+
+.i {
+  background-image: url("./images/insect.webp");
+}
+
+.j {
+  background-image: url("./images/jar.webp");
+}
+
+.k {
+  background-image: url("./images/kite.webp");
+}
+
+.l {
+  background-image: url("./images/lamp.webp");
+}
+
+.m {
+  background-image: url("./images/monkey.webp");
+}
+
+.n {
+  background-image: url("./images/nose.webp");
+}
+
+.o {
+  background-image: url("./images/ocean.webp");
+}
+
+.p {
+  background-image: url("./images/parrot.webp");
+}
+
+.q {
+  background-image: url("./images/queen.webp");
+}
+
+.r {
+  background-image: url("./images/rat.webp");
+}
+
+.s {
+  background-image: url("./images/sun.webp");
+}
+
+.t {
+  background-image: url("./images/tap.webp");
+}
+
+.u {
+  background-image: url("./images/umbrella.webp");
+}
+
+.v {
+  background-image: url("./images/violin.webp");
+}
+
+.w {
+  background-image: url("./images/water.webp");
+}
+
+.x {
+  background-image: url("./images/fox.webp");
+}
+
+.y {
+  background-image: url("./images/yellow.webp");
+}
+
+.z {
+  background-image: url("./images/zebra.webp");
+}
+
+/* Styling the footer section */
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  margin: 0 0 1rem 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

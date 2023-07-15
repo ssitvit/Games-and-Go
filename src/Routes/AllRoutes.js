@@ -4,6 +4,7 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 import TypingMaster from "../Games/typingMaster/typing";
 
 const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
+const ErrorPage = lazy(() => import("../ErrorPage/ErrorPage"));
 const Tictactoe = lazy(() => import("../Games/Tictactoe/tictactoe"));
 const Ninetynine = lazy(() => import("../Games/Ninetynine/ninetynine"));
 const Memory = lazy(() => import("../Games/Memory/memory"));
@@ -32,7 +33,6 @@ const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
 const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
-const ChromeDino = lazy(() => import("../Games/ChromeDinoGame/App"));
 
 function AllRoutes() {
   return (
@@ -52,6 +52,7 @@ function AllRoutes() {
       <Routes>
         {/* Add all the routes with the right path here after importing them  */}
         <Route path="/" element={<Homepage />} />
+        <Route path="*" element={<ErrorPage />} />
         <Route path="/Tic" element={<Tictactoe />} />
         <Route path="/99" element={<Ninetynine />} />
         <Route path="/memory" element={<Memory />} />
@@ -76,7 +77,6 @@ function AllRoutes() {
         <Route path="/TangledWords" element={<TangledWords />} />
         <Route path="/TypingMaster" element={<TypingMaster />} />
         <Route path="/GuessTheColor" element={<GuessTheColor />} />
-        <Route path="/ChromeDino" element={<ChromeDino />} />
       </Routes>
     </Suspense>
   );
