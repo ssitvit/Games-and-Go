@@ -616,7 +616,7 @@ input.search-input:hover {
 
 /* Style the front side  */
 .flip-card-front {
-  background-color:  rgba(255, 255, 255, 0.1);
+  background: #43434D;
   width: 205px;
   color: black;
   padding:13px;
@@ -624,7 +624,7 @@ input.search-input:hover {
 
 /* Style the back side */
 .flip-card-back {
-  background-color:  rgba(255, 255, 255, 0.1);
+  background: #43434D;
   color: white;
   transform: rotateY(180deg);
 }
