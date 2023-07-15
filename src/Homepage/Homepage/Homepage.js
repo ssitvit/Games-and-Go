@@ -102,8 +102,22 @@ function Homepage() {
       
       <div className="copyright">
         <div className="social-icons">
-        <a href="https://www.instagram.com/ieeessit/"><img classNmae="icons" src={Instagram}/></a>
-        <a href="https://github.com/ssitvit/Games-and-Go"><img classNmae="icons" src={Github}/></a>
+          <a 
+            href="https://www.instagram.com/ieeessit/"
+            aria-label="Follow us on Instagram"
+            title="Instagram (External Link)"
+            rel="noopener noreferrer"
+          >
+              <img classNmae="icons" src={Instagram}/>
+          </a>
+          <a 
+            href="https://github.com/ssitvit/Games-and-Go"
+            aria-label="Follow us on Github"
+            title="Github (External Link)"
+            rel="noopener noreferrer"
+          >
+              <img classNmae="icons" src={Github}/>
+          </a>
         </div>
         <h3>&copy;Copyright IEEE-SSIT {new Date().getFullYear()}</h3>
       </div>
