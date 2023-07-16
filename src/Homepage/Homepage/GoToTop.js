@@ -29,7 +29,7 @@ const GoToTop = () => {
   return (
     <Wrapper>
       {isVisible && (
-        <div className="top-btn" onClick={goToBtn}>
+        <div className="top-btn" onClick={goToBtn} style={{ left: '9rem' }}>
           <FaArrowUp className="top-btn--icon" />
         </div>
       )}
@@ -90,7 +90,7 @@ const Wrapper = styled.section`
         right: 2rem;
     }
   }
-`;
+;`
 
 
 export default GoToTop;
