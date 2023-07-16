@@ -16,6 +16,15 @@ export default function ThemeSwitcher() {
       background-color: ${isDarkMode ? "#222222" : "#ffffff"};
       color: ${isDarkMode ? "#ffffff" : "#000000"};
     }
+
+    .copyright h3 {
+      color: ${isDarkMode ? "white" : "#222"};
+    }
+
+    .header_homepage{
+       color: ${isDarkMode ? "white" : "#222"};
+    }
+
   `;
 
   return (

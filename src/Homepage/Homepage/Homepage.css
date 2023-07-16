@@ -124,9 +124,10 @@ body {
   margin-top: 100px;
   background-color: #000000;
   border: 10px groove lightblue;
-  outline: 15px groove purple;
+  outline: 10px groove purple;
   padding: 20px;
   margin-bottom: 20px;
+  box-shadow:15px 15px 10px #bbb068;
 }
 
 .about-section h2 {
@@ -256,17 +257,20 @@ body {
 }
 /* Search input  */
 .search-input {
-  margin: -5px auto;
+  margin: -50px auto;
   width: 40%;
-  border: 5px;
-  padding: 5px;
+  padding: 10px 10px;
   margin-bottom: 50px;
   font-size: 26px;
   display: flex;
   justify-content: center;
   top: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 3px solid rgb(136, 53, 136);
+  box-shadow: 5px 5px 7px rgb(255, 198, 255);
+  border-radius: 10px;
+}
+input.search-input:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 @keyframes hue {
@@ -423,7 +427,8 @@ body {
   width: 280px;
   height: 400px;
   margin: 30px;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(254, 254, 254, 0.5);
+  box-shadow: 2px 2px 15px rgba(254, 254, 254, 0.5);
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
@@ -446,8 +451,8 @@ body {
 
 
 .container_card .card .content h2 {
-  font-size: 3em;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 2em;
+  color: rgba(173, 247, 26, 0.4);
   pointer-events: none;
   font-family: "Press Start 2P", cursive;
   margin-bottom: 2rem;
@@ -461,9 +466,9 @@ body {
   margin-bottom: 1rem;
   line-height: 2rem;
 }
-
+ 
 .container_card .card .content p {
-  font-size: 4em;
+  font-size: 1em;
   font-weight: 900;
   color: #fff;
 }
@@ -473,20 +478,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.75rem 1rem;
+  padding: 1rem 1rem;
   margin-bottom: 3rem;
   background: #cfcfcf;
   color: #000;
   border-radius: 20px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   font-family: "Press Start 2P", cursive;
-  box-shadow: 0 5px 15px rgb(95 89 89 / 94%);
+  box-shadow: 2px 2px 10px rgb(149, 149, 149);
   transition: background-color 0.3s ease;
 }
 
 .container_card .card .content a:hover {
   background-color: gold;
+  box-shadow: 2px 2px 10px gold;
   color: #000;
 }
 
@@ -505,13 +511,13 @@ body {
   display: flex;
   justify-content: center;
   top: 30px;
-  color: white;
+  color: #222;
   font-family: "Silkscreen", cursive;
   font-size: 3.5rem;
   text-align: center;
   margin: auto;
-  margin-top: 55px;
-  margin-bottom: 35px;
+  margin-top: 45px;
+  margin-bottom: 65px;
 }
 .header_homepage h1 {
   font-size: 3.5rem;
@@ -549,6 +555,7 @@ body {
 
 /* Copyright in Footer */
 .copyright{
+  flex-direction: column;
   margin: auto;
   width: 80%;
   border: 5px;
@@ -557,6 +564,12 @@ body {
   justify-content: center;
   top: 30px;
   text-align: center;
+}
+.social-icons{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .copyright h3{
@@ -573,7 +586,7 @@ body {
   background-color: transparent;
   width: 242px;
   height: 200px;
-  border: 1px solid #201818;
+  /* border: 1px solid #201818; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -604,7 +617,7 @@ body {
 /* Style the front side  */
 .flip-card-front {
   background-color:  rgba(255, 255, 255, 0.1);
-  width:241px;
+  width: 205px;
   color: black;
   padding:13px;
 }
