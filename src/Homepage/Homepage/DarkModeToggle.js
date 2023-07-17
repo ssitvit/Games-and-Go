@@ -7,7 +7,20 @@ export default function ThemeSwitcher() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleTheme = () => {
-    setIsDarkMode((prevMode) => !prevMode);
+      setIsDarkMode((prevMode) => {
+        let audio;
+  
+        if (prevMode) {
+          audio = document.querySelector('.switch--on');
+        } else {
+          audio = document.querySelector('.switch--off');
+        }
+  
+        audio.currentTime = 0;
+        audio.play();
+  
+        return !prevMode;
+    });
   };
 
   // Update the CSS styles dynamically based on the isDarkMode state
@@ -34,6 +47,8 @@ export default function ThemeSwitcher() {
         <button onClick={toggleTheme}>
           {isDarkMode ? <MdSunny/>: <MdBrightness2/>}
         </button>
+        <audio className="switch--on" src="./audio_light-on.mp3" />
+        <audio className="switch--off" src="./audio_light-off.mp3" />
       </div>
     </Wrapper>
   );
