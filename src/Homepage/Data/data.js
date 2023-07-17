@@ -305,5 +305,15 @@ export const data1 = [
     step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
     step3: "3. The one who survives till end wins.",
   },
-  
+  {
+    serial_number: "28",
+    main_heading: "Magic Match Memory",
+    about: "Unleash your mind's magic with every match!",
+    link_game: "/Magic_Match_Memory",
+    //Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Shuffle and arrange face-down cards in a grid.",
+    step2: "2. Players take turns flipping two cards.",
+    step3: "3. Matched pairs stay up, find all pairs to win."
+  }
 ];
