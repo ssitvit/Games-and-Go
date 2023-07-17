@@ -305,5 +305,16 @@ export const data1 = [
     step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
     step3: "3. The one who survives till end wins.",
   },
+  {
+    serial_number: "28",
+    main_heading: "2048",
+    about: "Use top, bottom, left and right arrow keys to move the tiles.",
+    link_game: "/MindGame_2048",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. The game starts with a tile numbered '2'. ",
+    step2: "2. Use the top, bottom, left and right arrow keys to move the tiles.",
+    step3: "3. Boost your brain to win the game.",
+  },
   
 ];
