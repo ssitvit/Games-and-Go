@@ -134,12 +134,16 @@ body {
   font-size: 30px;
   margin-bottom: 10px;
   color: #bbb068;
+  text-align: center;
 }
 
 .about-section p {
   font-size: 16px;
   line-height: 1.5;
   color: #cccab2;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
 }
 .container_landing > div.ghost:nth-of-type(2) {
   background: red;
