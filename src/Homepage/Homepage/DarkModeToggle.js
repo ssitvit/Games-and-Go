@@ -40,12 +40,12 @@ export default function ThemeSwitcher() {
 }
 
 const Wrapper = styled.section`
-  .theme-toggle {
-    position: fixed;
-    bottom: 1500px;
-    left: 40px;
-    z-index: 9999;
-  }
+.theme-toggle {
+  position: fixed;
+  bottom: 1500px;
+  left: 43px;
+  z-index: 9999;
+}
 
   .theme-toggle button {
     font-size: 2.4rem;
@@ -57,7 +57,7 @@ const Wrapper = styled.section`
     border-radius: 50%;
     position: fixed;
     bottom: 200px;
-    left: 40px;
+    left: 43px;
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -66,5 +66,13 @@ const Wrapper = styled.section`
     color: white;
 
   }
+
+  @media (max-width: 768px) {
+    .theme-toggle button {
+      bottom: 10rem;
+      left: 2rem;
+    }
+
+  
 `;
 
