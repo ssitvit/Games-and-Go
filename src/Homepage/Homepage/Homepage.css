@@ -131,15 +131,20 @@ body {
 }
 
 .about-section h2 {
-  font-size: 30px;
   margin-bottom: 10px;
   color: #bbb068;
+  font-family: Silkscreen, cursive;
+  font-size: 3rem;
 }
 
 .about-section p {
-  font-size: 16px;
   line-height: 1.5;
   color: #cccab2;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 1.2rem;
+  letter-spacing: .02rem;
+  word-spacing: .05rem;
 }
 .container_landing > div.ghost:nth-of-type(2) {
   background: red;
