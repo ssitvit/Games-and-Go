@@ -248,7 +248,6 @@ export const data1 = [
     step3: "3. Enjoy the game",
   },
 
-
   {
     serial_number: "23",
     main_heading: "Typing Master",
@@ -291,19 +290,34 @@ export const data1 = [
     // Flip-card-back contents
     rule_heading: "Rules to play",
     step1: "1. Use forward and backward arrow to run the dino.",
-    step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
+    step2:
+      "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
     step3: "3. If dino comes in contact with dragon then game over.",
   },
   {
     serial_number: "27",
     main_heading: "Pong Game",
-    about: "Use paddles to drive the volley towards your opponent back and forth",
+    about:
+      "Use paddles to drive the volley towards your opponent back and forth",
     link_game: "/Pong_Game",
     // Flip-card-back contents
     rule_heading: "Rules to play",
-    step1: "1. Being a multiplayer game, the player 1 playes through arrow keys, while player 2 playes through secondary arrows(w-a-s-d)",
-    step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
+    step1:
+      "1. Being a multiplayer game, the player 1 playes through arrow keys, while player 2 playes through secondary arrows(w-a-s-d)",
+    step2:
+      "2. Both players try to score more and more and play consistently till one of them gives up.",
     step3: "3. The one who survives till end wins.",
   },
-  
+  {
+    serial_number: "28",
+    main_heading: "Memory Card Game",
+    about: "Flip the cards and test your memory to match the cards!",
+    link_game: "/MemoryCardGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Flip the cards, can be played alone, or with friends.",
+    step2:
+      "2. Test your memory by remembering the cards and flip to match them",
+    step3: "3. Once you match all of them, you're a winner!",
+  },
 ];
