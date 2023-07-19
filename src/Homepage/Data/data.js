@@ -305,5 +305,16 @@ export const data1 = [
     step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
     step3: "3. The one who survives till end wins.",
   },
+  {
+    serial_number: "28",
+    main_heading: "Word Scramble",
+    about: "Unleash your inner word wizard! Solve mind-bending puzzles, unlock hidden words, and conquer the ultimate word scramble challenge!",
+    link_game: "/WordScramble",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Type in your guess.",
+    step2: "2. Get three correct words and level will increase. Get a word wrong three times and game will restart.",
+    step3: "3. Finish level 3 and you win.",
+  },
   
 ];
