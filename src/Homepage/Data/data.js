@@ -305,5 +305,16 @@ export const data1 = [
     step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
     step3: "3. The one who survives till end wins.",
   },
+  {
+    serial_number: "28",
+    main_heading: "Classic Chess Game",
+    about: "Chess is a board game for two players. Chess is a game played between two opponents on opposite sides of a board.",
+    link_game: "/Classic_Chess_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Drag chess pieces",
+    step2: "2. Think and drag according to chess rules",
+    step3: "3. Score maximum to win",
+  },
   
 ];
