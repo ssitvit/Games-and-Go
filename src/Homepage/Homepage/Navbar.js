@@ -29,6 +29,7 @@ function Navbargo() {
   return (
     <React.Fragment>
       <div className="body_navbar center">
+     
         <div className="video-game-button" onClick={handleAButtonClick}>
           A
         </div>

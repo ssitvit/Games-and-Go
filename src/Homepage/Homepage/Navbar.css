@@ -6,7 +6,7 @@
   font-family: 'Press Start 2p';
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   margin-top: 10px;
   padding: 10px;
 }
@@ -62,4 +62,10 @@
 	box-shadow: none;
 	position: relative;
 	top: .2em;
+}
+
+.backicon{
+color: aqua;
+font-size: 20px;
+margin-top: -10px;
 }

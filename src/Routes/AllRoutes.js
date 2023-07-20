@@ -1,7 +1,8 @@
 import { lazy, Suspense } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes , Link} from "react-router-dom";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import TypingMaster from "../Games/typingMaster/typing";
+
 
 const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
 const ErrorPage = lazy(() => import("../ErrorPage/ErrorPage"));
@@ -51,6 +52,9 @@ function AllRoutes() {
         </div>
       }
     >
+           <Link to="/">
+            <i className="fa fa-arrow-left backicon" />
+          </Link>  
       <Routes>
         {/* Add all the routes with the right path here after importing them  */}
         <Route path="/" element={<Homepage />} />
