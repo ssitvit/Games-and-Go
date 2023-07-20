@@ -25,6 +25,10 @@ export default function ThemeSwitcher() {
        color: ${isDarkMode ? "white" : "#222"};
     }
 
+    .social-icons a i{
+      color:${isDarkMode ? "white" : "#222"}
+    }
+
   `;
 
   return (
