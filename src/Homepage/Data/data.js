@@ -305,5 +305,16 @@ export const data1 = [
     step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
     step3: "3. The one who survives till end wins.",
   },
+  {
+    serial_number: "28",
+    main_heading: "Tekken 3",
+    about: "Use keyboard keys",
+    link_game: "/Pong_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Both players try to score more and more and play consistently till one of them gives up.",
+    step2: "2. The one who survives till end wins.",
+    step3: "3. Make sure you have python in your system and go through readme",
+  },
   
 ];
