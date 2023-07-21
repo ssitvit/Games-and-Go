@@ -305,5 +305,16 @@ export const data1 = [
     step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
     step3: "3. The one who survives till end wins.",
   },
+  {
+    serial_number: "29",
+    main_heading: "Whack A Mole",
+    about: "Use paddles to drive the volley towards your opponent back and forth",
+    link_game: "/WhackAMole",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. The game starts with a grid of holes, representing the mole's hiding spots. Moles randomly pop up from their hiding spots at different intervals.",
+    step2: "2. The player's goal is to quickly react and hit the moles back down into their holes using a virtual mallet.",
+    step3: "3. Each successful hit earns the player points.",
+  },
   
 ];
