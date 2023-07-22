@@ -305,5 +305,16 @@ export const data1 = [
     step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
     step3: "3. The one who survives till end wins.",
   },
-  
+  {
+    serial_number: "28",
+    main_heading: "Falling Ball Game",
+    about: "Make ball move to save it from crashing with the wall.",
+    link_game: "/FallingBall",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use the left and right arrow keys on your keyboard to move the the ball horizontally.",
+    step2: "2. The goal is to avoid colliding with the falling blocks. If the ball collides with a block, the game is over.",
+    step3: "3. Try to survive as long as possible and score points by avoiding the blocks. The longer you survive, the higher your score will be.",
+  },
+    
 ];
