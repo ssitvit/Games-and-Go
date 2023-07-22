@@ -2,19 +2,17 @@ name: Auto Comment
 on:
   issues:
     types:
-      - opened
       - closed
-      - assigned
+      
   pull_request:
     types:
-      - opened
       - closed
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - name: Auto Comment on Issues Opened
+      - name: Auto Comment on Issues closed
         uses: wow-actions/auto-comment@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
