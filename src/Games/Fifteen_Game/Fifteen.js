@@ -25,6 +25,10 @@ class Fifteen extends React.Component {
     const slot_style = document.getElementById('slot_style');
     const img_file = document.getElementById('img_file');
     const img = document.getElementById("art");
+    const grid_width = document.getElementById("grid_width");
+    const grid_height = document.getElementById("grid_height");
+    const width = document.getElementById("width");
+    const height = document.getElementById("height");
     let file;
 
     img_file.addEventListener('change', loadFiles);
