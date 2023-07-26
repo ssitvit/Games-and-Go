@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes , Link} from "react-router-dom";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import TypingMaster from "../Games/typingMaster/typing";
+import MemoryGame from "../Games/MemoryGame/src/App"
 
 
 const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
@@ -87,6 +88,8 @@ function AllRoutes() {
         <Route path="/Alphabet_Game" element={<Alphabet />} />
         <Route path="/DragonDinoGame" element={<DragonDinoGame />} />
         <Route path="/FallingBall" element={<FallingBall />}/>
+        <Route path="/MemoryGame" element={<MemoryGame />}/>
+
       </Routes>
     </Suspense>
   );

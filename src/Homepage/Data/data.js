@@ -316,5 +316,16 @@ export const data1 = [
     step2: "2. The goal is to avoid colliding with the falling blocks. If the ball collides with a block, the game is over.",
     step3: "3. Try to survive as long as possible and score points by avoiding the blocks. The longer you survive, the higher your score will be.",
   },
+  {
+    serial_number: "29",
+    main_heading: "Memory Matching Game",
+    about: "Use your cursor to select the matching cards.",
+    link_game: "/MemoryGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Try to remember the logo on card and try to match it with similar card.",
+    step2: "2. Match the card as fast as possible.",
+    step3: "3. Enjoy the game.",
+  }
     
 ];
