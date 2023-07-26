@@ -64,7 +64,7 @@ export default function MemoryGame() {
 
     return (
         <div>
-            <div id="timer"> Voçê têm {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}s para completar o jogo</div>
+            <div id="timer"> You have {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}s to complete the game</div>
             <GameBoard handleFlip={handleFlip} cards={cards}></GameBoard>
             <GameOver show={gameOver} handleRestart={restart}></GameOver>
         </div>

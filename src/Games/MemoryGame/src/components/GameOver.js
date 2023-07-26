@@ -5,7 +5,7 @@ export default function GameOver(props) {
         props.show ?
         <div id="gameOver">
           <div>
-           Deseja inicar outra partida?
+           Do you want to try again ?
           </div>
           <button id="restart" onClick={props.handleRestart}>Jogue novamente</button>
         </div> : <Fragment />
