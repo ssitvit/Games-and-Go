@@ -37,7 +37,7 @@ const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
 const Alphabet = lazy(() => import("../Games/Alphabet_Game/Alphabet"));
 const DragonDinoGame = lazy(() => import("../Games/DragonDinoGame/Game"));
 const FallingBall = lazy(() => import("../Games/FallingBall/App"));
-const MemoryGame = lazy(() => import("../Games/MemoryGame/src/App"));
+const MemoryGame = lazy(() => import("../Games/MemoryGame/src/index"));
 
 
 function AllRoutes() {
