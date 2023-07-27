@@ -131,12 +131,11 @@ body {
 }
 
 .about-section h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 14px;
   color: #bbb068;
   text-align: center;
 }
-
 .about-section p {
   font-size: 16px;
   line-height: 1.5;
@@ -144,6 +143,9 @@ body {
   width: 80%;
   margin: auto;
   text-align: justify;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container_landing > div.ghost:nth-of-type(2) {
   background: red;
@@ -475,6 +477,7 @@ input.search-input:hover {
   font-size: 1em;
   font-weight: 900;
   color: #fff;
+  text-align: center;
 }
 
 .container_card .card .content a {
@@ -482,20 +485,15 @@ input.search-input:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem;
   margin-bottom: 3rem;
-  background: #cfcfcf;
-  color: #000;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 400;
+  border-radius: 50px;
+  margin-top: -1rem;
   font-family: "Press Start 2P", cursive;
   box-shadow: 2px 2px 10px rgb(149, 149, 149);
   transition: background-color 0.3s ease;
 }
 
 .container_card .card .content a:hover {
-  background-color: gold;
   box-shadow: 2px 2px 10px gold;
   color: #000;
 }
@@ -570,10 +568,18 @@ input.search-input:hover {
   text-align: center;
 }
 .social-icons{
+  margin-top: 10px;
   cursor: pointer;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.social-icons a i{
+  margin-right: 60px;
+ font-size: 50px;
+ color: #000;
 }
 
 .copyright h3{
