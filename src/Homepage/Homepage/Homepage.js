@@ -7,8 +7,7 @@ import GoToTop from "./GoToTop";
 import MusicButton from "./MusicButton";
 import { useState } from "react";
 import DarkMode from "./DarkModeToggle";
-import Instagram from "./instagram.png"
-import Github from "./github.png"
+
 import Play from "./Play";
 
 
@@ -102,9 +101,9 @@ function Homepage() {
       </div>
 
       <div className="copyright">
-        <div className="social-icons">
-          <a href="https://www.instagram.com/ieeessit/"><img classNmae="icons" src={Instagram} /></a>
-          <a href="https://github.com/ssitvit/Games-and-Go"><img classNmae="icons" src={Github} /></a>
+        <div className="social-icons" >
+        <a href="https://www.instagram.com/ieeessit/"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://github.com/ssitvit/Games-and-Go"><i class='bx bxl-github'></i></a>
         </div>
         <h3>&copy;Copyright IEEE-SSIT {new Date().getFullYear()}</h3>
       </div>
