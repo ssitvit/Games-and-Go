@@ -36,6 +36,7 @@ body {
   outline: 15px groove purple;
   overflow: hidden;
   position: relative;
+  border-radius: 30px;
 }
 
 .pacman {
@@ -414,7 +415,7 @@ input.search-input:hover {
   min-height: 50vh;
   width: 100%;
   background: #161623;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .container_card {
