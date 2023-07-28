@@ -35,7 +35,7 @@
     "react-tooltip": "^5.18.0",
     "reactstrap": "^9.2.0",
     "styled-components": "^6.0.5",
-    "web-vitals": "^3.3.2",
+    "web-vitals": "^3.4.0",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
