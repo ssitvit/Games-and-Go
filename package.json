@@ -8,7 +8,7 @@
     "@babel/preset-typescript": "^7.22.5",
     "@babel/standalone": "^7.22.5",
     "@fortawesome/fontawesome-free": "^6.4.0",
-    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "@types/chess.js": "^0.13.4",
