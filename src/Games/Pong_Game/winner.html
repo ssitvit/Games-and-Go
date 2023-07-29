@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winner</title>
+    <script>
+        function newLocation() {
+            sessionStorage.setItem("winner", "None");
+            window.location.href="game.html";
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap');
+
+        *{
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background: black;
+            color:white;
+            font-family: 'Cinzel', serif;
+        }
+
+        .winner{
+            font-size: 32px;
+            margin-bottom: 100px;
+        }
+
+        button{
+            font-family: 'Cinzel', serif;
+            padding:10px 15px;
+            font-size: 24px;
+            background: black;
+            border: 1px solid white;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p class="winner"></p>
+    <button onclick="newLocation()">Play Again</button>
+    <script>
+        let winner = sessionStorage.getItem('winner');
+        document.getElementsByClassName('winner')[0].textContent = winner + " Wins ✨"
+    </script>
+</body>
+</html>

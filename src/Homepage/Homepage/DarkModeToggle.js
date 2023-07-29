@@ -18,8 +18,17 @@ export default function ThemeSwitcher() {
     }
 
     .copyright h3 {
-      color: #222;
+      color: ${isDarkMode ? "white" : "#222"};
     }
+
+    .header_homepage{
+       color: ${isDarkMode ? "white" : "#222"};
+    }
+
+    .social-icons a i{
+      color:${isDarkMode ? "white" : "#222"}
+    }
+
   `;
 
   return (
@@ -51,8 +60,8 @@ const Wrapper = styled.section`
     box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px 5px;
     border-radius: 50%;
     position: fixed;
-    bottom: 200px;
-    left: 40px;
+    bottom: 140px;
+    left: 35px;
     z-index: 999;
     display: flex;
     justify-content: center;

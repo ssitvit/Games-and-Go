@@ -36,6 +36,7 @@ body {
   outline: 15px groove purple;
   overflow: hidden;
   position: relative;
+  border-radius: 30px;
 }
 
 .pacman {
@@ -131,15 +132,21 @@ body {
 }
 
 .about-section h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 14px;
   color: #bbb068;
+  text-align: center;
 }
-
 .about-section p {
   font-size: 16px;
   line-height: 1.5;
   color: #cccab2;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container_landing > div.ghost:nth-of-type(2) {
   background: red;
@@ -268,6 +275,9 @@ body {
   border: 3px solid rgb(136, 53, 136);
   box-shadow: 5px 5px 7px rgb(255, 198, 255);
   border-radius: 10px;
+}
+input.search-input:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 @keyframes hue {
@@ -406,7 +416,7 @@ body {
   min-height: 50vh;
   width: 100%;
   background: #161623;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .container_card {
@@ -468,6 +478,7 @@ body {
   font-size: 1em;
   font-weight: 900;
   color: #fff;
+  text-align: center;
 }
 
 .container_card .card .content a {
@@ -475,20 +486,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem;
   margin-bottom: 3rem;
-  background: #cfcfcf;
-  color: #000;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 400;
+  border-radius: 50px;
+  margin-top: -1rem;
   font-family: "Press Start 2P", cursive;
   box-shadow: 2px 2px 10px rgb(149, 149, 149);
   transition: background-color 0.3s ease;
 }
 
 .container_card .card .content a:hover {
-  background-color: gold;
   box-shadow: 2px 2px 10px gold;
   color: #000;
 }
@@ -508,13 +514,13 @@ body {
   display: flex;
   justify-content: center;
   top: 30px;
-  color: white;
+  color: #222;
   font-family: "Silkscreen", cursive;
   font-size: 3.5rem;
   text-align: center;
   margin: auto;
-  margin-top: 55px;
-  margin-bottom: 35px;
+  margin-top: 45px;
+  margin-bottom: 65px;
 }
 .header_homepage h1 {
   font-size: 3.5rem;
@@ -552,6 +558,7 @@ body {
 
 /* Copyright in Footer */
 .copyright{
+  flex-direction: column;
   margin: auto;
   width: 80%;
   border: 5px;
@@ -560,6 +567,20 @@ body {
   justify-content: center;
   top: 30px;
   text-align: center;
+}
+.social-icons{
+  margin-top: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.social-icons a i{
+  margin-right: 60px;
+ font-size: 50px;
+ color: #000;
 }
 
 .copyright h3{

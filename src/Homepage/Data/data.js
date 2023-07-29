@@ -307,5 +307,55 @@ export const data1 = [
     step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
     step3: "3. If dino comes in contact with dragon then game over.",
 
+
   }
+
+  },
+  {
+    serial_number: "27",
+    main_heading: "Pong Game",
+    about: "Use paddles to drive the volley towards your opponent back and forth",
+    link_game: "/Pong_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Being a multiplayer game, the player 1 playes through arrow keys, while player 2 playes through secondary arrows(w-a-s-d)",
+    step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
+    step3: "3. The one who survives till end wins.",
+  },
+  {
+    serial_number: "28",
+
+    main_heading: "Falling Ball Game",
+    about: "Make ball move to save it from crashing with the wall.",
+    link_game: "/FallingBall",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use the left and right arrow keys on your keyboard to move the the ball horizontally.",
+    step2: "2. The goal is to avoid colliding with the falling blocks. If the ball collides with a block, the game is over.",
+    step3: "3. Try to survive as long as possible and score points by avoiding the blocks. The longer you survive, the higher your score will be.",
+  },
+  {
+    serial_number: "29",
+    main_heading: "Memory Matching Game",
+    about: "Use your cursor to select the matching cards.",
+    link_game: "/MemoryGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Try to remember the logo on card and try to match it with similar card.",
+    step2: "2. Match the card as fast as possible.",
+    step3: "3. Enjoy the game.",
+  },
+    {
+      serial_number: "30",
+      main_heading: "2048",
+      about: "Use top, bottom, left and right arrow keys to move the tiles.",
+      link_game: "/MindGame_2048",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. The game starts with a tile numbered '2'. ",
+      step2: "2. Use the top, bottom, left and right arrow keys to move the tiles.",
+      step3: "3. Boost your brain to win the game.",
+    }
+    
+
 ];
