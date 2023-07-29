@@ -85,7 +85,7 @@ const Wrapper = styled.section`
         transform: translateY(-0.5rem);
       }
       100% {
-        transform: translateY(1rem);
+        transform: translateY(0.5rem);
       }
     }
   }

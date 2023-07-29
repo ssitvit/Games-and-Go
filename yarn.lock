@@ -4934,10 +4934,10 @@ fraction.js@^4.2.0:
   resolved "https://registry.npmjs.org/fraction.js/-/fraction.js-4.2.0.tgz"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
-framer-motion@^10.12.18:
-  version "10.12.18"
-  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-10.12.18.tgz"
-  integrity sha512-cfhiUpPbj+0eEWKjuD+5cz5cMqH71xOtMxGiS/cSGfHn2OlHIEAqFnFyzEMENw5PxWR9bMVhatzzpD6lexmHZQ==
+framer-motion@^10.14.0:
+  version "10.14.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.14.0.tgz#e5da187dcead0ffdb21310098924fefbaf566d78"
+  integrity sha512-XMZCbki8+9+D9of6P0cFtGrSGItNvXUJqvGI8O5v5aSvprA3PNlcpgfLEfTIZ9woNuZtYv56dprktuQ+S2welw==
   dependencies:
     tslib "^2.4.0"
   optionalDependencies:
@@ -8240,10 +8240,10 @@ react-spinners@^0.13.8:
   resolved "https://registry.npmjs.org/react-spinners/-/react-spinners-0.13.8.tgz"
   integrity sha512-3e+k56lUkPj0vb5NDXPVFAOkPC//XyhKPJjvcGjyMNPWsBKpplfeyialP74G7H7+It7KzhtET+MvGqbKgAqpZA==
 
-react-tooltip@^5.18.0:
-  version "5.18.0"
-  resolved "https://registry.npmjs.org/react-tooltip/-/react-tooltip-5.18.0.tgz"
-  integrity sha512-qjDK/skUJJ27sc9lTWeNxp2rLzmenBTskSsRiDOCPnupGSz2GhL5IZxDizK/sOsk0hn5iSCywt+3jKxUJ3Y4Sw==
+react-tooltip@^5.19.0:
+  version "5.19.0"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-5.19.0.tgz#f65695e7155b2c89b8b2c8d4672764ed27be82d7"
+  integrity sha512-NSUk77GMpxYKHFKJVNHL++QQXRuH2QW1qDrXPtJnp2s/MJvUnU73N5TTADwDyrO2+xGlr0xHhjvQphkF60cMEA==
   dependencies:
     "@floating-ui/dom" "^1.0.0"
     classnames "^2.3.0"

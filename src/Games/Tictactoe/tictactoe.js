@@ -177,7 +177,7 @@ function Tictactoe() {
         <summary >
           <h2 className="h2">Rules:</h2> 
         </summary>
-        <p>
+        <p style="color: #e5dddd;">
         <ul>
           <li>Player X always goes first</li>
           <li>Click any square to start game</li>
