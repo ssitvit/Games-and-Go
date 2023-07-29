@@ -58,7 +58,13 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    animation: gototop 1.2s linear infinite alternate-reverse;
     
+    &:hover{
+      opacity:80%;
+      box-shadow:2px 3px 4px rgba(0,0,0,0.5)
+    }
+
     &:hover::before {
       content: "Top";
       position: absolute;
@@ -70,9 +76,9 @@ const Wrapper = styled.section`
     }
   
 
-    &--icon {
-      animation: gototop 1.2s linear infinite alternate-reverse;
-    }
+    // &--icon {
+    //   animation: gototop 1.2s linear infinite alternate-reverse;
+    // }
 
     @keyframes gototop {
       0% {
