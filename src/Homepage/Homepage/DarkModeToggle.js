@@ -70,5 +70,9 @@ const Wrapper = styled.section`
     color: white;
 
   }
+
+  .theme-toggle button:hover{
+    opacity:80%;
+  }
 `;
 
