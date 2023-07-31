@@ -70,6 +70,10 @@ const Wrapper2 = styled.section`
       color: #fff;
     }
   }
+  .music-button:hover{
+    opacity:80%;
+    box-shadow:2px 3px 4px grey;
+  }
 
   @media (max-width: 768px) {
     .music-button {
