@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 body {
+  background: black !important;
   width: 100%;
   max-width: 1200px;
   margin: auto;
