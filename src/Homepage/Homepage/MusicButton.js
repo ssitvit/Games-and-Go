@@ -47,7 +47,7 @@ const Wrapper2 = styled.section`
     width: 4rem;
     height: 4rem;
     color: #fff;
-    background-color: black;
+    background:linear-gradient(to left,#5252ff,#ff5959,#850085);
     box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px 5px;
     border-radius: 50%;
     position: fixed;
@@ -58,7 +58,8 @@ const Wrapper2 = styled.section`
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: white;
+    color: #d6d600;
+
 
     &:hover::before {
       content: "Play Music";
@@ -67,7 +68,7 @@ const Wrapper2 = styled.section`
       left: 50%;
       transform: translateX(-50%);
       font-size: 1.6rem;
-      color: #fff;
+      color: #b3e59f;
     }
   }
 

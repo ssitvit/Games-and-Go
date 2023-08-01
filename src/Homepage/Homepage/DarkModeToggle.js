@@ -52,11 +52,11 @@ const Wrapper = styled.section`
   }
 
   .theme-toggle button {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     width: 4rem;
     height: 4rem;
     color: #fff;
-    background-color: black;
+    background-color:#000033;
     box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px 5px;
     border-radius: 50%;
     position: fixed;
@@ -67,12 +67,18 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: white;
+    color: #e0e0ff;
+    transition:1.2s;
+  
+&:hover{
+  transform:rotate(60deg);
+}
+  
 
   }
-
   .theme-toggle button:hover{
     opacity:80%;
   }
+
 `;
 
