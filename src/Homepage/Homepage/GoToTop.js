@@ -77,9 +77,11 @@ const Wrapper = styled.section`
     @keyframes gototop {
       0% {
         transform: translateY(-0.5rem);
+        color:pink;
       }
       100% {
         transform: translateY(1rem);
+        color:#5252ff;
       }
     }
   }
