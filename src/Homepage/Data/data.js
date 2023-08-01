@@ -338,6 +338,17 @@ export const data1 = [
       step1: "1. The game starts with a tile numbered '2'. ",
       step2: "2. Use the top, bottom, left and right arrow keys to move the tiles.",
       step3: "3. Boost your brain to win the game.",
+    },
+    {
+      serial_number: "31",
+      main_heading: "Tenzies",
+      about: "Click the die to hold it and freeze it and then click roll . make all the die number same",
+      link_game: "/Tenzies",
+      rule_heading: "Rules to play",
+      step1: "1. The game starts with 10 random numbers. ",
+      step2: "2. click a die to freeze it .",
+      step3: "3. complte the game in minimum time and roll and beat your best time.",
     }
+
     
 ];
