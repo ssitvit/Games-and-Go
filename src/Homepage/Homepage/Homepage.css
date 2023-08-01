@@ -36,6 +36,7 @@ body {
   outline: 15px groove purple;
   overflow: hidden;
   position: relative;
+  border-radius: 30px;
 }
 
 .pacman {
@@ -131,15 +132,21 @@ body {
 }
 
 .about-section h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 14px;
   color: #bbb068;
+  text-align: center;
 }
-
 .about-section p {
   font-size: 16px;
   line-height: 1.5;
   color: #cccab2;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container_landing > div.ghost:nth-of-type(2) {
   background: red;
@@ -409,7 +416,7 @@ input.search-input:hover {
   min-height: 50vh;
   width: 100%;
   background: #161623;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .container_card {
@@ -562,10 +569,18 @@ input.search-input:hover {
   text-align: center;
 }
 .social-icons{
+  margin-top: 10px;
   cursor: pointer;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.social-icons a i{
+  margin-right: 60px;
+ font-size: 50px;
+ color: #000;
 }
 
 .copyright h3{

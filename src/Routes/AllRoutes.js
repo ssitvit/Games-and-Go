@@ -1,7 +1,8 @@
 import { lazy, Suspense } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes , Link} from "react-router-dom";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import TypingMaster from "../Games/typingMaster/typing";
+
 
 const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
 const ErrorPage = lazy(() => import("../ErrorPage/ErrorPage"));
@@ -34,8 +35,11 @@ const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
 const Alphabet = lazy(() => import("../Games/Alphabet_Game/Alphabet"));
+const MindGame_2048 = lazy(() => import("../Games/MindGame_2048/src/index"))
 const DragonDinoGame = lazy(() => import("../Games/DragonDinoGame/Game"));
 const FallingBall = lazy(() => import("../Games/FallingBall/App"));
+const MemoryGame = lazy(() => import("../Games/MemoryGame/src/index"));
+
 
 function AllRoutes() {
   return (
@@ -52,6 +56,9 @@ function AllRoutes() {
         </div>
       }
     >
+           <Link to="/">
+            <i className="fa fa-arrow-left backicon" />
+          </Link>  
       <Routes>
         {/* Add all the routes with the right path here after importing them  */}
         <Route path="/" element={<Homepage />} />
@@ -82,7 +89,11 @@ function AllRoutes() {
         <Route path="/GuessTheColor" element={<GuessTheColor />} />
         <Route path="/Alphabet_Game" element={<Alphabet />} />
         <Route path="/DragonDinoGame" element={<DragonDinoGame />} />
+
+        <Route path="/MindGame_2048" element={<MindGame_2048 />} />
+
         <Route path="/FallingBall" element={<FallingBall />}/>
+        <Route path="/MemoryGame" element={<MemoryGame />}/>
       </Routes>
     </Suspense>
   );

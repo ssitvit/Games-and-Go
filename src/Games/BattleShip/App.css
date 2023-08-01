@@ -10,6 +10,7 @@ h1{
   color: rgb(154, 85, 0);
 }
 .App {
+  margin-top: 30px;
   font-size: 18px;
 }
 .btn-primary{
