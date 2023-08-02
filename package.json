@@ -34,7 +34,7 @@
     "react-spinners": "^0.13.8",
     "react-tooltip": "^5.19.0",
     "reactstrap": "^9.2.0",
-    "styled-components": "^6.0.5",
+    "styled-components": "^6.0.6",
     "web-vitals": "^3.4.0",
     "webfontloader": "^1.6.28"
   },
