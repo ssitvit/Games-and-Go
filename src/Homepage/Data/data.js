@@ -348,6 +348,12 @@ export const data1 = [
       step1: "1. The game starts with 10 random numbers. ",
       step2: "2. click a die to freeze it .",
       step3: "3. complte the game in minimum time and roll and beat your best time.",
+    },
+    {
+      serial_number: "32",
+      main_heading: "Blackjack",
+      about: "Hit the beat and win",
+      link_game: "/Blackjack",
     }
 
     
