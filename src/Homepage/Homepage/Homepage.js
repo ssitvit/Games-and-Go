@@ -58,7 +58,10 @@ function Homepage() {
         <h1> Game on!!</h1>
       </div>
       {/* The content in the cards came from mapping data1, if you want to contribute a game kindly add it to data1 in the Data folder first*/}
+      <label htmlFor="search-games" className="sr-only">Search for your favourite Game</label>
       <input
+        id="search-game"
+        name="search-game"
         type="text"
         className="search-input"
         value={searchQuery}
