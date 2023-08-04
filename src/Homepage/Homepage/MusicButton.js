@@ -62,7 +62,6 @@ const Wrapper2 = styled.section`
 
 
     &:hover::before {
-      content: "Play Music";
       position: absolute;
       top: -5rem;
       left: 50%;
