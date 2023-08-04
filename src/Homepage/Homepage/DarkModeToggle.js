@@ -47,7 +47,7 @@ const Wrapper = styled.section`
   .theme-toggle {
     position: fixed;
     bottom: 1500px;
-    left: 40px;
+    left: 30px;
     z-index: 9999;
   }
 

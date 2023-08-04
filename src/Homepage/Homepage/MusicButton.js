@@ -52,7 +52,7 @@ const Wrapper2 = styled.section`
     border-radius: 50%;
     position: fixed;
     bottom: 3rem;
-    left: 2.7rem;
+    left: 2.0rem;
     z-index: 999;
     display: flex;
     justify-content: center;
