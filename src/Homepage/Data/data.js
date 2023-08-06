@@ -343,7 +343,7 @@ export const data1 = [
       serial_number: "31",
       main_heading: "Retro Flappy Bird Game",
       about: "Use Space or Enter Button to move the bird",
-      link_game: "/Retro Flappy Bird Game",
+      link_game: "/RetroFlappyBirdGame",
       // Flip-card-back contents
       rule_heading: "Rules to play",
       step1: "1. The game starts with a bird. ",
