@@ -116,7 +116,7 @@ export const data1 = [
   },
   {
     serial_number: "11",
-    main_heading: "Dice Throw",
+    main_heading: "roll dice",
     about: "Roll the dice and achieve a target ",
     link_game: "/DiceThrow",
     // Flip-card-back contents
@@ -338,6 +338,16 @@ export const data1 = [
       step1: "1. The game starts with a tile numbered '2'. ",
       step2: "2. Use the top, bottom, left and right arrow keys to move the tiles.",
       step3: "3. Boost your brain to win the game.",
+    },
+    {
+      serial_number: "31",
+      main_heading: "Dice Throw",
+      about: "Use refresh button to play the game",
+      link_game: "/Dice-Throw",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. press the refresh button",
+       step2: "2. you have the winner"
     }
     
 ];
