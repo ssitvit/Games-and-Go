@@ -212,3 +212,4 @@ git push -u origin <your_branch_name>
 <a href="https://gssoc.girlscript.tech/"><img src="https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83" width="10%"/></a>
 </div>
 <h2 align="center">Happy Contributing!🎉</h2>
+<h2 align="center">Thank you</h2>
