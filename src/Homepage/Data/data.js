@@ -370,5 +370,16 @@ export const data1 = [
       step1: "1. Use arrow keys or press the position around the blank block.",
       step2: "2. Move items and arrange the blocks to make a clear and concise game.",
       step3: "3. If picture will be completed, game will be over.",
+    },
+    {
+      serial_number: "34",
+      main_heading: "Guess The Number",
+      about: "Guess the number with-in 10 chances.",
+      link_game: "/Guess_The_Number",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Enter the number accordingly as it's high or low.",
+      step2: "2. If reaches to the correct answer in 10 choices, you win !!",
+      step3: "3. Enjoy the game",
     }
 ];
