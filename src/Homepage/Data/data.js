@@ -359,5 +359,15 @@ export const data1 = [
        step1: "1. Type in your guess.",
        step2: "2. Get three correct words and level will increase. Get a word wrong three times and game will restart.",
        step3: "3. Finish level 3 and you win.",
+    },
+    {
+    serial_number: "34",
+    main_heading: "Puzzle Game",
+    about: "Can you solve it?",
+    link_game: "/puzzle",
+    rule_heading: "Rules to play",
+    step1: "1. Place tiles as 1 at 1, 2 at 2 ...",
+    step2: "2. Correct positioned",
+    step3: "3. Place all correctly to win the game in least time",
     }
 ];

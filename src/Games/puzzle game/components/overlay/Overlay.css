@@ -1,0 +1,6 @@
+.fifpuzzle-overlay {
+    border: 10px solid #55ab9f;
+    pointer-events: none;
+    z-index: 20;
+  }
+  
