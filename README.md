@@ -114,30 +114,55 @@ We welcome contributions from anyone who is interested in improving this project
 To submit a pull request, please follow these steps:
 
 1. Fork this repository.
+
 2. Clone the forked repository.
 ```css
 git clone https://github.com/<your-github-username>/Games-and-Go
 ```
+
 3. Navigate to the project directory.
 ```py
 cd Games-and-Go
 ```
-4. Create a new branch.
+4. Add a refernce(remote) to the original repository.
+```bash
+git remote add upstream https://github.com/ssitvit/Games-and-Go.git
+```
+
+5. Check remotes for this repository.
+```bash
+git remote -v
+```
+
+6. Always take a pull from the main upstream repository.
+```bash
+git pull upstream main
+```
+
+7. Create a new branch.
 ```css
 git checkout -b <your_branch_name>
 ```
-5. Make changes.
-6. Stage your changes and commit
+8. Make changes to the code base.
+
+9. Stage your changes.
 ```css
 git add -A
-git commit -m "<your_commit_message>"
 ```
-7. Push your local commits to the remote repo.
+
+10. Commit your changes.
+```
+git commit -m "relevant message"
+```
+
+11. Push your local commits to the remote repo.
 ```css
 git push -u origin <your_branch_name>
 ```
-6. Create a pull request from your branch to the original repository.
-7. Congratulations! 🎉 you've made your contribution.
+
+12. Create a pull request from your branch to the original repository.
+
+13. Congratulations! 🎉 you've made your contribution.
 <br>
 At last after successfully submitting a pull request you can view your work live at <a href="https://games.ieeessitvit.tech/">SSIT LIVE </a>
 
