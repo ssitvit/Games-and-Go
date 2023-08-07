@@ -11,6 +11,7 @@ const Ninetynine = lazy(() => import("../Games/Ninetynine/ninetynine"));
 const Memory = lazy(() => import("../Games/Memory/memory"));
 const TriviaGame = lazy(() => import("../Games/Trivia/quiz"));
 const Fifteenpuzzle = lazy(() => import("../Games/15Puzzle/Fifteenpuzzle"));
+const memoryCard = lazy(() => import("../Games/Memory_Card_Game/memoryCard"));
 const RockPaperScissors = lazy(() =>
   import("../Games/RockPaperScissors/RockPaperScissors")
 );
@@ -97,6 +98,7 @@ function AllRoutes() {
         <Route path="/FallingBall" element={<FallingBall />}/>
         <Route path="/MemoryGame" element={<MemoryGame />}/>
         <Route path="/wordScramble" element={<wordScramble />}/>
+        <Route path="/Memory_Card_Game" element={<memoryCard />} />
         
       </Routes>
     </Suspense>

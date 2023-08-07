@@ -350,7 +350,7 @@ export const data1 = [
        step2: "2. you have the winner"
     },
     {
-      serial_number: "33",
+      serial_number: "32",
       main_heading: "word Scramble",
       about: "Use keyboard to play the game",
       link_game: "/wordScramble",
@@ -359,5 +359,16 @@ export const data1 = [
        step1: "1. Type in your guess.",
        step2: "2. Get three correct words and level will increase. Get a word wrong three times and game will restart.",
        step3: "3. Finish level 3 and you win.",
+    },
+    {
+      serial_number: "33",
+      main_heading: "Memory Card Game",
+      about: "Watch, Learn and Conquer the game.",
+      link_game: "/Memory_Card_Game",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Memories box where pictures appears",
+      step2: "2. Click on box which you remember",
+      step3: "3. Enjoy the game",
     }
 ];
