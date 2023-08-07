@@ -350,7 +350,7 @@ export const data1 = [
        step2: "2. you have the winner"
     },
     {
-      serial_number: "33",
+      serial_number: "32",
       main_heading: "word Scramble",
       about: "Use keyboard to play the game",
       link_game: "/wordScramble",
@@ -359,5 +359,16 @@ export const data1 = [
        step1: "1. Type in your guess.",
        step2: "2. Get three correct words and level will increase. Get a word wrong three times and game will restart.",
        step3: "3. Finish level 3 and you win.",
+    },
+    {
+      serial_number: "33",
+      main_heading: "Fifteen Puzzle Game",
+      about: "A simple puzzle game just move several blocks and make the picture clear.",
+      link_game: "/Fifteen_Game",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Use arrow keys or press the position around the blank block.",
+      step2: "2. Move items and arrange the blocks to make a clear and concise game.",
+      step3: "3. If picture will be completed, game will be over.",
     }
 ];
