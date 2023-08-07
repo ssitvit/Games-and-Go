@@ -96,6 +96,8 @@ function AllRoutes() {
 
         <Route path="/FallingBall" element={<FallingBall />}/>
         <Route path="/MemoryGame" element={<MemoryGame />}/>
+        <Route path="/wordScramble" element={<wordScramble />}/>
+        
       </Routes>
     </Suspense>
   );

@@ -1,0 +1,17 @@
+#rules 
+{
+    position: absolute;
+    z-index: 999;
+    width: 31.25em;
+    height: 31.25em;
+    text-align: center;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -200px;
+}
+
+#rules p 
+{
+    margin-bottom: 1.25em;
+}
