@@ -2,12 +2,10 @@ name: Auto Comment
 on:
   issues:
     types:
-      - opened
       - closed
-      - assigned
+
   pull_request:
     types:
-      - opened
       - closed
 
 jobs:
