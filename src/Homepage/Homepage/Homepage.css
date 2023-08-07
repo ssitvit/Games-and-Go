@@ -702,3 +702,8 @@ input.search-input:hover {
   color: #96969c !important;
 }
 
+.header_homepage h1 {
+  font-size: 3.5rem;
+  width: 100%;
+  color: white;
+}
