@@ -66,6 +66,16 @@
 	box-shadow: none;
 	position: relative;
 	top: .2em;
+color: rgba(57, 248, 255, 0.842);
+text-shadow: none;
+
+}
+.video-game-button:hover{
+	/* /* transition: .2s; */
+	transform:scale(1.1);
+text-shadow: 0 0 5px black;
+
+
 }
 
 .backicon{
