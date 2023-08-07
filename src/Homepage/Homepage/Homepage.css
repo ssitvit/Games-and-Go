@@ -666,3 +666,12 @@ input.search-input:hover {
   white-space: nowrap !important;
   border-width: 0 !important;
 }
+
+.copyright h3 {
+  color: #96969c !important;
+}
+
+.social-icons a i {
+  color: #96969c !important;
+}
+
