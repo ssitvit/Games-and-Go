@@ -348,6 +348,16 @@ export const data1 = [
        rule_heading: "Rules to play",
        step1: "1. press the refresh button",
        step2: "2. you have the winner"
+    },
+    {
+      serial_number: "33",
+      main_heading: "word Scramble",
+      about: "Use keyboard to play the game",
+      link_game: "/wordScramble",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. Type in your guess.",
+       step2: "2. Get three correct words and level will increase. Get a word wrong three times and game will restart.",
+       step3: "3. Finish level 3 and you win.",
     }
-    
 ];
