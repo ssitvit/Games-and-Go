@@ -348,6 +348,17 @@ export const data1 = [
        rule_heading: "Rules to play",
        step1: "1. press the refresh button",
        step2: "2. you have the winner"
+    },
+    {
+      serial_number: "32",
+      main_heading: "Whack A Mole",
+      about: "Use your cursor to play the game",
+      link_game: "/WhakAMole",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. The game starts with a grid of holes, representing the mole's hiding spots. Moles randomly pop up from their hiding spots at different intervals.",
+       step2: "2. The player's goal is to quickly react and hit the moles back down into their holes using a virtual mallet.",
+       step3: "3. Each successful hit earns the player points."
     }
     
 ];
