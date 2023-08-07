@@ -42,6 +42,7 @@ const FallingBall = lazy(() => import("../Games/FallingBall/App"));
 const MemoryGame = lazy(() => import("../Games/MemoryGame/src/index"));
 const WhackAMole = lazy(() => import("../Games/WhackAMole/src/App"));
 
+
 function AllRoutes() {
   return (
     <Suspense

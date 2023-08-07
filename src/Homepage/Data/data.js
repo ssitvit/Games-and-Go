@@ -353,7 +353,7 @@ export const data1 = [
       serial_number: "32",
       main_heading: "Whack A Mole",
       about: "Use your cursor to play the game",
-      link_game: "/WhakAMole",
+      link_game: "/WhackAMole",
        // Flip-card-back contents
        rule_heading: "Rules to play",
        step1: "1. The game starts with a grid of holes, representing the mole's hiding spots. Moles randomly pop up from their hiding spots at different intervals.",
