@@ -266,44 +266,39 @@ body {
 
 .search-section
 {
-  position:relative;
-  height:50px;
-  max-width:450px;
-  background:#222222;
+  position: relative;
+  height: 50px;
+  max-width: 450px;
   margin-bottom: 40px;
   margin-top: -35px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.25);
-  border-radius:25px;
+  box-shadow: 0 18px 25px rgba(0,0,0,0.25);
 }
 
 /* Search input  */
 .search-input {
   position: absolute;
   height: 100%;
-  width:100%;
-  border-radius: 25px;
-  background: #fff;
-  border: none;
-  font-size: 18px;
-  padding-left:20px;
+  width: 100%;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid purple;
+  padding-left: 20px;
+  box-shadow: 1px 1px mediumpurple;
   font-size: 23px;
-  justify-content: center;
 }
 
 .search-icon{
   position: absolute;
   right: -23px;
-  top: 0;
-  width:54px;
- background: #3e3e49;
-height: 100%;
- text-align: center;
- line-height:50px;
- color: #fff;
- font-size: 20px;
- border-radius: 0 25px 25px 0;
+  top: 7px;
+  width: 60px;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+  color: #9E9E9E;
+  font-size: 20px;
 }
 
 
@@ -556,6 +551,8 @@ input.search-input:hover {
 .header_homepage h1 {
   font-size: 3.5rem;
   width: 100%;
+  margin-top: 5rem;
+  color: #6d8b38;
 }
 .music-btn {
   text-align: center;
