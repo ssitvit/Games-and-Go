@@ -350,6 +350,17 @@ export const data1 = [
        step2: "2. you have the winner"
     },
     {
+      serial_number: "32",
+      main_heading: "Guess The Number",
+      about: "Guess the number with-in 10 chances.",
+      link_game: "/Guess_The_Number",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Enter the number accordingly as it's high or low.",
+      step2: "2. If reaches to the correct answer in 10 choices, you win !!",
+      step3: "3. Enjoy the game",
+    },
+    {
       serial_number: "33",
       main_heading: "word Scramble",
       about: "Use keyboard to play the game",
