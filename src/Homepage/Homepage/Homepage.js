@@ -7,6 +7,7 @@ import GoToTop from "./GoToTop";
 import MusicButton from "./MusicButton";
 import { useState } from "react";
 import DarkMode from "./DarkModeToggle";
+import { FaSearch } from "react-icons/fa";
 
 import Play from "./Play";
 
@@ -59,15 +60,23 @@ function Homepage() {
       </div>
       {/* The content in the cards came from mapping data1, if you want to contribute a game kindly add it to data1 in the Data folder first*/}
       <label htmlFor="search-games" className="sr-only">Search for your favourite Game</label>
-      <input
-        id="search-game"
-        name="search-game"
-        type="text"
-        className="search-input"
+  
+        <div className="search-section">
+          <input
+         id="search-game"
+         name="search-game"
+         type="text"
+         className="search-input"
         value={searchQuery}
         onChange={handleSearch}
-        placeholder="🔍 Search for your favourite game..."
+        placeholder="Search for your favourite game..."
+
       />
+          <label className="search-icon">
+              <FaSearch/>
+            </label>
+      </div>
+
       <div className="body_card">
 
         <div className="container_card">
