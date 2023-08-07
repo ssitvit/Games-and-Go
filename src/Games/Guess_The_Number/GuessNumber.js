@@ -81,7 +81,7 @@ class GuessNumber extends React.Component {
                     <h3>Can you Guess it? </h3>
 
                     <input type="text" placeholder="Num" id="guess" ref={this.guessInput} /><br />
-                    <button onClick={this.play} id="my_btn" ref={this.guessBtn}>GUESS</button>
+                    <button id="my_btn" ref={this.guessBtn}>GUESS</button>
 
                     <p id="message1" ref={this.msg1}>No. of Guesses: 0</p>
                     <p id="lives">Lives left: 10</p>
