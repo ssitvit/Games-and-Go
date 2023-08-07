@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(99, 4, 47);
+
+}.wrapper{
+    height: 400px;
+    width:400px ;
+    background: white;
+    border-radius: 10px;
+}.back-view img{
+    max-width: 50px;
+    max-height: 50px;
+    justify-content: space-around;
+    
+}.cards,.card,.view{
+   display: flex;
+   align-items: center;
+   justify-content: space-around; 
+   /* background: red; */
+   background: whitesmoke;
+}.cards{
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 10px;
+    position: relative;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    
+} .card{
+    height: 25%;
+    width: 25%;
+    cursor: pointer;
+    position: relative;
+    perspective: 800px;
+    transform-style: preserve-3d ;
+    
+    
+}
+.view{
+    height: 100%;
+    width: 100%;
+    background:rgb(255, 228, 240);
+    position: absolute;
+    transition: 0.25s linear ;
+    backface-visibility: hidden;
+    pointer-events: none;
+    user-select: none;
+    
+}
+
+.back-view{
+    justify-content: space-around;
+    height: 85px;
+    width: 85px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    transform:rotateY(-180deg) 
+}.front-view{
+    justify-content: space-around;
+    height: 85px;
+    width: 85px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}h1{
+    font-size: 42;
+    color:rgb(99, 4, 47); ;
+}.card.flip .back-view{
+    transform: rotateY(0);
+}.card.flip .front-view{
+    transform: rotateY(180deg);
+} .card.shake{
+    animation: shake 0.35s ease-in-out;
+}@keyframes shake{
+    0%, 100%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-13px);
+    }
+    40%{
+        transform: translateX(13px);
+    }60%{
+        transform: translateX(-8px);
+    }80%{
+        transform: translateX(8px);
+    }
+}

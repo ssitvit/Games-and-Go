@@ -1,13 +1,17 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 
+body{
+  font-family: math;
+}
 .Quiz {
-  background-color: #708090;
-  border: 40px solid #656363;
-  height: 1200px;
-  max-width: 1200px;
-  padding-left: 45px;
+  border-radius: 1rem;
+  margin: auto;
+  height: 510px;
   text-align: center;
-
+  border: 2px solid #607D8B;
+  width: 60%;
+  margin-top: 4rem;
+  padding-top: 2rem;
 }
 
 .question-card {
@@ -49,9 +53,7 @@ li:hover {
 .question-text {
   color: darkblue;
   font-size: 24px;
-
-  /* Animation */
-  animation: 2s infinite, fadeOutAndIn 3s infinite;
+  margin-top: 1rem;
 }
 
 .final-results {
@@ -131,16 +133,19 @@ button:hover {
 
 .title {
   font-size: 2rem;
-  color: #007bff;
+  color:lightgrey;
   margin-bottom: 20px;
 
   /* Animation */
   /* animation: 2s infinite, fadeOutAndIn 3s infinite; */
 }
+h2 {
+  color: firebrick;
+}
 
 .score {
   font-size: 1.5rem;
-  color: #28a745;
+  color: #607d8b;
   margin-bottom: 20px;
 
   /* Animation */
