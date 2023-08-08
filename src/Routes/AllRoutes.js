@@ -42,6 +42,7 @@ const FallingBall = lazy(() => import("../Games/FallingBall/App"));
 const MemoryGame = lazy(() => import("../Games/MemoryGame/src/index"));
 const Fifteen = lazy(() => import("../Games/Fifteen_Game/Fifteen"));
 const GuessNumber = lazy(() => import('../Games/Guess_The_Number/GuessNumber'));
+const memoryCardgame = lazy(() => import("../Games/Memory_Card_Game/memoryCard"));
 
 
 function AllRoutes() {
@@ -64,6 +65,7 @@ function AllRoutes() {
           </Link>  
       <Routes>
         {/* Add all the routes with the right path here after importing them  */}
+        <Route path="/Memory_Card_Game" element={<memoryCardgame />} />
         <Route path="/" element={<Homepage />} />
         <Route path="*" element={<ErrorPage />} />
         <Route path="/Tic" element={<Tictactoe />} />
