@@ -1,7 +1,7 @@
 import React from 'react';
-import './css/memory.css';
+import './MemoryCardGame.css';
 
-class MemoryCard extends React.Component {
+class MemoryCardGame extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -27,18 +27,18 @@ class MemoryCard extends React.Component {
 
   generateRandom = (size = 4) => {
     const items = [
-      { name: 'bee', image: './images/bee.png' },
-      { name: 'crocodile', image: './images/crocodile.png' },
-      { name: 'macaw', image: './images/macaw.png' },
-      { name: 'gorilla', image: './images/gorilla.png' },
-      { name: 'tiger', image: './images/tiger.png' },
-      { name: 'monkey', image: './images/monkey.png' },
-      { name: 'chameleon', image: './images/chameleon.png' },
-      { name: 'piranha', image: './images/piranha.png' },
-      { name: 'anaconda', image: './images/anaconda.png' },
-      { name: 'sloth', image: './images/sloth.png' },
-      { name: 'cockatoo', image: './images/cockatoo.png' },
-      { name: 'toucan', image: './images/toucan.png' },
+      { name: 'bee', image: './bee.png' },
+      { name: 'crocodile', image: './crocodile.png' },
+      { name: 'macaw', image: './macaw.png' },
+      { name: 'gorilla', image: './gorilla.png' },
+      { name: 'tiger', image: './tiger.png' },
+      { name: 'monkey', image: './monkey.png' },
+      { name: 'chameleon', image: './chameleon.png' },
+      { name: 'piranha', image: './piranha.png' },
+      { name: 'anaconda', image: './anaconda.png' },
+      { name: 'sloth', image: './sloth.png' },
+      { name: 'cockatoo', image: './cockatoo.png' },
+      { name: 'toucan', image: './toucan.png' },
     ];
 
     let tempArray = [...items];
@@ -209,4 +209,4 @@ class MemoryCard extends React.Component {
   }
 }
 
-export default MemoryCard;
+export default MemoryCardGame;
