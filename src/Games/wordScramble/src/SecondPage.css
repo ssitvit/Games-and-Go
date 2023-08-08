@@ -1,0 +1,89 @@
+#game-container 
+{
+    text-align: center;
+    margin: 2em auto;
+    width: 100vh;
+    height: 80vh;
+}
+
+#game-container p 
+{
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 3em;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#game-container p#info 
+{
+    display: block;
+    text-align: center;
+    font-size: 2em !important;
+    height: 2em;
+    margin-bottom: 1em;
+}
+
+#scrambled-word 
+{
+    font-size: 3em !important;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 48px;
+    margin-bottom: 1em !important;
+}
+
+#user-guess 
+{
+    display: block;
+    width: 20em;
+    height: 3em;
+    padding-left: 1em;
+    margin: 0 auto 1.25em;
+    border: 1px solid #000;
+    outline-color: #e18a07;
+    font-size: 1.1em;
+}
+
+button 
+{
+    cursor: pointer;
+    width: 12em;
+    height: 3em;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+#submit, #play-btn 
+{
+    background: #fff;
+    border: 2px solid #7eb4b8;
+}
+
+#submit:hover, #play-btn:hover 
+{
+    background: #7eb4b8;
+    color: #fff;
+    transition: 0.2s background;
+}
+
+#reset-btn 
+{
+    background: #fff;
+    border: 2px solid #908f8f;
+}
+
+#reset-btn:hover 
+{
+    background: #908f8f;
+    transition: 0.2s background;
+}
+
+button:active 
+{
+    position: relative;
+    top: 1px;
+}

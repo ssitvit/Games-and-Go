@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.game-container {
+  text-align: center;
+}
+
+#number-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#check-btn {
+  background-color: #2196F3;
+}
+
+#start-btn {
+  background-color: #4CAF50;
+}
+
+#stop-btn {
+  background-color: #f44336;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.result-message {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+.result-message.correct {
+  color: #4CAF50;
+}
+
+.result-message.wrong {
+  color: #f44336;
+}
+
+.stats-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.stats-container div {
+  font-size: 16px;
+}
+
+.stats-container span {
+  font-weight: bold;
+}
+
+
+
+.stats-container {
+  margin-top: 30px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.stats-container div {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.stats-container span {
+  font-weight: bold;
+}
+
+/* Style individual stats items */
+.stats-container div:nth-child(1) {
+  color: #4CAF50; /* Green for Correct Answers */
+}
+
+.stats-container div:nth-child(2) {
+  color: #2196F3; /* Blue for Sequences Played */
+}
+
+.stats-container div:nth-child(3) {
+  color: #f44336; /* Red for Wrong Answers */
+}
+
+.stats-container div:nth-child(4) {
+  color: #ff9800; /* Orange for Time Taken */
+}
+
+/* ... (existing styles) */

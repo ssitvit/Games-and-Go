@@ -1,3 +1,7 @@
+body {
+  font-family: math;
+}
+
 .heading {
   margin-top: 1em;
   margin-bottom: 0;
@@ -8,6 +12,7 @@
   gap: 10px;
   font-size: 1.7rem;
   justify-content: center;
+  color: darkgrey;
 }
 
 .container {
