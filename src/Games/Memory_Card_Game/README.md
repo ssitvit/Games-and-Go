@@ -2,8 +2,6 @@
 
 ---
 
-<br>
-
 ## **Description 📃**
 
 - Memory Game, also known as the Concentration card game or Matching Game is a classic card-flipping game where players test their memory skills by matching pairs of cards. 

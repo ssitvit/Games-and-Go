@@ -1,9 +1,3 @@
-:root {
-    /* --color-green--light: #00c46a; */
-    /* background-image: linear-gradient(135deg, #71FA32, #009DE0) ; */
-   
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -19,7 +13,6 @@ body {
     box-sizing: content-box;
     width: 26.87em;
     padding: 2.5em 3em;
-    /* background-color: #ffffff; */
     background-image: linear-gradient(to right, #BDC3C7, #ECF0F1);
     position: absolute;
     transform: translate(-50%, -50%);
@@ -94,7 +87,6 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    /* background-color: var(--color-green--light); */
     background-image: linear-gradient(135deg, #71FA32, #009DE0) ;
     top: 0;
 }
