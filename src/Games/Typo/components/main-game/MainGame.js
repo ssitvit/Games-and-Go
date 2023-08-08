@@ -27,6 +27,9 @@ const MainGame = () => {
         <h1 className="main-h1">
           Timer <AiFillClockCircle /> : {timeRemaning} s
         </h1>
+        <h1 className="main-h1">
+          Word Count <RiNumbersFill /> : {wordCount} w/m
+        </h1>
         <button
           className="btn-change"
           onClick={startGameHandler}
@@ -34,9 +37,7 @@ const MainGame = () => {
         >
           Start Game
         </button>
-        <h1 className="main-h1">
-          Word Count <RiNumbersFill /> : {wordCount} w/m
-        </h1>
+        
       </div>
 
       {isOver && (

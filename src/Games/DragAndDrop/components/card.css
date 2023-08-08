@@ -10,12 +10,10 @@
 }
 
 .sc{
-    font-family:cursive;
-    
+    font-family: math;
     text-align: center;
     color: #f2eded;
-    padding-top: 10px;
-    font-size:40px;
+    font-size: 1.5rem;
     text-shadow: 0 0 5px rgb(121, 59, 101),
                  0 0 10px rgb(121, 59, 101), 
                  0 0 20px rgb(121, 59, 101), 
@@ -25,12 +23,9 @@
                  0 0 70px rgb(35, 26, 32);
 }
 .head{
-    font-family:cursive;
-    
     text-align: center;
     color: #f2eded;
-    padding-top: 40px;
-    font-size:70px;
+    font-size: 2.5rem;
     text-shadow: 0 0 5px rgb(35, 26, 32),
                  0 0 10px rgb(35, 26, 32), 
                  0 0 20px rgb(35, 26, 32), 
