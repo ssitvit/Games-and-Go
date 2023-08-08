@@ -40,7 +40,7 @@ const DragonDinoGame = lazy(() => import("../Games/DragonDinoGame/Game"));
 const FallingBall = lazy(() => import("../Games/FallingBall/App"));
 const MemoryGame = lazy(() => import("../Games/MemoryGame/src/index"));
 
-const RetroFlappyBirdGame = lazy(() => import("../Games/RetroFlappyBirdGame/App"));
+const RetroFlappyBirdGame = lazy(() => import("../Games/RetroFlappyBirdGame/src/App"));
 
 function AllRoutes() {
   return (
