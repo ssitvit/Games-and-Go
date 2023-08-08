@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/memory.css';
 
-class memoryCard extends React.Component {
+class MemoryCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -209,4 +209,4 @@ class memoryCard extends React.Component {
   }
 }
 
-export default memoryCard;
+export default MemoryCard;
