@@ -20,7 +20,7 @@ const BrickBreakout = lazy(() =>
 const Typo = lazy(() => import("../Games/Typo/Typo"));
 const BallShooting = lazy(() => import("../Games/BallShooting/BallShooting"));
 const MagicMatch = lazy(() => import("../Games/Magic-match/magic_match"));
-const DiceThrow = lazy(() => import("../Games/DiceThrow/main"));
+// const DiceThrow = lazy(() => import("../Games/DiceThrow/main"));
 const Wordle = lazy(() => import("../Games/Wordle/Wordle"));
 const SnakeGame = lazy(() => import("../Games/SnakeGame/SnakeGame"));
 const Tetris = lazy(() => import("../Games/tetris/src/components/Tetris"));
@@ -31,6 +31,7 @@ const Arkanoid = lazy(() => import("../Games/Arkanoid/App"));
 const DrumKit = lazy(() => import("../Games/Drum-Kit/DrumKit"));
 const ChessAI = lazy(() => import("../Games/ChessAI/appiz"));
 const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
+const Dice = lazy(() => import("../Games/Dice-Throw/Dice"));
 const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
 const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
 const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
@@ -39,6 +40,8 @@ const MindGame_2048 = lazy(() => import("../Games/MindGame_2048/src/index"))
 const DragonDinoGame = lazy(() => import("../Games/DragonDinoGame/Game"));
 const FallingBall = lazy(() => import("../Games/FallingBall/App"));
 const MemoryGame = lazy(() => import("../Games/MemoryGame/src/index"));
+const Fifteen = lazy(() => import("../Games/Fifteen_Game/Fifteen"));
+const GuessNumber = lazy(() => import('../Games/Guess_The_Number/GuessNumber'));
 
 const RetroFlappyBirdGame = lazy(() => import("../Games/RetroFlappyBirdGame/src/App"));
 
@@ -74,7 +77,7 @@ function AllRoutes() {
         <Route path="/typo" element={<Typo />} />
         <Route path="/BallShooting" element={<BallShooting />} />
         <Route path="/MagicMatch" element={<MagicMatch />} />
-        <Route path="/DiceThrow" element={<DiceThrow />} />
+        {/* <Route path="/DiceThrow" element={<DiceThrow />} /> */}
         <Route path="/Wordle" element={<Wordle />} />
         <Route path="/SnakeGame" element={<SnakeGame />} />
         <Route path="/tetris" element={<Tetris />} />
@@ -83,6 +86,7 @@ function AllRoutes() {
         <Route path="/Tictac" element={<TicTacToeAI />} />
         <Route path="/Arkanoid" element={<Arkanoid />} />
         <Route path="/Drum-Kit" element={<DrumKit />} />
+        <Route path="/Dice-Throw" element={<Dice />} />
         <Route path="/Chess" element={<ChessAI />} />
         <Route path="/Minesweeper" element={<Minesweeper />} />
         <Route path="/TangledWords" element={<TangledWords />} />
@@ -95,7 +99,14 @@ function AllRoutes() {
 
         <Route path="/FallingBall" element={<FallingBall />}/>
         <Route path="/MemoryGame" element={<MemoryGame />}/>
+
         <Route path="/RetroFlappyBirdGame" element={<RetroFlappyBirdGame />}/>
+
+        <Route path="/wordScramble" element={<wordScramble />}/>
+        <Route path="/Fifteen_Game" element={<Fifteen />} />
+        <Route path="/Guess_The_Number" element={<GuessNumber />} />
+        
+
       </Routes>
     </Suspense>
   );

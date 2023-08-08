@@ -9,7 +9,7 @@
   justify-content:space-around;
   margin-top: 10px;
   padding: 10px;
-  background-color: rgb(30 30 32);
+  background-color: rgb(14, 14, 14);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -66,6 +66,16 @@
 	box-shadow: none;
 	position: relative;
 	top: .2em;
+color: rgba(57, 248, 255, 0.842);
+text-shadow: none;
+
+}
+.video-game-button:hover{
+	/* /* transition: .2s; */
+	transform:scale(1.1);
+text-shadow: 0 0 5px black;
+
+
 }
 
 .backicon{

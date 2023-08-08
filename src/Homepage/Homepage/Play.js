@@ -6,8 +6,8 @@ const TrianglePlayLogo = () => {
       width="50px"
       height="50px"
       viewBox="0 0 130 120"
-      fill="none"
-      stroke="black"
+      fill="white"
+      stroke="#0007"
       stroke-width="5"
     >
       <path

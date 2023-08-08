@@ -1,15 +1,17 @@
+body {
+  font-family: math;
+}
 textarea {
-  width: 684px;
-  height: 196px;
-  outline: none;
-  resize: none;
+  width: 60%;
+  height: 130px;
   border: 2px solid #2d2e32;
-  border-radius: 2px;
   padding: 20px;
   font-size: 1.3rem;
   font-weight: 600;
   position: relative;
-  /* right:65%; */
+  margin: auto;
+  border-radius: 1rem;
+  display: flex;
 }
 
 textarea:disabled {
@@ -29,12 +31,12 @@ textarea:disabled {
 }
 
 .main-h1 {
+  color: darkgrey;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-right: 100px; */
   gap: 10px;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .main-h1-2{
@@ -42,9 +44,14 @@ textarea:disabled {
 }
 
 .btn-change {
-  border-radius: 10px;
-  margin:0 150px 0 100px;
-  padding:0 20px;
+  background: black;
+  margin-top: 2rem;
+  padding: 15px 30px;
+  border-radius: 0.7rem;
+  border: none;
+  color: antiquewhite;body {
+  font-family: math;
+}
 }
 
 button:disabled {

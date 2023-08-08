@@ -116,7 +116,7 @@ export const data1 = [
   },
   {
     serial_number: "11",
-    main_heading: "Dice Throw",
+    main_heading: "roll dice",
     about: "Roll the dice and achieve a target ",
     link_game: "/DiceThrow",
     // Flip-card-back contents
@@ -349,6 +349,49 @@ export const data1 = [
       step1: "1. The game starts with a bird. ",
       step2: "2. Use the Mouse Left Key to save the bird from obstacles.",
       step3: "3. Dodge the obstacles, lastly enjoy this classic game.",
+    },
+    {
+  serial_number: "32",
+      main_heading: "Dice Throw",
+      about: "Use refresh button to play the game",
+      link_game: "/Dice-Throw",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. press the refresh button",
+       step2: "2. you have the winner"
+    },
+    {
+      serial_number: "33",
+      main_heading: "word Scramble",
+      about: "Use keyboard to play the game",
+      link_game: "/wordScramble",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. Type in your guess.",
+       step2: "2. Get three correct words and level will increase. Get a word wrong three times and game will restart.",
+       step3: "3. Finish level 3 and you win.",
+    },
+    {
+      serial_number: "34",
+      main_heading: "Fifteen Puzzle Game",
+      about: "A simple puzzle game just move several blocks and make the picture clear.",
+      link_game: "/Fifteen_Game",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Use arrow keys or press the position around the blank block.",
+      step2: "2. Move items and arrange the blocks to make a clear and concise game.",
+      step3: "3. If picture will be completed, game will be over.",
+    },
+    {
+      serial_number: "35",
+      main_heading: "Guess The Number",
+      about: "Guess the number with-in 10 chances.",
+      link_game: "/Guess_The_Number",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Enter the number accordingly as it's high or low.",
+      step2: "2. If reaches to the correct answer in 10 choices, you win !!",
+      step3: "3. Enjoy the game",
+
     }
-    
 ];
