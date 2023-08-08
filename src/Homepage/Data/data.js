@@ -342,13 +342,13 @@ export const data1 = [
     {
       serial_number: "31",
       main_heading: "Retro Flappy Bird Game",
-      about: "Use Space or Enter Button to move the bird",
+      about: "Use the Mouse Left Key to Play",
       link_game: "/RetroFlappyBirdGame",
       // Flip-card-back contents
       rule_heading: "Rules to play",
       step1: "1. The game starts with a bird. ",
-      step2: "2. Use the Space or Enter Button to save the bird from obstacles.",
-      step3: "3. Dodge the obstacles and get points, lastly enjoy this classic game.",
+      step2: "2. Use the Mouse Left Key to save the bird from obstacles.",
+      step3: "3. Dodge the obstacles, lastly enjoy this classic game.",
     }
     
 ];
