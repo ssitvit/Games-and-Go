@@ -29,4 +29,4 @@ If the player enters a pattern incorrectly, the blue squares will flash red and 
 
 Green circles above the screen on the left indicate how many patterns have been successfully replicated. The green circles above the keypad on the right indicate the number of squares the player has currently selected for the pattern so far.
 
-Go Play and Enjoy!!</p>
+
