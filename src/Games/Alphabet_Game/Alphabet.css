@@ -18,10 +18,9 @@ body {
 
 /* Styling the header line of the game */
 h1 {
-  margin-top: 1rem;
-  font-family: Serif;
-  font-size: 4rem;
-  color: #fee6ed;
+  font-family: math;
+  font-size: 3rem;
+  color: #F44336;
   text-align: center;
 }
 
@@ -29,22 +28,23 @@ h1 {
 .btns {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  margin: 3.2rem 0;
+  margin: 2rem 0;
 }
 
 /* Styling the buttons */
 .btn {
+  font-family: math;
   display: inline-block;
   outline: none;
-  border: 10px solid #fee6ed;
+  border: 7px solid #fee6ed;
   font-size: 5rem;
   font-family: Serif;
-  line-height: 2;
+  line-height: 1;
   font-weight: 900;
-  color: #fee6ed;
+  color: #F44336;
   border-radius: 15px;
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   text-align: center;
   margin: 10px;
   background-color: #0c0b0c;
@@ -159,12 +159,12 @@ h1 {
 footer {
   text-align: center;
   font-size: 1.2rem;
-  color: white;
-  margin: 0 0 1rem 0;
+  color: #9E9E9E;
+  font-family: math;
 }
 
 a {
-  color: white;
+  color: #607D8B;
   text-decoration: none;
 }
 
