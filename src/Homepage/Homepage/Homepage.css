@@ -709,4 +709,5 @@ input.search-input:hover {
   font-size: 3.5rem;
   width: 100%;
   color: white;
+  background: none;
 }
