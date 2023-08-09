@@ -63,8 +63,8 @@ const RockPaperScissors = () => {
             <p>Who gets 5 points first wins the game!</p>
             <div className="rps-container">
                 <div className="user">
-                    <h3>You: {userPoints}</h3>
-                    <img src={require(`./assets/${userChoice}.png`)} alt={userChoice} />
+                    <h3 className='for-score'>You: {userPoints}</h3>
+                    <img src={require(`./assets/${userChoice}.webp`)} alt={userChoice} />
                     {
                         !gameOver &&
                         <div className="user-choice-btns">
@@ -78,8 +78,8 @@ const RockPaperScissors = () => {
                 </div>
 
                 <div className="computer">
-                    <h3>Computer: {computerPoints}</h3>
-                    <img src={require(`./assets/${computerChoice}.png`)} alt={computerChoice} />
+                    <h3 className='for-score'>Computer: {computerPoints}</h3>
+                    <img src={require(`./assets/${computerChoice}.webp`)} alt={computerChoice} />
                 </div>
             </div>
             <div className="rps-result">

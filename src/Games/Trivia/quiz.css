@@ -1,7 +1,17 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 
-.App {
+body{
+  font-family: math;
+}
+.Quiz {
+  border-radius: 1rem;
+  margin: auto;
+  height: 510px;
   text-align: center;
+  border: 2px solid #607D8B;
+  width: 60%;
+  margin-top: 4rem;
+  padding-top: 2rem;
 }
 
 .question-card {
@@ -43,15 +53,13 @@ li:hover {
 .question-text {
   color: darkblue;
   font-size: 24px;
-
-  /* Animation */
-  animation: move 2s infinite, fadeOutAndIn 3s infinite;
+  margin-top: 1rem;
 }
 
 .final-results {
   /* Center the div */
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
   height: auto;
   margin-top: 64px;
 
@@ -90,9 +98,11 @@ button:hover {
   0% {
     transform: translateX(0) scale(1);
   }
+
   50% {
     transform: translateX(100px) scale(1.2);
   }
+
   100% {
     transform: translateX(0) scale(1);
   }
@@ -102,9 +112,11 @@ button:hover {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -116,23 +128,26 @@ button:hover {
   color: white;
 
   /* Animation */
-  animation: move 2s infinite, fadeOutAndIn 3s infinite;
+  /* animation: 2s infinite, fadeOutAndIn 3s infinite; */
 }
 
 .title {
-    font-size: 2rem;
-    color: #007bff;
-    margin-bottom: 20px;
-  
-    /* Animation */
-    animation: move 2s infinite, fadeOutAndIn 3s infinite;
-  }
-  
-  .score {
-    font-size: 1.5rem;
-    color: #28a745;
-    margin-bottom: 20px;
-  
-    /* Animation */
-    animation: move 2s infinite, fadeOutAndIn 3s infinite;
-  }
+  font-size: 2rem;
+  color:lightgrey;
+  margin-bottom: 20px;
+
+  /* Animation */
+  /* animation: 2s infinite, fadeOutAndIn 3s infinite; */
+}
+h2 {
+  color: firebrick;
+}
+
+.score {
+  font-size: 1.5rem;
+  color: #607d8b;
+  margin-bottom: 20px;
+
+  /* Animation */
+  /* animation: 2s infinite, fadeOutAndIn 3s infinite; */
+}

@@ -1,27 +1,41 @@
 import React from "react";
 import "./Homepage.css";
+import "./particles.css";
 import { Link } from "react-router-dom";
 import { data1 } from "../Data/data";
-import music1 from "../Homepage/music1.mp3";
-import { useRef } from "react";
 import GoToTop from "./GoToTop";
+import MusicButton from "./MusicButton";
+import { useState } from "react";
+import DarkMode from "./DarkModeToggle";
+import { FaSearch } from "react-icons/fa";
+import Teams from "./Teams";
+
+import Play from "./Play";
+
 
 function Homepage() {
-  const audioref = useRef();
-  const runMusic = () => {
-    audioref.current.play();
-  };
-  const pauseMusic = () => {
-    audioref.current.pause();
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filteredData, setFilteredData] = useState(data1);
+
+  const handleSearch = (e) => {
+    const inputValue = e.target.value;
+    setSearchQuery(inputValue);
+
+    const filtered =
+      inputValue === ''
+        ? data1 // Show all values if search query is empty
+        : data1.filter((item) =>
+          item.main_heading.toLowerCase().includes(inputValue.toLowerCase())
+        );
+    setFilteredData(filtered);
   };
   return (
     <React.Fragment>
       <GoToTop />
-
+      <MusicButton />
+      <DarkMode />
       {/* Pacman Landing Container */}
-      <audio ref={audioref} loop>
-        <source src={music1} type="audio/mp3" />
-      </audio>
+
       <div className="container_landing">
         <div className="pacman"></div>
         <div className="ghost"></div>
@@ -30,33 +44,85 @@ function Homepage() {
         <div className="ghost"></div>
         <div className="text"></div>
       </div>
-      <div class="music-btn">
-        <div class="start-btn" id="on" onClick={runMusic}>
-          music on
-        </div>
-        <div class="start-btn" id="off" onClick={pauseMusic}>
-          music off
-        </div>
+      <div class="page-bg"></div>
+      <div class="animation-wrapper">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+      </div>
+      <div className="about-section">
+        <h2>About</h2>
+        <p>Games-And-Go is a website that offers a diverse collection of online games to entertain and engage users of all ages. With a user-friendly interface, the website provides easy access to a wide range of games, including puzzles, arcade classics, strategy games, and more. Users can explore different game categories, choose their favorites, and start playing instantly without the need for downloads or installations. The website aims to provide a fun and immersive gaming experience, allowing players to relax, challenge themselves, and enjoy their leisure time. Whether you're a casual gamer or a dedicated gaming enthusiast, Games-And-Go has something to offer for everyone.</p>
+      </div>
+      <div className="about-section">
+        <h2>Meet Our Contributors</h2>
+        <Teams />
       </div>
       {/* Heading of Cards */}
       <div className="header_homepage">
         <h1> Game on!!</h1>
       </div>
       {/* The content in the cards came from mapping data1, if you want to contribute a game kindly add it to data1 in the Data folder first*/}
+      <label htmlFor="search-games" className="sr-only">Search for your favourite Game</label>
+  
+        <div className="search-section">
+          <input
+         id="search-game"
+         name="search-game"
+         type="text"
+         className="search-input"
+        value={searchQuery}
+        onChange={handleSearch}
+        placeholder="Search for your favourite game..."
+
+      />
+          <label className="search-icon">
+              <FaSearch/>
+            </label>
+      </div>
+
       <div className="body_card">
+
         <div className="container_card">
-          {data1.map((row) => (
-            <div className="card">
+          {filteredData.map((row) => (
+            <div className="card" key={row.serial_number}>
               <div className="content">
-                <h2>{row.serial_number}</h2>
-                <h3>{row.main_heading}</h3>
+                {/* Addition of Flip card feature */}
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <h2>{row.serial_number}</h2>
+                        <h3>{row.main_heading}</h3>
+
+                      </div>
+
+                    </div>
+                    <div class="flip-card-back">
+                      <div class="rule_heading">{row.rule_heading}</div>
+                      <div class="step">{row.step1}</div>
+                      <div class="step">{row.step2}</div>
+                      <div class="step">{row.step3}</div>
+                    </div>
+                  </div>
+                </div>
+                {/* Flip card feature ends here. */}
                 <p>{row.about} </p>
                 {/* Create a route for your game and add it in AllRoutes.js in Routes folder then add the link in data1 in Data Folder */}
-                <Link to={row.link_game}>Play now !!!</Link>
+                <Link to={row.link_game}><Play /></Link>
               </div>
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="copyright">
+        <div className="social-icons" >
+        <a href="https://www.instagram.com/ieeessit/" target="_blank" aria-label="Visit us on Instagram" title="Instagram (External Link)"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://github.com/ssitvit/Games-and-Go" target="_blank" aria-label="Visit us on GitHub" title="GitHub (External Link)"><i class='bx bxl-github'></i></a>
+        </div>
+        <h3>&copy;Copyright IEEE-SSIT {new Date().getFullYear()}</h3>
       </div>
     </React.Fragment>
   );

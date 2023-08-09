@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import AllRoutes from "./Routes/AllRoutes";
 import Navbar from "./Homepage/Homepage/Navbar";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import PacmanLoader from "react-spinners/PacmanLoader";
 import "./App.css";
 function App() {
@@ -10,12 +9,12 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
   return (
     <div>
       {loading ? (
-        <div>
+        <div className="loading-animation">
           <PacmanLoader
             color={"#f1e702"}
             loading={loading}
@@ -24,10 +23,9 @@ function App() {
             data-testid="loader"
             className="loader"
           />
-          <p className="loader1">Games and go!!!</p>
+          <p className="loader1">Welcome To Games and go!!!</p>
         </div>
       ) : (
-        // (<p>Games-and-Go</p>)
         <div>
           <Navbar />
           <AllRoutes />

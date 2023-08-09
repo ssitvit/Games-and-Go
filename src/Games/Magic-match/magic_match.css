@@ -1,0 +1,44 @@
+.App {
+  max-width: 860px;
+  /* margin: 40px auto; */
+}
+.Magic{
+  background-color: #708090;
+    border: 40px solid #656363;
+    height: 1200px;
+    max-width: 1200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Magic > p{
+  margin-top: 5rem;
+  font-size: 30px;
+}
+.Magic > button{
+  display: inline-block;
+    background-color: #f8d210;
+    border: 0;
+    width: auto;
+    border-radius: 10%;
+    text-align: center;
+    color: #3d550c;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -10%;
+}
+.Magic > button:hover {
+  background: #38c254;
+  color: #211d1d;
+}
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+  width: 95%;
+  height: auto;
+  padding: 10px;
+}
+

@@ -2,7 +2,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Peralta&display=swap");
 
 /* Classes for all the headings used  */
-.h1,
+
+.h1{
+  color: #f1f5f9;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul li {
+  color: white;
+  font-size: 20px;
+}
+
 .h2,
 .h3,
 .h4,
@@ -10,6 +23,10 @@
   color: #4ba4eb;
   text-decoration: none;
   font-family: "Press Start 2P", cursive;
+  padding: 12px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
 }
 .text_color {
   color: white;
@@ -32,10 +49,10 @@
   justify-content: center;
   align-items: center;
   align-content: space-around;
-  width: 306px;
-  height: 306px;
+  width: 400px;
+  height: 300px;
   position: relative;
-
+  padding: 10px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     145deg,
@@ -90,12 +107,14 @@
 
 .resetButton {
   background-color: #4ba4eb;
+  border: none;
   color: white;
   font-size: 1.2em;
   padding: 20px;
   margin-top: 12px;
   border-radius: 4px;
   font-family: "Peralta", cursive;
+  cursor: pointer;
 }
 
 .gameOver {

@@ -1,0 +1,26 @@
+body{
+  font-family: math;
+}
+.App {
+  text-align: center;
+}
+
+.table{
+  border: 10px solid rgb(136, 142, 144);
+  text-align: center;
+  margin: auto;
+
+}
+
+.instruction{
+  text-align: center;
+  font-size: larger;
+}
+
+
+.vtab{
+  height: 20px;
+}
+.htab{
+  width: 60px;
+}

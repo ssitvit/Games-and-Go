@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Next Number Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Next Number Game</h1>
+    <div class="game-container">
+      <div id="number-display"></div>
+      <input type="number" id="user-input" placeholder="Enter the next number">
+      <button id="check-btn" disabled>Check</button>
+      <button id="start-btn">Start Game</button>
+      <button id="stop-btn" disabled>Stop Playing</button>
+      <div id="result-message"></div>
+    </div>
+    <div class="stats-container">
+      <div>Correct Answers: <span id="correct-answers">0</span></div>
+      <div>Sequences Played: <span id="sequences-played">0</span></div>
+      <div>Wrong Answers: <span id="wrong-answers">0</span></div>
+      <div>Time Taken: <span id="time-taken">0s</span></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

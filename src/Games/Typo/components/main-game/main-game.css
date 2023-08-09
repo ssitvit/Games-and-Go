@@ -1,39 +1,57 @@
-textarea {
-  width: 684px;
-  height: 196px;
-  outline: none;
-  resize: none;
-  border: 2px solid #2d2e32;
-  border-radius: 2px;
-  padding: 20px;
-  font-size: 1.5rem;
-  font-weight: 800;
+body {
+  font-family: math;
 }
+textarea {
+  width: 60%;
+  height: 130px;
+  border: 2px solid #2d2e32;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  position: relative;
+  margin: auto;
+  border-radius: 1rem;
+  display: flex;
+}
+
 textarea:disabled {
   background: #2d2e32;
 }
+
 .main-box {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content:center;
   align-items: center;
   margin: 1em 0;
-  padding: 0 60px;
   font-size: 0.9rem;
   color: #2d2e32;
   color: white;
-
   text-transform: uppercase;
 }
 
 .main-h1 {
+  color: darkgrey;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  font-size: 28px;
+}
+
+.main-h1-2{
+  width:50vw;
 }
 
 .btn-change {
-  border-radius: 10px;
+  background: black;
+  margin-top: 2rem;
+  padding: 15px 30px;
+  border-radius: 0.7rem;
+  border: none;
+  color: antiquewhite;body {
+  font-family: math;
+}
 }
 
 button:disabled {
@@ -45,9 +63,20 @@ button:disabled {
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2rem;
-  margin: 0;
+  font-size: 1.6rem;
   color: white;
+  display:inline;
+
+}
+
+.result span{
+  text-align: center;
+  padding-right:50px;
+  margin:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -55,7 +84,7 @@ button:disabled {
     flex-direction: column;
   }
   textarea {
-    width: 314px;
-    height: 496px;
+    width: 100%;
+    padding: 0;
   }
 }

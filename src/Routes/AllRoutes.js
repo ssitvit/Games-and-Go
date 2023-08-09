@@ -1,32 +1,114 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Homepage from "../Homepage/Homepage/Homepage";
-import Tictactoe from "../Games/Tictactoe/tictactoe";
-import Ninetynine from "../Games/Ninetynine/ninetynine";
-import Memory from "../Games/Memory/memory";
-import TriviaGame from "../Games/Trivia/quiz";
-import Simonsays from "../Games/Simonsays/simon";
-import Fifteenpuzzle from "../Games/15Puzzle/Fifteenpuzzle";
-import RockPaperScissors from "../Games/RockPaperScissors/RockPaperScissors";
-import BrickBreakout from "../Games/BrickBreakout/BrickBreakout";
-import Typo from "../Games/Typo/Typo";
-import BallShooting from "../Games/BallShooting/BallShooting";
+import { lazy, Suspense } from "react";
+import { BrowserRouter as Router, Route, Routes , Link} from "react-router-dom";
+import PacmanLoader from "react-spinners/PacmanLoader";
+import TypingMaster from "../Games/typingMaster/typing";
+
+
+const Homepage = lazy(() => import("../Homepage/Homepage/Homepage"));
+const ErrorPage = lazy(() => import("../ErrorPage/ErrorPage"));
+const Tictactoe = lazy(() => import("../Games/Tictactoe/tictactoe"));
+const Ninetynine = lazy(() => import("../Games/Ninetynine/ninetynine"));
+const Memory = lazy(() => import("../Games/Memory/memory"));
+const TriviaGame = lazy(() => import("../Games/Trivia/quiz"));
+const Fifteenpuzzle = lazy(() => import("../Games/15Puzzle/Fifteenpuzzle"));
+const RockPaperScissors = lazy(() =>
+  import("../Games/RockPaperScissors/RockPaperScissors")
+);
+const BrickBreakout = lazy(() =>
+  import("../Games/BrickBreakout/BrickBreakout")
+);
+const Typo = lazy(() => import("../Games/Typo/Typo"));
+const BallShooting = lazy(() => import("../Games/BallShooting/BallShooting"));
+const MagicMatch = lazy(() => import("../Games/Magic-match/magic_match"));
+// const DiceThrow = lazy(() => import("../Games/DiceThrow/main"));
+const Wordle = lazy(() => import("../Games/Wordle/Wordle"));
+const SnakeGame = lazy(() => import("../Games/SnakeGame/SnakeGame"));
+const Tetris = lazy(() => import("../Games/tetris/src/components/Tetris"));
+const Battle = lazy(() => import("../Games/BattleShip/App"));
+const App = lazy(() => import("../Games/DragAndDrop/App"));
+const TicTacToeAI = lazy(() => import("../Games/TicTactoeAI/app"));
+const Arkanoid = lazy(() => import("../Games/Arkanoid/App"));
+const DrumKit = lazy(() => import("../Games/Drum-Kit/DrumKit"));
+const ChessAI = lazy(() => import("../Games/ChessAI/appiz"));
+const Minesweeper = lazy(() => import("../Games/Minesweeper/App"));
+const Dice = lazy(() => import("../Games/Dice-Throw/Dice"));
+const TangledWords = lazy(() => import("../Games/TangledWords/src/App"));
+const typingMaster = lazy(() => import("../Games/typingMaster/typing"));
+const GuessTheColor = lazy(() => import("../Games/GuessTheColor/App"));
+const Alphabet = lazy(() => import("../Games/Alphabet_Game/Alphabet"));
+const MindGame_2048 = lazy(() => import("../Games/MindGame_2048/src/index"))
+const DragonDinoGame = lazy(() => import("../Games/DragonDinoGame/Game"));
+const FallingBall = lazy(() => import("../Games/FallingBall/App"));
+const MemoryGame = lazy(() => import("../Games/MemoryGame/src/index"));
+const Fifteen = lazy(() => import("../Games/Fifteen_Game/Fifteen"));
+const GuessNumber = lazy(() => import('../Games/Guess_The_Number/GuessNumber'));
+
+const RetroFlappyBirdGame = lazy(() => import("../Games/RetroFlappyBirdGame/src/App"));
 
 function AllRoutes() {
   return (
-    <Routes>
-      {/* Add all the routes with the right path here after importing them  */}
-      <Route path="/" element={<Homepage />} />
-      <Route path="/Tic" element={<Tictactoe />} />
-      <Route path="/99" element={<Ninetynine />} />
-      <Route path="/memory" element={<Memory />} />
-      <Route path="/trivia" element={<TriviaGame />} />
-      <Route path="15puzzle" element={<Fifteenpuzzle />} />
-      <Route path="/simon" element={<Simonsays />} />
-      <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
-      <Route path="/brick-breakout" element={<BrickBreakout />} />
-      <Route path="/typo" element={<Typo />} />
-      <Route path="/BallShooting" element={<BallShooting/>} />
-    </Routes>
+    <Suspense
+      fallback={
+        <div className="loading-animation">
+          <PacmanLoader
+            color={"#f1e702"}
+            size={45}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+            className="loader"
+          />
+        </div>
+      }
+    >
+           <Link to="/">
+            <i className="fa fa-arrow-left backicon" />
+          </Link>  
+      <Routes>
+        {/* Add all the routes with the right path here after importing them  */}
+        <Route path="/" element={<Homepage />} />
+        <Route path="*" element={<ErrorPage />} />
+        <Route path="/Tic" element={<Tictactoe />} />
+        <Route path="/99" element={<Ninetynine />} />
+        <Route path="/memory" element={<Memory />} />
+        <Route path="/trivia" element={<TriviaGame />} />
+        <Route path="15puzzle" element={<Fifteenpuzzle />} />
+        <Route path="/rock-paper-scissors" element={<RockPaperScissors />} />
+        <Route path="/brick-breakout" element={<BrickBreakout />} />
+        <Route path="/typo" element={<Typo />} />
+        <Route path="/BallShooting" element={<BallShooting />} />
+        <Route path="/MagicMatch" element={<MagicMatch />} />
+        {/* <Route path="/DiceThrow" element={<DiceThrow />} /> */}
+        <Route path="/Wordle" element={<Wordle />} />
+        <Route path="/SnakeGame" element={<SnakeGame />} />
+        <Route path="/tetris" element={<Tetris />} />
+        <Route path="/Battle" element={<Battle />} />
+        <Route path="/DragAndDrop" element={<App />} />
+        <Route path="/Tictac" element={<TicTacToeAI />} />
+        <Route path="/Arkanoid" element={<Arkanoid />} />
+        <Route path="/Drum-Kit" element={<DrumKit />} />
+        <Route path="/Dice-Throw" element={<Dice />} />
+        <Route path="/Chess" element={<ChessAI />} />
+        <Route path="/Minesweeper" element={<Minesweeper />} />
+        <Route path="/TangledWords" element={<TangledWords />} />
+        <Route path="/TypingMaster" element={<TypingMaster />} />
+        <Route path="/GuessTheColor" element={<GuessTheColor />} />
+        <Route path="/Alphabet_Game" element={<Alphabet />} />
+        <Route path="/DragonDinoGame" element={<DragonDinoGame />} />
+
+        <Route path="/MindGame_2048" element={<MindGame_2048 />} />
+
+        <Route path="/FallingBall" element={<FallingBall />}/>
+        <Route path="/MemoryGame" element={<MemoryGame />}/>
+
+        <Route path="/RetroFlappyBirdGame" element={<RetroFlappyBirdGame />}/>
+
+        <Route path="/wordScramble" element={<wordScramble />}/>
+        <Route path="/Fifteen_Game" element={<Fifteen />} />
+        <Route path="/Guess_The_Number" element={<GuessNumber />} />
+        
+
+      </Routes>
+    </Suspense>
   );
 }
 

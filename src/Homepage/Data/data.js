@@ -1,67 +1,397 @@
-import React from "react";
 //Add the following data in the card for the game you have added. For any instructions refer to contributing.md
 
 export const data1 = [
   {
     serial_number: "01",
-    main_heading: "Let's Play Tic-Tac-Toe",
+    main_heading: "Tic-Tac-Toe",
     about:
-      "A fun and interesting tic tac toe game to take us back to the good old childhood days!",
+      "Interesting tic tac toe game to bring us back to the childhood days!",
     link_game: "/Tic",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Put mark in empty boxes",
+    step2: "2. Get 3 same mark in any directions",
+    step3: "3. Directions are ( up, down, diagonal)",
   },
   {
     serial_number: "02",
     main_heading: "Ninety - Nine",
     about: "A game you can never win.",
     link_game: "/99",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. You & Computer choose a number alternately",
+    step2: "2. Numbers add on",
+    step3: "3. Make 99 first to win",
   },
   {
     serial_number: "03",
     main_heading: "Memory",
     about: "Can you remember ?",
     link_game: "/memory",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Memories box where blue colour appears",
+    step2: "2. Click on box which you remember",
+    step3: "3. Each time level increases",
   },
   {
     serial_number: "04",
     main_heading: "Trivia",
     about: "Can you guess it right ?",
     link_game: "/trivia",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. GK questions",
+    step2: "2. Select correct answer",
+    step3: "3. Maximize score",
   },
   {
     serial_number: "05",
     main_heading: "15 Puzzle",
     about: "Can you solve it?",
     link_game: "/15puzzle",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Place tiles as 1 at 1, 2 at 2 ...",
+    step2: "2. Correct positioned (Light blue)",
+    step3: "3. Place all correctly to win",
   },
   {
     serial_number: "06",
-    main_heading: "Simon says",
-    about: " Think fast, act faster!",
-    link_game: "/simon",
-  },
-  {
-    serial_number: "07",
     main_heading: "Rock Paper and Scissors",
     about: "Can you win against the computer?",
     link_game: "/rock-paper-scissors",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Same positons - No points",
+    step2: "2. Ponits: Rock > Scissor, Paper > Rock, Scissor > Paper",
+    step3: "3. Make maximun points to win",
   },
   {
-    serial_number: "08",
+    serial_number: "07",
     main_heading: "Brick Breakout",
     about: "Let's break out the brick wall with the ball",
     link_game: "/brick-breakout",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Slide the yellow line by cursor",
+    step2: "2. Protect ball from touching ground",
+    step3: "3. Break maximun bricks to win",
   },
   {
-    serial_number: "09",
+    serial_number: "08",
     main_heading: "Typo - Typing Tester",
     about:
       "Accept Challenge if you think your typing speed is more than Usain Bolt's sprint ",
     link_game: "/typo",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Click Start",
+    step2: "2. Type given text",
+    step3: "3. Increase speed to win",
   },
   {
-    serial_number:"10",
-    main_heading:"Ball Shooting",
-    about:"Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
-    link_game:"/BallShooting",
-  }
+    serial_number: "09",
+    main_heading: "Ball Shooting",
+    about:
+      "Shoot the projectiles in the direction of the mouse clicked and survive for as long as you can",
+    link_game: "/BallShooting",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. click to shoot",
+    step2: "2. Shoot coming balls",
+    step3: "3. shoot max to win",
+  },
+  {
+    serial_number: "10",
+    main_heading: "Magic Matching",
+    about: "Flip the cards till you match the cards ",
+    link_game: "/MagicMatch",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Flip card and memorise",
+    step2: "2. Find a match",
+    step3: "3. Match all cards to win",
+  },
+  {
+    serial_number: "11",
+    main_heading: "roll dice",
+    about: "Roll the dice and achieve a target ",
+    link_game: "/DiceThrow",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. 2 Player game",
+    step2: "2. Set target & Roll dice",
+    step3: "3. Reach target first to win ",
+  },
+  {
+    serial_number: "12",
+    main_heading: "Wordle",
+    about: "Put your vocabulary to test",
+    link_game: "/Wordle",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Write any word ",
+    step2: "2. Can also take hint",
+    step3: "3. Guess correct word to win",
+  },
+  {
+    serial_number: "13",
+    main_heading: "SnakeGame",
+    about: "Slither and Conquer!",
+    link_game: "/SnakeGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use arrow keys to move snake",
+    step2: "2. Eat yellow box ",
+    step3: "3. Eat more to win",
+  },
+  {
+    serial_number: "14",
+    main_heading: "Tetris",
+    about: "Put the blocks at right place",
+    link_game: "/tetris",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Fill pieces using arrow Keys",
+    step2: "2. Fill all blank space of a line",
+    step3: "3. Game over if pieces reach top screen",
+  },
+  {
+    serial_number: "15",
+    main_heading: "Battle Ships",
+    about: "search and Destroy Enemies ships",
+    link_game: "/Battle",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Place ship horizontally or vaetically",
+    step2: "2. Ships cannot touch each other",
+    step3: "3. Destroy enemies ship",
+  },
+  {
+    serial_number: "16",
+    main_heading: "Drag and Drop",
+    about:
+      "Drag the cards from the middle section and drop them into the similar one.",
+    link_game: "/DragAndDrop",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Drag middle box",
+    step2: "2. Drag to matching color box",
+    step3: "3. Score max to win",
+  },
+  {
+    serial_number: "17",
+    main_heading: "Play Tic-Tac-Toe with AI",
+    about: "Can you compete with AI...",
+    link_game: "/Tictac",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Put mark in empty boxes",
+    step2: "2. Get 3 same mark in any directions",
+    step3: "3. Directions are ( up, down, diagonal)",
+  },
+  {
+    serial_number: "18",
+    main_heading: "Arkanoid",
+    about: "Complete all bricks",
+    link_game: "/Arkanoid",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Slide white bar using arrow keys",
+    step2: "2. Protect ball from touching ground",
+    step3: "3. Break max bricks to win",
+  },
+  {
+    serial_number: "19",
+    main_heading: "Drum-Kit",
+    about: "Play the drums",
+    link_game: "/Drum-Kit",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Click on letters.",
+    step2: "2. Play drums",
+    step3: "3. Enjoy the game",
+  },
+  {
+    serial_number: "20",
+    main_heading: "Play Chess with AI",
+    about: "Can you compete with AI...",
+    link_game: "/Chess",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Drag chess pieces",
+    step2: "2. Think and drag according to chess rules",
+    step3: "3. Score maximum to win",
+  },
+  {
+    serial_number: "21",
+    main_heading: "Mine sweeper",
+    about: "Be aware of mines !!",
+    link_game: "/Minesweeper",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Memorize shown mines",
+    step2: "2. click on other box except mines",
+    step3: "3. Score maximum to win",
+  },
+  {
+    serial_number: "22",
+    main_heading: "Tangled Words",
+    about: "Solve the tangled~",
+    link_game: "/TangledWords",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Guess the word ",
+    step2: "2. Stuck!! Look at Hint",
+    step3: "3. Enjoy the game",
+  },
+
+
+  {
+    serial_number: "23",
+    main_heading: "Typing Master",
+    about: "Test your typing speed and accuracy with Tangled Words!",
+    link_game: "/TypingMaster",
+    rule_heading: "Rules to Play",
+    step1: "1. Type the paragraph displayed on the screen.",
+    step2: "2. Enjoy the game !",
+  },
+
+  {
+    serial_number: "24",
+    main_heading: "Guess the Color",
+    about: "Solve the puzzle~",
+    link_game: "/GuessTheColor",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Guess the Color ",
+    step2: "2. Know the RGB value",
+    step3: "3. Enjoy the game",
+  },
+
+  {
+    serial_number: "25",
+    main_heading: "Alphabet Game",
+    about: "Learn the English alphabet with playable sounds.",
+    link_game: "/Alphabet_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Press on the words to start the sound.",
+    step2: "2. Or click from the keyboard to start the sound",
+    step3: "3. Enjoy the game",
+  },
+
+  {
+    serial_number: "26",
+    main_heading: "Dragon Dino Game",
+    about: "A simple dragon dino game with scoreboard and background music.",
+    link_game: "/DragonDinoGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use forward and backward arrow to run the dino.",
+    step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
+    step3: "3. If dino comes in contact with dragon then game over.",
+  },
+  {
+    serial_number: "27",
+    main_heading: "Pong Game",
+    about: "Use paddles to drive the volley towards your opponent back and forth",
+    link_game: "/Pong_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Being a multiplayer game, the player 1 playes through arrow keys, while player 2 playes through secondary arrows(w-a-s-d)",
+    step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
+    step3: "3. The one who survives till end wins.",
+  },
+  {
+    serial_number: "28",
+
+    main_heading: "Falling Ball Game",
+    about: "Make ball move to save it from crashing with the wall.",
+    link_game: "/FallingBall",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use the left and right arrow keys on your keyboard to move the the ball horizontally.",
+    step2: "2. The goal is to avoid colliding with the falling blocks. If the ball collides with a block, the game is over.",
+    step3: "3. Try to survive as long as possible and score points by avoiding the blocks. The longer you survive, the higher your score will be.",
+  },
+  {
+    serial_number: "29",
+    main_heading: "Memory Matching Game",
+    about: "Use your cursor to select the matching cards.",
+    link_game: "/MemoryGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Try to remember the logo on card and try to match it with similar card.",
+    step2: "2. Match the card as fast as possible.",
+    step3: "3. Enjoy the game.",
+  },
+    {
+      serial_number: "30",
+      main_heading: "2048",
+      about: "Use top, bottom, left and right arrow keys to move the tiles.",
+      link_game: "/MindGame_2048",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. The game starts with a tile numbered '2'. ",
+      step2: "2. Use the top, bottom, left and right arrow keys to move the tiles.",
+      step3: "3. Boost your brain to win the game.",
+    },
+    {
+      serial_number: "31",
+      main_heading: "Retro Flappy Bird Game",
+      about: "Use the Mouse Left Key to Play",
+      link_game: "/RetroFlappyBirdGame",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. The game starts with a bird. ",
+      step2: "2. Use the Mouse Left Key to save the bird from obstacles.",
+      step3: "3. Dodge the obstacles, lastly enjoy this classic game.",
+    },
+    {
+  serial_number: "32",
+      main_heading: "Dice Throw",
+      about: "Use refresh button to play the game",
+      link_game: "/Dice-Throw",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. press the refresh button",
+       step2: "2. you have the winner"
+    },
+    {
+      serial_number: "33",
+      main_heading: "word Scramble",
+      about: "Use keyboard to play the game",
+      link_game: "/wordScramble",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. Type in your guess.",
+       step2: "2. Get three correct words and level will increase. Get a word wrong three times and game will restart.",
+       step3: "3. Finish level 3 and you win.",
+    },
+    {
+      serial_number: "34",
+      main_heading: "Fifteen Puzzle Game",
+      about: "A simple puzzle game just move several blocks and make the picture clear.",
+      link_game: "/Fifteen_Game",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Use arrow keys or press the position around the blank block.",
+      step2: "2. Move items and arrange the blocks to make a clear and concise game.",
+      step3: "3. If picture will be completed, game will be over.",
+    },
+    {
+      serial_number: "35",
+      main_heading: "Guess The Number",
+      about: "Guess the number with-in 10 chances.",
+      link_game: "/Guess_The_Number",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Enter the number accordingly as it's high or low.",
+      step2: "2. If reaches to the correct answer in 10 choices, you win !!",
+      step3: "3. Enjoy the game",
+
+    }
 ];

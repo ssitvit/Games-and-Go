@@ -1,0 +1,181 @@
+.container {
+    background: aliceblue;
+    margin: 0 auto;
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+  }
+  .activePlayer {
+    background: #e4edea;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .active {
+    height: 10px;
+    width: 10px;
+    background: red;
+    border-radius: 50%;
+  }
+  .playerName {
+    font-size: 20px;
+    padding-right: 10px;
+    padding: 20px;
+  }
+  .final_score {
+    font-size: 20px;
+    color: red;
+  }
+  .current-score-box {
+    height: 80px;
+    width: 80px;
+    background: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 144px auto 61px;
+  }
+  .current-score-box .current-score-1,
+  .current-score-box .current-score-2 {
+    color: white;
+    padding-top: 6px;
+    font-size: 20px;
+  }
+  
+  .box1 div,
+  .box2 div {
+    display: flex;
+    align-items: center;
+  }
+  .new-game {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 40%;
+    color: darkred;
+    font-size: 20px;
+  }
+  .roll-dice {
+    color: darkred;
+    padding-bottom: 15px;
+    position: absolute;
+    font-size: 16px;
+    bottom: 100px;
+    left: 42%;
+    cursor: pointer;
+  }
+  
+  .hold {
+    position: absolute;
+    color: darkred;
+    cursor: pointer;
+    bottom: 80px;
+    left: 45%;
+    font-size: 16px;
+  }
+  .all-dice {
+    background: white;
+    height: 43px;
+    width: 45px;
+    position: absolute;
+    top: 41%;
+    left: 46%;
+    box-shadow: 1px 1px 4px;
+    padding: 10px;
+        /* display: none; */
+  }
+  
+  .dice1 {
+    /* display: none; */
+  
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+  }
+  .dice2 {
+    display: none;
+  
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    box-shadow: 25px 25px red;
+  }
+  .dice3 {
+    display: none;
+  
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    box-shadow: 14px 14px red, 30px 30px red;
+  }
+  .dice4 {
+    display: none;
+  
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    box-shadow: 28px 0px red, 0px 28px red, 28px 28px red;
+  }
+  .dice5 {
+    display: none;
+  
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    box-shadow: 28px 0px red, 0px 28px red, 28px 28px red, 14px 14px red;
+  }
+  .dice6 {
+    display: none;
+  
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    box-shadow: 28px 0px red, 0px 28px red, 28px 28px red, 0px 14px red,
+      28px 14px red;
+  }
+  
+  .head-container {
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 1.5;
+  }
+  
+  #inputType{
+        margin: auto;
+      display: flex;
+      padding: 10px;
+      margin-bottom: 14px;
+  }
+  .no_Text{
+    text-align: center;
+  }

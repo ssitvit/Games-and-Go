@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* CSS for main div handling User Interaction */
+.wordle-game {
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    /* background-color: #f7f7f7; */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif !important;
+    color: white;
+  }
+
+
+  .wordle-game-h1 {
+    font-size: 40px;
+    color:beige;
+  }
+
+  .wordle-game-paragraph {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .wordle-game-wordInput {
+    margin-bottom: 20px;
+    margin-top: 26px;
+    /* margin-left: 131px; */
+  }
+
+  input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid red;
+    border-radius: 5px;
+    outline: none;
+    /* margin-left: 37px; */
+  }
+
+  .wordle-game-submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+
+  .wordle-game-submit-btn:hover{
+    background-color: #3e8e41;
+  }
+  
+  .wordle-game-tooltip{
+    background-color: white;
+    color: black;
+  }
+
+/* Handling previous guesses container */
+  .previous-guesses{
+    text-align: center;
+    margin: 15px auto;
+    width: 50%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid red;
+    margin-bottom: 20px;
+  }
+
+
+  .previous-guesses-table{
+    width: 100%;
+    border-spacing: 10px;
+  }
+
+  .previous-guesses-table tr td {
+    font-size: 20px;
+    border: 2px solid black;
+    /* background-color: lightgreen; */
+  }
+
+  .previous-guesses-table-correctPosition{
+    background-color: lightgreen;
+  }
+
+  .previous-guesses-table-wrongPosition{
+    background-color: rgb(235, 235, 105);
+  }
+
+  .previous-guesses-table-missing{
+    background-color: lightcoral;
+  }
+  
+
+  /* Game won CSS */
+  .wordle-congratulations-message{
+    text-align: center;
+    color: lightgreen;
+    margin-top: 15%;
+  }
+  .wordle-congratulations-message p{
+    color: white;
+  }
+
+/* Game Lost CSS */
+  .wordle-gameLost-message{
+    text-align: center;
+    color: red;
+    margin-top: 15%;
+  }
+  .wordle-gameLost-message p{
+    /* text-align: center; */
+    color: white;
+    /* margin-top: 15%; */
+  }
+
+
+
+  /* Responsiveness */
+
+  @media (max-width:932px){
+    input[type="text"]{
+      width: 80%;
+      margin-bottom: 3%;
+    }
+
+    .wordle-game-h1{
+      font-size: 30px;
+    }
+
+    .wordle-game-paragraph{
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width:422px){
+    .wordle-game-submit-btn{
+      margin: 2%;
+      padding: 6px 12px;
+    }
+
+    input[type="text"]{
+      width: 100%;
+    }
+
+    .wordle-game-tooltip{
+      width: 25%;
+      font-size: 13px;
+    }
+
+    .previous-guesses-h2{
+      font-size: 17px;
+    }
+  }

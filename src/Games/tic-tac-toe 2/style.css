@@ -1,0 +1,288 @@
+/* --- Universal Box Sizing with Inheritance --- */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* blue: #55acee;
+  purple: #a186be;
+  white: #f5f5f5;
+  navy: #0d1021; */
+  
+  :root {
+    --cell-size: 90px;
+    --grid-gap: 12px;
+    --h1-font-size: 32px;
+    --h1-span-font-size: 24px;
+    --current-status-font-size: 24px;
+    --current-beast-img-height: 32px;
+    --winning-beast-img-width: 100px;
+    --winning-msg-font-size: 48px;
+    --reset-btn-font-size: 30px;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+  
+  @mixin mq( $size ) {
+    @if $size == tablet {
+      @media ( min-width: 600px ) { @content; }
+    } @else if $size == desktop {
+      @media ( min-width: 1024px ) { @content; }
+    }
+  }
+  
+  @mixin pseduo-div( $w, $h ) {
+    content: '';
+    width: $w;
+    height: $h;
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+  
+  @mixin align-center() {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+  }
+  
+  @include mq( tablet ) {
+    :root {
+      --cell-size: 155px;
+      --grid-gap: 15px;
+      --h1-font-size: 56px;
+      --h1-span-font-size: 40px;
+      --current-status-font-size: 36px;
+      --current-beast-img-height: 45px;
+    }
+  }
+  
+  @include mq( desktop ) {
+    :root {
+      --h1-font-size: 64px;
+      --h1-span-font-size: 48px;
+      --winning-msg-font-size: 72px;
+      --reset-btn-font-size: 48px;
+      --winning-beast-img-width: 150px;
+    }
+  }
+  
+  /* --- Styles --- */
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url( 'https://raw.githubusercontent.com/anniebombanie/tic-tac-toe/master/img/fantasy-bg.jpg' );
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+  }
+  
+  h1 {
+    position: relative;
+    max-width: 100%;
+    margin: 15px auto 5%;
+    text-align: center;
+    font-size: var( --h1-font-size );
+    text-shadow: 3px 3px blue;
+  
+    &::before,
+    &::after {
+      @include pseduo-div( null, null );
+      background-size: 100%;
+      top: 50%;
+      transform: translateY( -50% );
+    }
+  
+    &::before {
+      background-image: url( 'https://assets.codepen.io/2558758/fire.png' );
+      left: 0;
+      width: calc( 93px / 2.1 ) ;
+      height: calc( 96px / 2.1 );
+  
+      @include mq( desktop ) {
+        left: -64px;
+      }
+    }
+  
+    &::after {
+      background-image: url( 'https://assets.codepen.io/2558758/stars.png' );
+      right: 0;
+      width: calc( 91px / 2 );
+      height: calc( 88px / 2 );
+  
+      @include mq( desktop ) {
+        right: -64px;
+      }
+    }
+  
+    span {
+      display: block;
+      font-size: var( --h1-span-font-size );
+  
+      @include mq( desktop ) {
+        display: inline;
+      }
+    }
+  }
+  
+  h1,
+  p {
+    letter-spacing: 1px;
+  }
+  
+  .current-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  
+    @include mq( desktop ) {
+      margin-bottom: 35px;
+    }
+  
+    p {
+      margin: 0 5px 0 0;
+      font-size: var( --current-status-font-size );
+    }
+  
+    img {
+      width: auto;
+      height: var( --current-beast-img-height );
+    }
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat( 3, minmax( 90px, 1fr ));
+    grid-template-rows: repeat( 3, minmax( 90px, 1fr ));
+    grid-gap: var( --grid-gap );
+    width: 100%;
+    height: 100%;
+    max-width: 495px;
+    margin: 0 auto 15px;
+  
+    &.unicorn,
+    &.dragon {
+      .cell:not( .dragon ):not( .unicorn ):hover::before {
+        @include pseduo-div( 70%, 70% );
+        @include align-center();
+        background-size: contain;
+        opacity: 50%;
+      }
+    }
+  
+    &.unicorn {
+      .cell:not( .dragon ):hover::before {
+        background-image: url( 'https://assets.codepen.io/2558758/unicorn.png' );
+      }
+    }
+  
+    &.dragon {
+      .cell:not( .unicorn ):hover::before {
+        background-image: url( 'https://assets.codepen.io/2558758/dragon.png' );
+      }
+    }
+  }
+  
+  .cell {
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    width: var( --cell-size );
+    height: var( --cell-size );
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+  
+    &:hover {
+      opacity: 1;
+    }
+  
+    &.dragon,
+    &.unicorn {
+      opacity: 1;
+      position: relative;
+      cursor: not-allowed;
+  
+      &::before {
+        @include pseduo-div( 70%, 70% );
+        @include align-center();
+        background-size: contain;
+      }
+    }
+  
+    &.dragon::before {
+      background-image: url( 'https://assets.codepen.io/2558758/dragon.png' );
+    }
+  
+    &.unicorn::before {
+      background-image: url( 'https://assets.codepen.io/2558758/unicorn.png' );
+    }
+  }
+  
+  .game-end-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: navy;
+  
+    &.show {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  .winning-message {
+    margin: -50px 0 20px;
+  
+    img {
+      width: var( --winning-beast-img-width );
+    }
+  
+    p {
+      font-size: var( --winning-msg-font-size );
+      margin: 0;
+    }
+  }
+  
+  .btn-container {
+    position: relative;
+  }
+  
+  .reset-button {
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    font-size: var( --reset-btn-font-size );
+    white-space: nowrap;
+    border: none;
+    padding: 10px 20px;
+    background-color: purple;
+    box-shadow: 5px 5px 0 blue;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+    position: relative;
+  
+    &:hover {
+      transform: scale( 1.2 );
+    }
+  
+    &:active {
+      top: 6px;
+      left: 6px;
+      box-shadow: none;
+      background-color: darken( purple, 5 );
+    }
+  }
+  

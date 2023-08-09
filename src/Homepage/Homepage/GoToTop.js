@@ -58,17 +58,38 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
-    &--icon {
-      animation: gototop 1.2s linear infinite alternate-reverse;
+    animation: gototop 1.2s linear infinite alternate-reverse;
+    
+    &:hover{
+      opacity:80%;
+      box-shadow:2px 3px 4px rgba(0,0,0,0.5)
     }
+
+    &:hover::before {
+      content: "Top";
+      position: absolute;
+      top: -3rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.6rem;
+      color: #fff;
+    }
+  
+
+    // &--icon {
+    //   animation: gototop 1.2s linear infinite alternate-reverse;
+    // }
 
     @keyframes gototop {
       0% {
         transform: translateY(-0.5rem);
+        color:pink;
       }
       100% {
         transform: translateY(1rem);
+        color:#5252ff;
+        transform: translateY(0.5rem);
+
       }
     }
   }

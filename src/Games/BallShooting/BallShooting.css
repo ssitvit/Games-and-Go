@@ -1,0 +1,105 @@
+.BallShootingCanvas {
+  margin: auto;
+  max-width: 100%;
+}
+
+.BallShootingScore {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+.BallShootingStats h1 p {
+  color: black !important;
+}
+
+#modalEl {
+  position: absolute;
+  left: 37%;
+  top: 39%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .BallShootingCanvas {
+    min-height: 100%;
+    margin: auto;
+  }
+}
+/* modalEl responsiveness  */
+@media (max-width:778px) {
+    #modalEl{
+    position: absolute;
+    left: 29%;
+    top: 39%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+}
+@media (max-width:644px) {
+    #modalEl{
+    position: absolute;
+    left: 25%;
+    top: 39%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+}
+@media (max-width:550px) {
+    #modalEl{
+    position: absolute;
+    left: 20%;
+    top: 39%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+}
+@media (max-width:489px) {
+    #modalEl{
+    position: absolute;
+    left: 14%;
+    top: 39%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+}
+@media (max-width:442px) {
+    #modalEl{
+    position: absolute;
+    left: 8%;
+    top: 39%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+}
+@media (max-width:418px) {
+    #modalEl{
+      position: absolute;
+      left: 7%;
+      top: 32%;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      color: black;
+      padding: 5px;
+  }
+}
