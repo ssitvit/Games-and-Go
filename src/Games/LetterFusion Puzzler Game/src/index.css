@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+:root{
+  --rounded:5px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #02d4d9;
+}
+
+
+.formingWordLettersRecipient{
+  height: 55px;
+}
+
+.guessedWordsRecipient{
+  width: 250px;
+  min-height: 320px;
+  max-height: 320px;
+  overflow-y: scroll;
+  border-radius: var(--rounded);
+  border: 5px solid #6f92eb;
+}
+
+
+.guessedWord{
+  max-width: 100px ;
+  border-radius: var(--rounded);
+}
+
+.matchLetter{
+  width: 64px;
+  height: 64px;
+  border-radius: 60%;
+  border: 2px solid white;
+}
+
+.guessedWordRecipient{
+  width: 300px;
+  height: 60px;
+  border-radius: var(--rounded);
+}
+
+.letterDisabled, .btnDisabled{
+  opacity: 55%;
+}
+
+
+@media screen and (max-width:555px) {
+  .gameplaySection{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sectionA{
+    margin-right: 0px;
+  }
+
+  .sectionB{
+    margin-top: 10px;
+  }
+
+  .matchLettersRecipient{
+    margin:10px 0px;
+  }
+
+  .statsSection{
+    align-items: center;
+  }
+  .remainingClues{text-align: center;}
+  
+}
