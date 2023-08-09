@@ -659,10 +659,12 @@ input.search-input:hover {
   width: 205px;
   color: black;
   padding:13px;
+  border-radius: 1rem;
 }
 
 /* Style the back side */
 .flip-card-back {
+  border-radius: 1rem;
   background: #43434D;
   color: white;
   transform: rotateY(180deg);
