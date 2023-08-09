@@ -502,6 +502,7 @@ input.search-input:hover {
 }
  
 .container_card .card .content p {
+  font-family: math;
   font-size: 1em;
   font-weight: 900;
   color: #fff;
@@ -669,6 +670,7 @@ input.search-input:hover {
   background: #43434D;
   color: white;
   transform: rotateY(180deg);
+  font-family: math;
 }
 /* Styling steps */
 .step {
