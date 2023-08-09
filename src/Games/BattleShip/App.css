@@ -5,17 +5,28 @@
 
 h1{
   color: bisque;
+  text-align: center;
 }
 .stat{
   color: rgb(154, 85, 0);
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .App {
   margin-top: 30px;
   font-size: 18px;
+  font-family: math;
 }
-.btn-primary{
+.btn-primary {
   margin-top: 10px;
-
+  padding: 10px 20px;
+  background: white;
+  border-radius: 1rem;
+  font-weight:bold;
+  border: 1px solid black;
+  margin-bottom: 2rem;
 }
 
 h2 {
