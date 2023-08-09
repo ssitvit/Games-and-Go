@@ -133,6 +133,7 @@ body {
 }
 
 .about-section h2 {
+  margin-top: 1rem;
   font-size: 36px;
   margin-bottom: 14px;
   color: #bbb068;
