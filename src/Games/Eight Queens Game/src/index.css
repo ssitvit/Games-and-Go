@@ -1,0 +1,7 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif, "Helvetica Neue";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
