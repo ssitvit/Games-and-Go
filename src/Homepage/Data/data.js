@@ -393,5 +393,15 @@ export const data1 = [
       step2: "2. If reaches to the correct answer in 10 choices, you win !!",
       step3: "3. Enjoy the game",
 
-    }
+    },
+  {
+    serial_number: "36",
+    main_heading: "Matching the Magic",
+    about: "Lets see can you match with the magic",
+    link: "/Matching_Magic",
+    rule_heading: "Rules to play",
+    step1: "1. Shuffle and arrange face-down cards in a grid.",
+    step2: "2. Players take turns flipping two cards.",
+    step3: "3. Matched pairs stay up, find all pairs to win."
+  }
 ];
