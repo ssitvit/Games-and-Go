@@ -12,6 +12,7 @@
   box-sizing: border-box;
 }
 body {
+  background: black !important;
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -36,6 +37,7 @@ body {
   outline: 15px groove purple;
   overflow: hidden;
   position: relative;
+  border-radius: 30px;
 }
 
 .pacman {
@@ -131,15 +133,23 @@ body {
 }
 
 .about-section h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
+  margin-top: 1rem;
+  font-size: 36px;
+  margin-bottom: 14px;
   color: #bbb068;
+  text-align: center;
+  font-family: 'Silkscreen';
 }
-
 .about-section p {
   font-size: 16px;
   line-height: 1.5;
   color: #cccab2;
+  width: 82%;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: math;
 }
 .container_landing > div.ghost:nth-of-type(2) {
   background: red;
@@ -255,20 +265,45 @@ body {
     letter-spacing: 3px;
   }
 }
+
+.search-section
+{
+  position: relative;
+  height: 50px;
+  max-width: 450px;
+  margin-bottom: 40px;
+  margin-top: -35px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 18px 25px rgba(0,0,0,0.25);
+}
+
 /* Search input  */
 .search-input {
-  margin: -50px auto;
-  width: 40%;
-  padding: 10px 10px;
-  margin-bottom: 50px;
-  font-size: 26px;
-  display: flex;
-  justify-content: center;
-  top: 30px;
-  border: 3px solid rgb(136, 53, 136);
-  box-shadow: 5px 5px 7px rgb(255, 198, 255);
+  position: absolute;
+  height: 100%;
+  width: 100%;
   border-radius: 10px;
+  background: none;
+  border: 2px solid purple;
+  padding-left: 20px;
+  box-shadow: 1px 1px mediumpurple;
+  font-size: 23px;
 }
+
+.search-icon{
+  position: absolute;
+  right: -23px;
+  top: 7px;
+  width: 60px;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+  color: #9E9E9E;
+  font-size: 20px;
+}
+
+
 input.search-input:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -409,7 +444,7 @@ input.search-input:hover {
   min-height: 50vh;
   width: 100%;
   background: #161623;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .container_card {
@@ -420,6 +455,7 @@ input.search-input:hover {
   max-width: 1200px;
   flex-wrap: wrap;
   z-index: 1;
+  padding: 4.2rem 0;
 }
 
 .container_card .card {
@@ -427,13 +463,12 @@ input.search-input:hover {
   width: 280px;
   height: 400px;
   margin: 30px;
-  box-shadow: 0px 0px 10px rgba(254, 254, 254, 0.5);
   box-shadow: 2px 2px 15px rgba(254, 254, 254, 0.5);
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid;
+  border-color: hsla(0,0%,100%,.5) #0000 #0000 hsla(0,0%,100%,.5);
   transition: 250ms;
 }
 
@@ -468,9 +503,11 @@ input.search-input:hover {
 }
  
 .container_card .card .content p {
+  font-family: math;
   font-size: 1em;
   font-weight: 900;
   color: #fff;
+  text-align: center;
 }
 
 .container_card .card .content a {
@@ -478,21 +515,16 @@ input.search-input:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem;
   margin-bottom: 3rem;
-  background: #cfcfcf;
-  color: #000;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 400;
+  border-radius: 50px;
+  margin-top: -1rem;
   font-family: "Press Start 2P", cursive;
   box-shadow: 2px 2px 10px rgb(149, 149, 149);
   transition: background-color 0.3s ease;
 }
 
 .container_card .card .content a:hover {
-  background-color: gold;
-  box-shadow: 2px 2px 10px gold;
+  box-shadow: 2px 2px 10px rgb(118, 215, 91);
   color: #000;
 }
 
@@ -522,6 +554,8 @@ input.search-input:hover {
 .header_homepage h1 {
   font-size: 3.5rem;
   width: 100%;
+  margin-top: 5rem;
+  color: #6d8b38;
 }
 .music-btn {
   text-align: center;
@@ -566,10 +600,18 @@ input.search-input:hover {
   text-align: center;
 }
 .social-icons{
+  margin-top: 10px;
   cursor: pointer;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  margin-bottom: 40px;
+}
+
+
+.social-icons a i{
+  margin-right: 60px;
+ font-size: 50px;
+ color: #000;
 }
 
 .copyright h3{
@@ -616,22 +658,25 @@ input.search-input:hover {
 
 /* Style the front side  */
 .flip-card-front {
-  background-color:  rgba(255, 255, 255, 0.1);
+  background: #43434D;
   width: 205px;
   color: black;
   padding:13px;
+  border-radius: 1rem;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color:  rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  background: #43434D;
   color: white;
   transform: rotateY(180deg);
+  font-family: math;
 }
 /* Styling steps */
 .step {
   
-  font-size:12px;
+  font-size:14px;
   margin:5px;
   padding:5px;
 }
@@ -641,4 +686,31 @@ input.search-input:hover {
   font-size:20px;
   margin-top:10px;
   margin-bottom:20px;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border-width: 0 !important;
+}
+
+.copyright h3 {
+  color: #96969c !important;
+}
+
+.social-icons a i {
+  color: #96969c !important;
+}
+
+.header_homepage h1 {
+  font-size: 3.5rem;
+  width: 100%;
+  color: white;
+  background: none;
 }

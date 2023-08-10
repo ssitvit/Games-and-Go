@@ -1,13 +1,15 @@
+body {
+  font-family: math;
+}
 .imported-text {
   font-size: medium;
   font-weight: 500;
-  color: white;
-  text-align: center;
-  padding-bottom: 20px;
   padding: 20px;
   line-height: normal;
   position: relative;
+  width: 65%;
+  margin: auto;
+  text-align: justify;
+  color: azure;
 }
-
-
 

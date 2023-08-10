@@ -9,10 +9,27 @@
 
  ---
  
- ### OPEN SOURCE CONTRIBUTIONS!!  
-<p align="center">
-    <img src="https://miro.medium.com/max/1400/1*fqJaH_oISOR96gLgpJBwWQ.png" />
-</p>
+ ## OPEN SOURCE CONTRIBUTIONS 🎉 !!  
+ 
+<div align="center">
+	
+  <picture>
+    <source 
+	    media="(prefers-color-scheme: light)" 
+	    srcset="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png"
+    >
+    <source 
+	    media="(prefers-color-scheme: dark)" 
+	    srcset="https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png"
+    >
+    <img 
+	    alt="Girlscript Summer of Code" 
+	    width=80% 
+	    src="https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png"
+    >
+  </picture>
+  
+</div>
 
 ---
 
@@ -44,19 +61,21 @@
 
 <div align="center">
 	<br>
-<a href="https://github.com/ssitvit/Games-and-Go/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
-<a href="https://github.com/ssitvit/Games-and-Go/"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
-<a href="https://github.com/ssitvit/Games-and-Go/"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
-<a href="https://github.com/Amit366/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
-<a href="https://github.com/Tech-N-Science/FunwithScience/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?v=103"></a>
 
-<a href="https://github.com/ssitvit/Games-and-Go/contributors"><img src="https://img.shields.io/github/contributors/ssitvit/Games-and-Go?color=brightgreen"></a>
-<a href="https://github.com/ssitvit/Games-and-Go/stargazers"><img src="https://img.shields.io/github/stars/ssitvit/Games-and-Go?color=0059b3"></a>
-<a href="https://github.com/ssitvit/Games-and-Go/network/members"><img src="https://img.shields.io/github/forks/ssitvit/Games-and-Go?color=yellow"></a>
-<a href="https://github.com/ssitvit/Games-and-Go/issues"><img src="https://img.shields.io/github/issues/ssitvit/Games-and-Go?color=0059b3"></a>
-<a href="https://github.com/ssitvit/Games-and-Go/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/ssitvit/Games-and-Go?color=yellow"></a>
-<a href="https://github.com/ssitvit/Games-and-Go/pulls"><img src="https://img.shields.io/github/issues-pr/ssitvit/Games-and-Go?color=brightgreen"></a>
-<a href="https://github.com/ssitvit/Games-and-Go/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/ssitvit/Games-and-Go?color=0059b3"></a>
+<div align="center">
+  <br>
+	
+  <img src="https://img.shields.io/github/repo-size/ssitvit/Games-and-Go?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/ssitvit/Games-and-Go?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-closed-raw/ssitvit/Games-and-Go?style=for-the-badge" />
+    <img src="https://img.shields.io/github/last-commit/ssitvit/Games-and-Go?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-pr/ssitvit/Games-and-Go?style=for-the-badge" />
+    <img src="https://img.shields.io/github/issues-pr-closed-raw/ssitvit/Games-and-Go?style=for-the-badge" />
+    <img src="https://img.shields.io/github/forks/ssitvit/Games-and-Go?style=for-the-badge" />
+    <img src="https://img.shields.io/github/stars/ssitvit/Games-and-Go?style=for-the-badge" />
+    <img src="https://img.shields.io/github/contributors-anon/ssitvit/Games-and-Go?style=for-the-badge" />
+
+</div>
 
 </div>
 
@@ -64,7 +83,7 @@
 ### Tech Used 🦾
 ---
 
-<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="React" src="https://img.shields.io/badge/react%20-%23323330.svg?&style=for-the-badge&logo=react&logoColor=%#61DBFB"/> <img alt="Bootstrap**" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/> 
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/></a> <a href="https://react.dev/"><img alt="React" src="https://img.shields.io/badge/react%20-%23323330.svg?&style=for-the-badge&logo=react&logoColor=%#61DBFB"/></a> <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"><img alt="Bootstrap**" src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/></a>
 
 
 ### Our Team 👑
@@ -114,30 +133,55 @@ We welcome contributions from anyone who is interested in improving this project
 To submit a pull request, please follow these steps:
 
 1. Fork this repository.
+
 2. Clone the forked repository.
 ```css
 git clone https://github.com/<your-github-username>/Games-and-Go
 ```
+
 3. Navigate to the project directory.
 ```py
 cd Games-and-Go
 ```
-4. Create a new branch.
+4. Add a refernce(remote) to the original repository.
+```bash
+git remote add upstream https://github.com/ssitvit/Games-and-Go.git
+```
+
+5. Check remotes for this repository.
+```bash
+git remote -v
+```
+
+6. Always take a pull from the main upstream repository.
+```bash
+git pull upstream main
+```
+
+7. Create a new branch.
 ```css
 git checkout -b <your_branch_name>
 ```
-5. Make changes.
-6. Stage your changes and commit
+8. Make changes to the code base.
+
+9. Stage your changes.
 ```css
 git add -A
-git commit -m "<your_commit_message>"
 ```
-7. Push your local commits to the remote repo.
+
+10. Commit your changes.
+```
+git commit -m "relevant message"
+```
+
+11. Push your local commits to the remote repo.
 ```css
 git push -u origin <your_branch_name>
 ```
-6. Create a pull request from your branch to the original repository.
-7. Congratulations! 🎉 you've made your contribution.
+
+12. Create a pull request from your branch to the original repository.
+
+13. Congratulations! 🎉 you've made your contribution.
 <br>
 At last after successfully submitting a pull request you can view your work live at <a href="https://games.ieeessitvit.tech/">SSIT LIVE </a>
 
@@ -152,10 +196,17 @@ If you're interested in working on any of the issues, please let us know by subm
 
 Contributors are expected to adhere to the following [Code of Conduct](https://github.com/ssitvit/Games-and-Go/blob/main/CODE_OF_CONDUCT.md) to ensure a positive and inclusive environment for collaboration
 	
-If you want to get free **T-shirt,Swags** like **developers** then contribute and grow this repository with us, make sure to check out Contributing.md for contribution guidelines and add your name in the Readme.md and Contributors.md.  <br/>
+If you want to get free **T-shirt,Swags** like **developers** then contribute and grow this repository with us, make sure to check out [Contributing.md](https://github.com/ssitvit/Games-and-Go/blob/main/Contributing.md) for contribution guidelines and add your name in the [Readme.md](https://github.com/ssitvit/Games-and-Go#readme) and [Contributors.md](https://github.com/ssitvit/Games-and-Go/blob/main/Contributors.md)  <br/>
 </p>
 <BR>
 <!--  Contributors Section-->
+
+##  ✨ Thank You for Your Contribution!
+
+Thanks a lot for spending your time helping Games-and-Go grow. Thanks a lot! Keep rocking 🍻
+<p>
+  <img src="https://api.vaunt.dev/v1/github/entities/ssitvit/repositories/Games-and-Go/contributors?format=svg&limit=54" width="600" height"250" />
+</p>
 <h2 align="center">Our Contributors 🌱</h2>
 <p align="center">
   <a href="https://github.com/ssitvit/Games-and-Go/graphs/contributors">
@@ -212,3 +263,4 @@ git push -u origin <your_branch_name>
 <a href="https://gssoc.girlscript.tech/"><img src="https://repository-images.githubusercontent.com/331823142/9764a900-5c8e-11eb-9f94-da2a01385e83" width="10%"/></a>
 </div>
 <h2 align="center">Happy Contributing!🎉</h2>
+<h2 align="center">Thank you</h2>

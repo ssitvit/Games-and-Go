@@ -1,0 +1,16 @@
+nav 
+{
+    background-color: #7eb4b8;
+    border-bottom: #7eb4b8 4px solid;
+    width: 100%;
+    padding: 2em;
+    display: block;
+    height: 2em;
+}
+
+h1 
+{
+    font-size: 2em;
+    display: inline-block;
+    padding-left: 1em;
+}

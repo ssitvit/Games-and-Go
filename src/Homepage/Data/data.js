@@ -116,7 +116,7 @@ export const data1 = [
   },
   {
     serial_number: "11",
-    main_heading: "Dice Throw",
+    main_heading: "roll dice",
     about: "Roll the dice and achieve a target ",
     link_game: "/DiceThrow",
     // Flip-card-back contents
@@ -293,6 +293,115 @@ export const data1 = [
     step1: "1. Use forward and backward arrow to run the dino.",
     step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
     step3: "3. If dino comes in contact with dragon then game over.",
+  },  
+  {
+    serial_number: "27",
+    main_heading: "Pong Game",
+    about: "Use paddles to drive the volley towards your opponent back and forth",
+    link_game: "/Pong_Game",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Being a multiplayer game, the player 1 playes through arrow keys, while player 2 playes through secondary arrows(w-a-s-d)",
+    step2: "2. Both players try to score more and more and play consistently till one of them gives up.",
+    step3: "3. The one who survives till end wins.",
   },
-  
+  {
+    serial_number: "28",
+
+    main_heading: "Falling Ball Game",
+    about: "Make ball move to save it from crashing with the wall.",
+    link_game: "/FallingBall",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Use the left and right arrow keys on your keyboard to move the the ball horizontally.",
+    step2: "2. The goal is to avoid colliding with the falling blocks. If the ball collides with a block, the game is over.",
+    step3: "3. Try to survive as long as possible and score points by avoiding the blocks. The longer you survive, the higher your score will be.",
+  },
+  {
+    serial_number: "29",
+    main_heading: "Memory Matching Game",
+    about: "Use your cursor to select the matching cards.",
+    link_game: "/MemoryGame",
+    // Flip-card-back contents
+    rule_heading: "Rules to play",
+    step1: "1. Try to remember the logo on card and try to match it with similar card.",
+    step2: "2. Match the card as fast as possible.",
+    step3: "3. Enjoy the game.",
+  },
+    {
+      serial_number: "30",
+      main_heading: "2048",
+      about: "Use top, bottom, left and right arrow keys to move the tiles.",
+      link_game: "/MindGame_2048",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. The game starts with a tile numbered '2'. ",
+      step2: "2. Use the top, bottom, left and right arrow keys to move the tiles.",
+      step3: "3. Boost your brain to win the game.",
+    },
+    {
+      serial_number: "31",
+      main_heading: "Retro Flappy Bird Game",
+      about: "Use the Mouse Left Key to Play",
+      link_game: "/RetroFlappyBirdGame",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. The game starts with a bird. ",
+      step2: "2. Use the Mouse Left Key to save the bird from obstacles.",
+      step3: "3. Dodge the obstacles, lastly enjoy this classic game.",
+    },
+    {
+  serial_number: "32",
+      main_heading: "Dice Throw",
+      about: "Use refresh button to play the game",
+      link_game: "/Dice-Throw",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. press the refresh button",
+       step2: "2. you have the winner"
+    },
+    {
+      serial_number: "33",
+      main_heading: "word Scramble",
+      about: "Use keyboard to play the game",
+      link_game: "/wordScramble",
+       // Flip-card-back contents
+       rule_heading: "Rules to play",
+       step1: "1. Type in your guess.",
+       step2: "2. Get three correct words and level will increase. Get a word wrong three times and game will restart.",
+       step3: "3. Finish level 3 and you win.",
+    },
+    {
+      serial_number: "34",
+      main_heading: "Fifteen Puzzle Game",
+      about: "A simple puzzle game just move several blocks and make the picture clear.",
+      link_game: "/Fifteen_Game",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Use arrow keys or press the position around the blank block.",
+      step2: "2. Move items and arrange the blocks to make a clear and concise game.",
+      step3: "3. If picture will be completed, game will be over.",
+    },
+    {
+      serial_number: "35",
+      main_heading: "Guess The Number",
+      about: "Guess the number with-in 10 chances.",
+      link_game: "/Guess_The_Number",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. Enter the number accordingly as it's high or low.",
+      step2: "2. If reaches to the correct answer in 10 choices, you win !!",
+      step3: "3. Enjoy the game",
+
+    },
+  {
+    serial_number: "36",
+    main_heading: "Matching the Magic",
+    about: "Lets see can you match with the magic",
+    link: "/Matching_Magic",
+    rule_heading: "Rules to play",
+    step1: "1. Shuffle and arrange face-down cards in a grid.",
+    step2: "2. Players take turns flipping two cards.",
+    step3: "3. Matched pairs stay up, find all pairs to win."
+  }
 ];

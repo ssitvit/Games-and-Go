@@ -1,3 +1,6 @@
+body{
+  font-family: math;
+}
 .App {
   text-align: center;
 }
@@ -34,11 +37,12 @@
 }
 .Paddle {
   position: absolute;
-  border: 1px solid rgb(255, 0, 0);
+  border: none;
   border-radius: 10px;
   width: 100px;
   height: 15px;
-  background-color: white;
+  background-color: #3e0f0f !important;
+  top: 300px !important;
 }
 .Ball {
   position: absolute;
@@ -48,4 +52,38 @@
   position: absolute;
   border: 1px solid black;
   background-color: white;
+}
+.Text {
+  margin-top: 350px !important;
+}
+button.Button {
+  margin-top: 9rem;
+  background: none;
+  color: white;
+  padding: 12px 30px;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  font-size: 1.3rem !important;
+  font-family: math;
+}
+.Signature {
+  top: 408px !important;
+  left: 409px !important;
+  color: cadetblue !important;
+}
+.Score {
+  top: 410px !important;
+  left: 216px !important;
+  color: cadetblue !important;
+}
+.Text {
+  letter-spacing: -3px !important;
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  width: 100%;
+  font-size: 60px !important;
+  display: inline-block !important;
+  font-weight: bold !important;
+  color: #7594a3 !important;
 }

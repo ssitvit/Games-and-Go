@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="UTF-8"> 
+<head>
+	<title>Reunion</title>
+	<style>
+		#canvas {
+	    position: fixed;
+	    top:0px;
+	    bottom: 0px;
+	    left: 0px;
+	    right: 0px;
+	    margin:auto;
+	    border: 5px solid #fff;
+		}
+		body{ 
+			position: relative;
+			background-color: #9E9E9E ;
+		    -webkit-touch-callout: none;
+	        -webkit-user-select: none;
+	        -khtml-user-select: none;
+	        -moz-user-select: moz-none;
+	        -ms-user-select: none;
+	        user-select: none }
+		p {
+			display: block;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			margin-left: 2em;
+			margin-right: 0;
+			font-size: 14pt;
+			font-family: "Times";
+		}
+	</style>
+</head>
+<body>
+	<p align="left" style="color:#CFD8DC"> <br> <br> <br> <br>Instructions:<br>
+	1. Yor aim is to build the road to help to reunite <br>
+		two lost friends.<br><br>
+	2. You have to build the road with <br>
+	   falling Pieces.<br><br>
+	3. Press T, I, L, J, O to get pieces of<br>
+	   T, I, L, J, O shaped weach time.<br><br>
+	4. You can get whichever piece you need to <br>
+	   complete the road. <br><br>
+	5. If you are stuck, <br>
+	   press R to reset the level.<br></p>
+	<canvas id = "canvas" width = "480" height = "640" moz-opaque></canvas>
+	<script src = "game.js"></script>
+	<script src = "puzzle.js"></script>
+</body>
+</html>
+
