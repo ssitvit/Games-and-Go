@@ -1,9 +1,11 @@
 /* Googe fonts imported */
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
+
 :root {
   --move: 5s linear forwards;
 }
+
 /* CSS applied to all */
 *::before,
 *::after {
@@ -11,6 +13,7 @@
   position: absolute;
   box-sizing: border-box;
 }
+
 body {
   background: black !important;
   width: 100%;
@@ -23,6 +26,7 @@ body {
   /* overflow-x: hidden; */
   background-color: #161623;
 }
+
 /* Pacman landing page container */
 .container_landing {
   width: 100%;
@@ -53,12 +57,10 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: conic-gradient(
-    gold 10%,
-    transparent 10%,
-    transparent 40%,
-    gold 40%
-  );
+  background: conic-gradient(gold 10%,
+      transparent 10%,
+      transparent 40%,
+      gold 40%);
   animation: mouth 1s linear infinite;
 }
 
@@ -66,12 +68,10 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: conic-gradient(
-    gold 10%,
-    transparent 10%,
-    transparent 40%,
-    gold 40%
-  );
+  background: conic-gradient(gold 10%,
+      transparent 10%,
+      transparent 40%,
+      gold 40%);
   animation: mouth2 1s linear infinite;
 }
 
@@ -83,23 +83,22 @@ body {
   height: 125px;
   position: absolute;
   border-radius: 50% 50% 0 0;
-  clip-path: polygon(
-    0 100%,
-    20% 80%,
-    35% 100%,
-    50% 80%,
-    65% 100%,
-    80% 80%,
-    100% 100%,
-    100% 0,
-    0 0,
-    0 100%
-  );
+  clip-path: polygon(0 100%,
+      20% 80%,
+      35% 100%,
+      50% 80%,
+      65% 100%,
+      80% 80%,
+      100% 100%,
+      100% 0,
+      0 0,
+      0 100%);
   box-shadow: inset 5px -5px 50px 0 rgba(0, 0, 0, 0.5);
   animation: move1 var(--move), move2 var(--move) 6s,
     scared 0.125s linear forwards 6s;
   left: 200px;
 }
+
 .ghost::before {
   z-index: 3;
   width: 25px;
@@ -110,6 +109,7 @@ body {
   top: 40px;
   box-shadow: -40px 0 0 1px white;
 }
+
 .ghost::after {
   z-index: 3;
   width: 8px;
@@ -121,6 +121,7 @@ body {
   box-shadow: -40px 0 0 1px black;
   animation: scared2 0.125s linear forwards 6s;
 }
+
 .about-section {
   border-radius: 30px;
   margin-top: 100px;
@@ -129,7 +130,7 @@ body {
   outline: 10px groove purple;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow:15px 15px 10px #bbb068;
+  box-shadow: 15px 15px 10px #bbb068;
 }
 
 .about-section h2 {
@@ -140,6 +141,7 @@ body {
   text-align: center;
   font-family: 'Silkscreen';
 }
+
 .about-section p {
   font-size: 16px;
   line-height: 1.5;
@@ -151,26 +153,32 @@ body {
   text-align: center;
   font-family: math;
 }
-.container_landing > div.ghost:nth-of-type(2) {
+
+.container_landing>div.ghost:nth-of-type(2) {
   background: red;
 }
-.container_landing > div.ghost:nth-of-type(3) {
+
+.container_landing>div.ghost:nth-of-type(3) {
   background: cyan;
   margin: 0 -130px;
 }
-.container_landing > div.ghost:nth-of-type(4) {
+
+.container_landing>div.ghost:nth-of-type(4) {
   background: pink;
   margin: 0 -260px;
 }
-.container_landing > div.ghost:nth-of-type(5) {
+
+.container_landing>div.ghost:nth-of-type(5) {
   background: orange;
   margin: 0 -390px;
 }
+
 /* text */
 .text {
   position: relative;
   text-align: center;
 }
+
 .text::before {
   content: "IEEE-SSIT";
   position: relative;
@@ -184,6 +192,7 @@ body {
   letter-spacing: 3px;
   animation: change 0.125s linear forwards 5s, hue 1s linear infinite 9s;
 }
+
 .text::after {
   width: 0;
   height: 100px;
@@ -198,29 +207,36 @@ body {
   0% {
     transform: rotatez(90deg);
   }
+
   50% {
     transform: rotatez(-90deg);
   }
+
   100% {
     transform: rotatez(90deg);
   }
 }
+
 @keyframes mouth2 {
   0% {
     transform: rotatez(-90deg);
   }
+
   50% {
     transform: rotatez(90deg);
   }
+
   100% {
     transform: rotatez(-90deg);
   }
 }
+
 @keyframes scared {
   100% {
     background: cornflowerblue;
   }
 }
+
 @keyframes scared2 {
   100% {
     width: 50px;
@@ -230,27 +246,27 @@ body {
     top: 65px;
     box-shadow: none;
     border-radius: 0;
-    clip-path: polygon(
-      0 25%,
-      10% 100%,
-      30% 50%,
-      50% 100%,
-      70% 50%,
-      90% 100%,
-      100% 25%,
-      90% 75%,
-      70% 25%,
-      50% 75%,
-      30% 25%,
-      10% 75%,
-      0 25%
-    );
+    clip-path: polygon(0 25%,
+        10% 100%,
+        30% 50%,
+        50% 100%,
+        70% 50%,
+        90% 100%,
+        100% 25%,
+        90% 75%,
+        70% 25%,
+        50% 75%,
+        30% 25%,
+        10% 75%,
+        0 25%);
   }
 }
+
 @keyframes change {
   from {
     content: "IEEE SSIT";
   }
+
   to {
     content: "Games and Go";
     font-family: arial;
@@ -266,8 +282,7 @@ body {
   }
 }
 
-.search-section
-{
+.search-section {
   position: relative;
   height: 50px;
   max-width: 450px;
@@ -275,7 +290,7 @@ body {
   margin-top: -35px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 18px 25px rgba(0,0,0,0.25);
+  box-shadow: 0 18px 25px rgba(0, 0, 0, 0.25);
 }
 
 /* Search input  */
@@ -291,7 +306,11 @@ body {
   font-size: 23px;
 }
 
-.search-icon{
+::placeholder {
+  color: white;
+}
+
+.search-icon {
   position: absolute;
   right: -23px;
   top: 7px;
@@ -299,7 +318,7 @@ body {
   height: 100%;
   text-align: center;
   line-height: 50px;
-  color: #9E9E9E;
+  color: white;
   font-size: 20px;
 }
 
@@ -313,34 +332,42 @@ input.search-input:hover {
     filter: hue-rotate(360deg);
   }
 }
+
 @keyframes wipe {
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }
 }
+
 @keyframes wipe2 {
   0% {
     width: 100%;
   }
+
   100% {
     width: 0;
   }
 }
+
 @keyframes move1 {
   from {
     transform: rotatey(0) translatex(-1000px);
   }
+
   to {
     transform: rotatey(0) translatex(1000px);
   }
 }
+
 @keyframes move2 {
   from {
     transform: rotatey(180deg) translatex(-1000px);
   }
+
   to {
     transform: rotatey(180deg) translatex(1000px);
   }
@@ -348,7 +375,7 @@ input.search-input:hover {
 
 /* Add media query for devices with width less than or equal to 576px */
 /* This will make animation responsive in smaller devices*/
-@media screen and (max-width: 576px ) {
+@media screen and (max-width: 576px) {
   .pacman {
     height: 120px;
     width: 120px;
@@ -360,19 +387,19 @@ input.search-input:hover {
     left: -50px;
   }
 
-  .container_landing > div.ghost:nth-of-type(2) {
+  .container_landing>div.ghost:nth-of-type(2) {
     margin: 0 -100px;
   }
 
-  .container_landing > div.ghost:nth-of-type(3) {
+  .container_landing>div.ghost:nth-of-type(3) {
     margin: 0 -225px;
   }
 
-  .container_landing > div.ghost:nth-of-type(4) {
+  .container_landing>div.ghost:nth-of-type(4) {
     margin: 0 -350px;
   }
 
-  .container_landing > div.ghost:nth-of-type(5) {
+  .container_landing>div.ghost:nth-of-type(5) {
     margin: 0 -475px;
   }
 }
@@ -390,19 +417,19 @@ input.search-input:hover {
     left: 50px;
   }
 
-  .container_landing > div.ghost:nth-of-type(2) {
+  .container_landing>div.ghost:nth-of-type(2) {
     margin: 0 -100px;
   }
 
-  .container_landing > div.ghost:nth-of-type(3) {
+  .container_landing>div.ghost:nth-of-type(3) {
     margin: 0 -225px;
   }
 
-  .container_landing > div.ghost:nth-of-type(4) {
+  .container_landing>div.ghost:nth-of-type(4) {
     margin: 0 -350px;
   }
 
-  .container_landing > div.ghost:nth-of-type(5) {
+  .container_landing>div.ghost:nth-of-type(5) {
     margin: 0 -475px;
   }
 }
@@ -468,7 +495,7 @@ input.search-input:hover {
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
   border: 1px solid;
-  border-color: hsla(0,0%,100%,.5) #0000 #0000 hsla(0,0%,100%,.5);
+  border-color: hsla(0, 0%, 100%, .5) #0000 #0000 hsla(0, 0%, 100%, .5);
   transition: 250ms;
 }
 
@@ -501,7 +528,7 @@ input.search-input:hover {
   margin-bottom: 1rem;
   line-height: 2rem;
 }
- 
+
 .container_card .card .content p {
   font-family: math;
   font-size: 1em;
@@ -530,8 +557,7 @@ input.search-input:hover {
 
 @font-face {
   font-family: retrogamer;
-  src: url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.woff2")
-    format("woff2");
+  src: url("https://db.onlinewebfonts.com/t/4c19fc875e7ba1e6831129de3ab5ac0b.woff2") format("woff2");
 }
 
 /* Heading in Homepage Game on!! */
@@ -551,12 +577,14 @@ input.search-input:hover {
   margin-top: 45px;
   margin-bottom: 65px;
 }
+
 .header_homepage h1 {
   font-size: 3.5rem;
   width: 100%;
   margin-top: 5rem;
   color: #6d8b38;
 }
+
 .music-btn {
   text-align: center;
   font-size: 1.1em;
@@ -565,30 +593,31 @@ input.search-input:hover {
 
   font-family: "Press Start 2P", cursive;
 }
+
 /* Custom Scrollbar*/
 
 /* width */
-::-webkit-scrollbar{
-    width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track{
-    background: #585756;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb{
-    background: #ffffff;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover{
-    background: #adabab;
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #585756;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #adabab;
 }
 
 /* Copyright in Footer */
-.copyright{
+.copyright {
   flex-direction: column;
   margin: auto;
   width: 80%;
@@ -599,7 +628,8 @@ input.search-input:hover {
   top: 30px;
   text-align: center;
 }
-.social-icons{
+
+.social-icons {
   margin-top: 10px;
   cursor: pointer;
   display: flex;
@@ -608,13 +638,13 @@ input.search-input:hover {
 }
 
 
-.social-icons a i{
+.social-icons a i {
   margin-right: 60px;
- font-size: 50px;
- color: #000;
+  font-size: 50px;
+  color: #000;
 }
 
-.copyright h3{
+.copyright h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   margin-top: 20px;
@@ -629,7 +659,8 @@ input.search-input:hover {
   width: 242px;
   height: 200px;
   /* border: 1px solid #201818; */
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
@@ -648,11 +679,12 @@ input.search-input:hover {
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
-    height: 100%; 
-  -webkit-backface-visibility: hidden; 
+  height: 100%;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -661,7 +693,7 @@ input.search-input:hover {
   background: #43434D;
   width: 205px;
   color: black;
-  padding:13px;
+  padding: 13px;
   border-radius: 1rem;
 }
 
@@ -673,19 +705,21 @@ input.search-input:hover {
   transform: rotateY(180deg);
   font-family: math;
 }
+
 /* Styling steps */
 .step {
-  
-  font-size:14px;
-  margin:5px;
-  padding:5px;
+
+  font-size: 14px;
+  margin: 5px;
+  padding: 5px;
 }
+
 /* Styling heading */
-.rule_heading{
- 
-  font-size:20px;
-  margin-top:10px;
-  margin-bottom:20px;
+.rule_heading {
+
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .sr-only {
