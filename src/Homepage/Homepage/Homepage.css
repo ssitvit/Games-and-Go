@@ -133,21 +133,23 @@ body {
 }
 
 .about-section h2 {
+  margin-top: 1rem;
   font-size: 36px;
   margin-bottom: 14px;
   color: #bbb068;
   text-align: center;
+  font-family: 'Silkscreen';
 }
 .about-section p {
   font-size: 16px;
   line-height: 1.5;
   color: #cccab2;
-  width: 80%;
+  width: 82%;
   margin: auto;
   text-align: justify;
   margin-bottom: 8px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: math;
 }
 .container_landing > div.ghost:nth-of-type(2) {
   background: red;
@@ -501,6 +503,7 @@ input.search-input:hover {
 }
  
 .container_card .card .content p {
+  font-family: math;
   font-size: 1em;
   font-weight: 900;
   color: #fff;
@@ -659,13 +662,16 @@ input.search-input:hover {
   width: 205px;
   color: black;
   padding:13px;
+  border-radius: 1rem;
 }
 
 /* Style the back side */
 .flip-card-back {
+  border-radius: 1rem;
   background: #43434D;
   color: white;
   transform: rotateY(180deg);
+  font-family: math;
 }
 /* Styling steps */
 .step {
@@ -706,4 +712,5 @@ input.search-input:hover {
   font-size: 3.5rem;
   width: 100%;
   color: white;
+  background: none;
 }

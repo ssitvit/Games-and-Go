@@ -293,7 +293,7 @@ export const data1 = [
     step1: "1. Use forward and backward arrow to run the dino.",
     step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
     step3: "3. If dino comes in contact with dragon then game over.",
-  },
+  },  
   {
     serial_number: "27",
     main_heading: "Pong Game",
@@ -341,6 +341,17 @@ export const data1 = [
     },
     {
       serial_number: "31",
+      main_heading: "Retro Flappy Bird Game",
+      about: "Use the Mouse Left Key to Play",
+      link_game: "/RetroFlappyBirdGame",
+      // Flip-card-back contents
+      rule_heading: "Rules to play",
+      step1: "1. The game starts with a bird. ",
+      step2: "2. Use the Mouse Left Key to save the bird from obstacles.",
+      step3: "3. Dodge the obstacles, lastly enjoy this classic game.",
+    },
+    {
+  serial_number: "32",
       main_heading: "Dice Throw",
       about: "Use refresh button to play the game",
       link_game: "/Dice-Throw",
@@ -350,7 +361,7 @@ export const data1 = [
        step2: "2. you have the winner"
     },
     {
-      serial_number: "32",
+      serial_number: "33",
       main_heading: "word Scramble",
       about: "Use keyboard to play the game",
       link_game: "/wordScramble",
@@ -361,7 +372,7 @@ export const data1 = [
        step3: "3. Finish level 3 and you win.",
     },
     {
-      serial_number: "33",
+      serial_number: "34",
       main_heading: "Fifteen Puzzle Game",
       about: "A simple puzzle game just move several blocks and make the picture clear.",
       link_game: "/Fifteen_Game",
@@ -372,7 +383,7 @@ export const data1 = [
       step3: "3. If picture will be completed, game will be over.",
     },
     {
-      serial_number: "34",
+      serial_number: "35",
       main_heading: "Guess The Number",
       about: "Guess the number with-in 10 chances.",
       link_game: "/Guess_The_Number",
@@ -381,5 +392,16 @@ export const data1 = [
       step1: "1. Enter the number accordingly as it's high or low.",
       step2: "2. If reaches to the correct answer in 10 choices, you win !!",
       step3: "3. Enjoy the game",
-    }
+
+    },
+  {
+    serial_number: "36",
+    main_heading: "Matching the Magic",
+    about: "Lets see can you match with the magic",
+    link: "/Matching_Magic",
+    rule_heading: "Rules to play",
+    step1: "1. Shuffle and arrange face-down cards in a grid.",
+    step2: "2. Players take turns flipping two cards.",
+    step3: "3. Matched pairs stay up, find all pairs to win."
+  }
 ];

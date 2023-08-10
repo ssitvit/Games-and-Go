@@ -1,7 +1,8 @@
 body{
-	background-color:#232323;
+	background-color: black;
 	margin:0;
-	font-family:"Montserrat","Avenir";
+	font-family:math;
+	max-width: none;
 }
 .square{
 	width:30%;
@@ -17,15 +18,22 @@ body{
 	margin: 20px auto;
 	max-width:600px;
 }
+.App {
+    margin: auto;
+    width: 60%;
+    margin-top: 3rem;
+}
 
 h1{
-	color:white;
-	padding:20px 0;
-	text-align:center;
-	background: steelblue;
-	margin:0;
-	font-weight:normal;
-	text-transform:uppercase;
+	color: white;
+    padding: 20px 0;
+    text-align: center;
+    background: #a52a2a;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: math;
+	font-size: 1.5rem;
 }
 
 #colordisplay{
@@ -33,15 +41,17 @@ h1{
 }
 
 #stripe{
-	background:white;
-	height:25px;
-	text-align:center;
-	color:black;
+	background: white;
+    height: 25px;
+    text-align: center;
+    padding: 0.3rem;
 }
 
 .selected{
 	color:white;
-	background:steelblue;
+    background: #F44336;
+    border-radius: 0.5rem;
+    padding: 5px;
 }
 
 #msg{
@@ -51,16 +61,16 @@ h1{
 
 
 button{
-	border:none;
-	background:none;
-	text-transform:uppercase;
-	height:100%;
-	font-weight:700;
-	color:steelblue;
-	letter-spacing:1px;
-	font-size:inherit;
-	transition: all 0.4s;
-	outline:none;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: #dc143c;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s;
+    outline: none;
 }
 
 button:hover{
