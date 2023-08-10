@@ -1,0 +1,25 @@
+.EightQueens-status {
+    font-size: 14px;
+    margin: 0 20px 0 0;
+    white-space: nowrap;
+}
+
+.EightQueens-playing {
+    background-color: #fcebb4;
+    color: black;
+    padding: 2px;
+}
+
+.EightQueens-not {
+    background-color: #ffd7d1;
+    color: black;
+    font-style: italic;
+    padding: 2px;
+}
+
+.EightQueens-win {
+    background-color: black;
+    color: #00ee00;
+    font-weight: bold;
+    padding: 2px;
+}

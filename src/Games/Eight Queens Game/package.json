@@ -1,0 +1,38 @@
+{
+  "name": "eight-queens",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "chessboardjsx": "^2.3.0",
+    "deep-diff": "1.0.1",
+    "lodash.isequal": "4.17.12",
+    "react": "^16.8.6",
+    "react-dnd": "2.6.0",
+    "react-dnd-html5-backend": "4.0.5",
+    "react-dnd-multi-backend": "3.1.2",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
