@@ -1,0 +1,15 @@
+{
+  "short_name": "Connect Four Game",
+  "name": "Connect Four Game with React",
+  "icons": [
+    {
+      "src": "logo-32X32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
