@@ -293,7 +293,7 @@ export const data1 = [
     step1: "1. Use forward and backward arrow to run the dino.",
     step2: "2. Use upward arrow to jump the dino over dragon to increase the scoreboard.",
     step3: "3. If dino comes in contact with dragon then game over.",
-  },
+  },  
   {
     serial_number: "27",
     main_heading: "Pong Game",
