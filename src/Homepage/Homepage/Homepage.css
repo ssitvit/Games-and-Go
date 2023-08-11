@@ -304,6 +304,7 @@ body {
   padding-left: 20px;
   box-shadow: 1px 1px mediumpurple;
   font-size: 23px;
+  color: white;
 }
 
 ::placeholder {
