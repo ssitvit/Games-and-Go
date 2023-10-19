@@ -1,23 +1,17 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { MdSunny, MdBrightness2 } from "react-icons/md";
-
+import audio_light_on  from "./audio_light-on.mp3"
+import audio_light_off  from "./audio_light-off.mp3"
 
 export default function ThemeSwitcher() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleTheme = () => {
       setIsDarkMode((prevMode) => {
-        let audio;
-  
-        if (prevMode) {
-          audio = document.querySelector('.switch--on');
-        } else {
-          audio = document.querySelector('.switch--off');
-        }
-  
-        audio.currentTime = 0;
-        audio.play();
+
+        const audio = new Audio(prevMode ? audio_light_on : audio_light_off)
+        audio.play()
   
         return !prevMode;
     });
@@ -51,8 +45,6 @@ export default function ThemeSwitcher() {
         <button onClick={toggleTheme}>
           {isDarkMode ? <MdSunny/>: <MdBrightness2/>}
         </button>
-        <audio className="switch--on" src="./audio_light-on.mp3" />
-        <audio className="switch--off" src="./audio_light-off.mp3" />
       </div>
     </Wrapper>
   );
