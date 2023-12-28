@@ -7177,9 +7177,9 @@ react-spinners@^0.13.8:
   version "0.13.8"
   resolved "https://registry.npmjs.org/react-spinners/-/react-spinners-0.13.8.tgz"
 
-react-tooltip@^5.19.0:
-  version "5.19.0"
-  resolved "https://registry.npmjs.org/react-tooltip/-/react-tooltip-5.19.0.tgz"
+react-tooltip@^5.25.1:
+  version "5.25.1"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-5.25.1.tgz#4b7b1524fc92120b9e2bcfa54b5fba6ded6552c3"
   dependencies:
     "@floating-ui/dom" "^1.0.0"
     classnames "^2.3.0"
