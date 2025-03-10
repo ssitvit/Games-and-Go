@@ -6973,9 +6973,9 @@ react-compound-timer@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/react-compound-timer/-/react-compound-timer-1.2.0.tgz"
 
-react-confetti@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.npmjs.org/react-confetti/-/react-confetti-6.1.0.tgz"
+react-confetti@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/react-confetti/-/react-confetti-6.4.0.tgz#e9416b5b3c8baf6f0bb1c5a8e1e3c89babd2c837"
   dependencies:
     tween-functions "^1.2.0"
 
