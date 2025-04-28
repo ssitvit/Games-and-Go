@@ -7173,9 +7173,9 @@ react-scripts@^5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-spinners@^0.13.8:
-  version "0.13.8"
-  resolved "https://registry.npmjs.org/react-spinners/-/react-spinners-0.13.8.tgz"
+react-spinners@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/react-spinners/-/react-spinners-0.17.0.tgz#d518913e2192afaae76c5b781929ea3bd7b1910e"
 
 react-tooltip@^5.19.0:
   version "5.19.0"
