@@ -1568,6 +1568,81 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@parcel/watcher-android-arm64@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-android-arm64/-/watcher-android-arm64-2.5.4.tgz#88c67bde2c3efa997a0b1fea540080c6ade0322c"
+
+"@parcel/watcher-darwin-arm64@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-darwin-arm64/-/watcher-darwin-arm64-2.5.4.tgz#d9dc037cff8a4ab7839a79c5287a6e6660f7ab27"
+
+"@parcel/watcher-darwin-x64@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-darwin-x64/-/watcher-darwin-x64-2.5.4.tgz#da0e13e16ee6d378242e2cfb469d72667624383a"
+
+"@parcel/watcher-freebsd-x64@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-freebsd-x64/-/watcher-freebsd-x64-2.5.4.tgz#feb7cc9ec680bae3e91dddcdb4fe1c399ed52cc1"
+
+"@parcel/watcher-linux-arm-glibc@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-linux-arm-glibc/-/watcher-linux-arm-glibc-2.5.4.tgz#fa4e9cf8228c8c433e2f035e8b16aa299d892a78"
+
+"@parcel/watcher-linux-arm-musl@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-linux-arm-musl/-/watcher-linux-arm-musl-2.5.4.tgz#9ee6792e2d8810af9871ee5bbc2aa04e0b079d62"
+
+"@parcel/watcher-linux-arm64-glibc@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-linux-arm64-glibc/-/watcher-linux-arm64-glibc-2.5.4.tgz#624c6d874d99afa79305720f96a0c233d4ad7fde"
+
+"@parcel/watcher-linux-arm64-musl@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-linux-arm64-musl/-/watcher-linux-arm64-musl-2.5.4.tgz#5341e88b9e645d31c015ed40f384e60e49bd74d2"
+
+"@parcel/watcher-linux-x64-glibc@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-linux-x64-glibc/-/watcher-linux-x64-glibc-2.5.4.tgz#be5bcc49d3f6d21cc81bb531970a05d3721e385c"
+
+"@parcel/watcher-linux-x64-musl@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-linux-x64-musl/-/watcher-linux-x64-musl-2.5.4.tgz#bffd3895b1f0cc8fd1436e409fd65d0a901281c0"
+
+"@parcel/watcher-win32-arm64@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-win32-arm64/-/watcher-win32-arm64-2.5.4.tgz#7fb8aedea5b34ba97a01e1555929d01f4eb72fe4"
+
+"@parcel/watcher-win32-ia32@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-win32-ia32/-/watcher-win32-ia32-2.5.4.tgz#f7f94ebdb21dedf37b12e030a82d4211798a1c26"
+
+"@parcel/watcher-win32-x64@2.5.4":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher-win32-x64/-/watcher-win32-x64-2.5.4.tgz#8d895c9723f7fffdf4b360fd1becf1b6bcb571df"
+
+"@parcel/watcher@^2.4.1":
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/@parcel/watcher/-/watcher-2.5.4.tgz#a6575b0a018b4e263589c1e7bc2ceb73c1ee84de"
+  dependencies:
+    detect-libc "^2.0.3"
+    is-glob "^4.0.3"
+    node-addon-api "^7.0.0"
+    picomatch "^4.0.3"
+  optionalDependencies:
+    "@parcel/watcher-android-arm64" "2.5.4"
+    "@parcel/watcher-darwin-arm64" "2.5.4"
+    "@parcel/watcher-darwin-x64" "2.5.4"
+    "@parcel/watcher-freebsd-x64" "2.5.4"
+    "@parcel/watcher-linux-arm-glibc" "2.5.4"
+    "@parcel/watcher-linux-arm-musl" "2.5.4"
+    "@parcel/watcher-linux-arm64-glibc" "2.5.4"
+    "@parcel/watcher-linux-arm64-musl" "2.5.4"
+    "@parcel/watcher-linux-x64-glibc" "2.5.4"
+    "@parcel/watcher-linux-x64-musl" "2.5.4"
+    "@parcel/watcher-win32-arm64" "2.5.4"
+    "@parcel/watcher-win32-ia32" "2.5.4"
+    "@parcel/watcher-win32-x64" "2.5.4"
+
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.3":
   version "0.5.10"
   resolved "https://registry.npmjs.org/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.10.tgz"
@@ -2947,7 +3022,7 @@ chessboardjsx@^2.4.7:
     react-dnd-html5-backend "4.0.5"
     react-dnd-multi-backend "3.1.2"
 
-"chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.0, chokidar@^3.4.2, chokidar@^3.5.3:
+chokidar@^3.4.0, chokidar@^3.4.2, chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.5.3.tgz"
   dependencies:
@@ -2960,6 +3035,12 @@ chessboardjsx@^2.4.7:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+chokidar@^4.0.0:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-4.0.3.tgz#7be37a4c03c9aee1ecfe862a4a23b2c70c205d30"
+  dependencies:
+    readdirp "^4.0.1"
 
 chrome-trace-event@^1.0.2:
   version "1.0.3"
@@ -3467,6 +3548,10 @@ dequal@^2.0.3:
 destroy@1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz"
+
+detect-libc@^2.0.3:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.1.2.tgz#689c5dcdc1900ef5583a4cb9f6d7b473742074ad"
 
 detect-newline@^3.0.0:
   version "3.1.0"
@@ -4752,9 +4837,9 @@ immer@^9.0.7:
   version "9.0.21"
   resolved "https://registry.npmjs.org/immer/-/immer-9.0.21.tgz"
 
-immutable@^4.0.0:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/immutable/-/immutable-4.3.0.tgz"
+immutable@^5.0.2:
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-5.1.4.tgz#e3f8c1fe7b567d56cf26698f31918c241dae8c1f"
 
 import-fresh@^3.0.0, import-fresh@^3.1.0, import-fresh@^3.2.1:
   version "3.3.0"
@@ -5996,6 +6081,10 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-addon-api@^7.0.0:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-7.1.1.tgz#1aba6693b0f255258a049d621329329322aad558"
+
 node-forge@^1:
   version "1.3.1"
   resolved "https://registry.npmjs.org/node-forge/-/node-forge-1.3.1.tgz"
@@ -6298,6 +6387,10 @@ picocolors@^1.0.0:
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3, picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
+
+picomatch@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.3.tgz#796c76136d1eead715db1e7bad785dedd695a042"
 
 pify@^2.3.0:
   version "2.3.0"
@@ -7236,6 +7329,10 @@ readable-stream@^3.0.6:
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
+readdirp@^4.0.1:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-4.1.2.tgz#eb85801435fbf2a7ee58f19e0921b068fc69948d"
+
 readdirp@~3.6.0:
   version "3.6.0"
   resolved "https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz"
@@ -7474,13 +7571,15 @@ sass-loader@^12.3.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
-sass@^1.65.1:
-  version "1.65.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.65.1.tgz#8f283b0c26335a88246a448d22e1342ba2ea1432"
+sass@^1.97.2:
+  version "1.97.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.97.2.tgz#e515a319092fd2c3b015228e3094b40198bff0da"
   dependencies:
-    chokidar ">=3.0.0 <4.0.0"
-    immutable "^4.0.0"
+    chokidar "^4.0.0"
+    immutable "^5.0.2"
     source-map-js ">=0.6.2 <2.0.0"
+  optionalDependencies:
+    "@parcel/watcher" "^2.4.1"
 
 sax@~1.2.4:
   version "1.2.4"
