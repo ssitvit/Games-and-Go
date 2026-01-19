@@ -4503,9 +4503,9 @@ graphemer@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/graphemer/-/graphemer-1.4.0.tgz"
 
-gsap@^3.12.2:
-  version "3.12.2"
-  resolved "https://registry.npmjs.org/gsap/-/gsap-3.12.2.tgz"
+gsap@^3.14.2:
+  version "3.14.2"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.14.2.tgz#6a9ea31e5046948e0be61eae006ae576ca5937d6"
 
 gzip-size@^6.0.0:
   version "6.0.0"
