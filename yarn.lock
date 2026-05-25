@@ -8415,9 +8415,9 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-web-vitals@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.npmjs.org/web-vitals/-/web-vitals-3.4.0.tgz"
+web-vitals@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-5.2.0.tgz#5de39106a652228bb5c40021d62b669d213e6e17"
 
 webfontloader@^1.6.28:
   version "1.6.28"
