@@ -1236,15 +1236,22 @@
   version "8.42.0"
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.42.0.tgz"
 
-"@floating-ui/core@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.npmjs.org/@floating-ui/core/-/core-1.2.6.tgz"
-
-"@floating-ui/dom@^1.0.0":
-  version "1.2.8"
-  resolved "https://registry.npmjs.org/@floating-ui/dom/-/dom-1.2.8.tgz"
+"@floating-ui/core@^1.7.5":
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.7.5.tgz#d4af157a03330af5a60e69da7a4692507ada0622"
   dependencies:
-    "@floating-ui/core" "^1.2.6"
+    "@floating-ui/utils" "^0.2.11"
+
+"@floating-ui/dom@1.7.6":
+  version "1.7.6"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.7.6.tgz#f915bba5abbb177e1f227cacee1b4d0634b187bf"
+  dependencies:
+    "@floating-ui/core" "^1.7.5"
+    "@floating-ui/utils" "^0.2.11"
+
+"@floating-ui/utils@^0.2.11":
+  version "0.2.11"
+  resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.11.tgz#a269e055e40e2f45873bae9d1a2fdccbd314ea3f"
 
 "@fortawesome/fontawesome-free@^6.4.2":
   version "6.4.2"
@@ -2973,7 +2980,7 @@ cjs-module-lexer@^1.0.0:
   version "1.2.3"
   resolved "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.2.3.tgz"
 
-classnames@^2.2.3, classnames@^2.3.0, classnames@^2.3.2:
+classnames@^2.2.3, classnames@^2.3.2:
   version "2.3.2"
   resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz"
 
@@ -2990,6 +2997,10 @@ cliui@^7.0.2:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
+
+clsx@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-2.1.1.tgz#eed397c9fd8bd882bfb18deab7102049a2f32999"
 
 co@^4.6.0:
   version "4.6.0"
@@ -7177,12 +7188,12 @@ react-spinners@^0.13.8:
   version "0.13.8"
   resolved "https://registry.npmjs.org/react-spinners/-/react-spinners-0.13.8.tgz"
 
-react-tooltip@^5.19.0:
-  version "5.19.0"
-  resolved "https://registry.npmjs.org/react-tooltip/-/react-tooltip-5.19.0.tgz"
+react-tooltip@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-6.0.4.tgz#c8ba428c0bc82032a59401ff8f89ea43d0abe0bb"
   dependencies:
-    "@floating-ui/dom" "^1.0.0"
-    classnames "^2.3.0"
+    "@floating-ui/dom" "1.7.6"
+    clsx "2.1.1"
 
 react-transition-group@^4.4.2, react-transition-group@^4.4.5:
   version "4.4.5"
