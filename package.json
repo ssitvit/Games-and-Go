@@ -31,7 +31,7 @@
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.14.2",
     "react-scripts": "^5.0.1",
-    "react-spinners": "^0.13.8",
+    "react-spinners": "^0.17.1",
     "react-tooltip": "^5.19.0",
     "reactstrap": "^9.2.0",
     "styled-components": "^6.0.6",
